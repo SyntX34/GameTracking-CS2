@@ -23,7 +23,7 @@ jobs:
         permissions:
             contents: write
             statuses: write
-        uses: steamtracking/gametracking/.github/workflows/gametracking.yml@master    
+        uses: steamtracking/gametracking/.github/workflows/gametracking.yml@cs2-beta    
         secrets: inherit
         with:
           branch: ${{ github.event.inputs.branch }}
