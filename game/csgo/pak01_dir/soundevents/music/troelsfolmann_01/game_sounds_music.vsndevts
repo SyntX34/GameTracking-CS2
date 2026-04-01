@@ -7,6 +7,7 @@
 		volume_convar = "snd_menumusic_volume"
 		stop_music = "true"
 		vsnd_files = "sounds/music/troelsfolmann_01/mainmenu.vsnd"
+		vsnd_duration = 245.106934
 	}
 	Music.MVPPreview.troelsfolmann_01 = 
 	{
@@ -14,7 +15,11 @@
 		volume = 0.800000
 		volume_convar = "snd_menumusic_volume"
 		stop_music = "true"
-		vsnd_files = "sounds/music/troelsfolmann_01/roundmvpanthem_01.vsnd"
+		vsnd_files = 
+		[
+			"sounds/music/troelsfolmann_01/roundmvpanthem_01.vsnd",
+		]
+		vsnd_duration = 9.874286
 	}
 	Music.Selection.troelsfolmann_01 = 
 	{
@@ -27,6 +32,7 @@
 		stop_loading = "true"
 		vsnd_files = "sounds/music/troelsfolmann_01/chooseteam.vsnd"
 		join_non_mvp_group = "true"
+		vsnd_duration = 28.943674
 	}
 	Music.MatchFound.troelsfolmann_01 = 
 	{
@@ -79,6 +85,7 @@
 			17.195000,
 			19.064000,
 		]
+		vsnd_duration = 24.607347
 	}
 	Music.LoadingScreen.troelsfolmann_01 = 
 	{
@@ -106,6 +113,7 @@
 			"sounds/music/troelsfolmann_01/startaction_01.vsnd",
 			"sounds/music/troelsfolmann_01/startaction_02.vsnd",
 		]
+		vsnd_duration = 18.651428
 	}
 	Music.StartRound.troelsfolmann_01 = 
 	{
@@ -159,6 +167,7 @@
 			17.195000,
 			19.064000,
 		]
+		vsnd_duration = 24.607347
 	}
 	Music.StartAction.troelsfolmann_01 = 
 	{
@@ -188,6 +197,7 @@
 			"sounds/music/troelsfolmann_01/startaction_01.vsnd",
 			"sounds/music/troelsfolmann_01/startaction_02.vsnd",
 		]
+		vsnd_duration = 18.651428
 	}
 	Music.StartRound_GG.troelsfolmann_01 = 
 	{
@@ -242,6 +252,7 @@
 			17.195000,
 			19.064000,
 		]
+		vsnd_duration = 24.607347
 	}
 	Music.BombPlanted.troelsfolmann_01 = 
 	{
@@ -264,6 +275,7 @@
 		endpoint_01 = 0.000000
 		endpoint_02 = 0.000000
 		endpoint_03 = 0.000000
+		vsnd_duration = 36.362450
 	}
 	Music.BombTenSecCount.troelsfolmann_01 = 
 	{
@@ -282,6 +294,7 @@
 		endpoint_01 = 0.000000
 		endpoint_02 = 0.000000
 		endpoint_03 = 0.000000
+		vsnd_duration = 14.889796
 	}
 	Music.GotHostage.troelsfolmann_01 = 
 	{
@@ -306,6 +319,7 @@
 		endpoint_01 = 0.000000
 		endpoint_02 = 0.000000
 		endpoint_03 = 0.000000
+		vsnd_duration = 36.362450
 	}
 	Music.HostageNearRescue.troelsfolmann_01 = 
 	{
@@ -328,6 +342,7 @@
 		endpoint_01 = 0.000000
 		endpoint_02 = 0.000000
 		endpoint_03 = 0.000000
+		vsnd_duration = 14.889796
 	}
 	Music.TenSecCount.troelsfolmann_01 = 
 	{
@@ -358,6 +373,7 @@
 		[
 			0.000000,
 		]
+		vsnd_duration = 12.303674
 	}
 	Music.WonRound.troelsfolmann_01 = 
 	{
@@ -391,6 +407,7 @@
 		[
 			0.000000,
 		]
+		vsnd_duration = 9.560817
 	}
 	Music.LostRound.troelsfolmann_01 = 
 	{
@@ -424,6 +441,7 @@
 		[
 			0.000000,
 		]
+		vsnd_duration = 13.662041
 	}
 	Music.DeathCam.troelsfolmann_01 = 
 	{
@@ -436,6 +454,29 @@
 		stop_start_round = "true"
 		stop_won_mvp = "true"
 		join_non_mvp_group = "true"
+		set_mixlayer_amount_enable = true
+		time_mixlayer_amount_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.500000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 3.970612
 	}
 	Music.MVPAnthem.troelsfolmann_01 = 
 	{
@@ -471,6 +512,7 @@
 		[
 			"sounds/music/troelsfolmann_01/roundmvpanthem_01.vsnd",
 		]
+		vsnd_duration = 9.874286
 	}
 	Music.MatchStart.troelsfolmann_01 = 
 	{
@@ -486,6 +528,7 @@
 		stop_music = "true"
 		join_non_mvp_group = "true"
 		vsnd_files = "sounds/music/troelsfolmann_01/startofmatch.vsnd"
+		vsnd_duration = 51.035080
 	}
 	Music.MatchEnd.troelsfolmann_01 = 
 	{
@@ -516,6 +559,6 @@
 		[
 			0.000000,
 		]
+		vsnd_duration = 51.035080
 	}
-	_auto_calc_vnsd_duration_ = "false"
 }

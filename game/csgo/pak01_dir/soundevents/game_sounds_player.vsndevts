@@ -5351,6 +5351,28 @@
 		[
 			"victim only",
 		]
+		set_mixlayer_amount_enable = true
+		time_mixlayer_amount_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.451485,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
 	}
 	Player.DamageBody.Victim = 
 	{
@@ -5456,6 +5478,28 @@
 		metadata = 
 		[
 			"victim only",
+		]
+		set_mixlayer_amount_enable = true
+		time_mixlayer_amount_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.451485,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
 		]
 	}
 	Player.DamageBody.VictimFlesh = 
@@ -6681,6 +6725,28 @@
 		[
 			"",
 		]
+		set_mixlayer_amount_enable = true
+		time_mixlayer_amount_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.451485,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
 	}
 	Player.DamageHeadShotArmor.Onlooker = 
 	{
@@ -6866,6 +6932,28 @@
 		[
 			"plays on victim and onlookers",
 		]
+		set_mixlayer_amount_enable = true
+		time_mixlayer_amount_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.451485,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
 	}
 	Player.DeathBody.Victim = 
 	{
@@ -6964,6 +7052,28 @@
 			"sounds/player/player_damagebody_06.vsnd",
 			"sounds/player/player_damagebody_07.vsnd",
 			"sounds/player/player_damagebody_08.vsnd",
+		]
+		set_mixlayer_amount_enable = true
+		time_mixlayer_amount_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.451485,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
 		]
 	}
 	Player.DeathBody.Onlooker = 
@@ -7278,6 +7388,28 @@
 			"sounds/player/player_damagebody_07.vsnd",
 			"sounds/player/player_damagebody_08.vsnd",
 		]
+		set_mixlayer_amount_enable = true
+		time_mixlayer_amount_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.451485,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
 	}
 	Player.DeathHeadShot.Victim = 
 	{
@@ -7373,6 +7505,28 @@
 		metadata = 
 		[
 			"plays for victim and onlookers",
+		]
+		set_mixlayer_amount_enable = true
+		time_mixlayer_amount_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.451485,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
 		]
 	}
 	Player.DeathHeadShot.Onlooker = 
@@ -7693,6 +7847,28 @@
 		metadata = 
 		[
 			"plays for victim and onlookers",
+		]
+		set_mixlayer_amount_enable = true
+		time_mixlayer_amount_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.451485,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
 		]
 	}
 	Player.DeathHeadShotArmor.Spectator = 

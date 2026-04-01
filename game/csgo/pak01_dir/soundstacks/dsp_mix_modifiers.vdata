@@ -3018,7 +3018,7 @@
 						m_flModifier = 1.000000
 						m_flListenerReverbModifierWhenSourceReverbIsActive = 0.000000
 						m_flSourceModifier = -1.000000
-						m_flModifierMin = 0.300000
+						m_flModifierMin = 0.200000
 					},
 					
 					{

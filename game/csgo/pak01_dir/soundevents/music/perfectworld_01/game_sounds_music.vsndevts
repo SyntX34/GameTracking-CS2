@@ -7,6 +7,7 @@
 		volume_convar = "snd_menumusic_volume"
 		stop_music = "true"
 		vsnd_files = "sounds/music/perfectworld_01/mainmenu.vsnd"
+		vsnd_duration = 206.680817
 	}
 	Music.MVPPreview.perfectworld_01 = 
 	{
@@ -14,7 +15,11 @@
 		volume = 0.800000
 		volume_convar = "snd_menumusic_volume"
 		stop_music = "true"
-		vsnd_files = "sounds/music/perfectworld_01/roundmvpanthem_01.vsnd"
+		vsnd_files = 
+		[
+			"sounds/music/perfectworld_01/roundmvpanthem_01.vsnd",
+		]
+		vsnd_duration = 8.045714
 	}
 	Music.Selection.perfectworld_01 = 
 	{
@@ -27,6 +32,7 @@
 		stop_loading = "true"
 		vsnd_files = "sounds/music/perfectworld_01/chooseteam.vsnd"
 		join_non_mvp_group = "true"
+		vsnd_duration = 18.599184
 	}
 	Music.MatchFound.perfectworld_01 = 
 	{
@@ -66,6 +72,7 @@
 			15.000000,
 			16.500000,
 		]
+		vsnd_duration = 18.912653
 	}
 	Music.LoadingScreen.perfectworld_01 = 
 	{
@@ -91,6 +98,7 @@
 		[
 			"sounds/music/perfectworld_01/startaction_01.vsnd",
 		]
+		vsnd_duration = 8.672653
 	}
 	Music.StartRound.perfectworld_01 = 
 	{
@@ -131,6 +139,7 @@
 			15.000000,
 			16.500000,
 		]
+		vsnd_duration = 18.912653
 	}
 	Music.StartAction.perfectworld_01 = 
 	{
@@ -158,6 +167,7 @@
 		[
 			"sounds/music/perfectworld_01/startaction_01.vsnd",
 		]
+		vsnd_duration = 8.672653
 	}
 	Music.StartRound_GG.perfectworld_01 = 
 	{
@@ -199,6 +209,7 @@
 			15.000000,
 			16.500000,
 		]
+		vsnd_duration = 18.912653
 	}
 	Music.BombPlanted.perfectworld_01 = 
 	{
@@ -221,6 +232,7 @@
 		endpoint_01 = 0.000000
 		endpoint_02 = 0.000000
 		endpoint_03 = 0.000000
+		vsnd_duration = 25.573877
 	}
 	Music.BombTenSecCount.perfectworld_01 = 
 	{
@@ -239,6 +251,7 @@
 		endpoint_01 = 0.000000
 		endpoint_02 = 0.000000
 		endpoint_03 = 0.000000
+		vsnd_duration = 16.718367
 	}
 	Music.GotHostage.perfectworld_01 = 
 	{
@@ -263,6 +276,7 @@
 		endpoint_01 = 0.000000
 		endpoint_02 = 0.000000
 		endpoint_03 = 0.000000
+		vsnd_duration = 25.573877
 	}
 	Music.HostageNearRescue.perfectworld_01 = 
 	{
@@ -285,6 +299,7 @@
 		endpoint_01 = 0.000000
 		endpoint_02 = 0.000000
 		endpoint_03 = 0.000000
+		vsnd_duration = 16.718367
 	}
 	Music.TenSecCount.perfectworld_01 = 
 	{
@@ -315,6 +330,7 @@
 		[
 			0.000000,
 		]
+		vsnd_duration = 15.072653
 	}
 	Music.WonRound.perfectworld_01 = 
 	{
@@ -348,6 +364,7 @@
 		[
 			0.000000,
 		]
+		vsnd_duration = 9.012245
 	}
 	Music.LostRound.perfectworld_01 = 
 	{
@@ -381,6 +398,7 @@
 		[
 			0.000000,
 		]
+		vsnd_duration = 11.389388
 	}
 	Music.DeathCam.perfectworld_01 = 
 	{
@@ -393,6 +411,29 @@
 		stop_start_round = "true"
 		stop_won_mvp = "true"
 		join_non_mvp_group = "true"
+		set_mixlayer_amount_enable = true
+		time_mixlayer_amount_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.500000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 9.064489
 	}
 	Music.MVPAnthem.perfectworld_01 = 
 	{
@@ -428,6 +469,7 @@
 		[
 			"sounds/music/perfectworld_01/roundmvpanthem_01.vsnd",
 		]
+		vsnd_duration = 8.045714
 	}
 	Music.MatchStart.perfectworld_01 = 
 	{
@@ -443,6 +485,7 @@
 		stop_music = "true"
 		join_non_mvp_group = "true"
 		vsnd_files = "sounds/music/perfectworld_01/startofmatch.vsnd"
+		vsnd_duration = 8.065284
 	}
 	Music.MatchEnd.perfectworld_01 = 
 	{
@@ -473,6 +516,6 @@
 		[
 			0.000000,
 		]
+		vsnd_duration = 36.041679
 	}
-	_auto_calc_vnsd_duration_ = "false"
 }

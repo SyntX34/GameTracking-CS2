@@ -1047,7 +1047,7 @@
 	Player.FreezeCam = 
 	{
 		type = "csgo_mega"
-		volume = 0.200000
+		volume = 0.500000
 		pitch = 1.000000
 		mixgroup = "UI"
 		use_distance_volume_mapping_curve = true
@@ -1110,8 +1110,10 @@
 		]
 		vsnd_files_track_01 = 
 		[
-			"sounds/music/deathcam_gg_01.vsnd",
+			"sounds/music/deathcam_stinger.vsnd",
 		]
+		reverb_source_wet = 0.000000
+		delay = 0.050000
 	}
 	Player.InfoPanel = 
 	{
@@ -5172,7 +5174,7 @@
 		volume = 0.300000
 		pitch = 1.000000
 		mixgroup = "UI"
-		block_duration = 0.010000
+		block_duration = 2.000000
 		use_distance_volume_mapping_curve = true
 		use_distance_unfiltered_stereo_mapping_curve = true
 		ducking_bypass = 1.000000
@@ -9462,72 +9464,6 @@
 		vsnd_files_track_01 = 
 		[
 			"sounds/ui/csgo_ui_crate_item_scroll.vsnd",
-		]
-	}
-	UIPanorama.container_weapon_fall = 
-	{
-		type = "csgo_mega"
-		volume = 0.500000
-		pitch = 1.000000
-		mixgroup = "UI"
-		block_duration = 0.010000
-		use_distance_volume_mapping_curve = true
-		use_distance_unfiltered_stereo_mapping_curve = true
-		ducking_bypass = 1.000000
-		reverb_wet = 1.000000
-		instance_limit = 1.000000
-		vsnd_pause_with_game = false
-		use_world_position = false
-		distance_effect_mix = 0.000000
-		occlusion_frequency_scale = 0.000000
-		delay = 0.600000
-		position_relative_to_player = false
-		is_ui_sound = false
-		distance_volume_mapping_curve = 
-		[
-			
-			[
-				0.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-			
-			[
-				300.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-		]
-		distance_unfiltered_stereo_mapping_curve = 
-		[
-			
-			[
-				0.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-			
-			[
-				300.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-		]
-		vsnd_files_track_01 = 
-		[
-			"sounds/ui/panorama/case_drop_01.vsnd",
 		]
 	}
 	UIPanorama.container_weapon_purchaseKey = 
@@ -18505,7 +18441,7 @@
 	{
 		type = "csgo_mega"
 		preload_vsnds = true
-		volume = 0.100000
+		volume = 0.050000
 		pitch = 1.010000
 		mixgroup = "UI"
 		block_duration = 0.100000
@@ -18522,7 +18458,7 @@
 		]
 		display_broadcast = false
 		vsnd_pause_with_game = false
-		volume_random_min = 0.000000
+		volume_random_min = -0.020000
 		distance_effect_mix = 0.000000
 		occlusion_frequency_scale = 0.000000
 		distance_volume_mapping_curve = 
@@ -18562,6 +18498,16 @@
 			"sounds/player/footsteps/concrete_ct_08.vsnd",
 			"sounds/player/footsteps/concrete_ct_09.vsnd",
 			"sounds/player/footsteps/concrete_ct_10.vsnd",
+			"sounds/player/footsteps/gravel_01.vsnd",
+			"sounds/player/footsteps/gravel_02.vsnd",
+			"sounds/player/footsteps/gravel_03.vsnd",
+			"sounds/player/footsteps/gravel_04.vsnd",
+			"sounds/player/footsteps/gravel_05.vsnd",
+			"sounds/player/footsteps/gravel_06.vsnd",
+			"sounds/player/footsteps/gravel_07.vsnd",
+			"sounds/player/footsteps/gravel_08.vsnd",
+			"sounds/player/footsteps/gravel_09.vsnd",
+			"sounds/player/footsteps/gravel_10.vsnd",
 		]
 		fadetime_volume_mapping_curve = 
 		[
@@ -18610,6 +18556,9 @@
 			"meta",
 			"localplayeronly",
 		]
+		volume_random_max = 0.020000
+		pitch_random_min = -0.010000
+		pitch_random_max = 0.010000
 	}
 	TeamIntro.Footsteps_Concrete = 
 	{
@@ -23335,7 +23284,7 @@
 	UI.ArmsRace.PlayerDeath = 
 	{
 		type = "csgo_mega"
-		volume = 0.300000
+		volume = 0.000000
 		pitch = 1.000000
 		mixgroup = "ArmsRace"
 		use_distance_volume_mapping_curve = true
@@ -26387,4 +26336,972 @@
 		vsnd_files = "sounds/diagnostics/bell.vsnd"
 	}
 	_auto_calc_vnsd_duration_ = false
+	TeamIntro.Footsteps_Default.Q = 
+	{
+		type = "csgo_mega"
+		preload_vsnds = true
+		volume = 0.030000
+		pitch = 1.010000
+		mixgroup = "UI"
+		block_duration = 0.100000
+		block_distance = 69.000000
+		use_distance_volume_mapping_curve = true
+		use_distance_unfiltered_stereo_mapping_curve = true
+		reverb_wet = 1.000000
+		occlusion_intensity = 0.700000
+		position_offset = 
+		[
+			0.000000,
+			0.000000,
+			60.000000,
+		]
+		display_broadcast = false
+		vsnd_pause_with_game = false
+		volume_random_min = 0.000000
+		distance_effect_mix = 0.000000
+		occlusion_frequency_scale = 0.000000
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				53.428574,
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+			],
+			
+			[
+				1100.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+			],
+		]
+		vsnd_files_track_01 = 
+		[
+			"sounds/player/footsteps/dirt_01.vsnd",
+			"sounds/player/footsteps/dirt_02.vsnd",
+			"sounds/player/footsteps/dirt_03.vsnd",
+			"sounds/player/footsteps/dirt_04.vsnd",
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.707438,
+				-1.707438,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		distance_unfiltered_stereo_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		metadata = 
+		[
+			"meta",
+			"localplayeronly",
+		]
+	}
+	UIPanorama.container_music_fall = 
+	{
+		type = "csgo_mega"
+		volume = 0.500000
+		pitch = 1.000000
+		mixgroup = "UI"
+		block_duration = 0.010000
+		use_distance_volume_mapping_curve = true
+		use_distance_unfiltered_stereo_mapping_curve = true
+		ducking_bypass = 1.000000
+		reverb_wet = 1.000000
+		instance_limit = 1.000000
+		vsnd_pause_with_game = false
+		use_world_position = false
+		distance_effect_mix = 0.000000
+		occlusion_frequency_scale = 0.000000
+		delay = 0.000000
+		position_relative_to_player = false
+		is_ui_sound = false
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		distance_unfiltered_stereo_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_files_track_01 = 
+		[
+			"sounds/ui/panorama/music_equip_01.vsnd",
+		]
+		enable_child_events = true
+		soundevent_01 = 
+		[
+			"UIPanorama.container_reveal",
+		]
+		metadata = 
+		[
+			"hooked up via concatenation in .ts",
+		]
+	}
+	UIPanorama.container_graffiti_fall = 
+	{
+		type = "csgo_mega"
+		volume = 0.500000
+		pitch = 1.000000
+		mixgroup = "UI"
+		block_duration = 0.010000
+		use_distance_volume_mapping_curve = true
+		use_distance_unfiltered_stereo_mapping_curve = true
+		ducking_bypass = 1.000000
+		reverb_wet = 1.000000
+		instance_limit = 1.000000
+		vsnd_pause_with_game = false
+		use_world_position = false
+		distance_effect_mix = 0.000000
+		occlusion_frequency_scale = 0.000000
+		delay = 0.000000
+		position_relative_to_player = false
+		is_ui_sound = false
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		distance_unfiltered_stereo_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_files_track_01 = 
+		[
+			"sounds/items/spraycan_shake.vsnd",
+		]
+		enable_child_events = true
+		soundevent_01 = 
+		[
+			"UIPanorama.container_reveal",
+		]
+		metadata = 
+		[
+			"hooked up via concatenation in .ts",
+		]
+	}
+	UIPanorama.container_sticker_fall = 
+	{
+		type = "csgo_mega"
+		volume = 0.200000
+		pitch = 1.300000
+		mixgroup = "UI"
+		block_duration = 0.010000
+		use_distance_volume_mapping_curve = true
+		use_distance_unfiltered_stereo_mapping_curve = true
+		ducking_bypass = 1.000000
+		reverb_wet = 1.000000
+		instance_limit = 1.000000
+		vsnd_pause_with_game = false
+		use_world_position = false
+		distance_effect_mix = 0.000000
+		occlusion_frequency_scale = 0.000000
+		delay = 0.070000
+		position_relative_to_player = false
+		is_ui_sound = false
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		distance_unfiltered_stereo_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_files_track_01 = 
+		[
+			"sounds/player/footsteps/land_plastic_milkcrates_01.vsnd",
+		]
+		enable_child_events = true
+		soundevent_01 = 
+		[
+			"UIPanorama.container_reveal",
+			"UIPanorama.container_sticker_cards",
+		]
+		metadata = 
+		[
+			"hooked up via concatenation in .ts",
+		]
+	}
+	UIPanorama.container_reveal = 
+	{
+		type = "csgo_mega"
+		volume = 0.100000
+		pitch = 1.000000
+		mixgroup = "UI"
+		block_duration = 0.010000
+		use_distance_volume_mapping_curve = true
+		use_distance_unfiltered_stereo_mapping_curve = true
+		ducking_bypass = 1.000000
+		reverb_wet = 1.000000
+		instance_limit = 1.000000
+		vsnd_pause_with_game = false
+		use_world_position = false
+		distance_effect_mix = 0.000000
+		occlusion_frequency_scale = 0.000000
+		delay = 0.000000
+		position_relative_to_player = false
+		is_ui_sound = false
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		distance_unfiltered_stereo_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_files_track_01 = 
+		[
+			"sounds/ui/panorama/item_showcase_sticker_01.vsnd",
+		]
+	}
+	UIPanorama.container_sticker_cards = 
+	{
+		type = "csgo_mega"
+		volume = 0.200000
+		pitch = 1.300000
+		mixgroup = "UI"
+		block_duration = 0.010000
+		use_distance_volume_mapping_curve = true
+		use_distance_unfiltered_stereo_mapping_curve = true
+		ducking_bypass = 1.000000
+		reverb_wet = 1.000000
+		instance_limit = 1.000000
+		vsnd_pause_with_game = false
+		use_world_position = false
+		distance_effect_mix = 0.000000
+		occlusion_frequency_scale = 0.000000
+		delay = 0.100000
+		position_relative_to_player = false
+		is_ui_sound = false
+		enable_child_events = false
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		distance_unfiltered_stereo_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		soundevent_01 = 
+		[
+			"",
+		]
+		vsnd_files_track_01 = 
+		[
+			"sounds/ui/panorama/cards_draw_01.vsnd",
+		]
+	}
+	UIPanorama.container_weapon_fall_anim = 
+	{
+		type = "csgo_mega"
+		volume = 0.500000
+		pitch = 1.000000
+		mixgroup = "UI"
+		block_duration = 0.010000
+		use_distance_volume_mapping_curve = true
+		use_distance_unfiltered_stereo_mapping_curve = true
+		ducking_bypass = 1.000000
+		reverb_wet = 1.000000
+		instance_limit = 1.000000
+		vsnd_pause_with_game = false
+		use_world_position = false
+		distance_effect_mix = 0.000000
+		occlusion_frequency_scale = 0.000000
+		delay = 0.000000
+		position_relative_to_player = false
+		is_ui_sound = false
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		distance_unfiltered_stereo_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_files_track_01 = 
+		[
+			"sounds/ui/panorama/case_drop_01.vsnd",
+		]
+		metadata = 
+		[
+			"hooked up in cs2_drop_crate_anims",
+		]
+	}
+	UIPanorama.container_pins_fall = 
+	{
+		type = "csgo_mega"
+		volume = 0.350000
+		pitch = 1.500000
+		mixgroup = "UI"
+		block_duration = 0.010000
+		use_distance_volume_mapping_curve = true
+		use_distance_unfiltered_stereo_mapping_curve = true
+		ducking_bypass = 1.000000
+		reverb_wet = 1.000000
+		instance_limit = 1.000000
+		vsnd_pause_with_game = false
+		use_world_position = false
+		distance_effect_mix = 0.000000
+		occlusion_frequency_scale = 0.000000
+		delay = 0.070000
+		position_relative_to_player = false
+		is_ui_sound = false
+		enable_child_events = true
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_files_track_01 = 
+		[
+			"sounds/ui/panorama/case_pins_fall_01.vsnd",
+		]
+		distance_unfiltered_stereo_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		soundevent_01 = 
+		[
+			"UIPanorama.container_reveal",
+		]
+		metadata = 
+		[
+			"hooked up via concatenation in .ts",
+		]
+	}
+	UIPanorama.container_patch_fall = 
+	{
+		type = "csgo_mega"
+		volume = 0.350000
+		pitch = 1.300000
+		mixgroup = "UI"
+		block_duration = 0.010000
+		use_distance_volume_mapping_curve = true
+		use_distance_unfiltered_stereo_mapping_curve = true
+		ducking_bypass = 1.000000
+		reverb_wet = 1.000000
+		instance_limit = 1.000000
+		vsnd_pause_with_game = false
+		use_world_position = false
+		distance_effect_mix = 0.000000
+		occlusion_frequency_scale = 0.000000
+		delay = 0.070000
+		position_relative_to_player = false
+		is_ui_sound = false
+		enable_child_events = true
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_files_track_01 = 
+		[
+			"sounds/ui/panorama/case_patch_fall_01.vsnd",
+		]
+		distance_unfiltered_stereo_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		soundevent_01 = 
+		[
+			"UIPanorama.container_reveal",
+		]
+		metadata = 
+		[
+			"hooked up via concatenation in .ts",
+		]
+	}
+	UIPanorama.mainmenu_mission_start = 
+	{
+		type = "csgo_mega"
+		volume = 0.300000
+		pitch = 1.000000
+		mixgroup = "UI"
+		block_duration = 0.100000
+		use_distance_volume_mapping_curve = true
+		use_distance_unfiltered_stereo_mapping_curve = true
+		ducking_bypass = 1.000000
+		reverb_wet = 1.000000
+		instance_limit = 1.000000
+		vsnd_pause_with_game = false
+		use_world_position = false
+		distance_effect_mix = 0.000000
+		occlusion_frequency_scale = 0.000000
+		reverb_source_wet = 0.000000
+		position_relative_to_player = false
+		is_ui_sound = false
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		distance_unfiltered_stereo_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_files_track_01 = 
+		[
+			"sounds/ui/panorama/mainmenu_press_play_03.vsnd",
+		]
+		enable_child_events = true
+		soundevent_01 = 
+		[
+			"UIPanorama.mainmenu_mission_start_xp",
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+			],
+			
+			[
+				0.475248,
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				1.000000,
+			],
+		]
+	}
+	UIPanorama.mainmenu_mission_cancel = 
+	{
+		type = "csgo_mega"
+		volume = 0.200000
+		pitch = 1.000000
+		mixgroup = "UI"
+		block_duration = 0.100000
+		use_distance_volume_mapping_curve = true
+		use_distance_unfiltered_stereo_mapping_curve = true
+		ducking_bypass = 1.000000
+		reverb_wet = 1.000000
+		instance_limit = 1.000000
+		vsnd_pause_with_game = false
+		use_world_position = false
+		distance_effect_mix = 0.000000
+		occlusion_frequency_scale = 0.000000
+		reverb_source_wet = 0.000000
+		position_relative_to_player = false
+		is_ui_sound = false
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		distance_unfiltered_stereo_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_files_track_01 = 
+		[
+			"sounds/ui/panorama/submenu_select_01.vsnd",
+		]
+	}
+	UIPanorama.mainmenu_mission_start_xp = 
+	{
+		type = "csgo_mega"
+		volume = 0.290000
+		pitch = 1.000000
+		mixgroup = "UI"
+		block_duration = 0.100000
+		use_distance_volume_mapping_curve = true
+		use_distance_unfiltered_stereo_mapping_curve = true
+		ducking_bypass = 1.000000
+		reverb_wet = 1.000000
+		instance_limit = 1.000000
+		vsnd_pause_with_game = false
+		use_world_position = false
+		distance_effect_mix = 0.000000
+		occlusion_frequency_scale = 0.000000
+		reverb_source_wet = 0.000000
+		position_relative_to_player = false
+		is_ui_sound = false
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		distance_unfiltered_stereo_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_files_track_01 = 
+		[
+			"sounds/ui/xp_star_ticker_01.vsnd",
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.122772,
+				1.000000,
+				0.000000,
+				-1.573209,
+				0.000000,
+				0.000000,
+			],
+			
+			[
+				0.758416,
+				0.000000,
+				-1.573209,
+				-1.573209,
+				0.000000,
+				1.000000,
+			],
+		]
+		use_time_volume_mapping_curve = true
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.106931,
+				1.000000,
+				-2.698418,
+				-2.698418,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.407921,
+				0.269592,
+				-2.426685,
+				-0.709084,
+				0.000000,
+				0.000000,
+			],
+			
+			[
+				0.788119,
+				0.000000,
+				-0.709084,
+				-0.709084,
+				3.000000,
+				1.000000,
+			],
+		]
+	}
 }

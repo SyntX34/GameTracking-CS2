@@ -7,6 +7,7 @@
 		volume_convar = "snd_menumusic_volume"
 		stop_music = "true"
 		vsnd_files = "sounds/music/tigercub_01/mainmenu.vsnd"
+		vsnd_duration = 220.440002
 	}
 	Music.MVPPreview.tigercub_01 = 
 	{
@@ -18,6 +19,7 @@
 		[
 			"sounds/music/tigercub_01/roundmvpanthem_01.vsnd",
 		]
+		vsnd_duration = 6.139458
 	}
 	Music.Selection.tigercub_01 = 
 	{
@@ -30,6 +32,7 @@
 		stop_loading = "true"
 		vsnd_files = "sounds/music/tigercub_01/chooseteam.vsnd"
 		join_non_mvp_group = "true"
+		vsnd_duration = 22.188833
 	}
 	Music.MatchFound.tigercub_01 = 
 	{
@@ -64,6 +67,7 @@
 			17.890000,
 			19.640000,
 		]
+		vsnd_duration = 21.688313
 	}
 	Music.LoadingScreen.tigercub_01 = 
 	{
@@ -89,6 +93,7 @@
 		[
 			"sounds/music/tigercub_01/startaction_01.vsnd",
 		]
+		vsnd_duration = 15.582230
 	}
 	Music.StartRound.tigercub_01 = 
 	{
@@ -124,6 +129,7 @@
 			17.890000,
 			19.640000,
 		]
+		vsnd_duration = 21.688313
 	}
 	Music.StartAction.tigercub_01 = 
 	{
@@ -151,6 +157,7 @@
 		[
 			"sounds/music/tigercub_01/startaction_01.vsnd",
 		]
+		vsnd_duration = 15.582230
 	}
 	Music.StartRound_GG.tigercub_01 = 
 	{
@@ -187,6 +194,7 @@
 			17.890000,
 			19.640000,
 		]
+		vsnd_duration = 21.688313
 	}
 	Music.BombPlanted.tigercub_01 = 
 	{
@@ -209,6 +217,7 @@
 		endpoint_01 = 0.000000
 		endpoint_02 = 0.000000
 		endpoint_03 = 0.000000
+		vsnd_duration = 41.775063
 	}
 	Music.BombTenSecCount.tigercub_01 = 
 	{
@@ -227,6 +236,7 @@
 		endpoint_01 = 0.000000
 		endpoint_02 = 0.000000
 		endpoint_03 = 0.000000
+		vsnd_duration = 10.977625
 	}
 	Music.GotHostage.tigercub_01 = 
 	{
@@ -251,6 +261,7 @@
 		endpoint_01 = 0.000000
 		endpoint_02 = 0.000000
 		endpoint_03 = 0.000000
+		vsnd_duration = 41.775063
 	}
 	Music.HostageNearRescue.tigercub_01 = 
 	{
@@ -273,6 +284,7 @@
 		endpoint_01 = 0.000000
 		endpoint_02 = 0.000000
 		endpoint_03 = 0.000000
+		vsnd_duration = 10.977625
 	}
 	Music.TenSecCount.tigercub_01 = 
 	{
@@ -303,6 +315,7 @@
 		[
 			0.000000,
 		]
+		vsnd_duration = 10.777416
 	}
 	Music.WonRound.tigercub_01 = 
 	{
@@ -336,6 +349,7 @@
 		[
 			0.000000,
 		]
+		vsnd_duration = 8.742063
 	}
 	Music.LostRound.tigercub_01 = 
 	{
@@ -369,6 +383,7 @@
 		[
 			0.000000,
 		]
+		vsnd_duration = 5.638958
 	}
 	Music.DeathCam.tigercub_01 = 
 	{
@@ -381,6 +396,29 @@
 		stop_start_round = "true"
 		stop_won_mvp = "true"
 		join_non_mvp_group = "true"
+		set_mixlayer_amount_enable = true
+		time_mixlayer_amount_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.500000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 5.872521
 	}
 	Music.MVPAnthem.tigercub_01 = 
 	{
@@ -416,6 +454,7 @@
 		[
 			"sounds/music/tigercub_01/roundmvpanthem_01.vsnd",
 		]
+		vsnd_duration = 6.139458
 	}
 	Music.MatchStart.tigercub_01 = 
 	{
@@ -431,6 +470,7 @@
 		stop_music = "true"
 		join_non_mvp_group = "true"
 		vsnd_files = "sounds/music/tigercub_01/startofmatch.vsnd"
+		vsnd_duration = 10.977625
 	}
 	Music.MatchEnd.tigercub_01 = 
 	{
@@ -461,6 +501,6 @@
 		[
 			0.000000,
 		]
+		vsnd_duration = 55.555500
 	}
-	_auto_calc_vnsd_duration_ = "false"
 }

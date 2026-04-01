@@ -7,6 +7,7 @@
 		volume_convar = "snd_menumusic_volume"
 		stop_music = "true"
 		vsnd_files = "sounds/music/mateomessina_01/mainmenu.vsnd"
+		vsnd_duration = 158.145309
 	}
 	Music.MVPPreview.mateomessina_01 = 
 	{
@@ -14,7 +15,11 @@
 		volume = 0.800000
 		volume_convar = "snd_menumusic_volume"
 		stop_music = "true"
-		vsnd_files = "sounds/music/mateomessina_01/roundmvpanthem_01.vsnd"
+		vsnd_files = 
+		[
+			"sounds/music/mateomessina_01/roundmvpanthem_01.vsnd",
+		]
+		vsnd_duration = 7.366530
 	}
 	Music.Selection.mateomessina_01 = 
 	{
@@ -27,6 +32,7 @@
 		stop_loading = "true"
 		vsnd_files = "sounds/music/mateomessina_01/chooseteam.vsnd"
 		join_non_mvp_group = "true"
+		vsnd_duration = 22.569796
 	}
 	Music.MatchFound.mateomessina_01 = 
 	{
@@ -114,6 +120,7 @@
 			20.438000,
 			21.818000,
 		]
+		vsnd_duration = 23.040001
 	}
 	Music.LoadingScreen.mateomessina_01 = 
 	{
@@ -143,6 +150,7 @@
 			"sounds/music/mateomessina_01/startaction_02.vsnd",
 			"sounds/music/mateomessina_01/startaction_03.vsnd",
 		]
+		vsnd_duration = 14.471837
 	}
 	Music.StartRound.mateomessina_01 = 
 	{
@@ -231,6 +239,7 @@
 			20.438000,
 			21.818000,
 		]
+		vsnd_duration = 23.040001
 	}
 	Music.StartAction.mateomessina_01 = 
 	{
@@ -262,6 +271,7 @@
 			"sounds/music/mateomessina_01/startaction_02.vsnd",
 			"sounds/music/mateomessina_01/startaction_03.vsnd",
 		]
+		vsnd_duration = 14.471837
 	}
 	Music.StartRound_GG.mateomessina_01 = 
 	{
@@ -351,6 +361,7 @@
 			20.438000,
 			21.818000,
 		]
+		vsnd_duration = 23.040001
 	}
 	Music.BombPlanted.mateomessina_01 = 
 	{
@@ -373,6 +384,7 @@
 		endpoint_01 = 0.000000
 		endpoint_02 = 0.000000
 		endpoint_03 = 0.000000
+		vsnd_duration = 38.765713
 	}
 	Music.BombTenSecCount.mateomessina_01 = 
 	{
@@ -391,6 +403,7 @@
 		endpoint_01 = 0.000000
 		endpoint_02 = 0.000000
 		endpoint_03 = 0.000000
+		vsnd_duration = 10.057143
 	}
 	Music.GotHostage.mateomessina_01 = 
 	{
@@ -415,6 +428,7 @@
 		endpoint_01 = 0.000000
 		endpoint_02 = 0.000000
 		endpoint_03 = 0.000000
+		vsnd_duration = 38.765713
 	}
 	Music.HostageNearRescue.mateomessina_01 = 
 	{
@@ -437,6 +451,7 @@
 		endpoint_01 = 0.000000
 		endpoint_02 = 0.000000
 		endpoint_03 = 0.000000
+		vsnd_duration = 10.057143
 	}
 	Music.TenSecCount.mateomessina_01 = 
 	{
@@ -467,6 +482,7 @@
 		[
 			0.000000,
 		]
+		vsnd_duration = 10.292245
 	}
 	Music.WonRound.mateomessina_01 = 
 	{
@@ -500,6 +516,7 @@
 		[
 			0.000000,
 		]
+		vsnd_duration = 7.836735
 	}
 	Music.LostRound.mateomessina_01 = 
 	{
@@ -533,6 +550,7 @@
 		[
 			0.000000,
 		]
+		vsnd_duration = 7.053061
 	}
 	Music.DeathCam.mateomessina_01 = 
 	{
@@ -545,6 +563,29 @@
 		stop_start_round = "true"
 		stop_won_mvp = "true"
 		join_non_mvp_group = "true"
+		set_mixlayer_amount_enable = true
+		time_mixlayer_amount_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.500000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 5.799184
 	}
 	Music.MVPAnthem.mateomessina_01 = 
 	{
@@ -580,6 +621,7 @@
 		[
 			"sounds/music/mateomessina_01/roundmvpanthem_01.vsnd",
 		]
+		vsnd_duration = 7.366530
 	}
 	Music.MatchStart.mateomessina_01 = 
 	{
@@ -595,6 +637,7 @@
 		stop_music = "true"
 		join_non_mvp_group = "true"
 		vsnd_files = "sounds/music/mateomessina_01/startofmatch.vsnd"
+		vsnd_duration = 6.749411
 	}
 	Music.MatchEnd.mateomessina_01 = 
 	{
@@ -625,6 +668,6 @@
 		[
 			0.000000,
 		]
+		vsnd_duration = 55.420429
 	}
-	_auto_calc_vnsd_duration_ = "false"
 }

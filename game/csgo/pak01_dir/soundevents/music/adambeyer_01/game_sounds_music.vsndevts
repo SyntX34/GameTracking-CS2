@@ -7,6 +7,7 @@
 		volume_convar = "snd_menumusic_volume"
 		stop_music = "true"
 		vsnd_files = "sounds/music/adambeyer_01/mainmenu.vsnd"
+		vsnd_duration = 392.965332
 	}
 	Music.MVPPreview.adambeyer_01 = 
 	{
@@ -18,6 +19,7 @@
 		[
 			"sounds/music/adambeyer_01/roundmvpanthem_01.vsnd",
 		]
+		vsnd_duration = 8.211687
 	}
 	Music.Selection.adambeyer_01 = 
 	{
@@ -30,6 +32,7 @@
 		stop_loading = "true"
 		vsnd_files = "sounds/music/adambeyer_01/chooseteam.vsnd"
 		join_non_mvp_group = "true"
+		vsnd_duration = 22.773729
 	}
 	Music.MatchFound.adambeyer_01 = 
 	{
@@ -75,6 +78,7 @@
 			7.007000,
 			8.759000,
 		]
+		vsnd_duration = 14.014605
 	}
 	Music.LoadingScreen.adambeyer_01 = 
 	{
@@ -104,6 +108,7 @@
 			"sounds/music/adambeyer_01/startaction_02.vsnd",
 			"sounds/music/adambeyer_01/startaction_03.vsnd",
 		]
+		vsnd_duration = 14.014605
 	}
 	Music.StartRound.adambeyer_01 = 
 	{
@@ -150,6 +155,7 @@
 			7.007000,
 			8.759000,
 		]
+		vsnd_duration = 14.014605
 	}
 	Music.StartAction.adambeyer_01 = 
 	{
@@ -181,6 +187,7 @@
 			"sounds/music/adambeyer_01/startaction_02.vsnd",
 			"sounds/music/adambeyer_01/startaction_03.vsnd",
 		]
+		vsnd_duration = 14.014605
 	}
 	Music.StartRound_GG.adambeyer_01 = 
 	{
@@ -228,6 +235,7 @@
 			7.007000,
 			8.759000,
 		]
+		vsnd_duration = 14.014605
 	}
 	Music.BombPlanted.adambeyer_01 = 
 	{
@@ -250,6 +258,7 @@
 		endpoint_01 = 0.000000
 		endpoint_02 = 0.000000
 		endpoint_03 = 0.000000
+		vsnd_duration = 37.664249
 	}
 	Music.BombTenSecCount.adambeyer_01 = 
 	{
@@ -268,6 +277,7 @@
 		endpoint_01 = 0.000000
 		endpoint_02 = 0.000000
 		endpoint_03 = 0.000000
+		vsnd_duration = 10.510959
 	}
 	Music.GotHostage.adambeyer_01 = 
 	{
@@ -292,6 +302,7 @@
 		endpoint_01 = 0.000000
 		endpoint_02 = 0.000000
 		endpoint_03 = 0.000000
+		vsnd_duration = 37.664249
 	}
 	Music.HostageNearRescue.adambeyer_01 = 
 	{
@@ -314,6 +325,7 @@
 		endpoint_01 = 0.000000
 		endpoint_02 = 0.000000
 		endpoint_03 = 0.000000
+		vsnd_duration = 10.510959
 	}
 	Music.TenSecCount.adambeyer_01 = 
 	{
@@ -344,6 +356,7 @@
 		[
 			0.000000,
 		]
+		vsnd_duration = 10.510959
 	}
 	Music.WonRound.adambeyer_01 = 
 	{
@@ -377,6 +390,7 @@
 		[
 			0.000000,
 		]
+		vsnd_duration = 7.007312
 	}
 	Music.LostRound.adambeyer_01 = 
 	{
@@ -410,6 +424,7 @@
 		[
 			0.000000,
 		]
+		vsnd_duration = 7.007312
 	}
 	Music.DeathCam.adambeyer_01 = 
 	{
@@ -422,6 +437,29 @@
 		stop_start_round = "true"
 		stop_won_mvp = "true"
 		join_non_mvp_group = "true"
+		set_mixlayer_amount_enable = true
+		time_mixlayer_amount_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.500000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 5.255479
 	}
 	Music.MVPAnthem.adambeyer_01 = 
 	{
@@ -457,6 +495,7 @@
 		[
 			"sounds/music/adambeyer_01/roundmvpanthem_01.vsnd",
 		]
+		vsnd_duration = 8.211687
 	}
 	Music.MatchStart.adambeyer_01 = 
 	{
@@ -472,6 +511,7 @@
 		stop_music = "true"
 		join_non_mvp_group = "true"
 		vsnd_files = "sounds/music/adambeyer_01/startofmatch.vsnd"
+		vsnd_duration = 14.014605
 	}
 	Music.MatchEnd.adambeyer_01 = 
 	{
@@ -502,6 +542,6 @@
 		[
 			0.000000,
 		]
+		vsnd_duration = 45.547459
 	}
-	_auto_calc_vnsd_duration_ = "false"
 }

@@ -7,6 +7,7 @@
 		volume_convar = "snd_menumusic_volume"
 		stop_music = "true"
 		vsnd_files = "sounds/music/skog_01/mainmenu.vsnd"
+		vsnd_duration = 91.768166
 	}
 	Music.MVPPreview.skog_01 = 
 	{
@@ -14,7 +15,11 @@
 		volume = 0.800000
 		volume_convar = "snd_menumusic_volume"
 		stop_music = "true"
-		vsnd_files = "sounds/music/skog_01/roundmvpanthem_01.vsnd"
+		vsnd_files = 
+		[
+			"sounds/music/skog_01/roundmvpanthem_01.vsnd",
+		]
+		vsnd_duration = 11.807347
 	}
 	Music.Selection.skog_01 = 
 	{
@@ -27,6 +32,7 @@
 		stop_loading = "true"
 		vsnd_files = "sounds/music/skog_01/chooseteam.vsnd"
 		join_non_mvp_group = "true"
+		vsnd_duration = 50.494694
 	}
 	Music.MatchFound.skog_01 = 
 	{
@@ -105,6 +111,7 @@
 			32.930000,
 			34.021000,
 		]
+		vsnd_duration = 37.407349
 	}
 	Music.LoadingScreen.skog_01 = 
 	{
@@ -132,6 +139,7 @@
 			"sounds/music/skog_01/startaction_01.vsnd",
 			"sounds/music/skog_01/startaction_02.vsnd",
 		]
+		vsnd_duration = 41.769794
 	}
 	Music.StartRound.skog_01 = 
 	{
@@ -211,6 +219,7 @@
 			32.930000,
 			34.021000,
 		]
+		vsnd_duration = 37.407349
 	}
 	Music.StartAction.skog_01 = 
 	{
@@ -240,6 +249,7 @@
 			"sounds/music/skog_01/startaction_01.vsnd",
 			"sounds/music/skog_01/startaction_02.vsnd",
 		]
+		vsnd_duration = 41.769794
 	}
 	Music.StartRound_GG.skog_01 = 
 	{
@@ -320,6 +330,7 @@
 			32.930000,
 			34.021000,
 		]
+		vsnd_duration = 37.407349
 	}
 	Music.BombPlanted.skog_01 = 
 	{
@@ -342,6 +353,7 @@
 		endpoint_01 = 0.000000
 		endpoint_02 = 0.000000
 		endpoint_03 = 0.000000
+		vsnd_duration = 40.803265
 	}
 	Music.BombTenSecCount.skog_01 = 
 	{
@@ -360,6 +372,7 @@
 		endpoint_01 = 0.000000
 		endpoint_02 = 0.000000
 		endpoint_03 = 0.000000
+		vsnd_duration = 11.937959
 	}
 	Music.GotHostage.skog_01 = 
 	{
@@ -384,6 +397,7 @@
 		endpoint_01 = 0.000000
 		endpoint_02 = 0.000000
 		endpoint_03 = 0.000000
+		vsnd_duration = 40.803265
 	}
 	Music.HostageNearRescue.skog_01 = 
 	{
@@ -406,6 +420,7 @@
 		endpoint_01 = 0.000000
 		endpoint_02 = 0.000000
 		endpoint_03 = 0.000000
+		vsnd_duration = 11.937959
 	}
 	Music.TenSecCount.skog_01 = 
 	{
@@ -436,6 +451,7 @@
 		[
 			0.000000,
 		]
+		vsnd_duration = 12.747755
 	}
 	Music.WonRound.skog_01 = 
 	{
@@ -469,6 +485,7 @@
 		[
 			0.000000,
 		]
+		vsnd_duration = 7.627755
 	}
 	Music.LostRound.skog_01 = 
 	{
@@ -502,6 +519,7 @@
 		[
 			0.000000,
 		]
+		vsnd_duration = 7.444898
 	}
 	Music.DeathCam.skog_01 = 
 	{
@@ -514,6 +532,29 @@
 		stop_start_round = "true"
 		stop_won_mvp = "true"
 		join_non_mvp_group = "true"
+		set_mixlayer_amount_enable = true
+		time_mixlayer_amount_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.500000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 5.590204
 	}
 	Music.MVPAnthem.skog_01 = 
 	{
@@ -549,6 +590,7 @@
 		[
 			"sounds/music/skog_01/roundmvpanthem_01.vsnd",
 		]
+		vsnd_duration = 11.807347
 	}
 	Music.MatchStart.skog_01 = 
 	{
@@ -564,6 +606,7 @@
 		stop_music = "true"
 		join_non_mvp_group = "true"
 		vsnd_files = "sounds/music/skog_01/startofmatch.vsnd"
+		vsnd_duration = 43.639683
 	}
 	Music.MatchEnd.skog_01 = 
 	{
@@ -594,6 +637,6 @@
 		[
 			0.000000,
 		]
+		vsnd_duration = 43.639683
 	}
-	_auto_calc_vnsd_duration_ = "false"
 }

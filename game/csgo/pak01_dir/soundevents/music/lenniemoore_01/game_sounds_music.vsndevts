@@ -7,6 +7,7 @@
 		volume_convar = "snd_menumusic_volume"
 		stop_music = "true"
 		vsnd_files = "sounds/music/lenniemoore_01/mainmenu.vsnd"
+		vsnd_duration = 241.972244
 	}
 	Music.MVPPreview.lenniemoore_01 = 
 	{
@@ -14,7 +15,11 @@
 		volume = 0.800000
 		volume_convar = "snd_menumusic_volume"
 		stop_music = "true"
-		vsnd_files = "sounds/music/lenniemoore_01/roundmvpanthem_01.vsnd"
+		vsnd_files = 
+		[
+			"sounds/music/lenniemoore_01/roundmvpanthem_01.vsnd",
+		]
+		vsnd_duration = 8.463674
 	}
 	Music.Selection.lenniemoore_01 = 
 	{
@@ -27,6 +32,7 @@
 		stop_loading = "true"
 		vsnd_files = "sounds/music/lenniemoore_01/chooseteam.vsnd"
 		join_non_mvp_group = "true"
+		vsnd_duration = 17.214693
 	}
 	Music.MatchFound.lenniemoore_01 = 
 	{
@@ -105,6 +111,7 @@
 			22.152000,
 			24.087000,
 		]
+		vsnd_duration = 24.267756
 	}
 	Music.LoadingScreen.lenniemoore_01 = 
 	{
@@ -134,6 +141,7 @@
 			"sounds/music/lenniemoore_01/startaction_02.vsnd",
 			"sounds/music/lenniemoore_01/startaction_03.vsnd",
 		]
+		vsnd_duration = 14.759184
 	}
 	Music.StartRound.lenniemoore_01 = 
 	{
@@ -213,6 +221,7 @@
 			22.152000,
 			24.087000,
 		]
+		vsnd_duration = 24.267756
 	}
 	Music.StartAction.lenniemoore_01 = 
 	{
@@ -244,6 +253,7 @@
 			"sounds/music/lenniemoore_01/startaction_02.vsnd",
 			"sounds/music/lenniemoore_01/startaction_03.vsnd",
 		]
+		vsnd_duration = 14.759184
 	}
 	Music.StartRound_GG.lenniemoore_01 = 
 	{
@@ -324,6 +334,7 @@
 			22.152000,
 			24.087000,
 		]
+		vsnd_duration = 24.267756
 	}
 	Music.BombPlanted.lenniemoore_01 = 
 	{
@@ -346,6 +357,7 @@
 		endpoint_01 = 0.000000
 		endpoint_02 = 0.000000
 		endpoint_03 = 0.000000
+		vsnd_duration = 40.280815
 	}
 	Music.BombTenSecCount.lenniemoore_01 = 
 	{
@@ -364,6 +376,7 @@
 		endpoint_01 = 0.000000
 		endpoint_02 = 0.000000
 		endpoint_03 = 0.000000
+		vsnd_duration = 10.997551
 	}
 	Music.GotHostage.lenniemoore_01 = 
 	{
@@ -388,6 +401,7 @@
 		endpoint_01 = 0.000000
 		endpoint_02 = 0.000000
 		endpoint_03 = 0.000000
+		vsnd_duration = 40.280815
 	}
 	Music.HostageNearRescue.lenniemoore_01 = 
 	{
@@ -410,6 +424,7 @@
 		endpoint_01 = 0.000000
 		endpoint_02 = 0.000000
 		endpoint_03 = 0.000000
+		vsnd_duration = 10.997551
 	}
 	Music.TenSecCount.lenniemoore_01 = 
 	{
@@ -440,6 +455,7 @@
 		[
 			0.000000,
 		]
+		vsnd_duration = 11.180408
 	}
 	Music.WonRound.lenniemoore_01 = 
 	{
@@ -473,6 +489,7 @@
 		[
 			0.000000,
 		]
+		vsnd_duration = 8.594286
 	}
 	Music.LostRound.lenniemoore_01 = 
 	{
@@ -506,6 +523,7 @@
 		[
 			0.000000,
 		]
+		vsnd_duration = 8.463674
 	}
 	Music.DeathCam.lenniemoore_01 = 
 	{
@@ -518,6 +536,29 @@
 		stop_start_round = "true"
 		stop_won_mvp = "true"
 		join_non_mvp_group = "true"
+		set_mixlayer_amount_enable = true
+		time_mixlayer_amount_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.500000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 6.504490
 	}
 	Music.MVPAnthem.lenniemoore_01 = 
 	{
@@ -553,6 +594,7 @@
 		[
 			"sounds/music/lenniemoore_01/roundmvpanthem_01.vsnd",
 		]
+		vsnd_duration = 8.463674
 	}
 	Music.MatchStart.lenniemoore_01 = 
 	{
@@ -568,6 +610,7 @@
 		stop_music = "true"
 		join_non_mvp_group = "true"
 		vsnd_files = "sounds/music/lenniemoore_01/startofmatch.vsnd"
+		vsnd_duration = 50.220543
 	}
 	Music.MatchEnd.lenniemoore_01 = 
 	{
@@ -598,6 +641,6 @@
 		[
 			0.000000,
 		]
+		vsnd_duration = 50.220543
 	}
-	_auto_calc_vnsd_duration_ = "false"
 }

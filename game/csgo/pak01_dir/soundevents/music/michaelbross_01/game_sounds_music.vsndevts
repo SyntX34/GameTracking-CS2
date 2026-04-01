@@ -7,6 +7,7 @@
 		volume_convar = "snd_menumusic_volume"
 		stop_music = "true"
 		vsnd_files = "sounds/music/michaelbross_01/mainmenu.vsnd"
+		vsnd_duration = 191.764893
 	}
 	Music.MVPPreview.michaelbross_01 = 
 	{
@@ -14,7 +15,11 @@
 		volume = 0.800000
 		volume_convar = "snd_menumusic_volume"
 		stop_music = "true"
-		vsnd_files = "sounds/music/michaelbross_01/roundmvpanthem_01.vsnd"
+		vsnd_files = 
+		[
+			"sounds/music/michaelbross_01/roundmvpanthem_01.vsnd",
+		]
+		vsnd_duration = 10.396734
 	}
 	Music.Selection.michaelbross_01 = 
 	{
@@ -27,6 +32,7 @@
 		stop_loading = "true"
 		vsnd_files = "sounds/music/michaelbross_01/chooseteam.vsnd"
 		join_non_mvp_group = "true"
+		vsnd_duration = 25.182041
 	}
 	Music.MatchFound.michaelbross_01 = 
 	{
@@ -63,6 +69,7 @@
 			19.577000,
 			22.314000,
 		]
+		vsnd_duration = 27.820408
 	}
 	Music.LoadingScreen.michaelbross_01 = 
 	{
@@ -88,6 +95,7 @@
 		[
 			"sounds/music/michaelbross_01/startaction_01.vsnd",
 		]
+		vsnd_duration = 17.319183
 	}
 	Music.StartRound.michaelbross_01 = 
 	{
@@ -125,6 +133,7 @@
 			19.577000,
 			22.314000,
 		]
+		vsnd_duration = 27.820408
 	}
 	Music.StartAction.michaelbross_01 = 
 	{
@@ -152,6 +161,7 @@
 		[
 			"sounds/music/michaelbross_01/startaction_01.vsnd",
 		]
+		vsnd_duration = 17.319183
 	}
 	Music.StartRound_GG.michaelbross_01 = 
 	{
@@ -190,6 +200,7 @@
 			19.577000,
 			22.314000,
 		]
+		vsnd_duration = 27.820408
 	}
 	Music.BombPlanted.michaelbross_01 = 
 	{
@@ -212,6 +223,7 @@
 		endpoint_01 = 0.000000
 		endpoint_02 = 0.000000
 		endpoint_03 = 0.000000
+		vsnd_duration = 47.490612
 	}
 	Music.BombTenSecCount.michaelbross_01 = 
 	{
@@ -230,6 +242,7 @@
 		endpoint_01 = 0.000000
 		endpoint_02 = 0.000000
 		endpoint_03 = 0.000000
+		vsnd_duration = 13.244081
 	}
 	Music.GotHostage.michaelbross_01 = 
 	{
@@ -254,6 +267,7 @@
 		endpoint_01 = 0.000000
 		endpoint_02 = 0.000000
 		endpoint_03 = 0.000000
+		vsnd_duration = 47.490612
 	}
 	Music.HostageNearRescue.michaelbross_01 = 
 	{
@@ -276,6 +290,7 @@
 		endpoint_01 = 0.000000
 		endpoint_02 = 0.000000
 		endpoint_03 = 0.000000
+		vsnd_duration = 13.244081
 	}
 	Music.TenSecCount.michaelbross_01 = 
 	{
@@ -306,6 +321,7 @@
 		[
 			0.000000,
 		]
+		vsnd_duration = 13.296327
 	}
 	Music.WonRound.michaelbross_01 = 
 	{
@@ -339,6 +355,7 @@
 		[
 			0.000000,
 		]
+		vsnd_duration = 10.788571
 	}
 	Music.LostRound.michaelbross_01 = 
 	{
@@ -372,6 +389,7 @@
 		[
 			0.000000,
 		]
+		vsnd_duration = 11.232653
 	}
 	Music.DeathCam.michaelbross_01 = 
 	{
@@ -384,6 +402,29 @@
 		stop_start_round = "true"
 		stop_won_mvp = "true"
 		join_non_mvp_group = "true"
+		set_mixlayer_amount_enable = true
+		time_mixlayer_amount_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.500000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 8.202449
 	}
 	Music.MVPAnthem.michaelbross_01 = 
 	{
@@ -419,6 +460,7 @@
 		[
 			"sounds/music/michaelbross_01/roundmvpanthem_01.vsnd",
 		]
+		vsnd_duration = 10.396734
 	}
 	Music.MatchStart.michaelbross_01 = 
 	{
@@ -434,6 +476,7 @@
 		stop_music = "true"
 		join_non_mvp_group = "true"
 		vsnd_files = "sounds/music/michaelbross_01/startofmatch.vsnd"
+		vsnd_duration = 8.227052
 	}
 	Music.MatchEnd.michaelbross_01 = 
 	{
@@ -464,6 +507,6 @@
 		[
 			0.000000,
 		]
+		vsnd_duration = 49.326191
 	}
-	_auto_calc_vnsd_duration_ = "false"
 }

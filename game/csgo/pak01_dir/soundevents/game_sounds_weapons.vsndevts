@@ -36884,7 +36884,7 @@
 	{
 		type = "csgo_mega"
 		preload_vsnds = true
-		volume = 0.300000
+		volume = 0.500000
 		mixgroup = "Foley"
 		block_duration = 0.000000
 		block_distance = 0.000000
@@ -36927,7 +36927,10 @@
 		]
 		vsnd_files_track_01 = 
 		[
-			"sounds/weapons/c4/c4_draw.vsnd",
+			"sounds/weapons/c4/c4_draw_04.vsnd",
+			"sounds/weapons/c4/c4_draw_06.vsnd",
+			"sounds/weapons/c4/c4_draw_07.vsnd",
+			"sounds/weapons/c4/c4_draw_01.vsnd",
 		]
 		distance_unfiltered_stereo_mapping_curve = 
 		[
@@ -36963,6 +36966,11 @@
 		[
 			"meta",
 			"localplayeronly",
+		]
+		enable_child_events = false
+		soundevent_01 = 
+		[
+			"",
 		]
 	}
 	c4.plant = 
@@ -60423,7 +60431,7 @@
 	{
 		type = "csgo_mega"
 		preload_vsnds = true
-		volume = 1.000000
+		volume = 0.700000
 		pitch = 1.000000
 		mixgroup = "Foley"
 		use_distance_volume_mapping_curve = true
@@ -71785,6 +71793,130 @@
 		[
 			"meta",
 			"localplayeronly",
+		]
+	}
+	c4.draw.beep = 
+	{
+		type = "csgo_mega"
+		preload_vsnds = true
+		volume = 0.100000
+		pitch = 1.500000
+		mixgroup = "Weapons"
+		use_distance_volume_mapping_curve = true
+		block_matching_events = false
+		block_match_entity = false
+		use_distance_unfiltered_stereo_mapping_curve = false
+		reverb_wet = 0.500000
+		occlusion_intensity = 0.500000
+		use_time_volume_mapping_curve = false
+		display_broadcast = true
+		reverb_source_wet = 0.000000
+		position_offset = 
+		[
+			0.000000,
+			0.000000,
+			20.000000,
+		]
+		use_fadetime_volume_mapping_curve = false
+		restrict_source_reverb = false
+		block_duration = 0.000000
+		block_distance = 0.000000
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-0.000968,
+				-0.000968,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				500.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		distance_unfiltered_stereo_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				80.571434,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_files_track_01 = 
+		[
+			"sounds/weapons/c4/c4_beep2.vsnd",
 		]
 	}
 }
