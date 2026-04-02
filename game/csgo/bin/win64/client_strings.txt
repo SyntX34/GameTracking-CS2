@@ -110,12 +110,11 @@
  (%d)Unknown
  (%ld unused bits)\n
  (+%d more due to usercommand delivery)
- (08@HPX`j`
- (08@HPXb0
- (08@HPZ`
- (08@HR0
- (08@J0
- (0X`hpz0
+ (08@HPX`j 
+ (08@HPXb
+ (08@HPZ 
+ (08@HR
+ (0X`hpz
  (DEFAULT)
  (Dirty Animation)
  (INVALID PSS PARAMETERS)\n
@@ -2654,6 +2653,7 @@ $taser_charge
 (.CPlayer_SetPerFriendPreferences_Request
 (0'yX
 (0x%08X)'??'
+(4p5
 (5Me
 (5jP
 (ACTIVE)
@@ -3047,7 +3047,6 @@ $taser_charge
 *lootlist
 *o\n\teRollType
 *paintkit
-*shatterglass_cleanup_max
 +'+1+3+=+?+K+O+U+i+m+o+{+
 +(#\v&dbF:xrJ'$#
 +(Optional) Filename for the published file.
@@ -3117,7 +3116,6 @@ $taser_charge
 ,?IsUint32@Value@v8@@QEBA_NXZ
 ,ARu@y6
 ,I?Value@Number@v8@@QEBANXZ
-,N`4x
 ,Reason=
 ,Service for dealing with user-submitted logsB
 ,ShfPQ
@@ -3566,7 +3564,6 @@ $taser_charge
 .?AUMapStructedDataByEntity_t@CDebugSnapshotFrame_t@@
 .?AUPhysicsRagdollPose_t@@
 .?AUPhysicsWorld_t@CPhysicsGameSystem@@
-.?AUPredictedDamageTag_t@@
 .?AURnQueryAttr_t@@
 .?AURnQueryShapeAttr_t@@
 .?AUSellbackPurchaseEntry_t@@
@@ -5316,9 +5313,6 @@ $taser_charge
 .?AV?$CNetworkVarBase@MVNetworkVar_exponent@fogparams_t@@@@
 .?AV?$CNetworkVarBase@MVNetworkVar_farz@fogparams_t@@@@
 .?AV?$CNetworkVarBase@MVNetworkVar_flClip3DSkyBoxNearToWorldFarOffset@sky3dparams_t@@@@
-.?AV?$CNetworkVarBase@MVNetworkVar_flFlinchModLarge@PredictedDamageTag_t@@@@
-.?AV?$CNetworkVarBase@MVNetworkVar_flFlinchModSmall@PredictedDamageTag_t@@@@
-.?AV?$CNetworkVarBase@MVNetworkVar_flFriendlyFireDamageReductionRatio@PredictedDamageTag_t@@@@
 .?AV?$CNetworkVarBase@MVNetworkVar_locallightscale@fogparams_t@@@@
 .?AV?$CNetworkVarBase@MVNetworkVar_m_DmgRadius@C_BaseGrenade@@@@
 .?AV?$CNetworkVarBase@MVNetworkVar_m_Entity_flBrightness@C_EnvCombinedLightProbeVolume@@@@
@@ -5879,7 +5873,6 @@ $taser_charge
 .?AV?$CNetworkVarBase@VGameTick_t@@VNetworkVar_m_nNextThinkTick@C_BaseEntity@@@@
 .?AV?$CNetworkVarBase@VGameTick_t@@VNetworkVar_m_nPostponeFireReadyTicks@C_CSWeaponBase@@@@
 .?AV?$CNetworkVarBase@VGameTick_t@@VNetworkVar_m_nTransitionStartTick@C_FuncConveyor@@@@
-.?AV?$CNetworkVarBase@VGameTick_t@@VNetworkVar_nTagTick@PredictedDamageTag_t@@@@
 .?AV?$CNetworkVarBase@VGameTime_t@@VNetworkVar_lerptime@fogparams_t@@@@
 .?AV?$CNetworkVarBase@VGameTime_t@@VNetworkVar_m_fArmedTime@C_C4@@@@
 .?AV?$CNetworkVarBase@VGameTime_t@@VNetworkVar_m_fDropTime@C_BaseCSGrenade@@@@
@@ -7030,6 +7023,7 @@ $taser_charge
 .?AV?$CUtlVectorDataOps@V?$C_UtlVectorEmbeddedNetworkVar@UEntityRenderAttribute_t@@VNetworkVar_m_vecRenderAttributes@C_BaseModelEntity@@$0?0H@@$09$0A@@@
 .?AV?$CUtlVectorDataOps@V?$C_UtlVectorEmbeddedNetworkVar@USellbackPurchaseEntry_t@@VNetworkVar_m_vecSellbackPurchaseEntries@CCSPlayer_BuyServices@@$0?0H@@$09$0A@@@
 .?AV?$CUtlVectorDataOps@V?$C_UtlVectorEmbeddedNetworkVar@UWeaponPurchaseCount_t@@VNetworkVar_m_weaponPurchases@WeaponPurchaseTracker_t@@$0?0H@@$09$0A@@@
+.?AV?$CUtlVectorPredictionCopyDataOps@V?$C_NetworkUtlVectorBase@V?$CHandle@VCBaseAnimGraph@@@@VNetworkVar_m_vecSecondarySkeletons@CBaseAnimGraphController@@$0?0H@@@@
 .?AV?$CUtlVectorPredictionCopyDataOps@V?$C_NetworkUtlVectorBase@V?$CHandle@VC_BasePlayerWeapon@@@@VNetworkVar_m_hMyWeapons@CPlayer_WeaponServices@@$0?0H@@@@
 .?AV?$CVDataFileManager@VCDecalGroupVData@@@@
 .?AV?$CVDataFileManager@VCExplosionTypeData@@@@
@@ -10939,11 +10933,12 @@ $taser_charge
 0123456789
 02V8[
 05=k
-08@HR`
-08@J0
-08B`
+08@HR 
+08@J
+08B 
 08bX
 09,h
+0:01
 0;Q5[
 0<cz
 0M2~@p
@@ -11184,6 +11179,7 @@ $taser_charge
 2560
 27;C
 27d7
+28.0
 2816
 28Vm
 2:3maJ
@@ -11215,7 +11211,6 @@ $taser_charge
 2\n\nline_items
 2\n\vpreferences
 2\rlhp
-2\vptd
 2^pV
 2a"l
 2bT~
@@ -11231,7 +11226,6 @@ $taser_charge
 3(Optional) Preview filename for the published file." \n
 3.CHelpRequestLogs_UploadUserApplicationLog_Response"#
 3.CPlayer_GetMutualFriendsForIncomingInvites_Request
-30.0
 31tPR
 32:B\n
 333333
@@ -11280,7 +11274,6 @@ $taser_charge
 3|rN>
 4(Optional) Sorting method to use on returned values.
 4)#bH
-4)$pY3
 4)m1
 4.CPlayer_GetMutualFriendsForIncomingInvites_Response"^
 40 40 40 196
@@ -11310,6 +11303,7 @@ $taser_charge
 4tpD
 4zj@1;IJ
 4|2;#GameUI_Retake_Card_LightEmUp,1,1,rifle1,grenade0|2;#GameUI_Retake_Card_Kobe,1,1,rifle1,grenade2|1;#GameUI_Retake_Card_1g,1,1,rifle1,grenade3|1;#GameUI_Retake_Card_DisappearingAct,1,1,rifle1,grenade1|1;#GameUI_Retake_Card_EyesOnTarget,1,1,weapon_aug
+4~3x\v
 5'0v2ZP
 5(EWorkshopFileType) Type of Workshop file to publish.
 5(Optional) The number of results, per page to return.
@@ -11437,10 +11431,9 @@ $taser_charge
 8<pl
 8= zp
 8A6j
+8B0&
 8C:\buildworker\cs2_beta_win64\build\src\panorama\layout\stylepropertyfactory.cpp
 8Client ID for which to count the number of issued tokens"
-8FPY
-8F`X
 8GZS
 8Gets the list of nicknames this user has for other users
 8If set, remove from ignore/block list instead of adding "\\n
@@ -11535,12 +11528,14 @@ $taser_charge
 ;"lY7
 ;5jNf
 ;83\v\nHBJ7
+;I4X
 ;LGEW
 ;Qo0
 ;\n\nPerMapRank
 ;\n\vrank_update
 ;`Fzc
 ;bwP*
+;m_nForceRefreshCount
 ;sv_pausable;sv_cheats
 ;xsK
 <!-- dmx encoding keyvalues2_noids 4 format vtex 1 -->\n"CDmeVtex"\n{\n\t"m_inputTextureArray" "element_array"\n\t[\n
@@ -11724,14 +11719,17 @@ $taser_charge
 ?uWS
 ?x29
 @!@%@+@1@?@C@E@]@a@g@m@
+@08ND
 @0pp
-@6pj
+@60K
 @?SlowGetInternalField@Object@v8@@AEAA?AV?$Local@VData@v8@@@2@H@Z
 @BH]f
 @BoneSetup
 @C_WeaponElite
 @HPX`hv
+@HVP
 @MfKZ
+@Npq
 @Pgl
 @Pu\rm
 @Show debug data when players change their loadout.
@@ -11747,6 +11745,7 @@ $taser_charge
 @dKb]
 @fff>fff>fff>fff>
 @ffffff
+@htp5
 @i1V
 @icon_camera
 @icon_character
@@ -11887,7 +11886,6 @@ AMMO_TYPE_HEGRENADE
 AMMO_TYPE_MOLOTOV
 AMMO_TYPE_SMOKEGRENADE
 AMMO_TYPE_TASERCHARGE
-AMoveMountingAmount_t
 ANC[%d]
 ANNOTATION: Distance -- %s -- %f\n
 ANNOTATIONS: hiding node "%s"\n
@@ -11901,6 +11899,7 @@ APPEND_EXP
 APPSYSTEM: In ConnectGameInterfaces(), s_nRegistrationCount is %d!\n
 APPSYSTEM: In ConnectGameInterfaces(), tried to use different connection modes!\n
 APPSYSTEM: In ReconnectGameInterface(), tried to use different connection modes!\n
+ARdr opt = %s\n
 ASCII
 ASIDENTIFIERCHOICE_CANONIZE
 ASIDENTIFIERCHOICE_IS_CANONICAL
@@ -12113,6 +12112,7 @@ AddGameInputHandler - handle=%llu, flags=0x%02x dbgContextName=%s, panelName=%s\
 AddGravity
 AddHealth
 AddImpulseAtPosition
+AddItemToCart
 AddItemToFavorites
 AddModel
 AddModellistOverrideElement
@@ -12173,7 +12173,6 @@ Alternate icon definition index '%s' (%llu) must be greater than zero
 AltitudeMax
 AltitudeMin
 Always
-Am_nUniqueID
 Ambient %s:Unknown command %s\n
 Ambient Occlusion Proxies
 Ambient Occlusion Proxies Downsample Depth
@@ -12285,6 +12284,7 @@ ApplyCheer
 ApplyStyles
 Applying fallback networking config (%llu bytes)...\n
 Applying overrides for %s 0x%p\n
+Apr  2 2026
 Arc Cos
 Arc Cosine of input value. Input must be -1.0, 1.0 range. Output in radians, from 0 to 
 Arc Sin
@@ -12535,6 +12535,7 @@ BAsyncSendProto
 BC (default)
 BCanSeeInParentScroll
 BCanvasReady
+BDuration, in seconds, to hold onto the data of disconnected players, for scoreboard display.
 BEOS_BIND_FUNC
 BEOS_BIND_VAR
 BEOS_LOAD
@@ -12653,7 +12654,7 @@ BOOSTS
 BPE_Diagnostic
 BPE_StringCommand
 BPIN_txt
-BPanoramaComponent_Inventory_CraftIngredientRemoved
+BPanoramaComponent_MatchInfo_StateChange
 BPublic
 BRDFLookup
 BReadyForDisplay
@@ -12691,6 +12692,7 @@ BULLET_PLAYER_BUCKSHOT
 BUMP_WITH_TIMEOUT_WHEN_LEARNED
 BURN
 BUYMENU: %s %s %s\n
+BUse server overrides for steam avatars
 BValidateCrosshairCode
 BYOC
 BY_FILE_CTRL
@@ -12760,7 +12762,6 @@ Basis Type: %s\n
 Bazaar
 BcT`
 Bd]U
-Bdeath_chase_distance
 BeamManifest
 BeforeTranslucent
 Begin
@@ -12819,7 +12820,6 @@ BlurBackground
 BlurBuffer
 BlurOperationPanel
 BlurPopupPanel
-Bm_hThrower
 BoX5
 Body Component Scriptdesc
 BodyGameSystem
@@ -17222,8 +17222,6 @@ Downsample and BloomThreshold
 DownsampleDepth
 DownsampleDepthForWaterEffects
 Downtown
-Dpath_simple
-Dplayer_attachment_0
 Dq;n
 DrBoom
 Draft is fully completed!\n
@@ -17321,6 +17319,7 @@ DroppedBomb
 DsBV
 DstHeight
 DstWidth
+Dterrorist_team_intro_camera
 Duck
 DumpScriptBindings()
 Dumping %i/%i largest CPhysAggregateData - %zu KB total\n
@@ -20697,7 +20696,6 @@ IsTimedOut
 IsTool
 IsTournamentMatch
 IsTripleMonitorModeEnabled
-IsUsingAG2Pawns
 IsVacBanned
 IsValid
 IsValidChangeAccessorFieldPathIndex( pi )
@@ -20800,7 +20798,6 @@ JSCreatePanelWithCurrentContext was not called within a context
 JSDelayLoadList
 JSValueFromKeyValue failed to package parameter %s (type %d)\n
 JS_!0
-JY3@
 JZIX
 J\nHBF
 J`KL
@@ -20957,7 +20954,7 @@ LOG_MESSAGE
 LONG
 LONG_C2I
 LPVIndex
-LS&\nK
+LS&\nKp(
 LT[N
 LT_txt
 LXKQ
@@ -22299,14 +22296,14 @@ P-224
 P-256
 P-384
 P-521
-P08@J0
-P08J
+P08@J
+P08J@
+P08ND
 P1\t98"
 P2P Voice
 P2P ping to "%s". Timed out after %.2fms\n
 P5[1
-P6@x
-P6`1
+P60E
 PAGN_4
 PANORAMA_LAYOUTFILE
 PARALYZE
@@ -22642,6 +22639,7 @@ PanoramaComponent_GameInterface_EngineSoundSystemsRunning
 PanoramaComponent_GlobalGame_StateChange
 PanoramaComponent_IngameDraft_DraftUpdate
 PanoramaComponent_Inventory_CraftIngredientAdded
+PanoramaComponent_Inventory_CraftIngredientRemoved
 PanoramaComponent_Inventory_CrateOpenError
 PanoramaComponent_Inventory_CrateOpened
 PanoramaComponent_Inventory_ItemCustomizationNotification
@@ -22664,7 +22662,6 @@ PanoramaComponent_Lobby_PlayerUpdated
 PanoramaComponent_Lobby_ReachableDatacentersUpdated
 PanoramaComponent_Lobby_ReadyUpForMatch
 PanoramaComponent_Lobby_ShowPreMatchInterface
-PanoramaComponent_MatchInfo_StateChange
 PanoramaComponent_MatchList_FantasyUploaded
 PanoramaComponent_MatchList_PredictionUploaded
 PanoramaComponent_MatchList_StateChange
@@ -22823,6 +22820,7 @@ Permit Responses
 Permitted
 Persist
 PersonalStore
+Pf02
 Phoenix Compound
 PhysBlockHeader_t
 PhysDisableEntityCollisions called on entities in two different scene worlds (%s - %u vs %s - %u)\n
@@ -22985,6 +22983,7 @@ Playsoundscape %s:Unknown command %s\n
 Please specify 0 or 1 with the -stream Parameter\n
 Pm8A?
 PmR"H?
+Pn03
 Point entity.
 PointsAnim
 Policy Qualifier CPS
@@ -23181,7 +23180,6 @@ ProgressDamageGiven
 ProgressDamageTaken
 ProgressSecondaryStatusText
 ProgressStatusText
-PromptShowSelectItemForCapabilityPopup
 PropBreakableCreateAll
 PropColon
 PropData
@@ -23462,7 +23460,6 @@ RULESHERE
 R\n\rincludekvtags
 R\r1>Vp
 R\vp!y
-R\vptd
 R]Di
 Rad2 Deg
 Radar
@@ -23557,7 +23554,6 @@ RayTracingEnvironment::RefineNode
 RayTracingEnvironment::RefineNodeJob
 Rbg.E
 RcvMrgnTgt %+8.3f %+8.2f
-Rdr opt = %s\n
 Re-creating weapon hudmodel due to vdata subclass model change.\n
 Re-entering CPulseCell_PlaySequence #%d - intentional?
 Re-loading map %s\n
@@ -23758,7 +23754,7 @@ RequestPrestigeCoinCheck
 RequestRSSFeed
 RequestStoreLayout
 RequestTournaments
-Requesting Blog RSS Feed - %s.\n
+Requesting Blog RSS Feed[%d] - %s.\n
 Requesting a negative velocity is not supported!
 Requesting fallback networking config...\n
 Requesting subscribed files...\n
@@ -26227,7 +26223,6 @@ U7{8+S
 U?Y5qX}\tf
 UEax
 UFJ\ns
-UI Map Previews
 UI.CounterBeep
 UI.CounterDoneBeep
 UI.DeathMatch.Revenge
@@ -27237,7 +27232,7 @@ X\n\tTeamStats
 X\n\vFantasyTeam
 X\n\vLoadoutItem
 X\tQo
-X`hr`
+X`hr 
 Xd3h
 XfJ7
 XjfR
@@ -28211,6 +28206,7 @@ Z~wl
 \r^mX
 \ri1I
 \rjwB\t
+\rm_bVerticalFOV
 \roKK
 \rrCj
 \rusercmd.proto"V\n
@@ -28407,7 +28403,6 @@ Z~wl
 \v\vTSG
 \vj0k
 \vjC7
-\vp0N
 ]1h=bfz
 ]FhSD}
 ]GT7]
@@ -28507,8 +28502,9 @@ _xU`u
 _}eOk
 `28)fk
 `3?New@Array@v8@@SA?AV?$Local@VArray@v8@@@2@PEAVIsolate@2@H@Z
-`6Py
-`6pk
+`43P\n
+`6PL
+`6pM
 `:zQF
 `D$daM-l
 `DZG
@@ -28521,6 +28517,7 @@ _}eOk
 `anonymous-namespace'::DynamicLockHelper<struct `anonymous namespace'::SmokeLightProbeVolumeData_t>::Lock
 `fPw.\vM
 `h9T~
+`htp
 `o_je
 `yNT
 a null shared library handle was used
@@ -28539,6 +28536,7 @@ a:typeparam
 a;Tg
 a@XZ
 aA0k
+aBvD
 aD/x
 aDSS
 aECDH
@@ -29179,6 +29177,7 @@ async load of
 async_state
 asynchronous
 attach particle effect
+attachHand_L
 attach_ent_index
 attach_entity
 attach_point_name
@@ -30781,6 +30780,7 @@ csmPushbackDistanceViewModel
 csmSplitPlaneDistance0
 csm_fov_override
 csm_split_plane0_distance_override
+csm_sst_shadow_focus_region_thin_compensation
 css_class
 css_classes
 csshocked
@@ -33417,7 +33417,6 @@ hour
 hours
 houseIdentifier
 hover
-hpz0
 hr_H
 href="
 hscroll
@@ -33446,11 +33445,9 @@ https proxy request
 https://
 https://%s/apps/csgo/videos/highlightreels%s/%03d/%03dv%03d_%03d/%03d_%03dv%03d_%03d_%s_%s_%s
 https://%s/linkfilter/?url=%s
-https://%s/newsentry/%s
+https://%s/newsentry%s/%s
 https://api%s.steampowered.com/ICSGOServers_%d/GetLeaderboardEntries/v1?format=json&lbname=%s
 https://api.twitch.tv/helix/streams?game_id=32399&first=12
-https://blog.counter-strike.net/%s%sindex.php/feed/?gameversion=%s
-https://blog.counter-strike.net/zh-hans/index.php/category/home-zh-hans-2/feed/?perfectworld&gameversion=%s
 https://cdn.beta.steampowered.com/apps/%d/resource/hltv/event_feed
 https://cdn.steamstatic.com/apps/%d/resource/hltv/event_feed.json
 https://clan.cloudflare.steamstatic.com/images
@@ -33460,6 +33457,7 @@ https://help.steamchina.com/zh/kb/%s
 https://media.st.dl.pinyuncloud.com/apps/730/resource/hltv/event_feed.json
 https://store.steamchina.com/steamaccount/addfunds
 https://store.steampowered.com/events/ajaxgetpartnereventspageable/?clan_accountid=0&appid=730&offset=0&count=50&exclude_tags=hide_library_detail,mod_hide_library_detail&origin=https:%2F%2F
+https://store.steampowered.com/events/ajaxgetpartnereventspageable/?clan_accountid=46056098&appid=0&offset=0&count=50&exclude_tags=hide_library_detail,mod_hide_library_detail&origin=https:%2F%2F
 https://store.steampowered.com/sub/54029
 https://support.steampowered.com/kb_article.php?ref=%s
 https://www.twitch.tv/%s
@@ -33550,7 +33548,6 @@ iFjt
 iILV]
 iMaxVal
 iMinVal
-iPJ3
 iPercentage
 iSXc
 iSuccessCount
@@ -34271,6 +34268,7 @@ invertminscalecalc
 invited
 invnextgun
 ioctlsocket
+ipK3
 ipsec3
 ipsec4
 ipsecEndSystem
@@ -34519,6 +34517,7 @@ k+Aq
 k/sn
 k0>Z,
 k26C*
+k38\v
 k8\vD
 k8fo
 k8xA
@@ -34941,7 +34940,7 @@ lC57
 lDcW
 lM2p
 l\n\fexcludedtags
-l`w4
+l`w4(
 label_token
 ladder
 ladder_angle_yaw
@@ -35092,6 +35091,7 @@ lightchoice
 lightcookie
 lightcoral
 lightcyan
+lighter
 lightgoldenrodyellow
 lightgray
 lightgreen
@@ -35287,7 +35287,7 @@ lowresdepth
 luminaire_anisotropy
 luminaire_shape
 luminaire_size
-lvR4H
+lvR4x
 m&9W
 m*Zu
 m249
@@ -36642,7 +36642,7 @@ n5cM
 n6j/
 n:2C[
 n@PK
-nB%s%s%s\n
+nBUI Map Previews
 nCRD
 nChangeOffset < INT16_MAX
 nChangeOffset > 0
@@ -37336,6 +37336,8 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
+p08@H^D
+p20&
 p250
 p2p_FightingGame_Connection
 p2p_FightingGame_GameData
@@ -37354,14 +37356,13 @@ p5\nL,
 p618
 p>?Set@Template@v8@@QEAAXV?$Local@VName@v8@@@2@V?$Local@VData@v8@@@2@W4PropertyAttribute@2@@Z
 p@0pqE5tsO?|1
-pAddItemToCart
 pAshard_model_desc_t
-pBDraws a cross at the given location\n\tArguments: x y z
 pCheckpointName
 pD4t
 pData->GetDataDescMap() == pTemplateDataMap
 pDescription
 pDest
+pF 6
 pField
 pFilter
 pG_*h
@@ -37371,6 +37372,7 @@ pNewRequest
 pO0h
 pOtherEntity
 pPose != nullptr
+pPromptShowSelectItemForCapabilityPopup
 pRTH
 pRequest
 pSPo
@@ -37681,6 +37683,7 @@ path_particle_rope_clientside
 path_queries_speculative
 path_query_schedule
 path_query_tactic
+path_simple
 path_uniqueid
 path_with_dynamic_nodes
 pathclass
@@ -37885,6 +37888,7 @@ player-team-t
 playerOcclusionReadback
 player_activate
 player_animation_extension
+player_attachment_0
 player_attachment_1
 player_attachment_10
 player_attachment_11
@@ -38269,8 +38273,6 @@ psk identity not found
 psk no client cb
 psk no server cb
 pszContextName
-pt-br
-pt-pt
 pt_BR
 pt_PT
 pub: 
@@ -40321,6 +40323,7 @@ t(ydU
 t+RW
 t0;?ZlP*m
 t2U 
+t3X\v
 t4O_
 t80z
 tA`KO/3G!\n7h=
@@ -40468,7 +40471,6 @@ template_vtex
 templates#include
 termite
 terrorist_odds
-terrorist_team_intro_camera
 terrorist_wingman_intro_camera
 terrorists
 test.fatdem
@@ -41068,6 +41070,7 @@ ui_inspect_bkgnd_map_%X
 ui_mainmenu_bkgnd_movie
 ui_mainmenu_bkgnd_movie_%X
 ui_nearbylobbies_filter
+ui_news_last_read_link2
 ui_playsettings_flags_%s_%s
 ui_playsettings_maps_%s_%s
 ui_playsettings_maps_official_competitive
@@ -41768,6 +41771,7 @@ weapon_glock
 weapon_glock.ventr
 weapon_glock_client
 weapon_grenade
+weapon_hand_l
 weapon_hand_r
 weapon_healthshot
 weapon_healthshot.ventr
@@ -41857,6 +41861,7 @@ weapon_p90.ventr
 weapon_p90_client
 weapon_pist_
 weapon_pist_elite
+weapon_r
 weapon_revolver
 weapon_revolver.ventr
 weapon_revolver_client
@@ -42204,6 +42209,7 @@ y#y&Jb
 y-offset
 y0JY
 y2Cu
+y3h\v
 y;w9
 y>?SetAccessor@ObjectTemplate@v8@@QEAAXV?$Local@VString@v8@@@2@P6AX0AEBV?$PropertyCallbackInfo@VValue@v8@@@2@@ZP6AX0V?$Local@VValue@v8@@@2@AEBV?$PropertyCallbackInfo@X@2@@Z3W4AccessControl@2@W4PropertyAttribute@2@W4SideEffectType@2@8@Z
 y?iLa
@@ -42253,7 +42259,6 @@ zRXU
 zebra
 zero_value
 zeroth_moment
-zh-hans
 zh_CN
 zh_TW
 zlVO

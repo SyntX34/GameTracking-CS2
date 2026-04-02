@@ -9,14 +9,16 @@
   Group 4 Options:
   Predictor: 
   Top-level Mesh Op '%s' returning a cached result.\n
- !"#$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ 
+ !"#$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
  !"#$%%&'()*+,-../0123456789:;<=>?@ABCDEFGHIJKLLMNOPQRSTUVWXY[]_`bdefhjlnprtvz|~
  '%s' -> '%s'
  (%d %d %d)
  (%lu = 0x%lx)\n
  (%u = 0x%x)\n
  (08@HPX`j
+ (08@HPXb`
  (08@HPZ
+ (0X`hpz`
  (deprecated)
  * Adding Bone :: < %10.4f %10.4f %10.4f >\n
  - (Additive)
@@ -8710,10 +8712,11 @@ $modelname$_surface
 .tif
 .webp
 08@HR
-0XR{
+08@J`
 0\r%0t
 0\tV_frexpf
-0v0F{
+0hW{
+0v@K{
 1.0 - FractionalPart( A ) 
 1D Blend Has No Referenced Animations
 1D Twist
@@ -8753,14 +8756,13 @@ $modelname$_surface
 @%s_lookFrame_0
 @%s_lookFrame_1
 @%s_lookFrame_2
-@08N0F{
-@6PN
-@6PP
+@08N@K{
+@60U
+@60X
 @HPX`hv
 @Integer overflow in %s
 @Invalid Internal Point
 @m_vCenter
-@n0F{
 @unnamed_%d
 A bone named %s already exists.
 A box shape which cloth collides with.
@@ -11859,15 +11861,15 @@ Overrides the target VSNAP resource (defaults to "particles/models/%model_name%/
 Overwrite all bone data
 Overwrite existing flags only
 Overwriting existing wrinkle map data on mesh
+P08@J`
 P08J
-P08N0F{
+P08N@K{
 PARENT
 PF\n%d %d\n-1.000000\n
 POINT
 POSE_SPACE_BONE
 POSE_SPACE_MORPH
 PURH
-PXR{
 PackBits
 PackBitsDecode: Not enough data for scanline %ld
 PackBitsDecode: discarding %ld bytes to avoid buffer overrun
@@ -11919,6 +11921,7 @@ Perform a set of parametric mesh modification operations.
 Persistent
 Perturb vertex positions using sine waves.
 Pf\n%d %d\n-1.000000\n
+PhW{
 Phase
 Phase Condition
 Photometric tag is missing, assuming data is YCbCr
@@ -12159,7 +12162,7 @@ R9G9B9E5_SHAREDEXP
 RBF Based Anim Constraint
 ROTATION
 R\vp!y
-R\vpXR{
+R\vphW{
 R_T5Y
 Radial Basis Function Type
 Radius Params CP ( Prop Group Smallest Radius / Prop Group Largest Radius / Number of Avg Objects )
@@ -13187,7 +13190,7 @@ Zero input vector for info node!
 [cloth] | [procedural]
 [procedural]
 \fB33
-\nPXR{
+\nPhW{
 \n[ERR] Not enough memory, shop for some more RAM. See you!\n
 \ndummyfilename.tif
 \ng default\n
@@ -13206,7 +13209,7 @@ Zero input vector for info node!
 \tV_atan2d
 \tV_expd
 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\v\n\v\n\v\n\v\n\v\n\v\n\v\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\f\r\f\r\f\r\f\r\f\r\f\r\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
-\vpXR{
+\vphW{
 _CustomCommand
 _CustomCommand%d
 _InFrameSpine
@@ -13255,9 +13258,8 @@ _temp_tangent
 _volumeatlas_
 _wjb
 _zero
-`f0F{
-`n0F{
-aBv0F{
+`60g
+aBv@K{
 a\tV_powd
 absolute
 acceleration
@@ -13376,6 +13378,7 @@ assign_to_all_faces
 associated_key
 associated_vpulse
 ati_compress_wrapper.dll
+attachHand_L
 attach_material
 attach_mesh
 attach_point_name
@@ -13800,7 +13803,6 @@ extrude_forward_axis
 extrude_radius
 extrude_sides
 extrude_twist
-f0F{
 face_selection
 face_to_edge
 face_to_vertex
@@ -13920,7 +13922,6 @@ group_id
 group_name
 grow_or_shrink
 guide_hair_count
-h+\nP6w
 hair_count
 halfEdges %d,%d faces %d,%d angle %.1f deg.
 halfgridsnap
@@ -13969,6 +13970,7 @@ hitgroupname
 hop_distance_range
 horizontal differencing 
 horizontal_pose_param_name
+hpz`
 hullIvr-0.obj
 hullIvr-1.obj
 hullIvr-2.obj
@@ -14084,6 +14086,7 @@ less_than_or_equal_to
 lifespan
 lifespanPP
 light
+lighter
 lightmap
 lightmapuv
 limit_ccw
@@ -14393,7 +14396,6 @@ multi_attribute_picker
 multibone_skinning
 must be either LogLUV or LogL
 n$Kx
-n0F{
 name_mode
 name_prompt
 navlink
@@ -14470,14 +14472,12 @@ overrideclass
 overwrite_existing
 overwrite_existing_flags_only
 owns_polymorphic_data
-p08@H^0F{
-p6Pt
-p>0F{
+p08@H^@K{
+p6`y
 pEvent != nullptr
-pF R
+pF0W
 pParentTrack != nullptr
 pPose != nullptr
-pXR{
 panorama_image
 panorama_layout
 panorama_style
@@ -14514,6 +14514,7 @@ pelvis
 per_material_options
 permissive
 pervertexlighting
+phW{
 physics_joint_modification_type
 physics_particle
 physics_shape_capsule_count
@@ -14549,7 +14550,7 @@ planarize
 plane
 plastic
 plasticity
-pn0F{
+pn@K{
 point
 point0_key
 point1_key
@@ -14614,7 +14615,8 @@ pseudo-
 pushout_strength
 quad_bend_tolerance
 quadratic
-r\fpXR{
+r03\n
+r\fphW{
 radius0_key
 radius1_key
 radius_key
@@ -15247,7 +15249,6 @@ user_specified_materialgroup
 uses_range
 uvmapcylinder
 v %f %f %f\n#%d ComponentIndex %d, queue %d, angle %.1f; ring:
-v0F{
 vIK \f3
 value_one
 value_zero
@@ -15331,6 +15332,7 @@ weapon_g3sg1
 weapon_galilar
 weapon_glock
 weapon_grenade
+weapon_hand_l
 weapon_healthshot
 weapon_hegrenade
 weapon_hkp2000
@@ -15356,6 +15358,7 @@ weapon_knife_t
 weapon_knife_tactical
 weapon_knife_ursus
 weapon_knife_widowmaker
+weapon_l
 weapon_m249
 weapon_m4a1
 weapon_m4a1_silencer

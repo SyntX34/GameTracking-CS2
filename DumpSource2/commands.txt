@@ -3097,7 +3097,7 @@ soundscape_flush (developmentonly gamedll defensive)
 soundsysteminfo (developmentonly defensive)
 	Describe the current sound device without an active voice list.
 
-spawnCashStack (gamedll cheat)
+spawnCashStack (developmentonly gamedll cheat)
 	<no description>
 
 spec_goto (clientdll clientcmd_can_execute)

@@ -101,9 +101,9 @@
  %s%lu (%s0x%lx)\n
  ' ) - 3 G M Q _ c e i w } 
  (%ld unused bits)\n
- (08@HPX`j`B
+ (08@HPX`j
  (08@HPXb
- (08@HPZ`B
+ (08@HPZ
  (08@HR
  (0X`hpz
  (Dirty Animation)
@@ -1664,6 +1664,7 @@ $tH@T\tI
 (0x%08X)'??'
 (3@Mb
 (4?NewFromUnsigned@Integer@v8@@SA?AV?$Local@VInteger@v8@@@2@PEAVIsolate@2@I@Z
+(4Poj
 (5Me
 (5jP
 (=?Resolve@Resolver@Promise@v8@@QEAA?AV?$Maybe@_N@3@V?$Local@VContext@v8@@@3@V?$Local@VValue@v8@@@3@@Z
@@ -2241,7 +2242,6 @@ $tH@T\tI
 ... and no start position
 ....................
 ..uR5&m
-.0kT
 .4bb
 .97yY
 .?AU?$default_delete@VCNavGenPolyProcessorStageBase@@@std@@
@@ -2433,7 +2433,6 @@ $tH@T\tI
 .?AUMapStructedDataByEntity_t@CDebugSnapshotFrame_t@@
 .?AUPhysicsRagdollPose_t@@
 .?AUPhysicsWorld_t@CPhysicsGameSystem@@
-.?AUPredictedDamageTag_t@@
 .?AURnQueryAttr_t@@
 .?AURnQueryShapeAttr_t@@
 .?AUSellbackPurchaseEntry_t@@
@@ -3902,9 +3901,6 @@ $tH@T\tI
 .?AV?$CNetworkVarBase@MVNetworkVar_exponent@fogparams_t@@@@
 .?AV?$CNetworkVarBase@MVNetworkVar_farz@fogparams_t@@@@
 .?AV?$CNetworkVarBase@MVNetworkVar_flClip3DSkyBoxNearToWorldFarOffset@sky3dparams_t@@@@
-.?AV?$CNetworkVarBase@MVNetworkVar_flFlinchModLarge@PredictedDamageTag_t@@@@
-.?AV?$CNetworkVarBase@MVNetworkVar_flFlinchModSmall@PredictedDamageTag_t@@@@
-.?AV?$CNetworkVarBase@MVNetworkVar_flFriendlyFireDamageReductionRatio@PredictedDamageTag_t@@@@
 .?AV?$CNetworkVarBase@MVNetworkVar_locallightscale@fogparams_t@@@@
 .?AV?$CNetworkVarBase@MVNetworkVar_m_DmgRadius@CBaseGrenade@@@@
 .?AV?$CNetworkVarBase@MVNetworkVar_m_Entity_flBrightness@CEnvCombinedLightProbeVolume@@@@
@@ -4462,7 +4458,6 @@ $tH@T\tI
 .?AV?$CNetworkVarBase@VGameTick_t@@VNetworkVar_m_nNextThinkTick@CBaseEntity@@@@
 .?AV?$CNetworkVarBase@VGameTick_t@@VNetworkVar_m_nPostponeFireReadyTicks@CCSWeaponBase@@@@
 .?AV?$CNetworkVarBase@VGameTick_t@@VNetworkVar_m_nTransitionStartTick@CFuncConveyor@@@@
-.?AV?$CNetworkVarBase@VGameTick_t@@VNetworkVar_nTagTick@PredictedDamageTag_t@@@@
 .?AV?$CNetworkVarBase@VGameTime_t@@VNetworkVar_lerptime@fogparams_t@@@@
 .?AV?$CNetworkVarBase@VGameTime_t@@VNetworkVar_m_fArmedTime@CC4@@@@
 .?AV?$CNetworkVarBase@VGameTime_t@@VNetworkVar_m_fDropTime@CBaseCSGrenade@@@@
@@ -8532,6 +8527,7 @@ $tH@T\tI
 .ScoreLeaderboardData.Entry"
 .ServerHltvInfo
 .Step
+.TCO
 .TournamentEvent
 .TournamentMatchSetup
 .TournamentPlayer"
@@ -8815,9 +8811,8 @@ $tH@T\tI
 .dx_LV9
 .fatdem
 .lbN
+.pQT
 .pp@0
-.psT
-.pxT
 .text$
 .vjs_c
 .vmap
@@ -8857,16 +8852,13 @@ $tH@T\tI
 0123456789
 02V8[
 05=k
-089O
-08@HR`B
+08@HR
 08@J
-08B`B
 08bX
 09,h
 0;Q5[
 0<cz
 0@NX^b!/@P\b
-0@QO
 0AOY_c"2CQ[c
 0M2~@p
 0Mc\t\n
@@ -8894,6 +8886,7 @@ $tH@T\tI
 0e\r8
 0pp@5tqE?|sO541
 0tU+xc:
+0vTCO
 0x%s
 0|2;#GameUI_Retake_Card_BackInAFlash,1,1,weapon_ump45,grenade0|2;#GameUI_Retake_Card_AllIn,1,1,weapon_galilar|1;#GameUI_Retake_Card_BoomBox,1,1,weapon_mac10,grenade2,grenade1|1;#GameUI_Retake_Card_SetThemFree,1,1,weapon_ssg08,grenade0
 0|2;#GameUI_Retake_Card_BlindFire,1,0,weapon_elite,grenade0|2;#GameUI_Retake_Card_QueOta,0,0,weapon_deagle|1;#GameUI_Retake_Card_SmokeScreen,0,0,weapon_p250,grenade1|1;#GameUI_Retake_Card_TecTecBoom,0,0,weapon_tec9,grenade2
@@ -8976,8 +8969,6 @@ $tH@T\tI
 2\n.eRollType
 2\n\nline_items
 2\rlhp
-2\vp@QO
-2\vpL
 2^pV
 2a"l
 2bT~
@@ -9104,12 +9095,12 @@ $tH@T\tI
 6%vi
 6,2K
 6-zeZ
-60tT
 62$|S)6f
 64CK\vH
 666666666666666666666666666666666666666666666666\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\.\ssl\s3_enc.c
-6666666666666666CAttributeManager
+6666666666666666IEconItemInterface
 67-s
+6@XT
 6H,N
 6O|T%
 6Qd=
@@ -9134,6 +9125,7 @@ $tH@T\tI
 6l13
 6lkc
 6myY;
+6pZT
 6qo~
 6r-m_v
 6r1ij
@@ -9151,7 +9143,6 @@ $tH@T\tI
 7GNW^c-<ER]c"09IYc
 7HOX_c.5AQ[c#(4FWc
 7OsR
-7PointOrientConstraint_t
 7W}2
 7XRJ
 7\n2k_EGCItemCustomizationNotification_XpShopAckTracks
@@ -9167,6 +9158,7 @@ $tH@T\tI
 7gS_
 7i@X
 7m:e
+7m_pOutputOnEntitiesSpawned
 7o4H
 7qp9
 7q|Q@
@@ -9180,9 +9172,7 @@ $tH@T\tI
 8<pl
 8= zp
 8??SetInternalFieldCount@ObjectTemplate@v8@@QEAAXH@Z
-8@J`B
 8A6j
-8B`B
 8GZS
 8SIffK5W
 8TZvrv<
@@ -9251,6 +9241,7 @@ $tH@T\tI
 :NAy
 :QYJ
 :Vlq
+:X6n
 :\n5k_EGCItemCustomizationNotification_EncapsulateSticker
 :\n5k_EMsgGCCStrike15_v2_ClientCommendPlayerQueryResponse
 :\n5k_EMsgGCCStrike15_v2_MatchListRequestCurrentLiveGames
@@ -9435,6 +9426,7 @@ $tH@T\tI
 ?uWS
 ?x29
 @!@%@+@1@?@C@E@]@a@g@m@
+@08NTCO
 @0pp
 @333
 @333?
@@ -9443,7 +9435,10 @@ $tH@T\tI
 @Aff
 @BH]f
 @BoneSetup
+@CCSPlayer_RadioServices
+@CWeaponCZ75a
 @HPX`hv
+@HVP
 @MfKZ
 @Pgl
 @Pu\rm
@@ -9457,12 +9452,12 @@ $tH@T\tI
 @\n\nnomination
 @\n\tPlacement
 @\n\vserver_type
-@cs_team_manager
 @dKb]
+@fTCO
 @fff>fff>fff>fff>
 @i1V
 @n2w
-@plant_bomb could not find the player's pawn.\n
+@nTCO
 @player_start_teleport_destination
 @workshop
 A CT bot doesn't know what to do while the bomb is planted!\n
@@ -9481,6 +9476,7 @@ A<fP
 A>x8
 A@d0I
 AA Compromise
+AA:Pj
 AABBDirection
 AACompromise
 AC2,h
@@ -9908,6 +9904,7 @@ ApplyGameSettings: Invalid mapgroup name %s\n
 ApplyGameSettings: Map %s not part of Mapgroup %s\n
 ApplyLocalAngularVelocityImpulse
 Approach Point (Hiding)
+Apr  2 2026
 Arc Cos
 Arc Cosine of input value. Input must be -1.0, 1.0 range. Output in radians, from 0 to 
 Arc Sin
@@ -10068,6 +10065,7 @@ BAsyncSend
 BAsyncSendProto
 BC (default)
 BCBtActionMoveTo
+BDisable MVP awards.
 BEOS_BIND_FUNC
 BEOS_BIND_VAR
 BEOS_LOAD
@@ -10177,6 +10175,7 @@ BPE_Diagnostic
 BPE_StringCommand
 BREAKABLE
 BRouteMsgToJob
+BSource2ServerConfig001
 BT5f
 BT_ACTION_MOVETO_FASTEST_ROUTE
 BT_ACTION_MOVETO_RUN
@@ -10316,7 +10315,6 @@ Bloodlvl3
 Bloodlvl4
 Bloodlvl5
 Bloodlvl6
-Bm_vecSellbackPurchaseEntries
 BoX5
 Body Component Scriptdesc
 BodyGameSystem
@@ -10372,7 +10370,6 @@ BreakableContentsType
 Breakables
 Breaks in the debugger
 Bs'n
-Bteam_intro_terrorist
 Bu 5
 Buffer too small
 BuildCacheSubscribed(CEconAccountSeasonalOperationGS)
@@ -14646,6 +14643,7 @@ F'pY
 F+Zb
 F,mZq
 F/o4
+F0oT
 F2M+
 F6tr
 F7!z
@@ -15002,6 +15000,7 @@ Found no entity at %d.\n
 Found soundscape entity "%s" with no soundscape name.\n
 Found source soundscape %u after marching backwards.\n
 FourVectors
+FpoT
 Frac
 Fractional component (ie. returns 0.34 for 12.34)
 FrameTime
@@ -15676,6 +15675,7 @@ HARD
 HAS_LADDERS
 HB@T\tJ
 HBJ\nTRF
+HBNavGameTest001
 HDR Color Scale: %0.3f
 HEAD
 HEAD 
@@ -18303,11 +18303,9 @@ P-384
 P-521
 P08@J
 P08J
+P08NTCO
 P1\t98"
-P2`B
 P5[1
-P89O
-P@QO
 PAGN_4
 PARALYZE
 PARAMETER NAME: %s | OPTIONAL: %s, TYPE: %s, BOUND: %s\n
@@ -18657,7 +18655,6 @@ PinnedDown
 Pistol
 PitchShift
 PivotPaint
-Pj`B
 Place
 PlaceDecalEvent_t
 Plant bomb on floor
@@ -18776,6 +18773,7 @@ Please specify 0 or 1 with the -stream Parameter\n
 Please wait for broadcast to start ...
 Pm8A?
 PmR"H?
+PnTCO
 Point entity.
 PointTemplate
 Policy Qualifier CPS
@@ -19114,8 +19112,6 @@ RSA_verify_PKCS1_PSS_mgf1
 RTime32
 R\r1>Vp
 R\vp!y
-R\vp@QO
-R\vpL
 R]Di
 Rad2 Deg
 Radial using: %s\n
@@ -22060,7 +22056,7 @@ X\n\tTeamStats
 X\n\vFantasyTeam
 X\n\vLoadoutItem
 X\tQo
-X`hr`B
+X`hr
 Xd3h
 XfJ7
 XjfR
@@ -22424,9 +22420,7 @@ Z~wl
 \f]ne3
 \fdhWTh
 \fiaR
-\fp@QO
-\fp\vP89O
-\fp\v`89O
+\fp\vPx
 \ful2
 \fy&3Gl
 \l:ArR
@@ -23182,8 +23176,6 @@ Z~wl
 \v\vTSG
 \vj0k
 \vjC7
-\vp89O
-\vp@QO
 ] Done (%.2f seconds)
 ]1h=bfz
 ]FhSD}
@@ -23257,9 +23249,12 @@ _tools_event_desc
 _var
 _xU`u
 _}eOk
+`20k
 `28)fk
+`2Pj
+`2pa
 `3?New@Array@v8@@SA?AV?$Local@VArray@v8@@@2@PEAVIsolate@2@H@Z
-`89O
+`6PQT
 `:zQF
 `D$daM-l
 `DZG
@@ -23269,7 +23264,10 @@ _}eOk
 `VX:H
 `\n\rvector_values
 `fPw.\vM
+`fTCO
 `h9T~
+`htPoj
+`nTCO
 `o_je
 `yNT
 a null shared library handle was used
@@ -23288,6 +23286,7 @@ a:typeparam
 a;Tg
 a@XZ
 aA0k
+aBvTCO
 aD/x
 aDSS
 aECDH
@@ -23830,6 +23829,7 @@ at console
 attach particle effect
 attach1
 attach2
+attachHand_L
 attach_ent_index
 attach_entity
 attach_point_name
@@ -24874,6 +24874,7 @@ cs_rush
 cs_script
 cs_script/%s
 cs_siege
+cs_team_manager
 cs_thunder
 cs_usercmd.proto
 cs_win_panel_match
@@ -26145,7 +26146,6 @@ eye_ramp
 eyeangle
 eyes_follow
 eyj5yR
-f hT
 f#9i\n
 f%wyLmX:
 f&dy
@@ -26162,6 +26162,7 @@ fPitch
 fRoll
 fSpinDownTime
 fSpinUpTime
+fTCO
 fUnh\
 fValue
 fYaw
@@ -26173,6 +26174,7 @@ f_move_heading_desired
 f_pose_weight_%s
 f_remaining_ground_path_length
 f_target_lean
+f`NT
 faceposer
 facing: %s
 facsimileTelephoneNumber
@@ -28469,6 +28471,7 @@ light_style_target2
 light_style_target3
 lightchoice
 lightcookie
+lighter
 lighting_only_tint_color
 lightprobetexture
 lightprobetexture_dli
@@ -29645,6 +29648,7 @@ nStartNodeIndex
 nStf,a
 nStopNodeIndex
 nSw}Z\tu
+nTCO
 nTextOffset
 nTick
 nTraceContents
@@ -30201,18 +30205,17 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p0j 
+p08@H^TCO
+p0j`|
 p250
-p2`B
 p2{l
 p4Z3
 p5Z3
 p5\nL,
 p618
-p89O
 p>?Set@Template@v8@@QEAAXV?$Local@VName@v8@@@2@V?$Local@VData@v8@@@2@W4PropertyAttribute@2@@Z
+p>TCO
 p@0pqE5tsO?|1
-p@QO
 pActivator
 pAnimGraphEntity
 pAttachment
@@ -30460,7 +30463,6 @@ payload + padding <= 16381
 payment gateway capabilities
 payment_row_usd
 payment_us_usd
-pb`B
 pbeWithMD2AndDES-CBC
 pbeWithMD2AndRC2-CBC
 pbeWithMD5AndCast5CBC
@@ -30619,6 +30621,7 @@ placebo
 placementattachment
 placementbone
 plant_bomb could not create a bomb.\n
+plant_bomb could not find the player's pawn.\n
 plant_bomb trace did not find a location to plant the bomb.\n
 planted
 plantedC4
@@ -30705,6 +30708,7 @@ playervisibilitystrength
 playerweapon
 playing_commentary
 playoverscript
+pnTCO
 point
 point arithmetic failure
 point at infinity
@@ -32661,6 +32665,7 @@ sv_maxuptimelimit generated randomly between %.3f and %.3f hour(s), setting upti
 sv_maxuptimelimit has reached %.3f hour(s) uptime - requesting sv_shutdown\n
 sv_maxuptimelimit setting uptime limit = %.3f hours\n
 sv_noclipspeedscaleonshift
+sv_override_max_health
 sv_reliableavatardata: adding player avatar for %s
 sv_reliableavatardata: fatal error -- %s\n
 sv_shutdown;\n
@@ -32789,6 +32794,7 @@ team_
 team_filter
 team_id
 team_intro_counterterrorist
+team_intro_terrorist
 team_manager
 team_restriction
 team_select_camera
@@ -33608,6 +33614,7 @@ vPosition
 vStartPos
 vStartPos[%s] pStartArea[%d]
 vStartPos[%s] vGoalPos[%s]
+vTCO
 vTarget
 vValue
 vVelocity
@@ -33873,6 +33880,7 @@ weapon_glock
 weapon_glock.ventr
 weapon_glock_server
 weapon_grenade
+weapon_hand_l
 weapon_hand_r
 weapon_healthshot
 weapon_healthshot.ventr
@@ -33957,6 +33965,7 @@ weapon_p250_server
 weapon_p90
 weapon_p90.ventr
 weapon_p90_server
+weapon_r
 weapon_reload
 weapon_revolver
 weapon_revolver.ventr

@@ -655,10 +655,10 @@ cash_player_bomb_planted 300 (gamedll clientdll notify replicated release comman
 cash_player_damage_hostage -30 (gamedll clientdll notify replicated release commandline_enforced)
 	<no description>
 
-cash_player_drop_on_death 0 (gamedll clientdll notify replicated release commandline_enforced)
+cash_player_drop_on_death 0 (developmentonly gamedll clientdll notify replicated release commandline_enforced)
 	<no description>
 
-cash_player_drop_on_death_stack_value 250 (gamedll clientdll notify replicated release commandline_enforced)
+cash_player_drop_on_death_stack_value 250 (developmentonly gamedll clientdll notify replicated release commandline_enforced)
 	<no description>
 
 cash_player_get_killed 0 (gamedll clientdll notify replicated release commandline_enforced)
@@ -2648,6 +2648,9 @@ csm_sst_shadow_focus_region_maxz 2000 (cheat)
 	<no description>
 
 csm_sst_shadow_focus_region_minz -2000 (cheat)
+	<no description>
+
+csm_sst_shadow_focus_region_thin_compensation 500 (clientdll cheat)
 	<no description>
 
 csm_viewdir_shadow_bias 0 (cheat)
@@ -10182,6 +10185,9 @@ sv_outofammo_indicator false (gamedll clientdll replicated release commandline_e
 sv_outofpvsentityupdates false (developmentonly)
 	<no description>
 
+sv_override_max_health 0 (gamedll release)
+	<no description>
+
 sv_pack_entities_really_verbose false (release)
 	Increase verbosity for entity packing
 
@@ -11128,6 +11134,9 @@ ui_nearbylobbies_filter3 "competitive" (clientdll archive release)
 	<no description>
 
 ui_news_last_read_link "" (clientdll archive release)
+	<no description>
+
+ui_news_last_read_link2 "" (clientdll archive release)
 	<no description>
 
 ui_notification_tb_snooze "" (clientdll archive release)

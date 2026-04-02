@@ -35,18 +35,10 @@ var MvpBackgroundMap;
         isNonPremier = mode.toLowerCase() !== 'premier';
         $.GetContextPanel().SetHasClass('non-premier', isNonPremier);
         let backgroundCharModel = "";
-        if (strTeam === 't') {
-            if (GameInterfaceAPI.IsUsingAG2Pawns())
-                backgroundCharModel = "agents/models/ctm_sas/ctm_sas.vmdl";
-            else
-                backgroundCharModel = "models/player/ctm_sas.vmdl";
-        }
-        else {
-            if (GameInterfaceAPI.IsUsingAG2Pawns())
-                backgroundCharModel = "agents/models/tm_phoenix/tm_phoenix.vmdl";
-            else
-                backgroundCharModel = "models/player/tm_phoenix.vmdl";
-        }
+        if (strTeam === 't')
+            backgroundCharModel = "agents/models/ctm_sas/ctm_sas.vmdl";
+        else
+            backgroundCharModel = "agents/models/tm_phoenix/tm_phoenix.vmdl";
         oSettings = {
             mapPanel: elParent.FindChild('id-match-mvp-map'),
             numTeam: team,
