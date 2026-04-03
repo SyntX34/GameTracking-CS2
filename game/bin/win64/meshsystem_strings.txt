@@ -265,7 +265,6 @@ InputLayoutBuilder
 JIGGLE_BONE
 KV3 load transfer failed for mesh '%s': %s\n
 KeyValues3
-Lean
 LightmapUV
 LightmapUVW
 LoadModelSyncNoExtrefs - AllocateResource failed\n
@@ -310,7 +309,6 @@ ORIENT
 Org(%.3f,%.3f,%.3f) Ang(%.3f,%.3f,%.3f)
 OverlayProjectionDirection
 PARENT
-POINT
 POSE_SPACE_BONE
 POSE_SPACE_MORPH
 PackedBlobNormal
@@ -392,7 +390,6 @@ RelQ0
 SceneSystem/ComputeShaderSkinning
 SegmentLength
 SequenceGroupResourceData_t
-Stop/Start Planted Turn
 TILT_TWIST
 TWIST
 TanFrameQuat
@@ -443,8 +440,6 @@ compressedtangentframe
 curvature
 data_block
 distancefield_data_block
-eLean
-eUseStartAsPlantedTurn
 embedded_animation
 embedded_distancefield
 embedded_meshes
@@ -492,7 +487,6 @@ m_influenceFlags
 m_morphSet
 m_nBodyGroupChoice
 m_nBodyGroupIndex
-m_nMeshoptMeshletEncodeVersion
 m_nParentBoneNameHash
 m_nResX
 m_nResY

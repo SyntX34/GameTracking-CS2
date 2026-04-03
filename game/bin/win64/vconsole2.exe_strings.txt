@@ -3267,7 +3267,6 @@ Addr
 Address
 Adobe ImageReadyq
 AdobeDeflate
-All values connected to this node must be 'observable'. Variables on this graph will be automatically promoted to observable. Other value nodes must take an explicit context, look for those nodes with a corresponding icon.
 Alpha decoder initialization failed.
 Alpha:
 Alternate
@@ -4153,9 +4152,6 @@ Find all the yielded cursors on this graph and cancel them.
 Find all the yielded cursors on this graph with the matching tag and cancel them.
 Find first element 'a' which compare equal to 'element' and return its index.
 Find:
-Fired immediately when this node begins for chaining purposes.
-Fired when the observable boolean is false, and killed when true.
-Fired when the observable boolean is true, and killed when false.
 Fixed
 Flash hidden channel activity in log viewer tab
 FlatSelection
@@ -4647,7 +4643,6 @@ MobileDeviceInterface
 Mod R%d <- R%d %% R%d
 Module Path: %s\n
 Monitor Directory: %s\n
-Monitor Observable
 More Detailed Debug
 Mouse4
 Mouse4DoubleClick
@@ -4768,7 +4763,6 @@ O\YZ
 O\fyW
 O\r?hitTestComplexControl@QCommonStyle@@UEBA?AW4SubControl@QStyle@@W4ComplexControl@3@PEBVQStyleOptionComplex@@AEBVQPoint@@PEBVQWidget@@@Z
 Oa?width@QImage@@QEBAHXZ
-Observable
 Old-style JPEG
 Old-style LZW codes, convert file
 OldSubfileType
@@ -5887,7 +5881,6 @@ W\v?event@QProxyStyle@@MEAA_NPEAVQEvent@@@Z
 W]Gg
 W^fw
 Wait Complete
-Wait Until
 Warning (problem that doesn't prevent forward progress)
 Warning Messages Color
 Wb2>
@@ -5895,7 +5888,6 @@ Wfss
 Wh)a
 When False
 When True
-While active, manage child cursors based on the results of a boolean condition. When the observable result changes, the prior cursor will be canceled and the appropriate outflow will fire a new child cursor. Will monitor continuously until externally canceled.
 WhiteLevel
 WhitePoint
 Widget Debugger
@@ -6440,7 +6432,6 @@ bSet
 bShowDialog
 bV0Ve
 bValue
-bWasAnObservableComputation
 b\v?event@QSplitter@@MEAA_NPEAVQEvent@@@Z
 background
 backgroundColor
@@ -6861,7 +6852,6 @@ mX?setBlueF@QColor@@QEAAXN@Z
 m\f?frameGeometry@QWidget@@QEBA?AVQRect@@XZ
 m\n?dragEnterEvent@QPlainTextEdit@@MEAAXPEAVQDragEnterEvent@@@Z
 m_AdditionalDependencies
-m_Always
 m_Bindings
 m_CommandString
 m_Context
@@ -6900,7 +6890,6 @@ m_externalMethodTargetGraph
 m_flSlopeIncoming
 m_flSlopeOutgoing
 m_hDef
-m_nBlackboardIndex
 m_nCurrentWakeIndex
 m_nCursorID
 m_nGraphID

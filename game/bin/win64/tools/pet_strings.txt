@@ -4685,7 +4685,6 @@ Address
 AdobeDeflate
 All Files (*)
 All True
-All values connected to this node must be 'observable'. Variables on this graph will be automatically promoted to observable. Other value nodes must take an explicit context, look for those nodes with a corresponding icon.
 AllOutflowsInSpecialSection
 Alloc
 Alpha decoder initialization failed.
@@ -6170,9 +6169,6 @@ Fire Public Output
 Fire at a specific entity referenced by the given handle.
 Fire at all entities with the desired name (standard Hammer behavior).
 FireAtName
-Fired immediately when this node begins for chaining purposes.
-Fired when the observable boolean is false, and killed when true.
-Fired when the observable boolean is true, and killed when false.
 Fires a series of child cursors at the specified times.
 Fires multiple child cursors simultaneously, and optionally waits for completion. Similar to Timeline or Parallel Branch. This will split execution into many simultaneous branches.
 First Value
@@ -6233,7 +6229,6 @@ From
 Functions
 G channel not found!\n
 GPSIFDOffset
-GPUParticleCollisionMode_t
 G\v?event@QHeaderView@@MEAA_NPEAVQEvent@@@Z
 Gain:
 Game Blackboard
@@ -6317,7 +6312,6 @@ HorizontalStrafeCamera
 HostComputer
 HoverItemChanged
 How many emitted values there should be, including start and stop.
-Hybrid RT + Depth Buffer
 I ?toggleViewAction@QDockWidget@@QEBAPEAVQAction@@XZ
 I.Test
 IAsset*
@@ -6553,7 +6547,6 @@ LaunchEngineTool
 Layout Side To Side
 Layout Top To Bottom
 Le>U
-Lean
 Leap to Chunk C%d
 Left Mouse (Point)
 Legacy node name '%s' on node %d, discarding\n
@@ -6621,7 +6614,6 @@ Loop Until Integer Range
 Loop While
 Loop from a start to an end value, including ('through') that end value, divided into a fixed number of steps.
 Loop from a start to an end value, optionally including ('through') or excluding ('until') that end value. Equivalent to a for() loop in code.
-Looping
 Looping Sequence!
 Loops over the elements in an array, optionally also provides the index.
 Loopy
@@ -6804,7 +6796,6 @@ ModelMaterialGroupName()
 ModelScale
 Models
 Modulo %
-Monitor Observable
 Mouse4
 Mouse4DoubleClick
 Mouse5
@@ -7008,7 +6999,6 @@ Oa?width@QImage@@QEBAHXZ
 Object
 Object of the appropriate type, if valid.
 Object to cast
-Observable
 Offset Vector(Init Vec)
 Offset from %d 
 OkClicked
@@ -7355,9 +7345,6 @@ P?itemData@QStandardItemModel@@UEBA?AV?$QMap@HVQVariant@@@@AEBVQModelIndex@@@Z
 P?jumpToNextImage@QImageReader@@QEAA_NXZ
 P?keyboardModifiers@QGuiApplication@@SA?AV?$QFlags@W4KeyboardModifier@Qt@@@@XZ
 PARENT
-PARTICLE_GPU_COLLISION_MODE_DEPTH
-PARTICLE_GPU_COLLISION_MODE_HYBRID
-PARTICLE_GPU_COLLISION_MODE_RT
 PET2_AssetPaneDock
 PET2_FunctionDock
 PET2_PreviewControlsDock
@@ -7367,7 +7354,6 @@ PET_AllowScreenSpaceOverlay
 PET_EditFunctionButton
 PET_FunctionRemoveButton
 PET_FunctionToggleEnabledCheckbox
-PF_TYPE_SNAPSHOT_CHANGED
 PLUG_TYPE_INPUT
 PLUG_TYPE_OUTPUT
 PLUG_TYPE_RELAY_OMNIDIRECTIONAL_LEGACY
@@ -7375,12 +7361,10 @@ PLUG_TYPE_RELAY_PREFAB_INBOUND
 PLUG_TYPE_RELAY_PREFAB_LOCAL
 PLUG_TYPE_RELAY_PREFAB_OUTBOUND
 PLUG_TYPE_UNKNOWN
-POINT
 POISONED 
 POSE_SPACE_BONE
 POSE_SPACE_MORPH
 PURH
-PVEC_TYPE_PARTICLE_GRAVITY
 P\f?font@QTableWidgetItem@@QEBA?AVQFont@@XZ
 PackBits
 PackBitsDecode: Not enough data for scanline %ld
@@ -7564,7 +7548,6 @@ Previous System
 Previous Value
 PreviousSession
 Primary Type
-Primary View Depth Buffer
 PrimaryChromaticities
 Probable infinite loop detected! Terminating pulse cursor after %d consecutive instructions (%s)
 Probable runaway cursor creation detected! Permanently disabling this graph instance (%s)
@@ -7727,7 +7710,6 @@ Range_t
 RawDataUniqueID
 RayTracingEnvironment::RefineNode
 RayTracingEnvironment::RefineNodeJob
-Raytracing TLAS
 ReSelectOnReturn
 Read Only
 Read-Only
@@ -7953,7 +7935,6 @@ SelectFirstItemAfterFilter
 SelectedAnimationChanged
 SelectedPreviewAnimationClipChanged
 SelectionChanged
-Self
 Self With Wearables
 SeqPoint{%p} %s%s%s
 Sequence '%s'
@@ -8151,7 +8132,6 @@ Stop Sim
 Stop Sim With Endcap
 Stop Timer
 Stop any active timers - the completed outflow will still fire
-Stop/Start Planted Turn
 StopNoiseImage
 StopSendingCameraTo
 StopSim
@@ -8632,7 +8612,6 @@ WDG,r3
 WIDGET DEBUGGER DELETING widget: 0x%p\n
 WP?isNull@QTextCursor@@QEBA_NXZ
 Wait Complete
-Wait Until
 Wait for Child Cursors
 Wait for Children
 Wake
@@ -8648,7 +8627,6 @@ When evaluating these requirements, how do we aggregate the results?
 When finishing the sequence, if the NPC uses the navmesh, ensure the NPC is on a valid location on the navmesh.
 Where the initial value of this variable can be specified by users of the graph. (Eg. if VMAP, it will be visible in the Hammer property editor)
 While
-While active, manage child cursors based on the results of a boolean condition. When the observable result changes, the prior cursor will be canceled and the appropriate outflow will fire a new child cursor. Will monitor continuously until externally canceled.
 WhiteLevel
 WhitePoint
 Widget Debugger
@@ -9137,7 +9115,6 @@ bR?metaObject@QDoubleValidator@@UEBAPEBUQMetaObject@@XZ
 bTopological
 bTopologyChange
 bValue
-bWasAnObservableComputation
 b\fp\v0
 b\v?event@QSplitter@@MEAA_NPEAVQEvent@@@Z
 back
@@ -9279,8 +9256,6 @@ dropDraggedColorSet
 dummyfilename.tif
 e ?topLevelItem@QTreeWidget@@QEBAPEAVQTreeWidgetItem@@H@Z
 e"?validate@QSpinBox@@MEBA?AW4State@QValidator@@AEAVQString@@AEAH@Z
-eLean
-eUseStartAsPlantedTurn
 e\f?foregroundRole@QWidget@@QEBA?AW4ColorRole@QPalette@@XZ
 e\n?dragEnterEvent@QAbstractItemView@@MEAAXPEAVQDragEnterEvent@@@Z
 e\v?event@QStatusBar@@MEAA_NPEAVQEvent@@@Z
@@ -9719,7 +9694,6 @@ m\f?frameGeometry@QWidget@@QEBA?AVQRect@@XZ
 m_Activator
 m_Actors
 m_AdditionalActors
-m_Always
 m_Anchors
 m_Arg
 m_ArgumentPorts
@@ -9755,6 +9729,7 @@ m_ExternalGraphs
 m_FalseVal
 m_FirstArg
 m_Format
+m_GameBlackboard
 m_GenericKeys
 m_HelpContextName
 m_Helpers
@@ -9788,11 +9763,9 @@ m_ObjectParam
 m_OptionalRequirementsCheckPointForInlineSkip
 m_OptionalRequirementsCommitPoint
 m_OptionalSpontaneousPoint
-m_OutRequirements
 m_Out_Element
 m_Out_Index
 m_Out_Result
-m_Outflow
 m_Outflow_Completed
 m_Outflow_Loop
 m_OutputDefID
@@ -9835,7 +9808,6 @@ m_bDrawLast
 m_bFirstEvaluate
 m_bHasBakedLightingFromLightMap
 m_bHasBakedLightingFromVertexStream
-m_bIsGPUParticleSystem
 m_bIsNotMatchedToMaterial
 m_bLiteralStringSingleQuotedForDisplay
 m_bNoShadow
@@ -9862,19 +9834,16 @@ m_iValue
 m_influenceFlags
 m_morphSet
 m_nArrayIndexDimension
-m_nBlackboardIndex
 m_nChildCursors
 m_nClassType
 m_nCurrentWakeIndex
 m_nCursorID
 m_nCycleMode
 m_nEvaluationOperator
-m_nEventID
 m_nExitCount
 m_nFailBehavior
 m_nGraphID
 m_nLegacyDefaultInt
-m_nMeshoptMeshletEncodeVersion
 m_nNumExits
 m_nRequirementFailBehavior
 m_nRequirementOperator
@@ -10386,7 +10355,6 @@ tools/images/pulse_editor/observable_variable.png
 tools/images/pulse_editor/private_method.png
 tools/images/pulse_editor/public_method.png
 tools/images/pulse_editor/public_output.png
-tools/images/pulse_editor/sequence.png
 tools/images/pulse_editor/temp_var.png
 tools/images/pulse_editor/timeline.png
 tools/keybindings/global_key_bindings.txt

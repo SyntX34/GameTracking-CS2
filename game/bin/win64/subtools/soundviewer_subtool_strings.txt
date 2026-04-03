@@ -775,7 +775,6 @@ Qt5Widgets.dll
 R\fpx
 Removed
 Removed Events
-Reset
 Reset Max
 ResetMaxVoiceCount
 Resume History

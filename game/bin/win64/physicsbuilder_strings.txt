@@ -9297,7 +9297,6 @@ Layer %d:  adding key at time %d [%d -> %d], value
 Leader Bone
 Leaf Only
 Leaking %i elements\n
-Lean
 Leave Body Collision Unmodified
 Left pose, i.e. frame 0 from the 3 frame turn animation file with frame 1 subtracted :: %s
 LeftFingers
@@ -9376,7 +9375,6 @@ LookAtList
 Loop End Frame
 Loop FPS
 Loop Start Frame
-Looping
 LowPrecisionUv
 LowPrecisionUv1
 LowercaseBoneNames
@@ -9845,7 +9843,6 @@ Overwrite existing flags only
 Overwriting existing wrinkle map data on mesh
 PARENT
 PF\n%d %d\n-1.000000\n
-POINT
 POSE_SPACE_BONE
 POSE_SPACE_MORPH
 PURH
@@ -10253,7 +10250,6 @@ Replacement
 Replacement String
 Requested Blend Weight Limit of %d is too large, setting to system max of %d
 Requested split stream input layout from non-split material!
-Reset
 Reset Face Normals
 Resets face normals and optionally averages them.
 Resets the starting frame of a looping animation.  This is useful when mixing multiple animations and the animations need to all run together in phase, but the source animations don't match.
@@ -10564,7 +10560,6 @@ Stiff Hinge Angle
 Stiffness on Ragdoll
 StoNits
 Stop On Sequence Change
-Stop/Start Planted Turn
 Stores metadata for groom meshes.
 Stray Boundary Radius
 Stray Boundary Spring
@@ -11727,7 +11722,6 @@ dev/helper/testgrid.vmat
 dilation
 dimensions
 dimensions_key
-direction
 directlight
 disableOverride
 disableShadows
@@ -11781,8 +11775,6 @@ durationTime
 duration_info
 dynamic_attributes
 eCONTENTROOT
-eLean
-eUseStartAsPlantedTurn
 ease_in_key
 ease_is_duration
 ease_out_key
@@ -12426,7 +12418,6 @@ m_morphSet
 m_nFileCRC
 m_nFingerprint
 m_nFingerprintDefault
-m_nMeshoptMeshletEncodeVersion
 m_nUserData
 m_pVertexData
 m_qFixupRotation
@@ -13200,7 +13191,6 @@ speed_range
 speeds
 spew_stats
 spewresult
-sphere
 spin_axis_friction
 spin_degrees
 splayaxis

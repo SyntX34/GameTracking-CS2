@@ -2163,7 +2163,6 @@ Additive Blend
 Additive Blend (Masked): %.2f%%
 Additive Blend: %.2f%%
 Adjusted foot position; offset: %.2f
-All values connected to this node must be 'observable'. Variables on this graph will be automatically promoted to observable. Other value nodes must take an explicit context, look for those nodes with a corresponding icon.
 AllocateAndLoad failed for '%s' (%s)\n
 AllocateAndLoad failed for '%s'\n
 Always
@@ -2256,19 +2255,13 @@ CAnimVariant
 CAnimationDecodeContext::AddAnimationDecodeDesc ran out of allocator memory (1)\n
 CAnimationDecodeContext::AddAnimationDecodeDesc ran out of allocator memory (2)\n
 CAnimationDecodeContext::AddAnimationDecodeDesc ran out of allocator memory (3)\n
-CAnimationGraphInstance
-CAnimationLayer
 CAnimationSystem: %s, definition invalid. It's loaded but dependencies may have failed to load.\n
 CAnimationSystem: %s, definition is not loaded or has bad data.\n
 CAnimationSystem::FrameUpdate
 CAttachmentNameSymbolWithStorage
-CBlend2DInstanceData
-CBlendNodeInstanceData
 CBodyGroupChoiceSymbolWithStorage
 CBoneSetup::AccumulateSequence(645):  Model %s : sequence %d out of range
 CBufferString
-CChoiceInstanceData
-CChoreoInstanceData
 CColorGradient
 CCompressedAnimQuaternion
 CCompressedAnimVector3
@@ -2294,15 +2287,10 @@ CCompressedStaticVector2D
 CCompressedStaticVector3
 CCompressedStaticVector4D
 CCompressor
-CCycleClipInstanceData
-CDirectPlaybackInstanceData
-CDirectionalBlendInstanceData
 CDirectionalBlendNode
 CEntityIndex
 CEntityNameString
-CFollowPathInstanceData
 CFollowPathUpdateNode::flPredictionScale
-CFootAdjustmentInstanceData
 CGlobalSymbol
 CGlobalSymbolCaseSensitive
 CIKJointConstraintData_Hinge
@@ -2310,7 +2298,6 @@ CIKJointConstraintData_Plane
 CKV3MemberNameSet
 CKV3MemberNameWithStorage
 CLIENT: Activity %d is %s\n
-CLeanMatrixInstanceData
 CModelAnimGraph2Identifier
 CModelAnimName
 CModelAnimNameWithDeltas
@@ -2319,20 +2306,10 @@ CModelBodyGroupName
 CModelBoneName
 CModelMaterialGroupName
 CMotionTransform
-CMoverInstanceData
-CNetworkedCycle
-CNmEventTargetEntity_t
-CNmFloatSpringNode::CDefinition
-CNmFootIKNode::CDefinition
-CNmFootIKTask
 CNmGraphDefinition::KV3TransferPostLoadFn failed to FindDeclaredClass( '%s' )
-CNmGraphInstance
 CNmGraphInstance::CNmGraphInstance
 CNmGraphInstance::EvaluateGraph
 CNmGraphInstance::GetCurrentGraphTimingInfo
-CNmIDBasedClipSelectorNode::CDefinition
-CNmIDBasedSelectorNode::CDefinition
-CNmTargetWarpNode::TargetUpdateRule_t
 CPPScript Component
 CPairedSequenceInstanceData
 CParentAttachmentName
@@ -2460,16 +2437,12 @@ CPulseTestScriptLib::TestModeAssertTrue
 CRelativeArray
 CResourceName
 CResourceNameTyped
-CRootMotion
 CRotation
 CSmartPtr
-CStateMachineInstanceData
-CStateNodeInstanceData
 CStrongHandle
 CStrongHandleCopyable
 CStrongHandleVoid
 CTransform
-CTurnHelperInstanceData
 CURVE_TANGENT_FREE
 CURVE_TANGENT_MIRROR
 CURVE_TANGENT_SINE
@@ -2517,7 +2490,6 @@ CUtlLeanVectorImpl<class CUtlLeanVectorFixedGrowableBase<unsigned char,10,int,cl
 CUtlLeanVectorImpl<class CUtlLeanVectorFixedGrowableBase<unsigned char,30,int,class CMemAllocAllocator>,unsigned char,int>::InsertBeforeGetPtr
 CUtlLeanVectorImpl<class CUtlLeanVectorFixedGrowableBase<unsigned char,8,int,class CMemAllocAllocator>,unsigned char,int>::InsertBeforeGetPtr
 CUtlVectorFixedGrowable
-CWayPointHelperInstanceData
 CWeakHandle
 Call C%d:I%d (%s)
 Cancel
@@ -2596,7 +2568,6 @@ CycleControlClipNode
 DOT_TO_MORPH
 Damped Value Component
 DampedPathAnimMotorInstance
-DampedPathMotorInstanceData_t
 Data_Branch1xy
 Data_Branch1zBranch2x
 Data_Branch2yz
@@ -2703,9 +2674,6 @@ Final pivot orientation
 Find all the yielded cursors on this graph and cancel them.
 Find all the yielded cursors on this graph with the matching tag and cancel them.
 Find first element 'a' which compare equal to 'element' and return its index.
-Fired immediately when this node begins for chaining purposes.
-Fired when the observable boolean is false, and killed when true.
-Fired when the observable boolean is true, and killed when false.
 Fixed Section
 Float Curve (%s)
 Float To Game Time
@@ -2734,7 +2702,6 @@ Free
 Function "%s" takes %i parameters, but %i were given
 Future Facing
 Future Velocity
-GPUParticleCollisionMode_t
 Game Blackboards: 
 Game Time To Float
 GetArrayElement R%d <- R%d[ R%d ]
@@ -2763,11 +2730,9 @@ GridBlendNode
 HAC K  Unused Binding
 HELPER_BONE
 HasPath
-HeldItem
 Hinge Axis
 HitReact:m_hitCount
 HitReact:m_resetCount
-Hybrid RT + Depth Buffer
 IK Target: %s
 IKChainDataPoleVectorForAxis::X
 IKChainDataPoleVectorForAxis::Y
@@ -2824,7 +2789,6 @@ LOD %i
 LOD Component
 LOD Off
 LabelledDebugHelperDebug
-Lean
 LeanMatrixNode
 Leap to Chunk C%d
 Length (magnitude) of Vector
@@ -2845,7 +2809,6 @@ Log2
 Look Component
 Look Heading (World)
 Look Pitch (World)
-LookData
 Low LOD
 MAlternateSemanticName
 MAtomicTransfersAsPlainString
@@ -2914,16 +2877,13 @@ ModelAttachmentName()
 ModelBodyGroupName()
 ModelBoneName()
 ModelMaterialGroupName()
-Monitor Observable
 MorphChannel
 MotionMatching:SelectionChangeCount
 MotionMatching:clipIndex.index
 MotionMatching:cycleZeroTime
 MotionMatching:playbackRate
 MotionMatching:startTime
-MotionMatchingInstanceData
 MotionMatchingNode
-MotionSelection
 Motors
 Move:m_flCurrentMoveSpeed
 Move:m_flFacingHeading
@@ -2934,7 +2894,6 @@ Move:m_vFacingPosition
 Move:m_vMoveDir
 MoveData
 Movement Component
-MovementData
 MoverNode
 Mul R%d <- R%d * R%d
 NULL CELL 
@@ -2943,11 +2902,9 @@ Neg R%d <- -R%d
 Negative duration is not supported!
 Negative speed scale is not supported!
 Neq R%d <- R%d != R%d
-NetVarConfigIndex
 NetworkedCycle
 Newly tilted bone.
 Next step normal
-NmGraphDebugMode_t
 No DATA block for resource '%s'\n
 No DATA block for resource\n
 No ID Set
@@ -2961,8 +2918,6 @@ Not R%d <- !R%d
 Not Set
 Not safe to 'new' this class due to alignment requirements
 ORIENT
-Observable
-Offset Warped Root Motion
 On Interval
 On True
 OnInterval
@@ -2987,20 +2942,12 @@ P08@J
 P08J
 P08N(
 PARENT
-PARTICLE_GPU_COLLISION_MODE_DEPTH
-PARTICLE_GPU_COLLISION_MODE_HYBRID
-PARTICLE_GPU_COLLISION_MODE_RT
-PF_TYPE_SNAPSHOT_CHANGED
-POINT
 POSE_SPACE_BONE
 POSE_SPACE_MORPH
-PVEC_TYPE_PARTICLE_GRAVITY
 Packed data buffer overflow: %d > %d\n
 PackedBlobNormal
 Paired Sequence Component
 PairedSeq:m_hSequence
-PairedSequenceData
-PairedSequence_t
 PanelID
 ParamList
 Parameters
@@ -3013,7 +2960,6 @@ ParticleParamID_t
 ParticlesLib
 Pass Outflow
 PerTickSettings
-PerTickSettings_t
 PerVertexLighting
 Physics
 PivotPaint
@@ -3021,12 +2967,10 @@ Plane normal
 Playback:m_SequenceCycleZeroTime
 Playback:m_currentSequence
 Playback:m_flForcedCycle
-PlayerInputMotorInstanceData_t
 Pole vector (raw dir: {%.2f, %.2f, %.2f})
 Position progress\t\t\t[%f]
 PrevActive
 Previous normal
-Primary View Depth Buffer
 Prl Eval
 Process Selector
 Program has invalid instruction %i
@@ -3052,12 +2996,7 @@ Random World Position
 Randomizes the order of items in the array (Knuth/Fisher-Yates Shuffle)
 Range_t
 Range_t::GetPercentageThrough
-Raytracing TLAS
 Read Cached Pose
-Recalculate
-Recalculate Or Offset Warped Root Motion
-Recalculate Warped Root Motion
-RecalculateOrOffset
 Reciprocoal square root (1/sqrt)
 Reference Pose Task
 Referenced clip resource failed to load or is invalid: %s
@@ -3100,12 +3039,9 @@ Scale INV R%d <- R%d / R%d
 Scale R%d <- R%d * R%d
 Script Component
 Selected Option
-SelectorInstanceData_t
 SelectorNode
-Self
 Sequence out of range: %d
 Sequence( %s, %.3f ) : %.3f
-SequenceData
 Set the number of elements in the array.
 SetBlackboardReference BR%d (%s) <- R%d 
 SetVar V%d (%s) <- R%d
@@ -3117,7 +3053,6 @@ Sine of angle. Input in radians, output in radians
 Slope Angle (World)
 Slope Component
 Slope Direction (World)
-SlopeData
 Snap Frame (%s)
 Solid Collision at Zero Weight
 Solved
@@ -3153,7 +3088,6 @@ StateMachineNode
 Steps Remaining
 Stop Timer
 Stop any active timers - the completed outflow will still fire
-Stop/Start Planted Turn
 String Length
 Strings Are Equal Case Sensitive
 Sub R%d <- R%d - R%d
@@ -3178,7 +3112,6 @@ Target Warp: XY warp curve blowout detected! Falling back to LERP!
 Target Warp: trying to XY warp a section with no displacement, falling back to LERP!
 Target Warp: trying to XY warp to under the distance threshold, falling back to LERP!
 Target warp exceed accurate sampling error threshold! Switching to inaccurate sampling!
-TargetSelectorInstanceData_t
 TargetSelectorNode
 Test Mode Assert True
 TestCheckpoint: %s
@@ -3224,7 +3157,6 @@ Virtual Parameter
 WARNING: Failed to convert introspected block for file: %s\n
 WARNING: Invalid resource version (%d): %s\n
 Wait Complete
-Wait Until
 Warning: %s (%d) - %s\n
 Warp
 Warp XY
@@ -3232,13 +3164,10 @@ Warp XYZ
 Warp Z
 Warp attempted for animation with invalid warp events!
 Warping orientation progress %f
-Weapon
 Weight: %.2f%%
 Weights
 When False
 When True
-While active, manage child cursors based on the results of a boolean condition. When the observable result changes, the prior cursor will be canceled and the appropriate outflow will fire a new child cursor. Will monitor continuously until externally canceled.
-Will offset the warped root motion if we are pass warp events
 World Vector To Vector
 World space tilt normal
 Write Cached Pose
@@ -3314,9 +3243,6 @@ attachment_type_cp1
 attr_factory
 bInherit
 bValue
-bWasAnObservableComputation
-b_action_restart
-b_movement_type_restart
 bentnormal
 biased
 bindPose
@@ -3637,11 +3563,7 @@ cycle
 deg2rad
 detach_from_owner
 domain_scope
-eLean
-eUseStartAsPlantedTurn
-e_action_desired
 e_action_desired_shared
-e_movement_type_desired
 e_movement_type_desired_shared
 element
 elems
@@ -3716,164 +3638,48 @@ lerp
 log2
 lowprecisionuv
 lowprecisionuv1
-m_Always
-m_AnimOverlay
 m_EndEffectorFixedOffsetAttachment
 m_Format
 m_HingeAxis
 m_ParentJoint
 m_PoleVectorForAxis
-m_Rotation
-m_SequenceCycleZeroTime
 m_Stops
 m_TagValue
-m_TargetOrientation
-m_alignmentBoneID
 m_attachments
-m_bAwaken
 m_bBakedTwoSided
 m_bCanBatchWithDynamicShaderConstants
 m_bConditionValue
 m_bDrawLast
 m_bFirstEvaluate
-m_bForceFacing
-m_bGoalChanged
 m_bHasBakedLightingFromLightMap
 m_bHasBakedLightingFromVertexStream
-m_bHasPath
-m_bIsClient
 m_bIsNotMatchedToMaterial
-m_bIsPredicted
 m_bNoShadow
-m_bOnGround
 m_bOnlyShadow
 m_bParentJointRequiresAlignment
-m_bResetPending
-m_bStopUpdatingWaypointPos
-m_bStopping
-m_bTagDispatchDirty
-m_bTeleported
 m_bUseCompressedNormalTangent
 m_bUseNewPoleVectorForAxis
 m_bUseShadowFastPath
-m_choicePreviousCycle
-m_currentChoice
-m_currentIndex
-m_currentIndexStartTime
-m_currentSelection
-m_currentSequenceData
-m_currentSequenceIndex
-m_currentStateStartTime
-m_currentTransitionIndex
-m_cycle
-m_dampedTurnValue
-m_dampedValue
-m_deltaTransform
 m_deltaTransform\t\t\t\t[%f] [%s]
 m_eRbfType
 m_externalMethodTargetGraph
-m_finalLocalToWorld
-m_flBoundaryRadius
-m_flClipStartTime
-m_flCurrentMoveSpeed
-m_flCycleUnclamped
-m_flCycleZeroTime
-m_flDampedValue
-m_flFacingHeading
-m_flForcedCycle
-m_flGoalDistance
-m_flHertz
-m_flInterpEndTime
-m_flKillDelay
-m_flKillRate
-m_flLastPathTime
-m_flLastTimeStep
 m_flMaxRadians
 m_flMinRadians
-m_flNextAnimTime
-m_flPredictionScale
-m_flPrevAnimTime
-m_flPrevCycleUnclamped
 m_flSlopeIncoming
 m_flSlopeOutgoing
-m_flStartHeadingWS
-m_flTargetFacing
-m_flTargetMoveSpeed
-m_flTimeInState
-m_flTurnAmount
-m_flValueX
-m_flValueY
-m_goalWayPointPos
 m_hGraphDefinition->m_instanceRequiredMemory > 0
 m_hitboxsets
 m_influenceFlags
-m_leftEffectorBoneID
-m_leftTarget
-m_leftTargetTransform
 m_morphSet
-m_nActiveMotorIndex
-m_nBlackboardIndex
-m_nConfigIndex
 m_nCurrStackSize
 m_nCurrentWakeIndex
-m_nFacingMode
 m_nGraphID
-m_nLeftEffectorBoneIdx
-m_nLeftTargetBoneIdx
-m_nLeftTargetNodeIdx
-m_nMeshoptMeshletEncodeVersion
-m_nOrder
-m_nParameterNodeIdx
-m_nRightEffectorBoneIdx
-m_nRightTargetBoneIdx
-m_nRightTargetNodeIdx
-m_nSample
 m_nSequenceTagIndex
-m_nTrackReadOffset
-m_optionIDs
 m_pIsHandshakeDisabled
-m_prevLocalToWorld
-m_prevStateIndex
-m_previousChoice
-m_previousIndex
-m_previousSelection
 m_qFixupRotation
 m_rbfParameters
-m_resetCount
-m_rightEffectorBoneID
-m_rightTarget
-m_rightTargetTransform
 m_sLastSequenceName
-m_sRole
-m_scheduledTransitionIndex
-m_sequences
 m_stack
-m_startingLocalToWorld
-m_stateWeights
-m_supportedSecondarySkeletons
-m_targetUpdateRule
-m_turnAmount
-m_updateID
-m_vAcceleration
-m_vAccelerationWS
-m_vFacingPosition
-m_vInputVectorWS
-m_vLookTarget
-m_vMSRootMotionAnlyzerTarget
-m_vManualFacingDirection
-m_vManualFacingTarget
-m_vMoveDir
-m_vMovement
-m_vPrevFacingPosition
-m_vSlopeNormal
-m_vTransitionVelocityDeltaWS
-m_vUpOverride
-m_vVelocity
-m_vVelocityMS
-m_vVelocityWS
-m_vWaypointPosWS
-m_vecPairedSequences
-m_xLastPredictedTransformsDeltas
 matrix3x4_t
 matrix3x4a_t
 maxStretch

@@ -18509,7 +18509,6 @@ dingen.no
 dinosaur.museum
 direct
 direct.quickconnect.to
-direction
 directionChanged
 directory changed
 directoryChanged

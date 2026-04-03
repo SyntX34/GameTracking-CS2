@@ -1224,7 +1224,6 @@ Rep=%d/%d, Seg=%d/%d
 Repaint Rate
 ResetCarouselMouseWheelCounts
 ResetToDefaultValue
-Resets the panorama console to its default size and position
 ResizeDragTarget
 ReverseSorted
 RevertButton
@@ -1807,7 +1806,6 @@ desiredlayoutheight
 desiredlayoutwidth
 dimgray
 dimgrey
-direction
 disableactivatepause
 disableaudio
 disabled by parent
@@ -2175,7 +2173,6 @@ panorama::CTextEntry::IME_SetSelection
 panorama::CTextEntry::IME_SetWideCursor
 panorama::CTextEntry::IME_ShowList
 panorama::panel_fatal_cast
-panorama_console_reset_size_and_position
 panoramasymbol
 panoramauiclient.dll
 papayawhip

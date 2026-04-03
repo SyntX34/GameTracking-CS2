@@ -39283,7 +39283,6 @@ JsonIsRawJson
 JsonParse
 JsonRawJson
 JsonStringify
-Jump
 JumpConstant
 JumpConstantExtraWideHandler
 JumpConstantHandler
@@ -46349,7 +46348,6 @@ dirXml
 direct recursion
 direct_handle
 direct_local
-direction
 direction_string
 directly tier up to Sparkplug code
 directory to dump generated TurboFan IR to

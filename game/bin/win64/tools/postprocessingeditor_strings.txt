@@ -2714,7 +2714,6 @@ Addr
 Address
 AdobeDeflate
 All Files (*)
-All values connected to this node must be 'observable'. Variables on this graph will be automatically promoted to observable. Other value nodes must take an explicit context, look for those nodes with a corresponding icon.
 Alpha decoder initialization failed.
 Alpha:
 Always
@@ -3562,9 +3561,6 @@ Find all the yielded cursors on this graph with the matching tag and cancel them
 Find first element 'a' which compare equal to 'element' and return its index.
 Find:
 FinishDragDropLayerMove
-Fired immediately when this node begins for chaining purposes.
-Fired when the observable boolean is false, and killed when true.
-Fired when the observable boolean is true, and killed when false.
 Fixed
 Float To Game Time
 FloatBitMap_t: Error loading %s\n
@@ -3939,7 +3935,6 @@ Mod R%d <- R%d %% R%d
 ModalBrowse
 Modify layer %s
 Modify layer mask %s
-Monitor Observable
 Mouse4
 Mouse4DoubleClick
 Mouse5
@@ -4051,7 +4046,6 @@ NumberOfInks
 O?inverted@QTransform@@QEBA?AV1@PEA_N@Z
 O\v?event@QMdiArea@@MEAA_NPEAVQEvent@@@Z
 Oa?width@QImage@@QEBAHXZ
-Observable
 OkClicked
 Old-style JPEG
 Old-style LZW codes, convert file
@@ -4911,14 +4905,12 @@ WARNING: VNotify abandoned after too many attempts:\n%s\n
 WDG,r3
 WIDGET DEBUGGER DELETING widget: 0x%p\n
 Wait Complete
-Wait Until
 WarnTrailingWhitespace
 Warning (problem that doesn't prevent forward progress)
 Warning!
 Warning: This text ends with whitespace
 When False
 When True
-While active, manage child cursors based on the results of a boolean condition. When the observable result changes, the prior cursor will be canceled and the appropriate outflow will fire a new child cursor. Will monitor continuously until externally canceled.
 White Point
 WhiteLevel
 WhitePoint
@@ -5266,7 +5258,6 @@ bR?metaObject@QDoubleValidator@@UEBAPEBUQMetaObject@@XZ
 bUndoRecord
 bValid
 bValue
-bWasAnObservableComputation
 bWasModified
 b\v?currentIndex@QItemSelectionModel@@QEBA?AVQModelIndex@@XZ
 b\v?event@QSplitter@@MEAA_NPEAVQEvent@@@Z
@@ -5528,7 +5519,6 @@ lowprecisionuv
 lowprecisionuv1
 mX?setBlueF@QColor@@QEAAXN@Z
 m\f?frameGeometry@QWidget@@QEBA?AVQRect@@XZ
-m_Always
 m_Bindings
 m_Context
 m_InputMacros
@@ -5553,7 +5543,6 @@ m_externalMethodTargetGraph
 m_flSlopeIncoming
 m_flSlopeOutgoing
 m_hDef
-m_nBlackboardIndex
 m_nCurrentWakeIndex
 m_nCursorID
 m_nGraphID

@@ -19251,7 +19251,6 @@ All matching entities are hidden
 All prefabs referencing maps used by the selected prefabs will be reloaded from disk. Any unsaved changes will be lost. Are you sure?\n
 All selected edges must be open in order to bridge edges
 All selected edges must belong to at most two different meshes
-All values connected to this node must be 'observable'. Variables on this graph will be automatically promoted to observable. Other value nodes must take an explicit context, look for those nodes with a corresponding icon.
 AllLighting
 AllSelected
 Allocation of the face failed (not a topology failure).
@@ -19328,7 +19327,6 @@ And R%d <- R%d && R%d
 Angle Limit
 Angle Streams In Radians
 Angle Threshold
-Angle at closed edge of face.
 Angle:
 Angular Damping
 Angular Damping Ratio
@@ -21711,7 +21709,6 @@ CSmartPropAttributeLocatorName
 CSmartPropAttributeMaterialGroup
 CSmartPropAttributeMaterialName
 CSmartPropAttributeModelName
-CSmartPropAttributeOrientationMode
 CSmartPropAttributeStateName
 CSmartPropAttributeString
 CSmartPropAttributeSurfaceProperty
@@ -21719,7 +21716,6 @@ CSmartPropAttributeVariableValue
 CSmartPropAttributeVector
 CSmartPropAttributeVector2D
 CSmartPropAttributeVector4D
-CSmartPropElement_PlaceOnMesh
 CSmartPropExprAPI::EvaluationDepth
 CSmartPropExprAPI::InstanceCount
 CSmartPropExprAPI::InstanceIndex
@@ -21761,13 +21757,8 @@ CSmartPropPulse_SelectionChoiceWeight::CheckRequirement
 CSmartPropPulse_SelectionEndCap::CheckRequirement
 CSmartPropPulse_SelectionLinearLength::CheckRequirement
 CSmartPropPulse_SmartProp::Run
-CSmartPropSelectionCriteria_EdgeAngleCriteria
-CSmartPropSelectionCriteria_MaterialCriteria
-CSmartPropSelectionCriteria_TopoEdgeCountCriteria
-CSmartPropSelectionCriteria_VertexCountCriteria
 CSmartPropVariableComparison
 CSmartPropVariableValue
-CSmartPropVariable_OrientationMode
 CSphereManipulator
 CSprayedDataPresetElement*
 CStaticPointManipulator
@@ -23694,7 +23685,6 @@ Detail Mesh
 Detail Objects
 DetailDistance
 DetailProps:LoadModels
-Determine how child elements are oriented when mapped to face.
 Deterministic Charting Computations (slow)
 Dhq0\ri
 DialogCancelled
@@ -24455,7 +24445,6 @@ Ease in/out
 East
 EatEscapeKeyPress
 Edge Arc Tool
-Edge Count
 Edge Cut
 Edge Cut Tool
 Edge Dilation
@@ -24613,7 +24602,6 @@ EndU
 EndUpdate
 EndV
 EndWheelSequence
-Enforce Shared Vert
 Engine
 Engine '%1'
 Engine2/RenderingPipeline/DitheredLOD
@@ -25108,8 +25096,6 @@ FIPS_CIPHER_CTX_SET_KEY_LENGTH
 FIPS_DIGESTINIT
 FIPS_MD_CTX_COPY
 FIPS_mode_set
-FIRST_CLOSED_EDGE
-FIRST_OPEN_EDGE
 FLAT_OVERLAY_COLOR
 FN|p
 FORCE_UINT
@@ -25320,10 +25306,6 @@ Files to Checkin:
 Fill Hole
 FillOrder
 Film
-Filter Edges by Angle
-Filter Faces By Material
-Filter Faces By Open Edges
-Filter Faces By Vertex Count
 Filter Part
 Filter Probability
 Filter Surface Angle
@@ -25381,14 +25363,9 @@ FinishPaste
 FinishTool
 Finished searching for '%s'.
 Fire once only
-Fired immediately when this node begins for chaining purposes.
-Fired when the observable boolean is false, and killed when true.
-Fired when the observable boolean is true, and killed when false.
-First Closed Edge
 First Control Point Location
 First Control Point Number
 First Control Point Parent
-First Open Edge
 First Point
 Fit Both
 Fit Texture
@@ -25681,7 +25658,6 @@ GPU Ray Tracing Visualization
 GPU Ray Tracing Visualization Mode
 GPU Reference Path Tracer
 GPU ray tracing support required for GPU lightmap baking. If you're seeing this message despite having raytracing-capable graphics hardware, try updating your graphics driver.
-GPUParticleCollisionMode_t
 GRAPHICSTRING
 GREATER
 GREATER_OR_EQUAL
@@ -25919,7 +25895,6 @@ GroomGroup
 GroomInfo
 GroomMeshFile
 GroomMetaData
-Ground
 Ground Friction
 Ground Height
 Ground Softness ("world friction" in Source1)
@@ -26240,7 +26215,6 @@ HullParams
 HullPerElement
 HullPerMesh
 Hybrid
-Hybrid RT + Depth Buffer
 H{1S
 I ?toggleViewAction@QDockWidget@@QEBAPEAVQAction@@XZ
 I"9|OxTex
@@ -26694,7 +26668,6 @@ Inverse
 Inverse ModelDoc Scale
 Inverse Multi Quadratic
 Inverse Threshold
-Invert
 Invert Abs Value
 Invert Aspect
 Invert Axes
@@ -26746,8 +26719,6 @@ ItemIsolateView
 ItemIsolateVignette
 ItemSlotAny
 ItemsFiles
-Iterate through faces with 'n' open edges (edges with only one neighboring face).
-Iterate through faces with target vertex count.
 Iterate to Element
 IterateClipMode
 Iterations
@@ -27002,7 +26973,6 @@ LbWf
 Leader Bone
 Leaf Only
 Leaking %i elements\n
-Lean
 Leap to Chunk C%d
 Leave Body Collision Unmodified
 Left Edge
@@ -27263,7 +27233,6 @@ Loop End Frame
 Loop FPS
 Loop Start Frame
 Loop cut mode
-Looping
 Los file: '%s' is older than the vpk file. The lines of sight data may be out of date. Rebuild the map locally to update.
 LowPrecisionUv
 LowPrecisionUv1
@@ -27748,7 +27717,6 @@ Minimum height reached, cannot lower ground height
 Minimum of two values (float)
 Minimum of two values (int)
 Minimum radius for created lights
-Minimum scale to apply to the model based on the final material layer blend weight. The model will be given this scale value when the layer blend weight equals the minimum blend weight and will be 1.0 when the maximum blend weight has been reached. The minimum of the detail and blend weight scale values is multiplied with the random scale value to determine the final scale. Set this if you want the model to scale up as the material blend fades in. The smaller the value, the smaller the model will start as the material begins to fade in.
 Minimum segment length %
 MinimumExpanding
 Mirror
@@ -27863,7 +27831,6 @@ ModifyObject
 Module32First
 Module32Next
 Modulus:
-Monitor Observable
 More than one env_tonemap_controller found, ignoring this one and assuming first one found is the master.\n
 Morph
 Morph Channel Name
@@ -28659,7 +28626,6 @@ Objects
 Objects To Include
 Objs Rendered
 Objs fading
-Observable
 OccludedColorA
 OccludedColorB
 Occlusion Deviation
@@ -28753,6 +28719,7 @@ OnBrushRadiusValueChanged
 OnButtonClicked
 OnCancel
 OnCancelled
+OnCellChanged
 OnCellDoubleClicked
 OnChannelSelectionChanged
 OnCheckboxClicked
@@ -28763,6 +28730,7 @@ OnClose
 OnCollapseWidgetToggled
 OnCollapseWidgetToggledByUser
 OnColorAccepted
+OnColorChanged
 OnColorPicked
 OnColorSamplePicked
 OnColorTintChanged
@@ -29165,10 +29133,6 @@ Orient toward child bone.
 Orient toward parent bone.
 OrientPrimitives
 OrientPrimitivesChanged
-Orientation Mode
-Orientation of child elements placed on faces will be driven by orthonormalized UV basis at face center. U axis is prioritized during orthonormalization.
-Orientation of child elements placed on faces will be driven by position of center of first closed edge relative to face center.
-Orientation of child elements placed on faces will be driven by position of center of first open edge relative to face center.
 Origin = (%1,%2,%3)
 Origin and angles are often linked together. Do you also want to link them both?
 Original Bone Name
@@ -29300,9 +29264,6 @@ PARSE_BAG
 PARSE_BAGS
 PARSE_HTTP_LINE1
 PARSE_TAGGING
-PARTICLE_GPU_COLLISION_MODE_DEPTH
-PARTICLE_GPU_COLLISION_MODE_HYBRID
-PARTICLE_GPU_COLLISION_MODE_RT
 PATHBYADDR
 PATH_TRACE
 PBE-MD2-DES
@@ -29353,7 +29314,6 @@ PEM_read_bio_Parameters
 PEM_write
 PEM_write_bio
 PF\n%d %d\n-1.000000\n
-PF_TYPE_SNAPSHOT_CHANGED
 PGr]
 PHAG2
 PHhn}Y
@@ -29477,7 +29437,6 @@ PLUG_TYPE_RELAY_PREFAB_INBOUND
 PLUG_TYPE_RELAY_PREFAB_LOCAL
 PLUG_TYPE_RELAY_PREFAB_OUTBOUND
 PLUG_TYPE_UNKNOWN
-POINT
 POISONED 
 POLICYINFO
 POLICYQUALINFO
@@ -29509,7 +29468,6 @@ PSPECIFIED
 PUBLIC KEY
 PURH
 PUT 
-PVEC_TYPE_PARTICLE_GRAVITY
 P\f?font@QTableWidgetItem@@QEBA?AVQFont@@XZ
 P\v5Pd
 P\v?event@QMdiSubWindow@@MEAA_NPEAVQEvent@@@Z
@@ -29844,7 +29802,6 @@ PivotPaint
 PivotToolSnapToBBox
 PixarLog
 Place
-Place Children on Mesh Components.
 Place Locator
 Place Locator Tool
 Place Objects
@@ -29856,7 +29813,6 @@ Place Prop
 Place Tree
 Place cut
 Place on Floor
-Place on Mesh
 Place these under a PhysicsHullFromPoints node to build a custom-shaped hull from scratch, or place under a PhysicsHullFile node to modify an existing hull.
 PlaceCut
 PlaceInSphere Parent Cursor
@@ -30066,7 +30022,6 @@ Primary Aim At
 Primary Aim Origin
 Primary Associated Entity
 Primary Root Bone
-Primary View Depth Buffer
 Primary activity for this animation.  To add an activity modifier, add an ActivityModifier child node.<p><span style="color:#ffff00"><b>NOTE</b></span>: Animgraph animations should not use activities or activity weights.
 Primary:
 PrimaryChromaticities
@@ -30577,7 +30532,6 @@ RawGameKeys
 Ray trace world build failed; skipping rendering\n
 RayTracingEnvironment::RefineNode
 RayTracingEnvironment::RefineNodeJob
-Raytracing TLAS
 Rbg.E
 Re-Center Pivot (to Selection)
 Re-Evaluate selected
@@ -30988,7 +30942,6 @@ RequiredGameEntities
 RequirementPort
 Requirement_ExternalPort
 Rescale textures during replace
-Reset
 Reset '%s' to default
 Reset Configuration
 Reset Face Normals
@@ -31180,7 +31133,6 @@ Rotation Weight
 Rotation Yaw Flip Random
 Rotation Yaw Random
 Rotation from CP forward orientation
-Rotation scale
 RotationScale
 RotationSnapAngle
 RotationSnappingEnabled
@@ -32472,7 +32424,6 @@ SmartPropAttributeEditor(SurfaceProperty)
 SmartPropAttributeEditor(angles)
 SmartPropAttributeEditor(bool)
 SmartPropAttributeEditor(color)
-SmartPropAttributeEditor(enum:SmartPropPlaceMeshOrientationMode_t)
 SmartPropAttributeEditor(float)
 SmartPropAttributeEditor(integer)
 SmartPropAttributeEditor(locator)
@@ -32485,7 +32436,6 @@ SmartPropAttributeEditor(vector3)
 SmartPropAttributeEditor(vector4)
 SmartPropEval
 SmartPropInstanceRendering
-SmartPropPlaceMeshOrientationMode_t
 SmartPropReferences
 SmartPropVariableValueEditor( comparison )
 SmartPropVariableValueEditor()
@@ -32798,7 +32748,6 @@ Stop On Sequence Change
 Stop Simulation
 Stop Timer
 Stop any active timers - the completed outflow will still fire
-Stop/Start Planted Turn
 StopSendingCameraTo
 StopSound
 StoreFileRemapping: Unable to calc relative path for file %s\n
@@ -33044,12 +32993,10 @@ Target Name
 Target Node
 Target Objects
 Target Triangle Percent
-Target Vertex Count
 Target Warp Location
 Target Warps
 Target entities named
 Target layer ID for rendering
-Target material name.
 Target:
 TargetComboBoxChoiceChanged
 TargetGroup
@@ -33853,8 +33800,6 @@ UTF8String
 UUUUUUUUUUUUUU<o(
 UUUUUUUUUUUa\f\v
 UV Attribute Simplification Weight
-UV Channel 1
-UV Channel 2
 UV Map Box
 UV Map Cylinder
 UV Map Duplicate
@@ -33866,8 +33811,6 @@ UV Set:
 UV Set: All
 UV Set: UV1
 UV Set: UV2
-UVMAP1
-UVMAP2
 UVSet1FastTextureOp
 UVSet2FastTextureOp
 U\8h(
@@ -34134,7 +34077,6 @@ Updating window size to preserve settings for maximized window:\n
 Use Best Size Match
 Use Block Solver
 Use Child Offset Attachment
-Use Closed Edges
 Use Continuous Emission
 Use Curvature Drop
 Use Custom Changelist
@@ -34562,7 +34504,6 @@ WTLS curvs over a 224 bit prime field
 WZTR
 W\noB
 Wait Complete
-Wait Until
 WarnTrailingWhitespace
 Warning %s(%d) : skeleton : can't find joint %d\n
 Warning (problem that doesn't prevent forward progress)
@@ -34657,10 +34598,6 @@ When enabled, the normals of the final surface will use the normals from the bas
 When picking between random choices, determines odds this choice is picked compared to others. (eg. a weight of 2 is twice as likely to be picked as weight of 1)
 When this breakpiece breaks, should it be able to intersect with the parent that spawned it?
 When this model is loaded preserve vertex data in CPU memory.
-When true, discard edges within the angle threshold.
-When true, discard faces with matching material.
-When true, only consider open/closed edges that share a vert with another open/closed edge.
-When true, we only consider closed edges (edges with exactly two neighboring faces).
 Whether or not to import bone scales.  False by default (i.e. override bone scales to 1.0) for legacy compatibility.  Only applicable to fbx files.
 Whether the local hierarchy will use ease in/out values or just automatically apply for the entire frame range
 Whether the to use the curve or just a set value for the entire frame range
@@ -34668,7 +34605,6 @@ Whether this distance field contributes to AO.
 Whether this distance field is a collider for certain effects such as hair simulation.
 Whether to continue executing
 Which solver to use for positioning the IK chain.  Required.
-While active, manage child cursors based on the results of a boolean condition. When the observable result changes, the prior cursor will be canceled and the appropriate outflow will fire a new child cursor. Will monitor continuously until externally canceled.
 WhiteLevel
 WhiteOnBlack
 WhitePoint
@@ -36258,7 +36194,6 @@ bUserEdit
 bValue
 bVisible
 bV}TS
-bWasAnObservableComputation
 bWasModified
 bWrapValueIn
 b\fzUkm
@@ -36266,7 +36201,6 @@ b\v?event@QSplitter@@MEAA_NPEAVQEvent@@@Z
 b\vP\n0
 b\vp\nP
 b]jY
-b_movement_type_restart
 b_override_timing
 backFacingAngle
 back_solve_influence_threshold
@@ -37187,7 +37121,6 @@ could not set engine
 could not set time
 could not unload the shared library
 count mul (%.1f,%.1f)
-counter
 counter:
 countersignature
 countryName
@@ -37591,7 +37524,6 @@ dimensions_key
 dimmer
 dinfo
 dirName
-direction
 directlight
 directory services (X.500)
 directory services - algorithms
@@ -37803,18 +37735,15 @@ eC z
 eContent
 eContentType
 eGenerateResourceNameFromFileName: Invalid extension specified in file name "%s"!\n
-eLean
 eN.d\tA
 eNULL
 eODj
 eTU\n
-eUseStartAsPlantedTurn
 eXQd
 e\f?foregroundRole@QWidget@@QEBA?AW4ColorRole@QPalette@@XZ
 e\n?dragEnterEvent@QAbstractItemView@@MEAAXPEAVQDragEnterEvent@@@Z
 e\tcCPtH
 e\v?event@QStatusBar@@MEAA_NPEAVQEvent@@@Z
-e_movement_type_desired
 e_navlink_type
 early exit while reading obj file containing embedded null\n
 ease_in
@@ -38435,7 +38364,6 @@ flRandomScaleMax
 flRandomScaleMin
 flRandomness
 flRoll
-flRotationScale
 flScale
 flSkewAngle
 flSkewStrength
@@ -40259,7 +40187,6 @@ k8xA
 kDHE
 kDHd
 kDHr
-kDisableShadows_ReallyNone
 kECDH
 kECDHE
 kECDHe
@@ -40634,7 +40561,6 @@ m\ta=\ruWb
 m_ActiveValue
 m_AdditionalInputDependencies
 m_AdditionalRelatedFiles
-m_Always
 m_ArgumentDependencies
 m_BaseClasses
 m_Bindings
@@ -40685,7 +40611,6 @@ m_LocatorConfig
 m_LongName
 m_MaterialOverrideTables
 m_MaterialTintTables
-m_MeshName
 m_MeshResourceName
 m_MetaData
 m_NavAreas.Count() < CNavMarkerData::MAX_ELEMENTS
@@ -40771,7 +40696,6 @@ m_bRenderProbeRadius
 m_bRotation
 m_bSequence
 m_bSequence1
-m_bSharedVert
 m_bShowCompressedIR
 m_bShutdown
 m_bStiff
@@ -40842,7 +40766,6 @@ m_n3DSliceCount
 m_n3DSliceHeight
 m_n3DSliceWidth
 m_nAxis
-m_nBlackboardIndex
 m_nCP1Parent
 m_nCP2Parent
 m_nCP3Parent
@@ -40878,7 +40801,6 @@ m_nIterations
 m_nLegacyDefaultInt
 m_nMaterialOverrideTableIndex
 m_nMaterialTintTableIndex
-m_nMeshoptMeshletEncodeVersion
 m_nMinBitsPerChannel
 m_nMotionVectorsMaxDistanceInPixels
 m_nMovableIndex
@@ -40893,8 +40815,6 @@ m_nProbeType
 m_nResourceNameIndex
 m_nSelectedProbeType
 m_nStackDepthWhenAdded
-m_nTargetOpenEdgeCount
-m_nTargetVertexCount
 m_nUserData
 m_nYieldToken
 m_outputClearColor
@@ -41304,7 +41224,6 @@ mmmmmaaaaammmmmaaaaaabcdefgabcdefg
 mmnmmommommnonmmonqnmmo
 mobileTelephoneNumber
 model override CP
-modelName
 modelPath
 modelVertexData
 model_archetype
@@ -43750,7 +43669,6 @@ speed_range
 speeds
 spew_stats
 spewresult
-sphere
 sphereManipulator
 sphere_indices
 sphere_verts

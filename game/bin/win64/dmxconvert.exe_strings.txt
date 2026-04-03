@@ -628,7 +628,6 @@ Remap Distance Between Two Control Points to Scalar
 Remap Distance to Control Point to Scalar
 Remap Noise to Scalar
 Remap Scalar
-Reset
 RigArms
 RigBody
 RigConstraints
@@ -835,7 +834,6 @@ defaultRightValue
 defaultValue
 defaultcurvetype
 defaultedgezerovalue
-direction
 directlight
 disableShadows
 disableShadows2

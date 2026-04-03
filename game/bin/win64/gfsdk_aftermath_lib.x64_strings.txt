@@ -2254,7 +2254,6 @@ Decorate
 DecorateId
 DecorateString
 DecorationGroup
-Degrees
 DemoteToHelperInvocation
 DemoteToHelperInvocationEXT
 DenormFlushToZero
@@ -4018,7 +4017,6 @@ ReserveReadPipePackets
 ReserveWritePipePackets
 ReservedReadPipe
 ReservedWritePipe
-Reset
 Residency
 ResidentInSharedMemory
 Resource Pointer/Handle

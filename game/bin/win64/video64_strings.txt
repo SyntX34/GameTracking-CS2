@@ -7626,7 +7626,6 @@ could not unload the shared library
 count == 0 || s1 != NULL
 count == 0 || s2 != NULL
 count >= 0
-counter
 counter:
 countersignature
 countryCode3c

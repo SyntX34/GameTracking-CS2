@@ -872,7 +872,6 @@ m_Retiming
 m_Rules
 m_SoundEventScripts
 m_VcdLists
-m_actorName
 m_additionalTemplateResponseLines
 m_bApplyContextToWorld
 m_bBakedTwoSided

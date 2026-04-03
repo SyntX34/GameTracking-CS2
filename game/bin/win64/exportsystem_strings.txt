@@ -1559,7 +1559,6 @@ Maya
 Mesh
 Mesh     :: 
 MeshUtils
-Minimum scale to apply to the model based on the final material layer blend weight. The model will be given this scale value when the layer blend weight equals the minimum blend weight and will be 1.0 when the maximum blend weight has been reached. The minimum of the detail and blend weight scale values is multiplied with the random scale value to determine the final scale. Set this if you want the model to scale up as the material blend fades in. The smaller the value, the smaller the model will start as the material begins to fade in.
 Model    :: 
 MorphOperator::Operate: invalid delta state name: %s\n
 Movement Basic
@@ -1645,7 +1644,6 @@ Remap Noise to Scalar
 Remap Scalar
 Render Bone "%s" Not Found In Fbx Skeleton, Call Convert( CSkeletonPose ) first
 Render Bone "%s" Not Found In Specified CSkeletonPose
-Reset
 Resource "%s" requested out of bounds animation decompressor "%d"\n
 Resource "%s" requested unknown animation decompressor "%s"\n
 RigArms
@@ -1987,7 +1985,6 @@ deltaStateWeights
 deltaStateWeightsLagged
 deltaStates
 depthOfFieldSamples
-direction
 directlight
 disableOverride
 disableShadows

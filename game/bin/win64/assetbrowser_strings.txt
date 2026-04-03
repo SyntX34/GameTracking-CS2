@@ -3178,7 +3178,6 @@ Addr
 Address
 AfterDataModelsUpdated
 Alignment of STRETCH will be ignored due to FixedSize property
-All values connected to this node must be 'observable'. Variables on this graph will be automatically promoted to observable. Other value nodes must take an explicit context, look for those nodes with a corresponding icon.
 AllSelected
 Allow camera fly mode
 Alpha:
@@ -4038,9 +4037,6 @@ Find all the yielded cursors on this graph with the matching tag and cancel them
 Find first element 'a' which compare equal to 'element' and return its index.
 Find:
 FindItemsOverlapping
-Fired immediately when this node begins for chaining purposes.
-Fired when the observable boolean is false, and killed when true.
-Fired when the observable boolean is true, and killed when false.
 FitAllInView
 Fix Assets?
 Fix selected assets...
@@ -4375,7 +4371,6 @@ ModelHighlightChanged
 ModelSortOrderChanged
 Modified: %s\n
 Mods
-Monitor Observable
 More Actions
 More Info
 Mouse4
@@ -4496,7 +4491,6 @@ OP?isNull@QIcon@@QEBA_NXZ
 OR List
 OR: This group will match if ANY of the parts match\n(Click to toggle to AND)
 Oa?width@QImage@@QEBAHXZ
-Observable
 OkClicked
 On Interval
 On True
@@ -5448,7 +5442,6 @@ WARNING: unhandled command '%s'\n
 WIDGET DEBUGGER DELETING widget: 0x%p\n
 WP?isNull@QTextCursor@@QEBA_NXZ
 Wait Complete
-Wait Until
 WarnAboutMissingFiles
 WarnAboutUncompiledFiles
 WarnTrailingWhitespace
@@ -5473,7 +5466,6 @@ Whether an item can be selected when the user draws a box on the canvas or not.
 Whether the background image repeats and how
 Whether the hittest region for an item should include its margin.
 Whether this item should propagate clicks to its ancestor items even when the click is outside their bounds. (Useful for flyout buttons)
-While active, manage child cursors based on the results of a boolean condition. When the observable result changes, the prior cursor will be canceled and the appropriate outflow will fire a new child cursor. Will monitor continuously until externally canceled.
 Widget Debugger
 Widget Properties
 WidgetAssetAcceptedByListener
@@ -5888,7 +5880,6 @@ bShow
 bToggled
 bValue
 bVisible
-bWasAnObservableComputation
 bWasModified
 b\v?event@QSplitter@@MEAA_NPEAVQEvent@@@Z
 background
@@ -6298,7 +6289,6 @@ lowprecisionuv1
 mX?setBlueF@QColor@@QEAAXN@Z
 m\f?frameGeometry@QWidget@@QEBA?AVQRect@@XZ
 m\n?dragEnterEvent@QPlainTextEdit@@MEAAXPEAVQDragEnterEvent@@@Z
-m_Always
 m_Bindings
 m_Context
 m_InputMacros
@@ -6319,7 +6309,6 @@ m_bUseShadowFastPath
 m_externalMethodTargetGraph
 m_flSlopeIncoming
 m_flSlopeOutgoing
-m_nBlackboardIndex
 m_nCurrentWakeIndex
 m_nGraphID
 m_tail != QUEUE_ITERATOR_INVALID

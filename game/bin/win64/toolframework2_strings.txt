@@ -11412,7 +11412,6 @@ Lc tu
 Lc@H
 Leader Bone
 Leaf Only
-Lean
 Leave Body Collision Unmodified
 Left pose, i.e. frame 0 from the 3 frame turn animation file with frame 1 subtracted :: %s
 Legacy Compatibility :: Ignores Pose Parameter and always blends with fixed_blend_val.\nSpecific to how the class CMDL : public IModelRenderHelper sets up pose parameters.\nInstead of 0, CMDL uses 0.5 as the default and also provides to API access to set the blend.\nThis results in all 1D/2D Blends rendered with CMDL using a fixed blend weight of 0.5.\nThe particle system uses CMDL to render models.\n
@@ -11492,7 +11491,6 @@ LookAtList
 Loop End Frame
 Loop FPS
 Loop Start Frame
-Looping
 LowerLine
 LowercaseBoneNames
 Lowest
@@ -11701,7 +11699,6 @@ MinSizeHint
 Minimal Bend
 Minimum
 Minimum Degrees
-Minimum scale to apply to the model based on the final material layer blend weight. The model will be given this scale value when the layer blend weight equals the minimum blend weight and will be 1.0 when the maximum blend weight has been reached. The minimum of the detail and blend weight scale values is multiplied with the random scale value to determine the final scale. Set this if you want the model to scale up as the material blend fades in. The smaller the value, the smaller the model will start as the material begins to fade in.
 MinimumExpanding
 Mirror
 Mirror X
@@ -12089,7 +12086,6 @@ P@3333
 PARENT
 PF\n%d %d\n-1.000000\n
 PHDZ
-POINT
 POSE_SPACE_BONE
 POSE_SPACE_MORPH
 PURH
@@ -12935,7 +12931,6 @@ Stiff Hinge Angle
 Stiffness on Ragdoll
 StoNits
 Stop On Sequence Change
-Stop/Start Planted Turn
 Stores metadata for groom meshes.
 Stray Boundary Radius
 Stray Boundary Spring
@@ -14631,8 +14626,6 @@ e:8A
 e?RR
 eDc?t
 eK6@
-eLean
-eUseStartAsPlantedTurn
 eZQ9\
 e\f?foregroundRole@QWidget@@QEBA?AW4ColorRole@QPalette@@XZ
 e\fbV
@@ -15508,7 +15501,6 @@ m_morphSet
 m_nFileCRC
 m_nFingerprint
 m_nFingerprintDefault
-m_nMeshoptMeshletEncodeVersion
 m_nUserData
 m_qFixupRotation
 m_rbfParameters
@@ -16299,7 +16291,6 @@ spectralon\n
 speed_range
 speeds
 spew_stats
-sphere
 spider
 spin_axis_friction
 spin_degrees

@@ -3223,7 +3223,6 @@ MinghuaQu
 MinghuaQu)
 MinghuaQuS
 MinghuaQuw
-Minimum scale to apply to the model based on the final material layer blend weight. The model will be given this scale value when the layer blend weight equals the minimum blend weight and will be 1.0 when the maximum blend weight has been reached. The minimum of the detail and blend weight scale values is multiplied with the random scale value to determine the final scale. Set this if you want the model to scale up as the material blend fades in. The smaller the value, the smaller the model will start as the material begins to fade in.
 Missing data block
 Missing snapshot buffer block
 MlT8
@@ -3948,7 +3947,6 @@ Remap Scalar
 Remove From CRL
 ReportEventW
 Require Explicit Policy
-Reset
 Resource Name:
 Resource Type: %s = %lld (0x%08llX) [Version %d]\n
 Resource references not allowed in EditInfo data: "%s"
@@ -5639,7 +5637,6 @@ could not obtain hardware handle
 could not set engine
 could not set time
 could not unload the shared library
-counter
 counter:
 countersignature
 countryName
@@ -5874,7 +5871,6 @@ digital envelope routines
 digitalSignature
 dinfo
 dirName
-direction
 directlight
 directory services (X.500)
 directory services - algorithms
@@ -7103,7 +7099,6 @@ m_fMoveTo
 m_nFileCRC
 m_nFingerprint
 m_nFingerprintDefault
-m_nMeshoptMeshletEncodeVersion
 m_nUserData
 m_pVertexData
 ma\v\r01!

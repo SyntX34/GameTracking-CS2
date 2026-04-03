@@ -3941,7 +3941,6 @@ AddonMapCommandIsAddonImplied
 AdobeDeflate
 Align To Axis
 Alignment
-All values connected to this node must be 'observable'. Variables on this graph will be automatically promoted to observable. Other value nodes must take an explicit context, look for those nodes with a corresponding icon.
 Allocation of the face failed (not a topology failure).
 Allow Deformation
 Allow entities that match criteria
@@ -3971,7 +3970,6 @@ Amount to multiply light brightness by
 Amount to multiply particle system radius by to get light radius
 AnalogBalance
 And R%d <- R%d && R%d
-Angle at closed edge of face.
 AnimatableSceneObjectDesc
 Animation Bone Flags
 Animation Configuration File
@@ -4634,7 +4632,6 @@ CSmartPropAttributeLocatorName
 CSmartPropAttributeMaterialGroup
 CSmartPropAttributeMaterialName
 CSmartPropAttributeModelName
-CSmartPropAttributeOrientationMode
 CSmartPropAttributeStateName
 CSmartPropAttributeString
 CSmartPropAttributeSurfaceProperty
@@ -4642,7 +4639,6 @@ CSmartPropAttributeVariableValue
 CSmartPropAttributeVector
 CSmartPropAttributeVector2D
 CSmartPropAttributeVector4D
-CSmartPropElement_PlaceOnMesh
 CSmartPropExprAPI::EvaluationDepth
 CSmartPropExprAPI::InstanceCount
 CSmartPropExprAPI::InstanceIndex
@@ -4684,13 +4680,8 @@ CSmartPropPulse_SelectionChoiceWeight::CheckRequirement
 CSmartPropPulse_SelectionEndCap::CheckRequirement
 CSmartPropPulse_SelectionLinearLength::CheckRequirement
 CSmartPropPulse_SmartProp::Run
-CSmartPropSelectionCriteria_EdgeAngleCriteria
-CSmartPropSelectionCriteria_MaterialCriteria
-CSmartPropSelectionCriteria_TopoEdgeCountCriteria
-CSmartPropSelectionCriteria_VertexCountCriteria
 CSmartPropVariableComparison
 CSmartPropVariableValue
-CSmartPropVariable_OrientationMode
 CSoundEmitterSystem:  Unknown attenuation key %s\n
 CSoundEmitterSystem:  Unknown sound level %s\n
 CSoundEmitterSystem:  Warning, unknown channel type in sounds.txt (%s)\n
@@ -5279,7 +5270,6 @@ Detach R%d
 Detail Objects
 DetailDistance
 DetailProps:LoadModels
-Determine how child elements are oriented when mapped to face.
 Didn't expect '=' for non-flags non-choices variable %s
 Diffuse lighting amount
 Dimensions InOut Fraction
@@ -5562,7 +5552,6 @@ EarlyRetireParticleSystems
 Ease In
 Ease In/Out
 Ease Out
-Edge Count
 EdgeCutAddedVerts
 EdgeCutAlignedEdge
 EdgeCutEdge
@@ -5605,7 +5594,6 @@ End Target
 End dot product value for fading as the particle normal becomes aligned with the view vector
 EndU
 EndV
-Enforce Shared Vert
 Entities/Paths
 Entities/Paths/Cables
 Entity
@@ -5815,8 +5803,6 @@ FAILED:\n
 FBXSystem001
 FGD Variable %s has bad default value %d (has bits set that are not valid choices)
 FILES UNKNOWN to the importer, may need support added (%d files):\n
-FIRST_CLOSED_EDGE
-FIRST_OPEN_EDGE
 FORCE_UINT
 FULL
 F_ADDBUMPMAPS
@@ -5963,10 +5949,6 @@ FileBrowse(Image)
 FileChangeNotifications
 FillOrder
 Film
-Filter Edges by Angle
-Filter Faces By Material
-Filter Faces By Open Edges
-Filter Faces By Vertex Count
 Filter Probability
 Filter Surface Angle
 Filter Using Exclusion Volumes
@@ -5988,14 +5970,9 @@ Fingers
 Fingers_L
 Fingers_R
 Finished culling! %d files removed from import list.\n
-Fired immediately when this node begins for chaining purposes.
-Fired when the observable boolean is false, and killed when true.
-Fired when the observable boolean is true, and killed when false.
-First Closed Edge
 First Control Point Location
 First Control Point Number
 First Control Point Parent
-First Open Edge
 Fixed Array Enums
 FixedArrayEnums
 Fixup Entity Names By Default
@@ -6065,7 +6042,6 @@ Function "%s" takes %i parameters, but %i were given
 G channel not found!\n
 G8R8_G8B8_UNORM
 GPSIFDOffset
-GPUParticleCollisionMode_t
 GREATER
 GREATER_OR_EQUAL
 Game Blackboards: 
@@ -6144,7 +6120,6 @@ GridSnappingEnabled
 GridSpacing
 GridVertexLayout
 Gridhigh64
-Ground
 Group (%d objects)
 Group ID to affect
 Group Inputs
@@ -6227,7 +6202,6 @@ Hull Per Mesh
 HullParams
 HullPerElement
 HullPerMesh
-Hybrid RT + Depth Buffer
 ICC Profile
 IDAG
 IDST
@@ -6424,7 +6398,6 @@ Invalid string value %s -- pick another one!\n
 Invalid tile size x : 
 Invalid tile size y : 
 InvalidStream
-Invert
 Invert Abs Value
 Invoke Cell%d [eid=%d] %s%s
 Invoke Lib %s
@@ -6439,8 +6412,6 @@ IsosurfaceTriangleIndices
 IsosurfaceWireframeIndices
 ItemFile
 ItemsFiles
-Iterate through faces with 'n' open edges (edges with only one neighboring face).
-Iterate through faces with target vertex count.
 Iterations
 J%f%f%f%f%f%f%f%f
 JPEG
@@ -6854,7 +6825,6 @@ Minimum Size Scale
 Minimum of two values (float)
 Minimum of two values (int)
 Minimum radius for created lights
-Minimum scale to apply to the model based on the final material layer blend weight. The model will be given this scale value when the layer blend weight equals the minimum blend weight and will be 1.0 when the maximum blend weight has been reached. The minimum of the detail and blend weight scale values is multiplied with the random scale value to determine the final scale. Set this if you want the model to scale up as the material blend fades in. The smaller the value, the smaller the model will start as the material begins to fade in.
 Minimum segment length %
 Mirror
 MirrorAcrossPlane
@@ -6881,7 +6851,6 @@ ModelHelper
 ModelInstance
 ModelMaterialGroupName()
 Modulate
-Monitor Observable
 More than one env_tonemap_controller found, ignoring this one and assuming first one found is the master.\n
 Morph
 MorphOperator::Operate: invalid delta state name: %s\n
@@ -7024,7 +6993,6 @@ Number of Sides
 NumberOfInks
 Object Spacing
 Objects
-Observable
 Occlusion Deviation
 Occlusion Path Ratio
 Occlusion Probe
@@ -7073,10 +7041,6 @@ Or R%d <- R%d || R%d
 Orient Rotation to 2D Direction
 Orient To Surface
 OrientPrimitives
-Orientation Mode
-Orientation of child elements placed on faces will be driven by orthonormalized UV basis at face center. U axis is prioritized during orthonormalization.
-Orientation of child elements placed on faces will be driven by position of center of first closed edge relative to face center.
-Orientation of child elements placed on faces will be driven by position of center of first open edge relative to face center.
 OriginalRawFileData
 OriginalRawFileName
 Oscillate Scalar
@@ -7121,9 +7085,6 @@ P9Z@
 P9x@
 PA0@
 PA6@
-PARTICLE_GPU_COLLISION_MODE_DEPTH
-PARTICLE_GPU_COLLISION_MODE_HYBRID
-PARTICLE_GPU_COLLISION_MODE_RT
 PAn@
 PB5@
 PBd@
@@ -7133,7 +7094,6 @@ PE5@
 PEr@
 PF5@
 PF\n%d %d\n-1.000000\n
-PF_TYPE_SNAPSHOT_CHANGED
 PGf@
 PGn@
 PGr@
@@ -7160,7 +7120,6 @@ PTn@
 PURH
 PUW@
 PV8@
-PVEC_TYPE_PARTICLE_GRAVITY
 PW1@
 PWp@
 PXp@
@@ -7283,8 +7242,6 @@ PixarLog
 Pjq@
 PkC@
 Place
-Place Children on Mesh Components.
-Place on Mesh
 PlaceInSphere Parent Cursor
 PlanarConfiguration
 Planarconfig tag value assumed incorrect, assuming data is contig instead of chunky
@@ -7384,7 +7341,6 @@ Preview MotionExtraction
 Preview Unit
 PreviewModelFade
 Previous Position
-Primary View Depth Buffer
 PrimaryChromaticities
 Probability
 Probability Weight
@@ -7529,7 +7485,6 @@ Ratio between shortest distance and pathing distance between the probes.
 RawDataUniqueID
 RayTracingEnvironment::RefineNode
 RayTracingEnvironment::RefineNodeJob
-Raytracing TLAS
 Re-Randomize Rate (-1 for once only)
 Re-orient camera on activation
 Reading externally referenced elements is not supported!\n
@@ -7658,7 +7613,6 @@ Required3dSkyboxEntities
 RequiredGameEntities
 RequirementPort
 Requirement_ExternalPort
-Reset
 Reset Scale
 Resetting value of tile property '%s' from invalid value '%s' to default value '%s'\n
 ResolutionGate
@@ -7997,7 +7951,6 @@ SmartPropAttributeEditor(SurfaceProperty)
 SmartPropAttributeEditor(angles)
 SmartPropAttributeEditor(bool)
 SmartPropAttributeEditor(color)
-SmartPropAttributeEditor(enum:SmartPropPlaceMeshOrientationMode_t)
 SmartPropAttributeEditor(float)
 SmartPropAttributeEditor(integer)
 SmartPropAttributeEditor(locator)
@@ -8010,7 +7963,6 @@ SmartPropAttributeEditor(vector3)
 SmartPropAttributeEditor(vector4)
 SmartPropEval
 SmartPropInstanceRendering
-SmartPropPlaceMeshOrientationMode_t
 SmartPropVariableValueEditor( comparison )
 SmartPropVariableValueEditor()
 Smoothing Angle
@@ -8183,11 +8135,9 @@ Target Entry Points
 Target Name
 Target Node
 Target Objects
-Target Vertex Count
 Target Warp Location
 Target Warps
 Target layer ID for rendering
-Target material name.
 TargetGroup
 TargetName
 TargetPrinter
@@ -8462,10 +8412,6 @@ UL control point number
 UR Offset in FLU local space
 UR control point number
 UScale
-UV Channel 1
-UV Channel 2
-UVMAP1
-UVMAP2
 U\8h(
 U\tV_logd
 Unable to acquire asset system file change suspension mutex
@@ -8559,7 +8505,6 @@ Updates the paramter of the active probe on the mix graph.
 Updating references to file: %s\n
 Usage: source1import.exe -src1gameinfodir <s1gameinfodir> -src1contentdir <optional s1contentdir> -game <s2 mod>\n
 Use Best Size Match
-Use Closed Edges
 Use Continuous Emission
 Use Eye Orientation
 Use For Custom Bake
@@ -8726,7 +8671,6 @@ WARNING:\n
 WDG,r3
 WHEN_SELECTED
 Wait Complete
-Wait Until
 Warning (problem that doesn't prevent forward progress)
 Warning found identical imported file "%s" at different location %s. But it is not in perforce! You should remove this file.\n
 Warning found identical imported file "%s" at different location %s. Opening for delete.\n
@@ -8753,12 +8697,7 @@ What type of object this is.
 When False
 When True
 When enabled, the normals of the final surface will use the normals from the base polygons of the overlay instead of the normals of the surface that the overlay is being projected onto.
-When true, discard edges within the angle threshold.
-When true, discard faces with matching material.
-When true, only consider open/closed edges that share a vert with another open/closed edge.
-When true, we only consider closed edges (edges with exactly two neighboring faces).
 Whether to continue executing
-While active, manage child cursors based on the results of a boolean condition. When the observable result changes, the prior cursor will be canceled and the appropriate outflow will fire a new child cursor. Will monitor continuously until externally canceled.
 WhiteLevel
 WhiteOnBlack
 WhitePoint
@@ -9470,7 +9409,6 @@ bPrioritizeUp
 bUseFixedUpDirection
 bUseProjectedDistance
 bValue
-bWasAnObservableComputation
 bWroteSolidColor
 backFacingAngle
 background
@@ -9952,7 +9890,6 @@ detailgeometry
 detailmaterial
 diff 
 diffuse warp texture
-direction
 directlight
 disable child
 disableDynamicDeformable
@@ -11124,7 +11061,6 @@ luminaire_size
 lumpMode
 m%d%d
 m_ActiveValue
-m_Always
 m_BaseClasses
 m_ChoiceGroups
 m_ChoiceValues
@@ -11156,7 +11092,6 @@ m_LocatorConfig
 m_LongName
 m_MaterialOverrideTables
 m_MaterialTintTables
-m_MeshName
 m_MeshResourceName
 m_MetaData
 m_NavAreas.Count() < CNavMarkerData::MAX_ELEMENTS
@@ -11218,7 +11153,6 @@ m_bRenderProbeRadius
 m_bRotation
 m_bSequence
 m_bSequence1
-m_bSharedVert
 m_bShowCompressedIR
 m_bStiff
 m_bTriangulate
@@ -11277,7 +11211,6 @@ m_n3DSliceCount
 m_n3DSliceHeight
 m_n3DSliceWidth
 m_nAxis
-m_nBlackboardIndex
 m_nCP1Parent
 m_nCP2Parent
 m_nCP3Parent
@@ -11324,8 +11257,6 @@ m_nProbeType
 m_nResourceNameIndex
 m_nSelectedProbeType
 m_nStackDepthWhenAdded
-m_nTargetOpenEdgeCount
-m_nTargetVertexCount
 m_nYieldToken
 m_outputClearColor
 m_outputColorSpace
@@ -11538,7 +11469,6 @@ mmmaaammmaaammmabcdefaaaammmmabcdefmmmaaaa
 mmmmmaaaaammmmmaaaaaabcdefgabcdefg
 mmnmmommommnonmmonqnmmo
 model override CP
-modelName
 modelPath
 modelVertexData
 model_attachment
@@ -12678,7 +12608,6 @@ speed_min
 speed_random_exponent
 spewMsg
 spewresult
-sphere
 spin_rate_degrees
 spin_rate_min
 spin_stop_time

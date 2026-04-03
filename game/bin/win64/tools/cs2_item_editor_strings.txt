@@ -6323,7 +6323,6 @@ WarnTrailingWhitespace
 Warning (problem that doesn't prevent forward progress)
 Warning: This text ends with whitespace
 WatchableMatchInfo
-Weapon
 Weapon Finish
 Weapon Name
 WeaponLength
@@ -7216,7 +7215,6 @@ compositematerialslib
 compressedSize
 compressedtangentframe
 compressionMethod
-conditions
 confirm
 confirmation_id
 const char*

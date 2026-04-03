@@ -15582,7 +15582,6 @@ Align the transform box to the vertex extents of the current selection, or match
 AlignTo
 All LOD Levels
 All data pertaining to IK.
-All values connected to this node must be 'observable'. Variables on this graph will be automatically promoted to observable. Other value nodes must take an explicit context, look for those nodes with a corresponding icon.
 Allocation of the face failed (not a topology failure).
 Allow Deformation
 Allow Empty Detail Layer
@@ -15633,7 +15632,6 @@ Android SM 5.0 (VULKAN)
 Angle Limit
 Angle Streams In Radians
 Angle Threshold
-Angle at closed edge of face.
 Angular Damping
 Angular Damping Ratio
 Angular Dot Product
@@ -16238,8 +16236,6 @@ CAnimGraphLogManager::SendLogMessage
 CAnimNetVar
 CAnimValue
 CAnimVariant
-CAnimationGraphInstance
-CAnimationLayer
 CAssetSelection
 CAssociateResourceBlockLoader::BlockingLoadResourceFileData: Trying to load an illegal resource name %s!\n
 CAttachmentNameSymbolWithStorage
@@ -16251,8 +16247,6 @@ CBasePulseGraphInstance::Shutdown( %s; %p ) %s\n
 CBasePulseGraphInstance::StartGraphReload( %p ) %s\n
 CBasePulseGraphInstance::~CBasePulseGraphInstance( %p )\n
 CBaseToolsModelInstance::CreateReversedIBs(4560): 
-CBlend2DInstanceData
-CBlendNodeInstanceData
 CBodyGroupChoiceSymbolWithStorage
 CBufferString
 CCDirectionalBlendInstanceData
@@ -16261,8 +16255,6 @@ CCITT Group 4
 CCITT RLE
 CCITT RLE/W
 CCW Limit
-CChoiceInstanceData
-CChoreoInstanceData
 CColorGradient
 CCompressedAnimQuaternion
 CCompressedAnimVector3
@@ -16288,7 +16280,6 @@ CCompressedStaticVector2D
 CCompressedStaticVector3
 CCompressedStaticVector4D
 CCopyRename_Base::VerifyLoaded
-CCycleClipInstanceData
 CDataModel:  %i elements left in memory!!!\n
 CDataModel: Failed to open file "%s"\n
 CDataModel: Failed to open file %s\n
@@ -16304,7 +16295,6 @@ CDependencyGraph::Cleanup
 CDependencyGraph::FindAttrNode
 CDependencyGraph::Reset
 CDetailPropObjectManager::UpdateDirtyObjects()
-CDirectPlaybackInstanceData
 CDirectionalBlendNode
 CDmAttribute pool
 CDmExtraVertexData
@@ -16354,9 +16344,7 @@ CFALayout
 CFAPlaneColor
 CFaceSelectionSetDataElement
 CFbxSystem::GetFbxManager
-CFollowPathInstanceData
 CFollowPathUpdateNode::flPredictionScale
-CFootAdjustmentInstanceData
 CGlobalSymbol
 CGlobalSymbolCaseSensitive
 CGrassMaterialSlot
@@ -16371,7 +16359,6 @@ CIsosurfaceRayGrid pooled allocator
 CKV3MemberNameSet
 CKV3MemberNameWithStorage
 CKV3TransferInterface_ModelDoc
-CLeanMatrixInstanceData
 CMAD (INFO) Load Cache %.2f\n
 CMAD (INFO) UpdateParentLinks %.2f\n
 CMAD CAssetsCache::CheckInitialized checked %d files, %d mismatches of %d files, %d invalid.\n
@@ -16831,14 +16818,12 @@ CModelMeshVertexBuffer
 CModelOverrideData::UpdateVertexBuffer
 CModelPreviewAttachedModel
 CMotionTransform
-CMoverInstanceData
 CNavArea::PostLoad: Corrupt navigation data. Cannot connect Navigation Areas.\n
 CNavArea::PostLoad: Corrupt navigation ladder data. Cannot connect Navigation Areas.\n
 CNavGenParams - Nav mesh requests project default generation parameters but actual parameters\n  used during construction differ from defaults. Please re-export the map.\n
 CNavMesh::AddNavArea - Adding nav area to mesh with no grid extents defined.
 CNavMesh::CreateArea
 CNavMesh::Update
-CNetworkedCycle
 CNewParticleEffect::DetectChanges
 COMMON
 CObjectSelectionSetDataElement
@@ -17044,7 +17029,6 @@ CQTreeTagItemDelegate
 CRelativeArray
 CRenderMeshSimplifyParams
 CResourceNameTyped
-CRootMotion
 CRotation
 CSelectionSetDataElement
 CSequenceListHelper::GetSequenceNames
@@ -17061,7 +17045,6 @@ CSmartPropAttributeLocatorName
 CSmartPropAttributeMaterialGroup
 CSmartPropAttributeMaterialName
 CSmartPropAttributeModelName
-CSmartPropAttributeOrientationMode
 CSmartPropAttributeStateName
 CSmartPropAttributeString
 CSmartPropAttributeSurfaceProperty
@@ -17069,7 +17052,6 @@ CSmartPropAttributeVariableValue
 CSmartPropAttributeVector
 CSmartPropAttributeVector2D
 CSmartPropAttributeVector4D
-CSmartPropElement_PlaceOnMesh
 CSmartPropExprAPI::EvaluationDepth
 CSmartPropExprAPI::InstanceCount
 CSmartPropExprAPI::InstanceIndex
@@ -17111,13 +17093,8 @@ CSmartPropPulse_SelectionChoiceWeight::CheckRequirement
 CSmartPropPulse_SelectionEndCap::CheckRequirement
 CSmartPropPulse_SelectionLinearLength::CheckRequirement
 CSmartPropPulse_SmartProp::Run
-CSmartPropSelectionCriteria_EdgeAngleCriteria
-CSmartPropSelectionCriteria_MaterialCriteria
-CSmartPropSelectionCriteria_TopoEdgeCountCriteria
-CSmartPropSelectionCriteria_VertexCountCriteria
 CSmartPropVariableComparison
 CSmartPropVariableValue
-CSmartPropVariable_OrientationMode
 CSmartPtr
 CSmdParser::HandleNodeLine(362): error: malformed bone line: "%s"\n
 CSmdParser::HandleSkeletonLine(401): error: malformed skeleton line: "%s"\n
@@ -17133,8 +17110,6 @@ CSmdParser::Parse(55): preamble error: expecting "version" or comment(//), got: 
 CSmdParser::Parse(60): preamble error: too many errors, probably not an SMD file, aborting.\n
 CSmdParser::Parse(82): general error: unexpected line "%s"\n
 CSmdParser::Parse(90): bad skeleton: line %d\n
-CStateMachineInstanceData
-CStateNodeInstanceData
 CSteamAudioAmbisonicValues
 CSteamAudioBandValues
 CSteamAudioData
@@ -17169,7 +17144,6 @@ CToolRenderContext::PushTransform - matrix stack underflow
 CTrajectoryPath
 CTrajectoryPathNode
 CTransform
-CTurnHelperInstanceData
 CUBE
 CUBEARRAY
 CURVE_TANGENT_FREE
@@ -17360,7 +17334,6 @@ CVfx::CreateFromVcs(7909): VCS %s Unserialize hit EOF\n
 CVfx::ParseResourceFileHeader
 CVisibilityMgr
 CW Limit
-CWayPointHelperInstanceData
 CWeakHandle
 Cable
 Calculate Per-Vertex Curvature
@@ -17945,7 +17918,6 @@ Damage Position CP
 Damped Motor cannot write to parameter %s
 Damped Value Component
 DampedPathAnimMotorInstance
-DampedPathMotorInstanceData_t
 DampedValue Component cannot write to parameter %s
 Dampen Movement Relative to Control Point
 DataModel needs the file system to function
@@ -18050,7 +18022,6 @@ Detail Layer
 Detail Objects
 DetailDistance
 DetailProps:LoadModels
-Determine how child elements are oriented when mapped to face.
 DevShader
 Didn't expect '=' for non-flags non-choices variable %s
 Different Indices On Mesh vs Bind Pose For "%s" Added Anchor Bone
@@ -18362,7 +18333,6 @@ Ease In
 Ease In/Out
 Ease Out
 Ease in/out
-Edge Count
 Edge Dilation
 Edge Length Threshold
 Edge to Face
@@ -18576,7 +18546,6 @@ End Frame
 End Frame Number
 End Loop
 End Target
-Enforce Shared Vert
 Entities/Paths
 Entities/Paths/Cables
 Entity
@@ -18843,8 +18812,6 @@ FBXVersion
 FBX_vmatPath
 FEATURES
 FGD Variable %s has bad default value %d (has bits set that are not valid choices)
-FIRST_CLOSED_EDGE
-FIRST_OPEN_EDGE
 FORCE_UINT
 FRAMERATE
 FULL
@@ -18984,10 +18951,6 @@ Files
 Files:
 FillOrder
 Film
-Filter Edges by Angle
-Filter Faces By Material
-Filter Faces By Open Edges
-Filter Faces By Vertex Count
 Filter Probability
 Filter Surface Angle
 Filter Using Exclusion Volumes
@@ -19014,11 +18977,6 @@ Finger Chain
 Fingers
 Fingers_L
 Fingers_R
-Fired immediately when this node begins for chaining purposes.
-Fired when the observable boolean is false, and killed when true.
-Fired when the observable boolean is true, and killed when false.
-First Closed Edge
-First Open Edge
 First Point
 Fit Transform to Model
 Fit Transform to Vertex Selection
@@ -19165,7 +19123,6 @@ G channel not found!\n
 G8R8_G8B8_UNORM
 GDualHull
 GPSIFDOffset
-GPUParticleCollisionMode_t
 GREATER
 GREATER_OR_EQUAL
 Game Blackboards: 
@@ -19274,7 +19231,6 @@ GroomGroup
 GroomInfo
 GroomMeshFile
 GroomMetaData
-Ground
 Ground Friction
 Ground Softness ("world friction" in Source1)
 Group (%d objects)
@@ -19420,7 +19376,6 @@ HullParams
 HullPerElement
 HullPerMesh
 Hybrid
-Hybrid RT + Depth Buffer
 IArchive:::getArchiveVersion
 IArchive:::getNumTimeSampling
 IArchive:::getTimeSampling
@@ -19759,7 +19714,6 @@ Inverse
 Inverse ModelDoc Scale
 Inverse Multi Quadratic
 Inverse Threshold
-Invert
 Invert Axes
 Invert Edge Selection
 Invert Face Selection
@@ -19791,8 +19745,6 @@ Item.Medium
 ItemDoubleClicked
 ItemFile
 ItemsFiles
-Iterate through faces with 'n' open edges (edges with only one neighboring face).
-Iterate through faces with target vertex count.
 Iterate to Element
 Iterations
 J%f%f%f%f%f%f%f%f
@@ -19907,7 +19859,6 @@ Layer which specifies the height the grass will be placed at. Grass placement on
 Leader Bone
 Leaf Only
 Leaking %i elements\n
-Lean
 Lean Matrix does not have a valid sequence
 LeanMatrixNode
 Leap to Chunk C%d
@@ -20055,14 +20006,12 @@ Look Target (World Space)
 Look-Relative Move Heading
 LookAtChainEditor
 LookAtList
-LookData
 Lookat does not have a valid attachment.
 Lookat does not have a valid lookat chain.\n
 Lookat target set to "Parameter", but no parameter is set
 Loop End Frame
 Loop FPS
 Loop Start Frame
-Looping
 LowPrecisionUv
 LowPrecisionUv1
 LowercaseBoneNames
@@ -20356,7 +20305,6 @@ Minimum Size Scale
 Minimum Value
 Minimum of two values (float)
 Minimum of two values (int)
-Minimum scale to apply to the model based on the final material layer blend weight. The model will be given this scale value when the layer blend weight equals the minimum blend weight and will be 1.0 when the maximum blend weight has been reached. The minimum of the detail and blend weight scale values is multiplied with the random scale value to determine the final scale. Set this if you want the model to scale up as the material blend fades in. The smaller the value, the smaller the model will start as the material begins to fade in.
 Mirror
 Mirror X
 Mirror Y
@@ -20425,7 +20373,6 @@ ModelModifier_DisableMorph
 ModelModifier_ScaleAndMirror
 ModelModifier_Translate
 Modification Amount
-Monitor Observable
 Morph
 Morph Channel Name
 Morph Control
@@ -20451,9 +20398,7 @@ MotionMatching:clipIndex.index
 MotionMatching:cycleZeroTime
 MotionMatching:playbackRate
 MotionMatching:startTime
-MotionMatchingInstanceData
 MotionMatchingNode
-MotionSelection
 MotionVectorsMaxDistance
 Motors
 MouseWheelControlsFarPlane
@@ -20488,7 +20433,6 @@ Movement Maintain Position Along Path
 Movement Match Particle Velocities
 Movement Max Velocity
 Movement Tolerance
-MovementData
 MovementSettings
 MovementSettingsEditor
 MoverNode
@@ -20563,7 +20507,6 @@ Need to specify a bone name.
 Neg R%d <- -R%d
 Neither
 Neq R%d <- R%d != R%d
-NetVarConfigIndex
 NetworkedCycle
 Never close the group automatically (used to indicate an error like the process exiting unexpectedly)
 New AnimGraph2 Identifier:
@@ -20730,7 +20673,6 @@ Object
 Object Rotation
 Object Spacing
 Objects
-Observable
 Occlusion Deviation
 Occlusion Path Ratio
 Occlusion Probe
@@ -20835,10 +20777,6 @@ Orient To Surface
 Orient toward child bone.
 Orient toward parent bone.
 OrientPrimitives
-Orientation Mode
-Orientation of child elements placed on faces will be driven by orthonormalized UV basis at face center. U axis is prioritized during orthonormalization.
-Orientation of child elements placed on faces will be driven by position of center of first closed edge relative to face center.
-Orientation of child elements placed on faces will be driven by position of center of first open edge relative to face center.
 OrientationWarpNodeInstanceData_t
 Original
 Original Bone Name
@@ -20927,9 +20865,6 @@ P64/#
 P?isValid@QColor@@QEBA_NXZ
 P?jumpToNextImage@QImageReader@@QEAA_NXZ
 PARENT
-PARTICLE_GPU_COLLISION_MODE_DEPTH
-PARTICLE_GPU_COLLISION_MODE_HYBRID
-PARTICLE_GPU_COLLISION_MODE_RT
 PC SM 4.0 (D3D10)
 PC SM 4.0 (VULKAN)
 PC SM 4.1 (D3D10.1)
@@ -20945,11 +20880,9 @@ PC_SM_5_0
 PC_SM_5_0_VULKAN
 PC_SM_6_0_VULKAN
 PF\n%d %d\n-1.000000\n
-PF_TYPE_SNAPSHOT_CHANGED
 PLUS %d ADDITIONAL REFERENCES
 PLUS ADDITIONAL REFERENCES NOT LISTED HERE\n
 PLUS ONE ADDITIONAL REFERENCE
-POINT
 POISONED 
 POSE_SPACE_BONE
 POSE_SPACE_MORPH
@@ -20957,7 +20890,6 @@ PP R6T(V
 PS_RENDER_STATE
 PS_RTX
 PURH
-PVEC_TYPE_PARTICLE_GRAVITY
 P\v5Pd
 PackBits
 PackBitsDecode: Not enough data for scanline %ld
@@ -20975,8 +20907,6 @@ Paintable Layer (Color)
 Paintable Layer (Value)
 Paired Sequence Component
 PairedSeq:m_hSequence
-PairedSequenceData
-PairedSequence_t
 PanSpeed
 PanelDoubleClicked
 PanelID
@@ -21053,7 +20983,6 @@ Per-Edge
 Per-Tile
 Per-material sorting options. Normally used for transparency sorting.
 PerTickSettings
-PerTickSettings_t
 PerVertexLighting
 Perforce Changelist:
 Perform a set of parametric mesh modification operations.
@@ -21148,11 +21077,9 @@ PivotPaint
 PivotToolSnapToBBox
 PixarLog
 Place
-Place Children on Mesh Components.
 Place On Attachment
 Place On Bone
 Place on Floor
-Place on Mesh
 Place these under a PhysicsHullFromPoints node to build a custom-shaped hull from scratch, or place under a PhysicsHullFile node to modify an existing hull.
 PlaceInSphere Parent Cursor
 Placement Attachment
@@ -21170,7 +21097,6 @@ Playback:m_SequenceCycleZeroTime
 Playback:m_currentSequence
 Playback:m_flForcedCycle
 PlayerInputAnimMotorInstance
-PlayerInputMotorInstanceData_t
 Please make sure you deleted history on the mesh before exporting.\nThe mesh apparently has %d vertices, but %d blendWeights in field %s, while having %d weights per vertex\n
 Point 0
 Point 1
@@ -21269,7 +21195,6 @@ Primary Aim At
 Primary Aim Origin
 Primary Associated Entity
 Primary Root Bone
-Primary View Depth Buffer
 Primary activity for this animation.  To add an activity modifier, add an ActivityModifier child node.<p><span style="color:#ffff00"><b>NOTE</b></span>: Animgraph animations should not use activities or activity weights.
 PrimaryChromaticities
 PrimarySelectionSet
@@ -21455,7 +21380,6 @@ RawDataUniqueID
 RawGameKeys
 RayTracingEnvironment::RefineNode
 RayTracingEnvironment::RefineNodeJob
-Raytracing TLAS
 Re-Center Pivot (to Selection)
 Re-orient camera on activation
 Read invalid POD type: 
@@ -21618,7 +21542,6 @@ Required3dSkyboxEntities
 RequiredGameEntities
 RequirementPort
 Requirement_ExternalPort
-Reset
 Reset Face Normals
 Reset Scale
 Resets face normals and optionally averages them.
@@ -21881,7 +21804,6 @@ SelectionWireframe
 Selector does not have a valid enum or tag set
 Selector references missing Tag %u
 Selector: 
-SelectorInstanceData_t
 SelectorNode
 SelectorPropertiesEditor
 Selects faces whose UVs overlap. Note that neighboring faces are not considered overlapping, and there is a minor tolerance to this check.
@@ -21890,7 +21812,6 @@ Sequence Random
 Sequence Two Random
 Sequence out of range: %d
 Sequence( %s, %.3f ) : %.3f
-SequenceData
 Serialize: File encoding %s is undefined!\n
 Serialize: File encoding '%s' is undefined!\n
 Serialize: Format %s expects to be written to a binary format, but the buffer is a text-format buffer\n
@@ -22071,7 +21992,6 @@ Slope Component
 Slope Direction (World)
 Slope Normal (Local Space)
 Slope Normal (World Space)
-SlopeData
 Slow Drag
 Small Component Size Percent
 Small Element Threshold
@@ -22092,7 +22012,6 @@ SmartPropAttributeEditor(SurfaceProperty)
 SmartPropAttributeEditor(angles)
 SmartPropAttributeEditor(bool)
 SmartPropAttributeEditor(color)
-SmartPropAttributeEditor(enum:SmartPropPlaceMeshOrientationMode_t)
 SmartPropAttributeEditor(float)
 SmartPropAttributeEditor(integer)
 SmartPropAttributeEditor(locator)
@@ -22105,7 +22024,6 @@ SmartPropAttributeEditor(vector3)
 SmartPropAttributeEditor(vector4)
 SmartPropEval
 SmartPropInstanceRendering
-SmartPropPlaceMeshOrientationMode_t
 SmartPropVariableValueEditor( comparison )
 SmartPropVariableValueEditor()
 Smooth By Distance
@@ -22295,7 +22213,6 @@ Stop %s
 Stop On Sequence Change
 Stop Timer
 Stop any active timers - the completed outflow will still fire
-Stop/Start Planted Turn
 StopReplaceAsset
 Stopping %s
 Stopping...
@@ -22413,14 +22330,11 @@ Target Selector Input
 Target Selector Move Direction
 Target Selector Target
 Target Triangle Percent
-Target Vertex Count
 Target Warp Location
 Target Warp Node
 Target Warps
-Target material name.
 TargetGroup
 TargetPrinter
-TargetSelectorInstanceData_t
 TargetSelectorNode
 Tension Compress Scale
 Tension Stretch Scale
@@ -22771,8 +22685,6 @@ UICameraRotation
 UPAXIS
 UScale
 UV Attribute Simplification Weight
-UV Channel 1
-UV Channel 2
 UV Map Box
 UV Map Cylinder
 UV Map Duplicate
@@ -22780,8 +22692,6 @@ UV Map Planar
 UV Map Planar Custom
 UV Mapping
 UV Mapping (or tiling) coverage.
-UVMAP1
-UVMAP2
 UV\nCoverage
 U\8h(
 U\tV_logd
@@ -22905,7 +22815,6 @@ Updating references to file: %s\n
 Use Best Size Match
 Use Block Solver
 Use Child Offset Attachment
-Use Closed Edges
 Use Curvature Drop
 Use Expensive Tangents
 Use Flat Color
@@ -23117,7 +23026,6 @@ WARNING:Asset is READONLY.
 WDG,r3
 WHEN_SELECTED
 Wait Complete
-Wait Until
 Warning (problem that doesn't prevent forward progress)
 Warning! Asset content file does not exist. %s\n 
 Warning! Couldn't create FbxScene\n
@@ -23175,10 +23083,6 @@ When enabled, the normals of the final surface will use the normals from the bas
 When picking between random choices, determines odds this choice is picked compared to others. (eg. a weight of 2 is twice as likely to be picked as weight of 1)
 When this breakpiece breaks, should it be able to intersect with the parent that spawned it?
 When this model is loaded preserve vertex data in CPU memory.
-When true, discard edges within the angle threshold.
-When true, discard faces with matching material.
-When true, only consider open/closed edges that share a vert with another open/closed edge.
-When true, we only consider closed edges (edges with exactly two neighboring faces).
 Whether or not to import bone scales.  False by default (i.e. override bone scales to 1.0) for legacy compatibility.  Only applicable to fbx files.
 Whether the local hierarchy will use ease in/out values or just automatically apply for the entire frame range
 Whether the to use the curve or just a set value for the entire frame range
@@ -23188,7 +23092,6 @@ Whether to continue executing
 Which solver to use for positioning the IK chain.  Required.
 While Current
 While Fully Blended
-While active, manage child cursors based on the results of a boolean condition. When the observable result changes, the prior cursor will be canceled and the appropriate outflow will fire a new child cursor. Will monitor continuously until externally canceled.
 WhiteLevel
 WhiteOnBlack
 WhitePoint
@@ -23847,11 +23750,8 @@ bUseAcceleraion
 bUseFixedUpDirection
 bUseProjectedDistance
 bValue
-bWasAnObservableComputation
 b\v?event@QSplitter@@MEAA_NPEAVQEvent@@@Z
-b_action_restart
 b_movement_code_driven
-b_movement_type_restart
 b_override_timing
 backFacingAngle
 back_solve_influence_threshold
@@ -24277,7 +24177,6 @@ concave
 concommands
 conditional
 conditionallysolid
-conditions
 config_reference
 config_state
 configuration
@@ -24964,7 +24863,6 @@ dev/reflectivity_30.vmat
 dilation
 dimensions
 dimensions_key
-direction
 directlight
 disableDynamicDeformable
 disableHeightDisplacement
@@ -25050,14 +24948,10 @@ duration_info
 dynamic_attributes
 eFrameSelection
 eGenerateResourceNameFromFileName: Invalid extension specified in file name "%s"!\n
-eLean
 eLinearRootMotionBlendMode
-eUseStartAsPlantedTurn
 e\f?foregroundRole@QWidget@@QEBA?AW4ColorRole@QPalette@@XZ
 e\n?dragEnterEvent@QAbstractItemView@@MEAAXPEAVQDragEnterEvent@@@Z
-e_action_desired
 e_action_desired_shared
-e_movement_type_desired
 e_movement_type_desired_shared
 ease_in_key
 ease_is_duration
@@ -26094,8 +25988,6 @@ lumpMode
 m_ActiveValue
 m_AdditionalInputDependencies
 m_AdditionalRelatedFiles
-m_Always
-m_AnimOverlay
 m_ArgumentDependencies
 m_ChildResourceList
 m_ChoiceGroups
@@ -26133,7 +26025,6 @@ m_LocalToWorld
 m_LocatorConfig
 m_MaterialOverrideTables
 m_MaterialTintTables
-m_MeshName
 m_MeshResourceName
 m_NavAreas.Count() < CNavMarkerData::MAX_ELEMENTS
 m_Normals
@@ -26149,10 +26040,8 @@ m_RelativeFilename
 m_ReplacementTable
 m_ResourceNames
 m_RootRelativePath
-m_Rotation
 m_SearchPath
 m_SearchableUserData
-m_SequenceCycleZeroTime
 m_Special
 m_SpecialDependencies
 m_SpecialInputDependencies
@@ -26164,7 +26053,6 @@ m_SubassetDefinitions
 m_SubassetReferences
 m_TagValue
 m_TargetEntries
-m_TargetOrientation
 m_TargetWarps
 m_TestEnum
 m_Texcoords
@@ -26179,7 +26067,6 @@ m_attachments
 m_attribIdx
 m_attributes
 m_bAllowLayerOverride
-m_bAwaken
 m_bBakedTwoSided
 m_bCanBatchWithDynamicShaderConstants
 m_bChildCursorsShouldInherit
@@ -26190,25 +26077,19 @@ m_bDrawLast
 m_bFileExists
 m_bFirstEvaluate
 m_bFlipFaces
-m_bForceFacing
 m_bGlobalsBDA
-m_bGoalChanged
 m_bHasBakedLightingFromLightMap
 m_bHasBakedLightingFromVertexStream
-m_bHasPath
 m_bHasShaderProgram
 m_bHiddenAssetFlag
-m_bIsClient
 m_bIsCordoning
 m_bIsGameFile
 m_bIsLayerConstant
 m_bIsNotMatchedToMaterial
-m_bIsPredicted
 m_bLiveParameterUpdate
 m_bNoLod
 m_bNoShadow
 m_bNormalizeRange
-m_bOnGround
 m_bOnlyShadow
 m_bOptional
 m_bParentJointRequiresAlignment
@@ -26216,37 +26097,18 @@ m_bPassThroughToCompiledVtex
 m_bRemoveWhenOutOfScope
 m_bRenderClusteredProbesOnly
 m_bRenderProbeRadius
-m_bResetPending
-m_bSharedVert
 m_bShowCompressedIR
 m_bStaticCB
-m_bStopUpdatingWaypointPos
-m_bStopping
-m_bTagDispatchDirty
-m_bTeleported
 m_bUseCompressedNormalTangent
 m_bUseNewPoleVectorForAxis
 m_bUseShadowFastPath
 m_byteCodeData
 m_byteCodeIndex
 m_capabilities
-m_choicePreviousCycle
 m_colorSpace
 m_comboType
 m_constantBufferBindingArray
-m_currentChoice
-m_currentIndex
-m_currentIndexStartTime
-m_currentSelection
-m_currentSequenceData
-m_currentSequenceIndex
-m_currentStateStartTime
-m_currentTransitionIndex
-m_cycle
-m_dampedTurnValue
-m_dampedValue
 m_defaultInputTexture
-m_deltaTransform
 m_deltaTransform\t\t\t\t[%f] [%s]
 m_dstChannels
 m_dynamicComboArray
@@ -26260,29 +26122,13 @@ m_expr
 m_externalMethodTargetGraph
 m_fMoveTo
 m_fileExt
-m_finalLocalToWorld
-m_flBoundaryRadius
-m_flClipStartTime
-m_flCurrentMoveSpeed
-m_flCycleUnclamped
-m_flCycleZeroTime
-m_flDampedValue
 m_flDefault
 m_flDeltaValue
 m_flDimensionsInOutValue
 m_flDimensionsSizeValue
 m_flEntryDistance
-m_flFacingHeading
-m_flForcedCycle
-m_flGoalDistance
-m_flInterpEndTime
-m_flKillDelay
-m_flKillRate
-m_flLastPathTime
-m_flLastTimeStep
 m_flMaxRadians
 m_flMinRadians
-m_flNextAnimTime
 m_flOcclusionDeviation
 m_flOcclusionDistanceRatio
 m_flOcclusionReflectionRatio
@@ -26293,21 +26139,10 @@ m_flOrder10
 m_flOrder11
 m_flOrder12
 m_flPathingDistanceRatio
-m_flPredictionScale
-m_flPrevAnimTime
-m_flPrevCycleUnclamped
 m_flProbeRadius
 m_flSlopeIncoming
 m_flSlopeOutgoing
-m_flStartHeadingWS
-m_flTargetFacing
-m_flTargetMoveSpeed
-m_flTimeInState
-m_flTurnAmount
 m_flUiStep
-m_flValueX
-m_flValueY
-m_goalWayPointPos
 m_hDef
 m_hash
 m_hitboxsets
@@ -26333,8 +26168,6 @@ m_morphSet
 m_n3DSliceCount
 m_n3DSliceHeight
 m_n3DSliceWidth
-m_nActiveMotorIndex
-m_nBlackboardIndex
 m_nByteCodeDataIdx
 m_nChannelCount
 m_nChannelDesc
@@ -26342,7 +26175,6 @@ m_nChannelInfoIndex
 m_nClusterIndex
 m_nComboIndexValue
 m_nCompareValue
-m_nConfigIndex
 m_nConstantBufferSize
 m_nContextStateAffectedByVariable
 m_nCurrStackSize
@@ -26356,7 +26188,6 @@ m_nDisplayRectHeight
 m_nDisplayRectWidth
 m_nDrawCall
 m_nExtraRuleData
-m_nFacingMode
 m_nFieldDataStates
 m_nFileCRC
 m_nFingerprint
@@ -26371,13 +26202,11 @@ m_nInterpolationMode
 m_nMaterialOverrideTableIndex
 m_nMaterialTintTableIndex
 m_nMaxRes
-m_nMeshoptMeshletEncodeVersion
 m_nMinBitsPerChannel
 m_nMinPrecisionBits
 m_nMotionVectorsMaxDistanceInPixels
 m_nMovableIndex
 m_nOffs
-m_nOrder
 m_nOutputDimensionReduce
 m_nOutputMaxDimension
 m_nOutputMinDimension
@@ -26387,13 +26216,10 @@ m_nProbeType
 m_nRegisterElements
 m_nRegisterOffset
 m_nResourceNameIndex
-m_nSample
 m_nSelectedProbeType
 m_nSequenceTagIndex
 m_nSize
 m_nStackDepthWhenAdded
-m_nTargetOpenEdgeCount
-m_nTargetVertexCount
 m_nTypeSpecificBits
 m_nUserData
 m_nVariableBinding
@@ -26413,32 +26239,21 @@ m_pSourceString
 m_pVertexData
 m_pathingCoeffs
 m_pathingEQ
-m_prevLocalToWorld
-m_prevStateIndex
-m_previousChoice
-m_previousIndex
-m_previousSelection
 m_programData
 m_programHashes
 m_qFixupRotation
 m_rbfParameters
 m_registerType
-m_resetCount
 m_reverbScales
 m_reverbTimes
 m_ruleType
 m_sLastSequenceName
-m_sRole
 m_sValue0
-m_scheduledTransitionIndex
-m_sequences
 m_shaderComboSourceType
 m_sourceIndex
 m_sourceType
 m_srcChannels
 m_stack
-m_startingLocalToWorld
-m_stateWeights
 m_staticComboArray
 m_staticComboData
 m_staticComboIDs
@@ -26454,44 +26269,22 @@ m_szTextureFileEnding
 m_szUiGroup
 m_textureChannelProcessorArray
 m_textureOutputChannelArray
-m_turnAmount
 m_typeString
 m_uiType
-m_updateID
-m_vAcceleration
-m_vAccelerationWS
 m_vClamp
 m_vDeltaMax
 m_vDeltaMin
 m_vDimensionsInsideSizeField
 m_vDimensionsOutsideField
-m_vFacingPosition
 m_vFloat4Arg
-m_vInputVectorWS
-m_vLookTarget
-m_vMSRootMotionAnlyzerTarget
-m_vManualFacingDirection
-m_vManualFacingTarget
-m_vMoveDir
-m_vMovement
 m_vNonUniformScale
 m_vNumDivisions
-m_vPrevFacingPosition
-m_vSlopeNormal
-m_vTransitionVelocityDeltaWS
-m_vUpOverride
-m_vVelocity
-m_vVelocityMS
-m_vVelocityWS
-m_vWaypointPosWS
 m_variableDescriptionArray
 m_variableDescriptionVersionHash
 m_vecNavLinkMovementNames
-m_vecPairedSequences
 m_verticalRange
 m_vsInputSignatureArray
 m_vsInputSignatureIndexArray
-m_xLastPredictedTransformsDeltas
 maintain position along path
 make_two_sided
 makefile
@@ -26698,7 +26491,6 @@ mmmaaaabcdefgmmmmaaaammmaamm
 mmmaaammmaaammmabcdefaaaammmmabcdefmmmaaaa
 mmmmmaaaaammmmmaaaaaabcdefgabcdefg
 mmnmmommommnonmmonqnmmo
-modelName
 modelPath
 modelSortOrderChanged
 modelVertexData
@@ -27762,7 +27554,6 @@ speed_range
 speeds
 spew_stats
 spewresult
-sphere
 spin_axis_friction
 spin_degrees
 splayaxis

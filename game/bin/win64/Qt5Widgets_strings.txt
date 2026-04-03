@@ -15353,8 +15353,6 @@ RegularTiler
 Remove
 RequestSoftwareInputPanel
 Requested invalid tree cell: %d %d
-Reserved
-Reset
 ResizeMode
 ResizeToContents
 ResourceType

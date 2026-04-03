@@ -645,7 +645,6 @@ MapClass
 MapNode
 Match Particle Velocities
 Max Velocity
-Minimum scale to apply to the model based on the final material layer blend weight. The model will be given this scale value when the layer blend weight equals the minimum blend weight and will be 1.0 when the maximum blend weight has been reached. The minimum of the detail and blend weight scale values is multiplied with the random scale value to determine the final scale. Set this if you want the model to scale up as the material blend fades in. The smaller the value, the smaller the model will start as the material begins to fade in.
 Movement Basic
 Movement Dampen Relative to Control Point
 Movement Lock to Bone
@@ -692,7 +691,6 @@ Remap Distance Between Two Control Points to Scalar
 Remap Distance to Control Point to Scalar
 Remap Noise to Scalar
 Remap Scalar
-Reset
 Resource references not allowed in EditInfo data: "%s"
 ResourceCopy
 ResourceCopyError
@@ -930,7 +928,6 @@ defaultRightValue
 defaultValue
 defaultcurvetype
 defaultedgezerovalue
-direction
 directlight
 disableShadows
 disableShadows2

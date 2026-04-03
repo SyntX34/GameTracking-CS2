@@ -6192,7 +6192,6 @@ could not load the shared library
 could not set engine
 could not set time
 could not unload the shared library
-counter
 counter:
 countersignature
 countryCode3c

@@ -168,7 +168,6 @@ GetResourceStatus( resourceName ) == RESOURCE_STATUS_RESIDENT
 Gradient()
 IKV3TransferInterface_ResourceSave
 Idle (ResourceSystemSleep)
-InfoForResourceTypeCVDataItemDefs
 InstallResourceTypeManager
 IsResourceManifestGroupKnown: Manifest group name is empty or null\n
 MKV3TransferName

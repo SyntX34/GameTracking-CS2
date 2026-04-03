@@ -4247,7 +4247,6 @@ could not obtain hardware handle
 could not set engine
 could not set time
 could not unload the shared library
-counter
 counter:
 countersignature
 countryName
