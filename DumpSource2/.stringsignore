@@ -767,7 +767,7 @@ Anim Driven Settings
 AnimComponentID
 AnimConflictType_t
 AnimEvents and Tags Exclusive To Most Weighted
-AnimGraph2SerializedPoseRecipe_t
+AnimGraph2SerializedPoseRecipeSlot_t
 AnimGraphBlendCurve()
 AnimGraphDebugDrawType_t
 AnimGraphID()
@@ -25810,7 +25810,6 @@ m_sequenceName
 m_sequenceParams
 m_sequenceStarted
 m_sequences
-m_serializedStatic
 m_settings
 m_settingsGroups
 m_shaderName
@@ -26223,6 +26222,7 @@ m_toneMapParams
 m_tonemapControllerName
 m_tones
 m_toolsBuffers
+m_topology
 m_torqueLimit
 m_tossGrenadeTimer
 m_totalDelta

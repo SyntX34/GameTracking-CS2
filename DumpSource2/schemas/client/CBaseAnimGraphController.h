@@ -20,11 +20,11 @@ class CBaseAnimGraphController : public CSkeletonAnimationController
 	GameTick_t m_nPrevAnimUpdateTick;
 	CStrongHandle< InfoForResourceTypeCNmGraphDefinition > m_hGraphDefinitionAG2;
 	// MNotSaved
-	C_UtlVectorEmbeddedNetworkVar< AnimGraph2SerializedPoseRecipe_t > m_SerializePoseRecipeAG2Slots;
+	C_UtlVectorEmbeddedNetworkVar< AnimGraph2SerializedPoseRecipeSlot_t > m_SerializePoseRecipeAG2Slots;
 	// MNotSaved
 	C_NetworkUtlVectorBase< uint8 > m_SerializePoseRecipeAG2Dynamic;
 	// MNotSaved
-	uint16 m_nSerializePoseRecipeAG2ActiveSlot;
+	uint32 m_nSerializePoseRecipeAG2ActiveSlot;
 	// MNotSaved
 	int32 m_nSerializePoseRecipeVersionAG2;
 	int32 m_nServerGraphInstanceIteration;

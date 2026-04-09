@@ -3273,7 +3273,7 @@ $taser_charge
 .?AUAI_Navigator_DebugSnapshotData_t@@
 .?AUActiveModelConfig_t@@
 .?AUAmmoTypeInfo_t@@
-.?AUAnimGraph2SerializedPoseRecipe_t@@
+.?AUAnimGraph2SerializedPoseRecipeSlot_t@@
 .?AUBlogRSSFeed_t@@
 .?AUCAttr_m_ChildModelName@?1??GetAttributeTable_Impl@CompositeMaterialEditorPoint_t@@SAXPEAV?$CUtlVector@PEAVIBaseToolAttr@@HV?$CUtlVectorMemory_Growable@PEAVIBaseToolAttr@@H$0A@@@@@@Z@
 .?AUCAttr_m_FinalKVs@?1??GetAttributeTable_Impl@CompositeMaterial_t@@SAXPEAV?$CUtlVector@PEAVIBaseToolAttr@@HV?$CUtlVectorMemory_Growable@PEAVIBaseToolAttr@@H$0A@@@@@@Z@
@@ -5003,7 +5003,6 @@ $taser_charge
 .?AV?$CNetworkVarBase@GVNetworkVar_m_nItemDefIndex@WeaponPurchaseCount_t@@@@
 .?AV?$CNetworkVarBase@GVNetworkVar_m_nPawnCharacterDefIndex@CCSPlayerController@@@@
 .?AV?$CNetworkVarBase@GVNetworkVar_m_nSceneStringIndex@C_SceneEntity@@@@
-.?AV?$CNetworkVarBase@GVNetworkVar_m_nSerializePoseRecipeAG2ActiveSlot@CBaseAnimGraphController@@@@
 .?AV?$CNetworkVarBase@GVNetworkVar_m_unActiveQuestId@CCSPlayerController@@@@
 .?AV?$CNetworkVarBase@GVNetworkVar_m_unCurrentEquipmentValue@C_CSPlayerPawn@@@@
 .?AV?$CNetworkVarBase@GVNetworkVar_m_unDefIdx@SellbackPurchaseEntry_t@@@@
@@ -5286,6 +5285,7 @@ $taser_charge
 .?AV?$CNetworkVarBase@IVNetworkVar_m_nMagnitude@C_EntityDissolve@@@@
 .?AV?$CNetworkVarBase@IVNetworkVar_m_nOwnerId@VPhysicsCollisionAttribute_t@@@@
 .?AV?$CNetworkVarBase@IVNetworkVar_m_nRenderOrder@C_EnvDecal@@@@
+.?AV?$CNetworkVarBase@IVNetworkVar_m_nSerializePoseRecipeAG2ActiveSlot@CBaseAnimGraphController@@@@
 .?AV?$CNetworkVarBase@IVNetworkVar_m_nTickBase@CBasePlayerController@@@@
 .?AV?$CNetworkVarBase@IVNetworkVar_m_ragdollAttachedObjectIndex@C_RagdollPropAttached@@@@
 .?AV?$CNetworkVarBase@IVNetworkVar_m_rtActiveMissionPeriod@CCSPlayerController@@@@
@@ -5801,7 +5801,7 @@ $taser_charge
 .?AV?$CNetworkVarBase@VCNetworkedQuantizedFloat@@VNetworkVar_m_flWeight@CNetworkedSequenceOperation@@@@
 .?AV?$CNetworkVarBase@VCPlayerSlot@@VNetworkVar_m_iRoundEndFunFactPlayerSlot@C_CSGameRules@@@@
 .?AV?$CNetworkVarBase@VCTransform@@VNetworkVar_m_xInitialPathWorldToLocal@CPathWithDynamicNodes@@@@
-.?AV?$CNetworkVarBase@VCUtlBinaryBlock@@VNetworkVar_m_serializedStatic@AnimGraph2SerializedPoseRecipe_t@@@@
+.?AV?$CNetworkVarBase@VCUtlBinaryBlock@@VNetworkVar_m_topology@AnimGraph2SerializedPoseRecipeSlot_t@@@@
 .?AV?$CNetworkVarBase@VCUtlString@@VNetworkVar_m_LightStyleString@C_BarnLight@@@@
 .?AV?$CNetworkVarBase@VCUtlString@@VNetworkVar_m_Pattern@CLightComponent@@@@
 .?AV?$CNetworkVarBase@VCUtlString@@VNetworkVar_m_brushModelName@C_FuncMonitor@@@@
@@ -7081,7 +7081,7 @@ $taser_charge
 .?AV?$C_NetworkUtlVectorBase@VResourceId_t@@VNetworkVar_m_vecExternalGraphIds@CBaseAnimGraphController@@$0?0H@@
 .?AV?$C_NetworkUtlVectorBase@_NVNetworkVar_m_PathNodes_PinEnabled@C_PathParticleRope@@$0?0H@@
 .?AV?$C_NetworkUtlVectorBase@_NVNetworkVar_m_ragEnabled@C_RagdollProp@@$0?0H@@
-.?AV?$C_UtlVectorEmbeddedNetworkVar@UAnimGraph2SerializedPoseRecipe_t@@VNetworkVar_m_SerializePoseRecipeAG2Slots@CBaseAnimGraphController@@$0?0H@@
+.?AV?$C_UtlVectorEmbeddedNetworkVar@UAnimGraph2SerializedPoseRecipeSlot_t@@VNetworkVar_m_SerializePoseRecipeAG2Slots@CBaseAnimGraphController@@$0?0H@@
 .?AV?$C_UtlVectorEmbeddedNetworkVar@UCSPerRoundStats_t@@VNetworkVar_m_perRoundStats@CCSPlayerController_ActionTrackingServices@@$0?0H@@
 .?AV?$C_UtlVectorEmbeddedNetworkVar@UEntityRenderAttribute_t@@VNetworkVar_m_vecRenderAttributes@C_BaseModelEntity@@$0?0H@@
 .?AV?$C_UtlVectorEmbeddedNetworkVar@USellbackPurchaseEntry_t@@VNetworkVar_m_vecSellbackPurchaseEntries@CCSPlayer_BuyServices@@$0?0H@@
@@ -11303,7 +11303,7 @@ $taser_charge
 4tpD
 4zj@1;IJ
 4|2;#GameUI_Retake_Card_LightEmUp,1,1,rifle1,grenade0|2;#GameUI_Retake_Card_Kobe,1,1,rifle1,grenade2|1;#GameUI_Retake_Card_1g,1,1,rifle1,grenade3|1;#GameUI_Retake_Card_DisappearingAct,1,1,rifle1,grenade1|1;#GameUI_Retake_Card_EyesOnTarget,1,1,weapon_aug
-4~3x\v
+4~3h\v
 5'0v2ZP
 5(EWorkshopFileType) Type of Workshop file to publish.
 5(Optional) The number of results, per page to return.
@@ -11426,6 +11426,7 @@ $taser_charge
 8192
 8285-YOAZ-6049
 82\n:XPH
+83P\n
 851Pe
 8835-KLXV-0292
 8<pl
@@ -11528,14 +11529,14 @@ $taser_charge
 ;"lY7
 ;5jNf
 ;83\v\nHBJ7
-;I4X
+;I4H
 ;LGEW
 ;Qo0
+;ToolObjects/LightProbeVolume
 ;\n\nPerMapRank
 ;\n\vrank_update
 ;`Fzc
 ;bwP*
-;m_nForceRefreshCount
 ;sv_pausable;sv_cheats
 ;xsK
 <!-- dmx encoding keyvalues2_noids 4 format vtex 1 -->\n"CDmeVtex"\n{\n\t"m_inputTextureArray" "element_array"\n\t[\n
@@ -11863,6 +11864,7 @@ AG2_OnAnimGraphDefinitionOrModeChanged
 AG2_OnAnimGraphSerializationContextInvalidated
 AG2_OnResourceChanged   - %s - %s entity %d (%s) to recreate the %sgraph instance\n
 AG2_OnResourcePreReload - %s - %s entity %d (%s) deleted %sgraph instance\n
+AG2_PoseRecipeChanged
 AG2_PushAnimTransformsToSkeletonInstance
 AGgV
 AIRBOAT
@@ -11892,7 +11894,6 @@ APPEND_EXP
 APPSYSTEM: In ConnectGameInterfaces(), s_nRegistrationCount is %d!\n
 APPSYSTEM: In ConnectGameInterfaces(), tried to use different connection modes!\n
 APPSYSTEM: In ReconnectGameInterface(), tried to use different connection modes!\n
-ARdr opt = %s\n
 ASCII
 ASIDENTIFIERCHOICE_CANONIZE
 ASIDENTIFIERCHOICE_IS_CANONICAL
@@ -12166,6 +12167,7 @@ Alternate icon definition index '%s' (%llu) must be greater than zero
 AltitudeMax
 AltitudeMin
 Always
+Amat_lmap_new_path 0
 Ambient %s:Unknown command %s\n
 Ambient Occlusion Proxies
 Ambient Occlusion Proxies Downsample Depth
@@ -15470,7 +15472,7 @@ CUtlVector<%s>
 CUtlVector<%s> counts differ (net %d - pred %d) delta( %d)
 CUtlVector<%s> element [%d] missing from net
 CUtlVector<%s> element [%d] missing from pred
-CUtlVectorEmbeddedNetworkVar< AnimGraph2SerializedPoseRecipe_t, NetworkVar_m_SerializePoseRecipeAG2Slots , -1, int >
+CUtlVectorEmbeddedNetworkVar< AnimGraph2SerializedPoseRecipeSlot_t, NetworkVar_m_SerializePoseRecipeAG2Slots , -1, int >
 CUtlVectorEmbeddedNetworkVar< CDamageRecord, NetworkVar_m_DamageList , -1, int >
 CUtlVectorEmbeddedNetworkVar< CEconItemAttribute, NetworkVar_m_Attributes , -1, int >
 CUtlVectorEmbeddedNetworkVar< CSPerRoundStats_t, NetworkVar_m_perRoundStats , -1, int >
@@ -17160,6 +17162,7 @@ Downsample and BloomThreshold
 DownsampleDepth
 DownsampleDepthForWaterEffects
 Downtown
+Dpath_simple
 Dq;n
 DrBoom
 Draft is fully completed!\n
@@ -20829,7 +20832,6 @@ LOG_MESSAGE
 LONG
 LONG_C2I
 LPVIndex
-LS&\nKp(
 LT[N
 LT_txt
 LXKQ
@@ -23487,6 +23489,7 @@ RayTracingEnvironment::RefineNode
 RayTracingEnvironment::RefineNodeJob
 Rbg.E
 RcvMrgnTgt %+8.3f %+8.2f
+Rdr opt = %s\n
 Re-creating weapon hudmodel due to vdata subclass model change.\n
 Re-entering CPulseCell_PlaySequence #%d - intentional?
 Re-loading map %s\n
@@ -25966,7 +25969,6 @@ Too many simultaneously active particle systems!\n
 Tool '%s' missing required type.
 ToolObjects/CubeMap
 ToolObjects/GlobalLight
-ToolObjects/LightProbeVolume
 ToolObjects/env_sprite
 ToolObjects/point_clientui_world_text_panel
 ToolObjects/point_worldtext
@@ -28414,7 +28416,6 @@ _xU`u
 _}eOk
 `28)fk
 `3?New@Array@v8@@SA?AV?$Local@VArray@v8@@@2@PEAVIsolate@2@H@Z
-`43P\n
 `6PL
 `6pM
 `:zQF
@@ -28429,7 +28430,6 @@ _}eOk
 `anonymous-namespace'::DynamicLockHelper<struct `anonymous namespace'::SmokeLightProbeVolumeData_t>::Lock
 `fPw.\vM
 `h9T~
-`htp
 `o_je
 `yNT
 a null shared library handle was used
@@ -34400,7 +34400,6 @@ k+Aq
 k/sn
 k0>Z,
 k26C*
-k38\v
 k8\vD
 k8fo
 k8xA
@@ -34816,7 +34815,7 @@ lC57
 lDcW
 lM2p
 l\n\fexcludedtags
-l`w4(
+l`w4
 label_token
 ladder
 ladder_angle_yaw
@@ -35160,7 +35159,7 @@ lowresdepth
 luminaire_anisotropy
 luminaire_shape
 luminaire_size
-lvR4x
+lvR4h
 m&9W
 m*Zu
 m249
@@ -35642,7 +35641,6 @@ mat_debug: multiple matches for %s:
 mat_debug: need a debug mode\n
 mat_depthwrite_new_path 0
 mat_depthwrite_new_path 1
-mat_lmap_new_path 0
 mat_lmap_new_path 1
 mat_unlit_new_path 0
 mat_unlit_new_path 1
@@ -37032,6 +37030,7 @@ p618
 p>?Set@Template@v8@@QEAAXV?$Local@VName@v8@@@2@V?$Local@VData@v8@@@2@W4PropertyAttribute@2@@Z
 p@0pqE5tsO?|1
 pAshard_model_desc_t
+pBDraws a cross at the given location\n\tArguments: x y z
 pCheckpointName
 pD4t
 pData->GetDataDescMap() == pTemplateDataMap
@@ -37353,7 +37352,6 @@ path_node
 path_parameter_string
 path_particle_rope
 path_particle_rope_clientside
-path_simple
 path_uniqueid
 path_with_dynamic_nodes
 pathclass
@@ -39977,7 +39975,7 @@ t(ydU
 t+RW
 t0;?ZlP*m
 t2U 
-t3X\v
+t3H\v
 t4O_
 t80z
 tA`KO/3G!\n7h=
@@ -41858,7 +41856,7 @@ y#y&Jb
 y-offset
 y0JY
 y2Cu
-y3h\v
+y3X\v
 y;w9
 y>?SetAccessor@ObjectTemplate@v8@@QEAAXV?$Local@VString@v8@@@2@P6AX0AEBV?$PropertyCallbackInfo@VValue@v8@@@2@@ZP6AX0V?$Local@VValue@v8@@@2@AEBV?$PropertyCallbackInfo@X@2@@Z3W4AccessControl@2@W4PropertyAttribute@2@W4SideEffectType@2@8@Z
 y?iLa

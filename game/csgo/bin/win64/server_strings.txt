@@ -1664,7 +1664,6 @@ $tH@T\tI
 (0x%08X)'??'
 (3@Mb
 (4?NewFromUnsigned@Integer@v8@@SA?AV?$Local@VInteger@v8@@@2@PEAVIsolate@2@I@Z
-(4Poj
 (5Me
 (5jP
 (=?Resolve@Resolver@Promise@v8@@QEAA?AV?$Maybe@_N@3@V?$Local@VContext@v8@@@3@V?$Local@VValue@v8@@@3@@Z
@@ -2253,7 +2252,7 @@ $tH@T\tI
 .?AUAI_Navigator_DebugSnapshotData_t@@
 .?AUActiveModelConfig_t@@
 .?AUAmmoTypeInfo_t@@
-.?AUAnimGraph2SerializedPoseRecipe_t@@
+.?AUAnimGraph2SerializedPoseRecipeSlot_t@@
 .?AUCAttr_m_InterestTags@?1??GetAttributeTable_CChoreoActor@CChoreoActor@@SAXPEAV?$CUtlVector@PEAVIBaseToolAttr@@HV?$CUtlVectorMemory_Growable@PEAVIBaseToolAttr@@H$0A@@@@@@Z@
 .?AUCAttr_no_member@?2??GetAttributeTable_CChoreoActor@CChoreoActor@@SAXPEAV?$CUtlVector@PEAVIBaseToolAttr@@HV?$CUtlVectorMemory_Growable@PEAVIBaseToolAttr@@H$0A@@@@@@Z@
 .?AUCAttr_no_member@?2??GetAttributeTable_CChoreoEvent_ANIMGRAPH_CONTROLLER@CChoreoEvent_ANIMGRAPH_CONTROLLER@@SAXPEAV?$CUtlVector@PEAVIBaseToolAttr@@HV?$CUtlVectorMemory_Growable@PEAVIBaseToolAttr@@H$0A@@@@@@Z@
@@ -3595,7 +3594,6 @@ $tH@T\tI
 .?AV?$CNetworkVarBase@GVNetworkVar_m_nItemDefIndex@WeaponPurchaseCount_t@@@@
 .?AV?$CNetworkVarBase@GVNetworkVar_m_nPawnCharacterDefIndex@CCSPlayerController@@@@
 .?AV?$CNetworkVarBase@GVNetworkVar_m_nSceneStringIndex@CSceneEntity@@@@
-.?AV?$CNetworkVarBase@GVNetworkVar_m_nSerializePoseRecipeAG2ActiveSlot@CBaseAnimGraphController@@@@
 .?AV?$CNetworkVarBase@GVNetworkVar_m_unActiveQuestId@CCSPlayerController@@@@
 .?AV?$CNetworkVarBase@GVNetworkVar_m_unCurrentEquipmentValue@CCSPlayerPawn@@@@
 .?AV?$CNetworkVarBase@GVNetworkVar_m_unDefIdx@SellbackPurchaseEntry_t@@@@
@@ -3878,6 +3876,7 @@ $tH@T\tI
 .?AV?$CNetworkVarBase@IVNetworkVar_m_nMagnitude@CEntityDissolve@@@@
 .?AV?$CNetworkVarBase@IVNetworkVar_m_nOwnerId@VPhysicsCollisionAttribute_t@@@@
 .?AV?$CNetworkVarBase@IVNetworkVar_m_nRenderOrder@CEnvDecal@@@@
+.?AV?$CNetworkVarBase@IVNetworkVar_m_nSerializePoseRecipeAG2ActiveSlot@CBaseAnimGraphController@@@@
 .?AV?$CNetworkVarBase@IVNetworkVar_m_nTickBase@CBasePlayerController@@@@
 .?AV?$CNetworkVarBase@IVNetworkVar_m_ragdollAttachedObjectIndex@CRagdollPropAttached@@@@
 .?AV?$CNetworkVarBase@IVNetworkVar_m_rtActiveMissionPeriod@CCSPlayerController@@@@
@@ -4383,7 +4382,7 @@ $tH@T\tI
 .?AV?$CNetworkVarBase@VCNetworkedQuantizedFloat@@VNetworkVar_m_flWeight@CNetworkedSequenceOperation@@@@
 .?AV?$CNetworkVarBase@VCPlayerSlot@@VNetworkVar_m_iRoundEndFunFactPlayerSlot@CCSGameRules@@@@
 .?AV?$CNetworkVarBase@VCTransform@@VNetworkVar_m_xInitialPathWorldToLocal@CPathWithDynamicNodes@@@@
-.?AV?$CNetworkVarBase@VCUtlBinaryBlock@@VNetworkVar_m_serializedStatic@AnimGraph2SerializedPoseRecipe_t@@@@
+.?AV?$CNetworkVarBase@VCUtlBinaryBlock@@VNetworkVar_m_topology@AnimGraph2SerializedPoseRecipeSlot_t@@@@
 .?AV?$CNetworkVarBase@VCUtlString@@VNetworkVar_m_LightStyleString@CBarnLight@@@@
 .?AV?$CNetworkVarBase@VCUtlString@@VNetworkVar_m_Pattern@CLightComponent@@@@
 .?AV?$CNetworkVarBase@VCUtlString@@VNetworkVar_m_brushModelName@CFuncMonitor@@@@
@@ -5221,7 +5220,7 @@ $tH@T\tI
 .?AV?$CUtlVectorDataOps@V?$CUtlVectorEmbeddedNetworkVar@UEntityRenderAttribute_t@@VNetworkVar_m_vecRenderAttributes@CBaseModelEntity@@$0?0H@@$09$0A@@@
 .?AV?$CUtlVectorDataOps@V?$CUtlVectorEmbeddedNetworkVar@USellbackPurchaseEntry_t@@VNetworkVar_m_vecSellbackPurchaseEntries@CCSPlayer_BuyServices@@$0?0H@@$09$0A@@@
 .?AV?$CUtlVectorDataOps@V?$CUtlVectorEmbeddedNetworkVar@UWeaponPurchaseCount_t@@VNetworkVar_m_weaponPurchases@WeaponPurchaseTracker_t@@$0?0H@@$09$0A@@@
-.?AV?$CUtlVectorEmbeddedNetworkVar@UAnimGraph2SerializedPoseRecipe_t@@VNetworkVar_m_SerializePoseRecipeAG2Slots@CBaseAnimGraphController@@$0?0H@@
+.?AV?$CUtlVectorEmbeddedNetworkVar@UAnimGraph2SerializedPoseRecipeSlot_t@@VNetworkVar_m_SerializePoseRecipeAG2Slots@CBaseAnimGraphController@@$0?0H@@
 .?AV?$CUtlVectorEmbeddedNetworkVar@UCSPerRoundStats_t@@VNetworkVar_m_perRoundStats@CCSPlayerController_ActionTrackingServices@@$0?0H@@
 .?AV?$CUtlVectorEmbeddedNetworkVar@UEntityRenderAttribute_t@@VNetworkVar_m_vecRenderAttributes@CBaseModelEntity@@$0?0H@@
 .?AV?$CUtlVectorEmbeddedNetworkVar@USellbackPurchaseEntry_t@@VNetworkVar_m_vecSellbackPurchaseEntries@CCSPlayer_BuyServices@@$0?0H@@
@@ -8520,6 +8519,7 @@ $tH@T\tI
 .PlayerRankingInfo
 .PlayerRankingInfo"L\n3CMsgGCCStrike15_v2_MatchmakingOperator2GCBlogUpdate
 .PlayerRankingInfo.PerMapRank
+.PqT
 .Q.Ol
 .ScoreLeaderboardData
 .ScoreLeaderboardData"S\n%CCSUsrMsg_PlayerDecalDigitalSignature
@@ -8527,7 +8527,6 @@ $tH@T\tI
 .ScoreLeaderboardData.Entry"
 .ServerHltvInfo
 .Step
-.TCO
 .TournamentEvent
 .TournamentMatchSetup
 .TournamentPlayer"
@@ -8808,11 +8807,12 @@ $tH@T\tI
 .\ssl\t1_reneg.c
 .anchor
 .bmxz
+.dcO
 .dx_LV9
 .fatdem
 .lbN
-.pQT
 .pp@0
+.pqT
 .text$
 .vjs_c
 .vmap
@@ -8886,7 +8886,7 @@ $tH@T\tI
 0e\r8
 0pp@5tqE?|sO541
 0tU+xc:
-0vTCO
+0vdcO
 0x%s
 0|2;#GameUI_Retake_Card_BackInAFlash,1,1,weapon_ump45,grenade0|2;#GameUI_Retake_Card_AllIn,1,1,weapon_galilar|1;#GameUI_Retake_Card_BoomBox,1,1,weapon_mac10,grenade2,grenade1|1;#GameUI_Retake_Card_SetThemFree,1,1,weapon_ssg08,grenade0
 0|2;#GameUI_Retake_Card_BlindFire,1,0,weapon_elite,grenade0|2;#GameUI_Retake_Card_QueOta,0,0,weapon_deagle|1;#GameUI_Retake_Card_SmokeScreen,0,0,weapon_p250,grenade1|1;#GameUI_Retake_Card_TecTecBoom,0,0,weapon_tec9,grenade2
@@ -9095,14 +9095,15 @@ $tH@T\tI
 6%vi
 6,2K
 6-zeZ
+60\tU
 62$|S)6f
 64CK\vH
 666666666666666666666666666666666666666666666666\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\.\ssl\s3_enc.c
-6666666666666666IEconItemInterface
+6666666666666666CAttributeManager
 67-s
-6@XT
 6H,N
 6O|T%
+6PxT
 6Qd=
 6\n1k_EGCItemCustomizationNotification_CasketContents
 6\n1k_EGCItemCustomizationNotification_ExtractSticker
@@ -9125,7 +9126,6 @@ $tH@T\tI
 6l13
 6lkc
 6myY;
-6pZT
 6qo~
 6r-m_v
 6r1ij
@@ -9143,6 +9143,7 @@ $tH@T\tI
 7GNW^c-<ER]c"09IYc
 7HOX_c.5AQ[c#(4FWc
 7OsR
+7PointOrientConstraint_t
 7W}2
 7XRJ
 7\n2k_EGCItemCustomizationNotification_XpShopAckTracks
@@ -9158,7 +9159,6 @@ $tH@T\tI
 7gS_
 7i@X
 7m:e
-7m_pOutputOnEntitiesSpawned
 7o4H
 7qp9
 7q|Q@
@@ -9241,7 +9241,7 @@ $tH@T\tI
 :NAy
 :QYJ
 :Vlq
-:X6n
+:XVn
 :\n5k_EGCItemCustomizationNotification_EncapsulateSticker
 :\n5k_EMsgGCCStrike15_v2_ClientCommendPlayerQueryResponse
 :\n5k_EMsgGCCStrike15_v2_MatchListRequestCurrentLiveGames
@@ -9426,7 +9426,7 @@ $tH@T\tI
 ?uWS
 ?x29
 @!@%@+@1@?@C@E@]@a@g@m@
-@08NTCO
+@08NdcO
 @0pp
 @333
 @333?
@@ -9438,7 +9438,6 @@ $tH@T\tI
 @CCSPlayer_RadioServices
 @CWeaponCZ75a
 @HPX`hv
-@HVP
 @MfKZ
 @Pgl
 @Pu\rm
@@ -9453,11 +9452,11 @@ $tH@T\tI
 @\n\tPlacement
 @\n\vserver_type
 @dKb]
-@fTCO
+@fdcO
 @fff>fff>fff>fff>
 @i1V
 @n2w
-@nTCO
+@ndcO
 @player_start_teleport_destination
 @workshop
 A CT bot doesn't know what to do while the bomb is planted!\n
@@ -9476,7 +9475,6 @@ A<fP
 A>x8
 A@d0I
 AA Compromise
-AA:Pj
 AABBDirection
 AACompromise
 AC2,h
@@ -9581,6 +9579,7 @@ AG2_OnAnimGraphDefinitionOrModeChanged
 AG2_OnAnimGraphSerializationContextInvalidated
 AG2_OnResourceChanged   - %s - %s entity %d (%s) to recreate the %sgraph instance\n
 AG2_OnResourcePreReload - %s - %s entity %d (%s) deleted %sgraph instance\n
+AG2_PoseRecipeChanged
 AGgV
 AIRBOAT
 AI\tHpH8x
@@ -12770,7 +12769,7 @@ CUtlStringToken hash collision between the two fields %s and %s!\n\tRename one o
 CUtlStringToken(%u)
 CUtlSymbol
 CUtlVector< CEconItemAttribute >
-CUtlVectorEmbeddedNetworkVar< AnimGraph2SerializedPoseRecipe_t, NetworkVar_m_SerializePoseRecipeAG2Slots , -1, int >
+CUtlVectorEmbeddedNetworkVar< AnimGraph2SerializedPoseRecipeSlot_t, NetworkVar_m_SerializePoseRecipeAG2Slots , -1, int >
 CUtlVectorEmbeddedNetworkVar< CDamageRecord, NetworkVar_m_DamageList , -1, int >
 CUtlVectorEmbeddedNetworkVar< CEconItemAttribute, NetworkVar_m_Attributes , -1, int >
 CUtlVectorEmbeddedNetworkVar< CSPerRoundStats_t, NetworkVar_m_perRoundStats , -1, int >
@@ -14561,7 +14560,6 @@ F'pY
 F+Zb
 F,mZq
 F/o4
-F0oT
 F2M+
 F6tr
 F7!z
@@ -14909,7 +14907,6 @@ Found no entity at %d.\n
 Found soundscape entity "%s" with no soundscape name.\n
 Found source soundscape %u after marching backwards.\n
 FourVectors
-FpoT
 Frac
 Fractional component (ie. returns 0.34 for 12.34)
 FrameTime
@@ -14924,6 +14921,7 @@ FreezePeriod
 Frequency
 FriendlyFire
 From
+Fsave_fake_hitch
 Full Buy Round
 FullTossMoveBaseVelocity
 FullTossMovePreGravity
@@ -18187,7 +18185,7 @@ P-384
 P-521
 P08@J
 P08J
-P08NTCO
+P08NdcO
 P1\t98"
 P5[1
 PAGN_4
@@ -18643,7 +18641,7 @@ Please specify 0 or 1 with the -stream Parameter\n
 Please wait for broadcast to start ...
 Pm8A?
 PmR"H?
-PnTCO
+PndcO
 Point entity.
 PointTemplate
 Policy Qualifier CPS
@@ -20807,7 +20805,6 @@ TLSv1.1
 TLSv1.2
 TLSv1/SSLv3
 TM=U*
-TODO
 TODO: Motors only support attaching to aggregates with one part right now.  Need to add a part name to the entity.\n
 TOOLS/TOOLSBLOCKBOMB
 TOTAL DISTANCE:  
@@ -22258,7 +22255,6 @@ Z~wl
 \f]ne3
 \fdhWTh
 \fiaR
-\fp\vPx
 \ful2
 \fy&3Gl
 \l:ArR
@@ -22911,6 +22907,7 @@ Z~wl
 \n\vweapon_type
 \n\vxp_category
 \n\vyoutube_url
+\nlpO
 \nqYu
 \ntM(ie-V
 \r!\r+\r-\r=\r?\rO\rU\ri\ry\r
@@ -23030,6 +23027,7 @@ Z~wl
 ^\n\ffloat_values
 ^`bbccX^`bccPW[_bc@IOW_c.7;ETc
 ^accccY]`bccQUZ_ccAFMV_c/-2=Pc
+^pxT
 _CustomCommand
 _CustomCommand%d
 _DisableUpdateTarget
@@ -23087,12 +23085,9 @@ _tools_event_desc
 _var
 _xU`u
 _}eOk
-`20k
 `28)fk
-`2Pj
-`2pa
 `3?New@Array@v8@@SA?AV?$Local@VArray@v8@@@2@PEAVIsolate@2@H@Z
-`6PQT
+`6`qT
 `:zQF
 `D$daM-l
 `DZG
@@ -23102,10 +23097,9 @@ _}eOk
 `VX:H
 `\n\rvector_values
 `fPw.\vM
-`fTCO
+`fdcO
 `h9T~
-`htPoj
-`nTCO
+`ndcO
 `o_je
 `yNT
 a null shared library handle was used
@@ -23124,7 +23118,7 @@ a:typeparam
 a;Tg
 a@XZ
 aA0k
-aBvTCO
+aBvdcO
 aD/x
 aDSS
 aECDH
@@ -25970,13 +25964,11 @@ fPitch
 fRoll
 fSpinDownTime
 fSpinUpTime
-fTCO
 fUnh\
 fValue
 fYaw
 f\trixZ
 f_pose_weight_%s
-f`NT
 faceposer
 facing: %s
 facsimileTelephoneNumber
@@ -26036,6 +26028,7 @@ fatal
 fatdemo.proto
 favouriteDrink
 fbihrt_epic
+fdcO
 fdxfv%
 featured_display_item_defidx
 feop(
@@ -26310,6 +26303,7 @@ forward %f\n
 fow_control_point
 fow_control_point2
 fpnS
+fpnT
 frac
 fraction
 fractionrounds
@@ -29150,7 +29144,6 @@ nSRecord
 nSoundEventGuid
 nStf,a
 nSw}Z\tu
-nTCO
 nTextOffset
 nTraceContents
 nValue
@@ -29188,6 +29181,7 @@ navprop
 navsystem
 nbio connect error
 ncg:
+ndcO
 ne[9
 nearclipplane
 nearest_area_distance_threshold
@@ -29696,8 +29690,8 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p08@H^TCO
-p0j`|
+p08@H^dcO
+p0jp
 p250
 p2{l
 p4Z3
@@ -29705,7 +29699,7 @@ p5Z3
 p5\nL,
 p618
 p>?Set@Template@v8@@QEAAXV?$Local@VName@v8@@@2@V?$Local@VData@v8@@@2@W4PropertyAttribute@2@@Z
-p>TCO
+p>dcO
 p@0pqE5tsO?|1
 pActivator
 pAnimGraphEntity
@@ -30194,7 +30188,7 @@ playervisibilitystrength
 playerweapon
 playing_commentary
 playoverscript
-pnTCO
+pndcO
 point
 point arithmetic failure
 point at infinity
@@ -33075,7 +33069,6 @@ vPosition
 vStartPos
 vStartPos[%s] pStartArea[%d]
 vStartPos[%s] vGoalPos[%s]
-vTCO
 vTarget
 vValue
 vVelocity
@@ -33132,6 +33125,7 @@ vcd_pulse_requirement
 vdata
 vdata_choice
 vdataderived
+vdcO
 vecAlternateAngles
 vecAlternateOrigin
 vecForce
@@ -33698,6 +33692,7 @@ zz2K
 }gE3
 }n2W
 }}JSON_END\n
+~0wT
 ~9ob
 ~If D
 ~P2T
