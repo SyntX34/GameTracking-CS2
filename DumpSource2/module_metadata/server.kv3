@@ -184,7 +184,7 @@
 			name = "weapon_incgrenade_server"
 			group = "GameSessionManifest_server"
 			source_file = "src/game/shared/cstrike15/weapon_molotov.cpp"
-			source_line = 123
+			source_line = 124
 			resources = 
 			[
 				resource_name:"weapon_incgrenade.ventr",

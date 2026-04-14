@@ -81,7 +81,6 @@
   Player died %dth time in level [%s]!!!\n
   Player died, but not in a level!!!\n
   R%d: %15s %25s %s\n
-  Two-pass.
   V%d: '%s' (%s)\n
   Version: %llu:\n
   Vprof: %d frames, %d line items, frame time avg=%.1fms, p99=%1.fms\n
@@ -102,10 +101,11 @@
  ' ) - 3 G M Q _ c e i w } 
  (%ld unused bits)\n
  (08@HPX`j
- (08@HPXb
+ (08@HPXb0
  (08@HPZ
- (08@HR
- (0X`hpz
+ (08@HR0
+ (08@J0
+ (0X`hpz0
  (Dirty Animation)
  (Disabled on Server)
  (INVALID PSS PARAMETERS)\n
@@ -1561,7 +1561,6 @@ $tH@T\tI
 %s_pawn
 %sattackerblind
 %sattackerinair
-%sclassname='%s'\n
 %score1%
 %score2%
 %sdomination
@@ -2242,6 +2241,7 @@ $tH@T\tI
 ....................
 ..uR5&m
 .4bb
+.4xO
 .97yY
 .?AU?$default_delete@VCNavGenPolyProcessorStageBase@@@std@@
 .?AUAI_BaseNPCAnimGraph_DebugSnapshotData_t@@
@@ -3529,6 +3529,7 @@ $tH@T\tI
 .?AV?$CNetworkUtlVectorBase@V?$Vec3D@M@@VNetworkVar_m_PathNodes_TangentOut@CPathParticleRope@@$0?0H@@
 .?AV?$CNetworkUtlVectorBase@V?$Vec3D@M@@VNetworkVar_m_ragPos@CRagdollProp@@$0?0H@@
 .?AV?$CNetworkUtlVectorBase@V?$Vec4D@M@@VNetworkVar_m_vInitialPanelVertices@shard_model_desc_t@@$0?0H@@
+.?AV?$CNetworkUtlVectorBase@VCGlobalSymbol@@VNetworkVar_m_vecSecondarySkeletonSlotIDs@CBaseAnimGraphController@@$0?0H@@
 .?AV?$CNetworkUtlVectorBase@VCTransform@@VNetworkVar_m_Transforms@PhysicsRagdollPose_t@@$0?0H@@
 .?AV?$CNetworkUtlVectorBase@VCUtlString@@VNetworkVar_m_LightStyleEvents@CBarnLight@@$0?0H@@
 .?AV?$CNetworkUtlVectorBase@VCUtlString@@VNetworkVar_m_QueuedLightStyleStrings@CBarnLight@@$0?0H@@
@@ -5140,6 +5141,7 @@ $tH@T\tI
 .?AV?$CUtlVector@V?$Vec2D@M@@HV?$CNetworkUtlVector_MemoryType@V?$Vec2D@M@@$0?0@@@@
 .?AV?$CUtlVector@V?$Vec3D@M@@HV?$CNetworkUtlVector_MemoryType@V?$Vec3D@M@@$0?0@@@@
 .?AV?$CUtlVector@V?$Vec4D@M@@HV?$CNetworkUtlVector_MemoryType@V?$Vec4D@M@@$0?0@@@@
+.?AV?$CUtlVector@VCGlobalSymbol@@HV?$CNetworkUtlVector_MemoryType@VCGlobalSymbol@@$0?0@@@@
 .?AV?$CUtlVector@VCTransform@@HV?$CNetworkUtlVector_MemoryType@VCTransform@@$0?0@@@@
 .?AV?$CUtlVector@VCUtlString@@HV?$CNetworkUtlVector_MemoryType@VCUtlString@@$0?0@@@@
 .?AV?$CUtlVector@VCUtlSymbolLarge@@HV?$CNetworkUtlVector_MemoryType@VCUtlSymbolLarge@@$0?0@@@@
@@ -5171,6 +5173,7 @@ $tH@T\tI
 .?AV?$CUtlVectorDataOps@V?$CNetworkUtlVectorBase@V?$Vec3D@M@@VNetworkVar_m_PathNodes_TangentOut@CPathParticleRope@@$0?0H@@$02$0A@@@
 .?AV?$CUtlVectorDataOps@V?$CNetworkUtlVectorBase@V?$Vec3D@M@@VNetworkVar_m_ragPos@CRagdollProp@@$0?0H@@$0O@$0A@@@
 .?AV?$CUtlVectorDataOps@V?$CNetworkUtlVectorBase@V?$Vec4D@M@@VNetworkVar_m_vInitialPanelVertices@shard_model_desc_t@@$0?0H@@$0BL@$0A@@@
+.?AV?$CUtlVectorDataOps@V?$CNetworkUtlVectorBase@VCGlobalSymbol@@VNetworkVar_m_vecSecondarySkeletonSlotIDs@CBaseAnimGraphController@@$0?0H@@$0EP@$0A@@@
 .?AV?$CUtlVectorDataOps@V?$CNetworkUtlVectorBase@VCTransform@@VNetworkVar_m_Transforms@PhysicsRagdollPose_t@@$0?0H@@$0DL@$0A@@@
 .?AV?$CUtlVectorDataOps@V?$CNetworkUtlVectorBase@VCUtlString@@VNetworkVar_m_LightStyleEvents@CBarnLight@@$0?0H@@$0DF@$0A@@@
 .?AV?$CUtlVectorDataOps@V?$CNetworkUtlVectorBase@VCUtlString@@VNetworkVar_m_QueuedLightStyleStrings@CBarnLight@@$0?0H@@$0DF@$0A@@@
@@ -6345,6 +6348,7 @@ $tH@T\tI
 .?AVCEnvBeam@@
 .?AVCEnvBeverage@@
 .?AVCEnvCombinedLightProbeVolume@@
+.?AVCEnvCombinedLightProbeVolumeAlias_func_combined_light_probe_volume@@
 .?AVCEnvCubemap@@
 .?AVCEnvCubemapBox@@
 .?AVCEnvCubemapFog@@
@@ -6503,6 +6507,7 @@ $tH@T\tI
 .?AVCGameTimescale@@
 .?AVCGenericConstraint@@
 .?AVCGlobalState@@
+.?AVCGlobalSymbol@@
 .?AVCGlowProperty@@
 .?AVCGradientFog@@
 .?AVCGunTarget@@
@@ -8519,7 +8524,6 @@ $tH@T\tI
 .PlayerRankingInfo
 .PlayerRankingInfo"L\n3CMsgGCCStrike15_v2_MatchmakingOperator2GCBlogUpdate
 .PlayerRankingInfo.PerMapRank
-.PqT
 .Q.Ol
 .ScoreLeaderboardData
 .ScoreLeaderboardData"S\n%CCSUsrMsg_PlayerDecalDigitalSignature
@@ -8807,12 +8811,10 @@ $tH@T\tI
 .\ssl\t1_reneg.c
 .anchor
 .bmxz
-.dcO
 .dx_LV9
 .fatdem
 .lbN
 .pp@0
-.pqT
 .text$
 .vjs_c
 .vmap
@@ -8853,7 +8855,7 @@ $tH@T\tI
 02V8[
 05=k
 08@HR
-08@J
+08@J0
 08bX
 09,h
 0;Q5[
@@ -8863,6 +8865,7 @@ $tH@T\tI
 0M2~@p
 0Mc\t\n
 0W/5
+0XTO
 0Z@q
 0\n+k_EGCItemCustomizationNotification_NameItem
 0\n+k_EMsgGCCStrike15_v2_AccountPrivacySettings
@@ -8883,10 +8886,11 @@ $tH@T\tI
 0\n\tbroadcast
 0\r%0h
 0\r0#0)070;0U0Y0[0g0q0y0}0
+0`lO
 0e\r8
 0pp@5tqE?|sO541
 0tU+xc:
-0vdcO
+0v4xO
 0x%s
 0|2;#GameUI_Retake_Card_BackInAFlash,1,1,weapon_ump45,grenade0|2;#GameUI_Retake_Card_AllIn,1,1,weapon_galilar|1;#GameUI_Retake_Card_BoomBox,1,1,weapon_mac10,grenade2,grenade1|1;#GameUI_Retake_Card_SetThemFree,1,1,weapon_ssg08,grenade0
 0|2;#GameUI_Retake_Card_BlindFire,1,0,weapon_elite,grenade0|2;#GameUI_Retake_Card_QueOta,0,0,weapon_deagle|1;#GameUI_Retake_Card_SmokeScreen,0,0,weapon_p250,grenade1|1;#GameUI_Retake_Card_TecTecBoom,0,0,weapon_tec9,grenade2
@@ -8969,6 +8973,8 @@ $tH@T\tI
 2\n.eRollType
 2\n\nline_items
 2\rlhp
+2\vp`lO
+2\vpl
 2^pV
 2a"l
 2bT~
@@ -9095,7 +9101,6 @@ $tH@T\tI
 6%vi
 6,2K
 6-zeZ
-60\tU
 62$|S)6f
 64CK\vH
 666666666666666666666666666666666666666666666666\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\.\ssl\s3_enc.c
@@ -9103,7 +9108,6 @@ $tH@T\tI
 67-s
 6H,N
 6O|T%
-6PxT
 6Qd=
 6\n1k_EGCItemCustomizationNotification_CasketContents
 6\n1k_EGCItemCustomizationNotification_ExtractSticker
@@ -9143,7 +9147,6 @@ $tH@T\tI
 7GNW^c-<ER]c"09IYc
 7HOX_c.5AQ[c#(4FWc
 7OsR
-7PointOrientConstraint_t
 7W}2
 7XRJ
 7\n2k_EGCItemCustomizationNotification_XpShopAckTracks
@@ -9159,6 +9162,7 @@ $tH@T\tI
 7gS_
 7i@X
 7m:e
+7m_bOrphanInsteadOfDeletingChildrenOnRemove
 7o4H
 7qp9
 7q|Q@
@@ -9241,7 +9245,6 @@ $tH@T\tI
 :NAy
 :QYJ
 :Vlq
-:XVn
 :\n5k_EGCItemCustomizationNotification_EncapsulateSticker
 :\n5k_EMsgGCCStrike15_v2_ClientCommendPlayerQueryResponse
 :\n5k_EMsgGCCStrike15_v2_MatchListRequestCurrentLiveGames
@@ -9369,6 +9372,8 @@ $tH@T\tI
 >p00<
 >yhP
 >ztq
+?  Two-pass.
+?%sclassname='%s'\n
 ?33s?
 ??0CFunction@v8@@QEAA@PEBXPEBVCFunctionInfo@1@@Z
 ??0CFunctionInfo@v8@@QEAA@AEBVCTypeInfo@1@IPEBV21@W4Int64Representation@01@@Z
@@ -9405,7 +9410,6 @@ $tH@T\tI
 ?HP4
 ?HasCaught@TryCatch@v8@@QEBA_NXZ
 ?No data
-?Reload the game events
 ?VBH;
 ?\n:k_EMsgGCCStrike15_v2_Client2GCEconPreviewDataBlockResponse
 ?\n:k_EMsgGCCStrike15_v2_MatchListRequestTournamentPredictions
@@ -9420,13 +9424,12 @@ $tH@T\tI
 ?gwL
 ?jOb
 ?m_Stops
-?m_axisEnd
 ?srJO
 ?tya
 ?uWS
 ?x29
 @!@%@+@1@?@C@E@]@a@g@m@
-@08NdcO
+@08N4xO
 @0pp
 @333
 @333?
@@ -9435,9 +9438,9 @@ $tH@T\tI
 @Aff
 @BH]f
 @BoneSetup
-@CCSPlayer_RadioServices
-@CWeaponCZ75a
+@CWeaponM249
 @HPX`hv
+@HV0
 @MfKZ
 @Pgl
 @Pu\rm
@@ -9451,12 +9454,13 @@ $tH@T\tI
 @\n\nnomination
 @\n\tPlacement
 @\n\vserver_type
+@cs_team_manager
 @dKb]
-@fdcO
+@f4xO
 @fff>fff>fff>fff>
 @i1V
 @n2w
-@ndcO
+@n4xO
 @player_start_teleport_destination
 @workshop
 A CT bot doesn't know what to do while the bomb is planted!\n
@@ -10030,7 +10034,7 @@ BAsyncSend
 BAsyncSendProto
 BC (default)
 BCBtActionMoveTo
-BDisable MVP awards.
+BCUtlRBTree<struct CUtlOrderedMapBase<unsigned int,class CShadowCastingLightTracker::CSpawnGroupClientLights,class CDefLess<unsigned int>,int>::Node_t,class CUtlOrderedMapBase<unsigned int,class CShadowCastingLightTracker::CSpawnGroupClientLights,class CDefLess<unsigned int>,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<unsigned int,class CShadowCastingLightTracker::CSpawnGroupClientLights,class CDefLess<unsigned int>,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
 BEOS_BIND_FUNC
 BEOS_BIND_VAR
 BEOS_LOAD
@@ -10140,7 +10144,6 @@ BPE_Diagnostic
 BPE_StringCommand
 BREAKABLE
 BRouteMsgToJob
-BSource2ServerConfig001
 BT5f
 BT_ACTION_MOVETO_FASTEST_ROUTE
 BT_ACTION_MOVETO_RUN
@@ -10334,6 +10337,7 @@ BreakableContentsType
 Breakables
 Breaks in the debugger
 Bs'n
+Bteam_intro_terrorist
 Bu 5
 Buffer too small
 BuildCacheSubscribed(CEconAccountSeasonalOperationGS)
@@ -10523,11 +10527,10 @@ CAnimGraph2ParamRef
 CAnimGraph2ParamRefBase<bool>::Bind
 CAnimGraph2ParamRefBase<class CGlobalSymbol>::Bind
 CAnimGraph2ParamRefBase<class CNmTarget>::Bind
-CAnimGraph2ParamRefBase<class Vec3D<float> >::Bind
 CAnimGraph2ParamRefBase<float>::Bind
 CAnimGraphControllerManager::CreateAndBindController
 CAnimGraphControllerManager::CreateControllerToGraphBindings
-CAnimGraphGameSystem::OnServerPrePackEntities(), C:\buildworker\cs2_beta_win64\build\src\game\shared\animgraph_gamesystem.cpp:2385
+CAnimGraphGameSystem::OnServerPrePackEntities(), C:\buildworker\cs2_beta_win64\build\src\game\shared\animgraph_gamesystem.cpp:2392
 CAnimGraphParamAutoResetRef
 CAnimGraphParamRef
 CAnimGraphTagOptionalRef
@@ -11662,6 +11665,7 @@ CNetworkTransmitComponent::StateChanged(%s) @%s:%d
 CNetworkTransmitComponent::StateChangedBranch( overflowed shared changeinfos )
 CNetworkUtlVector: failed to resolve 0x%p in entity %d:%s (possibly from adding to CUtlVector during construction of class referenced via pointer).\n
 CNetworkUtlVector: successfully late-resolved 0x%p in entity %d:%s to %s:'%s'.\n
+CNetworkUtlVectorBase< CGlobalSymbol, NetworkVar_m_vecSecondarySkeletonSlotIDs , -1, int >
 CNetworkUtlVectorBase< CHandle< CBaseAnimGraph >, NetworkVar_m_vecSecondarySkeletons , -1, int >
 CNetworkUtlVectorBase< CHandle< CBaseEntity >, NetworkVar_m_hOutputEntities , -1, int >
 CNetworkUtlVectorBase< CHandle< CBaseModelEntity >, NetworkVar_m_AssociatedEntities , -1, int >
@@ -12740,7 +12744,6 @@ CUtlRBTree<struct CUtlOrderedMapBase<unsigned int,char const *,class CDefLess<un
 CUtlRBTree<struct CUtlOrderedMapBase<unsigned int,class CMapSpawnGroup *,class CDefLess<unsigned int>,unsigned short>::Node_t,class CUtlOrderedMapBase<unsigned int,class CMapSpawnGroup *,class CDefLess<unsigned int>,unsigned short>::CKeyLess,unsigned short,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<unsigned int,class CMapSpawnGroup *,class CDefLess<unsigned int>,unsigned short>::Node_t,unsigned short>,unsigned short,class CMemAllocAllocator> >::Insert
 CUtlRBTree<struct CUtlOrderedMapBase<unsigned int,class CPredictionEvent_AbstractData const *,class CDefLess<unsigned int>,int>::Node_t,class CUtlOrderedMapBase<unsigned int,class CPredictionEvent_AbstractData const *,class CDefLess<unsigned int>,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<unsigned int,class CPredictionEvent_AbstractData const *,class CDefLess<unsigned int>,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
 CUtlRBTree<struct CUtlOrderedMapBase<unsigned int,class CProPlayerData *,class CDefLess<unsigned int>,int>::Node_t,class CUtlOrderedMapBase<unsigned int,class CProPlayerData *,class CDefLess<unsigned int>,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<unsigned int,class CProPlayerData *,class CDefLess<unsigned int>,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
-CUtlRBTree<struct CUtlOrderedMapBase<unsigned int,class CShadowCastingLightTracker::CSpawnGroupClientLights,class CDefLess<unsigned int>,int>::Node_t,class CUtlOrderedMapBase<unsigned int,class CShadowCastingLightTracker::CSpawnGroupClientLights,class CDefLess<unsigned int>,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<unsigned int,class CShadowCastingLightTracker::CSpawnGroupClientLights,class CDefLess<unsigned int>,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
 CUtlRBTree<struct CUtlOrderedMapBase<unsigned int,class CTonemapController2 *,class CDefLess<unsigned int>,int>::Node_t,class CUtlOrderedMapBase<unsigned int,class CTonemapController2 *,class CDefLess<unsigned int>,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<unsigned int,class CTonemapController2 *,class CDefLess<unsigned int>,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
 CUtlRBTree<struct CUtlOrderedMapBase<unsigned int,class KeyValues const *,class CDefLess<unsigned int>,int>::Node_t,class CUtlOrderedMapBase<unsigned int,class KeyValues const *,class CDefLess<unsigned int>,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<unsigned int,class KeyValues const *,class CDefLess<unsigned int>,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
 CUtlRBTree<struct CUtlOrderedMapBase<unsigned int,struct AchievementAward_t *,class CDefLess<unsigned int>,int>::Node_t,class CUtlOrderedMapBase<unsigned int,struct AchievementAward_t *,class CDefLess<unsigned int>,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<unsigned int,struct AchievementAward_t *,class CDefLess<unsigned int>,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
@@ -13057,7 +13060,7 @@ Close the group automatically after a short wait (good for 'success' messages)
 Close the group automatically when the associated parent process exits (good for sticky 'error' messages)
 CloseCaptionNoAttenuate
 CloseToolhelp32Snapshot
-Cnav_bfs_debug
+Cnav_smooth_draw_constraint_spline
 Co-dependent physics tasks detected!
 Coaches/%u
 Code Signing
@@ -14921,7 +14924,6 @@ FreezePeriod
 Frequency
 FriendlyFire
 From
-Fsave_fake_hitch
 Full Buy Round
 FullTossMoveBaseVelocity
 FullTossMovePreGravity
@@ -15482,7 +15484,6 @@ GlobalSys
 Glove model %s (def idx %d) is missing world model key.
 Glow
 GlowProxySize
-Gm_nodes
 GoDown
 GoJJw
 GoUp
@@ -15562,7 +15563,6 @@ HARD
 HAS_LADDERS
 HB@T\tJ
 HBJ\nTRF
-HBNavGameTest001
 HDR Color Scale: %0.3f
 HEAD
 HEAD 
@@ -16830,6 +16830,7 @@ LU[`ccAJS\bc6=HU_c)+4DWc
 LV\`cc>JU\ac+7ER]c
 LXKQ
 LY\r5
+L\f0e
 L\n\nserverinfo
 Ladder FSM state: %s
 Ladder state: APPROACH
@@ -16933,6 +16934,7 @@ LobbyMapVetoFinished: invalid map pick string, cannot change level\n
 LocalKeySet
 LocalPlayerAddCSSClass
 LocalPlayerAndObserversExclusive
+LocalPlayerAndPredictorsExclusive
 LocalPlayerExclusive
 LocalPlayerExclusiveDuringRoundEnd
 LocalPlayerRemoveCSSClass
@@ -17555,7 +17557,6 @@ No ID Set
 No Map Name
 No Orientation Warp Event Found!
 No Server Address
-No animation set for clip node!
 No area with id %d\n
 No attachment found on entity: %s
 No available hiding spots - hiding where I'm at.\n
@@ -18183,9 +18184,9 @@ P-224
 P-256
 P-384
 P-521
-P08@J
-P08J
-P08NdcO
+P08@J0
+P08J f
+P08N4xO
 P1\t98"
 P5[1
 PAGN_4
@@ -18420,7 +18421,9 @@ PUX\`cIPTY_cBJNS\c8=DLWc*38>Mc
 PVSManagerGameSystem
 PVSModifier
 PVY]acJOTY`cCGLT]c9<AJVc+-19Ic
+PXTO
 P\n\nattributes
+P`lO
 Pack item "%s" included in more than one pack bundle - not allowed!
 PackedBlobNormal
 Pain
@@ -18641,7 +18644,7 @@ Please specify 0 or 1 with the -stream Parameter\n
 Please wait for broadcast to start ...
 Pm8A?
 PmR"H?
-PndcO
+Pn4xO
 Point entity.
 PointTemplate
 Policy Qualifier CPS
@@ -18978,6 +18981,8 @@ RSA_verify_PKCS1_PSS_mgf1
 RTime32
 R\r1>Vp
 R\vp!y
+R\vp`lO
+R\vpl
 R]Di
 Rad2 Deg
 Radial using: %s\n
@@ -21589,6 +21594,7 @@ WPN_GRENADE_PULL_PIN
 WPN_GRENADE_THROW
 WPN_HEALTHSHOT_INJECT
 WPN_IDLE_COMPLETE
+WPN_IK_ACTION_ENDING
 WPN_INSPECT_INTRO
 WPN_INSPECT_LOOP
 WPN_INSPECT_OUTRO
@@ -22255,6 +22261,9 @@ Z~wl
 \f]ne3
 \fdhWTh
 \fiaR
+\fp\vPXTO
+\fp\v`XTO
+\fp`lO
 \ful2
 \fy&3Gl
 \l:ArR
@@ -22907,7 +22916,6 @@ Z~wl
 \n\vweapon_type
 \n\vxp_category
 \n\vyoutube_url
-\nlpO
 \nqYu
 \ntM(ie-V
 \r!\r+\r-\r=\r?\rO\rU\ri\ry\r
@@ -23011,6 +23019,9 @@ Z~wl
 \v\vTSG
 \vj0k
 \vjC7
+\vpXTO
+\vp`VO
+\vp`lO
 ] Done (%.2f seconds)
 ]1h=bfz
 ]FhSD}
@@ -23027,7 +23038,6 @@ Z~wl
 ^\n\ffloat_values
 ^`bbccX^`bccPW[_bc@IOW_c.7;ETc
 ^accccY]`bccQUZ_ccAFMV_c/-2=Pc
-^pxT
 _CustomCommand
 _CustomCommand%d
 _DisableUpdateTarget
@@ -23087,7 +23097,6 @@ _xU`u
 _}eOk
 `28)fk
 `3?New@Array@v8@@SA?AV?$Local@VArray@v8@@@2@PEAVIsolate@2@H@Z
-`6`qT
 `:zQF
 `D$daM-l
 `DZG
@@ -23095,11 +23104,12 @@ _}eOk
 `H(hqA1p
 `ITS
 `VX:H
+`XTO
 `\n\rvector_values
+`f4xO
 `fPw.\vM
-`fdcO
 `h9T~
-`ndcO
+`n4xO
 `o_je
 `yNT
 a null shared library handle was used
@@ -23118,7 +23128,7 @@ a:typeparam
 a;Tg
 a@XZ
 aA0k
-aBvdcO
+aBv4xO
 aD/x
 aDSS
 aECDH
@@ -23546,6 +23556,8 @@ anim_layer
 anim_slot
 animation
 animation/graphs/viewmodel/viewmodel.vnmgraph
+animation/skeletons/weapons/knife_push.vnmskel
+animation/skeletons/weapons/molotov.vnmskel
 animation_modifiers
 animclip
 animgraph
@@ -24699,7 +24711,6 @@ cs_rush
 cs_script
 cs_script/%s
 cs_siege
-cs_team_manager
 cs_thunder
 cs_usercmd.proto
 cs_win_panel_match
@@ -25953,6 +25964,7 @@ f%wyLmX:
 f&dy
 f1cK%
 f45\r
+f4xO
 fBB\fy
 fC[A:%u:%u:%u]
 fC\tc
@@ -26028,7 +26040,6 @@ fatal
 fatdemo.proto
 favouriteDrink
 fbihrt_epic
-fdcO
 fdxfv%
 featured_display_item_defidx
 feop(
@@ -26303,7 +26314,6 @@ forward %f\n
 fow_control_point
 fow_control_point2
 fpnS
-fpnT
 frac
 fraction
 fractionrounds
@@ -26887,6 +26897,7 @@ houseIdentifier
 hoverposeangles
 hoverposeflags
 hoverposeposition
+hpz0
 hr_H
 http request
 http$
@@ -27573,7 +27584,6 @@ isPointPrefab
 is_add
 is_attacking
 is_collection
-is_ct
 is_dead
 is_defusing
 is_essential_piece
@@ -29014,9 +29024,7 @@ movable_mesh_gravity_follows_rotation
 move
 move_crc
 move_crouch_amount
-move_direction_angle
 move_direction_id
-move_direction_vector
 move_is_stutter_step
 move_is_walking
 move_keyframed
@@ -29026,7 +29034,6 @@ move_rope has TextureScale greater than 10 at (%2.2f, %2.2f, %2.2f)\n
 move_rope has TextureScale less than 0.1 at (%2.2f, %2.2f, %2.2f)\n
 move_speed_horizontal
 move_speed_horizontal_previous
-move_speed_vertical
 move_speed_x
 move_speed_y
 move_to_gait
@@ -29112,6 +29119,7 @@ n < (int)sizeof(ctx->enc_data)
 n does not equal p q
 n0?X
 n1Z 
+n4xO
 n5cM
 n6j/
 n:2C[
@@ -29181,7 +29189,6 @@ navprop
 navsystem
 nbio connect error
 ncg:
-ndcO
 ne[9
 nearclipplane
 nearest_area_distance_threshold
@@ -29690,16 +29697,15 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p08@H^dcO
-p0jp
+p08@H^4xO
 p250
 p2{l
 p4Z3
 p5Z3
 p5\nL,
 p618
+p>4xO
 p>?Set@Template@v8@@QEAAXV?$Local@VName@v8@@@2@V?$Local@VData@v8@@@2@W4PropertyAttribute@2@@Z
-p>dcO
 p@0pqE5tsO?|1
 pActivator
 pAnimGraphEntity
@@ -29760,9 +29766,11 @@ pTarget2
 pTargetAttachmentName
 pU>\AL
 pValue
+pXTO
 p\rP!0
 p\rP\f0!h
 p^i9
+p`lO
 pa end %f
 pa start %f
 packet length too long
@@ -30188,7 +30196,7 @@ playervisibilitystrength
 playerweapon
 playing_commentary
 playoverscript
-pndcO
+pn4xO
 point
 point arithmetic failure
 point at infinity
@@ -32250,7 +32258,6 @@ team_
 team_filter
 team_id
 team_intro_counterterrorist
-team_intro_terrorist
 team_manager
 team_restriction
 team_select_camera
@@ -33045,6 +33052,7 @@ v2i_ASN1_BIT_STRING
 v2i_GENERAL_NAMES
 v2i_GENERAL_NAME_ex
 v3\vt
+v4xO
 v8.dll
 v8array
 v8callback
@@ -33125,7 +33133,6 @@ vcd_pulse_requirement
 vdata
 vdata_choice
 vdataderived
-vdcO
 vecAlternateAngles
 vecAlternateOrigin
 vecForce
@@ -33692,7 +33699,6 @@ zz2K
 }gE3
 }n2W
 }}JSON_END\n
-~0wT
 ~9ob
 ~If D
 ~P2T

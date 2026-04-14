@@ -49,8 +49,8 @@
 //		},
 //		{
 //			"m_ID": <HIDDEN FOR DIFF>,
-//			"m_name": "Weapon Action Active",
-//			"m_type": "Bool",
+//			"m_name": "Weapon Action",
+//			"m_type": "ID",
 //			"m_bIsDynamicPin": false,
 //			"m_bAllowMultipleOutConnections": false
 //		},
@@ -63,15 +63,15 @@
 //		},
 //		{
 //			"m_ID": <HIDDEN FOR DIFF>,
-//			"m_name": "Disable Hand IK",
-//			"m_type": "Bool",
+//			"m_name": "Crouch Weight",
+//			"m_type": "Float",
 //			"m_bIsDynamicPin": false,
 //			"m_bAllowMultipleOutConnections": false
 //		},
 //		{
 //			"m_ID": <HIDDEN FOR DIFF>,
-//			"m_name": "Crouch Weight",
-//			"m_type": "Float",
+//			"m_name": "Is Defusing",
+//			"m_type": "Bool",
 //			"m_bIsDynamicPin": false,
 //			"m_bAllowMultipleOutConnections": false
 //		}
@@ -86,11 +86,13 @@
 //			"m_bAllowMultipleOutConnections": true
 //		}
 //	],
-//	"m_flActionBlendTimeSeconds": 0.000000,
-//	"m_flHandIKBlendInTimeSeconds": 0.300000
+//	"m_flActionBlendTimeSeconds": 0.400000,
+//	"m_flHandIKBlendInTimeSeconds": 0.300000,
+//	"m_flPlantingBlendTimeSeconds": 0.200000
 //}
 class CNmGraphDocAimCSNode : public CNmGraphDocFlowNode
 {
 	float32 m_flActionBlendTimeSeconds;
 	float32 m_flHandIKBlendInTimeSeconds;
+	float32 m_flPlantingBlendTimeSeconds;
 };

@@ -1728,6 +1728,7 @@ CEnumAnimParameter
 CEnvBeam
 CEnvBeverage
 CEnvCombinedLightProbeVolume
+CEnvCombinedLightProbeVolumeAlias_func_combined_light_probe_volume
 CEnvCubemap
 CEnvCubemapBox
 CEnvCubemapFog
@@ -3677,6 +3678,7 @@ C_EconWearable
 C_EntityDissolve
 C_EntityFlame
 C_EnvCombinedLightProbeVolume
+C_EnvCombinedLightProbeVolumeAlias_func_combined_light_probe_volume
 C_EnvCubemap
 C_EnvCubemapBox
 C_EnvCubemapFog
@@ -18481,11 +18483,9 @@ m_bIsBoneSpaceOffset
 m_bIsBoneTarget
 m_bIsBuyMenuOpen
 m_bIsCS_HACK
-m_bIsCT
 m_bIsClient
 m_bIsClosedLoop
 m_bIsContinuousEnabled
-m_bIsDead
 m_bIsDefusing
 m_bIsDisableTag
 m_bIsDisabled
@@ -18519,6 +18519,7 @@ m_bIsIncGrenade
 m_bIsIncindiary
 m_bIsInclusiveCheck
 m_bIsInputToGraph
+m_bIsInspectAllowed
 m_bIsLayeredShader
 m_bIsLimiter
 m_bIsLinearConstraintDisabled
@@ -21410,7 +21411,6 @@ m_flMotorFriction
 m_flMouseSensitivity
 m_flMoveChildArrowOffset
 m_flMoveChildArrowSize
-m_flMoveDirectionAngle
 m_flMoveDistance
 m_flMoveDoneTime
 m_flMoveInterpTime
@@ -21420,7 +21420,6 @@ m_flMoveSoundMinDuration
 m_flMoveSoundMinPitch
 m_flMoveSpeed
 m_flMoveSpeedHorizontal
-m_flMoveSpeedVertical
 m_flMoveSpeedX
 m_flMoveSpeedY
 m_flMultFactor
@@ -21617,6 +21616,7 @@ m_flPitchShift
 m_flPitchStiffness
 m_flPlaceTime
 m_flPlaneOffset
+m_flPlantingBlendTimeSeconds
 m_flPlasticity
 m_flPlayAnimFadeInTime
 m_flPlaybackJitter
@@ -23934,7 +23934,6 @@ m_nDimensionCount
 m_nDimensionStartIndex
 m_nDimensions
 m_nDirectLight
-m_nDisableHandIKNodeIdx
 m_nDisableTagIndex
 m_nDisableTakePhysicsDamageSpawnFlag
 m_nDisconnectionTick
@@ -24248,7 +24247,7 @@ m_nInterruptCount
 m_nInventoryImageRgbaHeight
 m_nInventoryImageRgbaWidth
 m_nInvokeBindingIndex
-m_nIsWeaponActionActiveNodeIdx
+m_nIsDefusingNodeIdx
 m_nItemCount
 m_nItemDefIndex
 m_nItemIndex
@@ -25067,6 +25066,7 @@ m_nWaterTouch
 m_nWaterType
 m_nWaterWakeMode
 m_nWaveform
+m_nWeaponActionNodeIdx
 m_nWeaponCategoryNodeIdx
 m_nWeaponDropNodeIdx
 m_nWeaponTypeNodeIdx
@@ -26472,7 +26472,6 @@ m_vMins
 m_vModelScale
 m_vModulationColor
 m_vMoveDir
-m_vMoveDirection
 m_vMovement
 m_vNoiseDirectionTarget
 m_vNoiseScale
@@ -26890,7 +26889,7 @@ m_vecRotatorQueue
 m_vecRotatorQueueHistory
 m_vecSamplePosition
 m_vecScale
-m_vecSecondarySkeletonNames
+m_vecSecondarySkeletonSlotIDs
 m_vecSecondarySkeletons
 m_vecSellbackPurchaseEntries
 m_vecServerAuthoritativeWeaponSlots

@@ -7016,65 +7016,67 @@ $prefix_element$
 .vpk:
 .vvd
 .webp
-02U@
-035@
-036@
-04U@
-05R@
+00U@
+01w@
+020@
+050@
 05U@
-07N@
-08O@
-0DN@
-0FT@
-0GN@
-0KQ@
-0Mz@
-0OC@
-0OT@
-0PH@
-0QQ@
-0R7@
-0S8@
-0SC@
-0SU@
-0VN@
-0XT@
-0Z9@
+075@
+080@
+085@
+0A0@
+0B0@
+0CU@
+0DO@
+0IT@
+0Jd@
+0KN@
+0NN@
+0PN@
+0PQ@
+0Pz@
+0Qy@
+0RN@
+0RT@
+0UU@
+0Uz@
+0XE@
+0XU@
 0\r%0t
 0\tV_frexpf
-0a5@
-0a6@
-0a7@
-0aH@
-0aQ@
-0b6@
-0dA@
+0by@
+0cT@
+0cy@
+0eA@
 0eT@
-0ey@
-0gH@
-0gT@
-0iT@
-0iU@
-0is@
-0jE@
-0kT@
-0kU@
-0lT@
+0gy@
+0hU@
+0iH@
+0j3@
+0ks@
+0l3@
+0m0@
+0m2@
+0n3@
+0p3@
+0pb@
+0qA@
+0r2@
 0r3@
-0rP@
-0uU@
+0sE@
+0t2@
+0u4@
+0uC@
 0v2@
-0vU@
+0vC@
 0x%llx
-0x6@
-0xK@
-0xN@
+0x8@
 0xU@
+0xj@
 0y8@
-0yC@
 0yP@
-0z7@
-0zU@
+0zP@
+0zR@
 16-byte data pool
 180_recovery
 1D Blend Has No Referenced Animations
@@ -7087,7 +7089,6 @@ $prefix_element$
 2DBlend
 2DBlendEditor
 2DBlendFromAnimation
-2\vpd
 2_BONE_IK
 4-byte data pool
 4\r54t
@@ -7100,7 +7101,6 @@ $prefix_element$
 8"3hrf
 8&Kx
 8-byte data pool
-88H@
 969p
 9>No data
 :: <NO TARGET BONE>
@@ -10909,28 +10909,44 @@ Overrides the target VSNAP resource (defaults to "particles/models/%model_name%/
 Overwrite all bone data
 Overwrite existing flags only
 Overwriting existing wrinkle map data on mesh
-P65@
-P7T@
-P8H@
-PA0@
+P00@
+P0G@
+P1w@
+P2K@
+P30@
+P60@
+P63@
+P6E@
+P6w@
+P7w@
+P8O@
+P90@
+P95@
 PARENT
-PBU@
-PD1@
-PDL@
-PEQ@
+PC0@
+PFL@
 PF\n%d %d\n-1.000000\n
-PH5@
 PHY Import: Invalid solid index %d in keyvalues\n
 PHY Import: Solid with index %d is defined twice!\n
-PLO@
+PHz@
+PIC@
+PJC@
+PJQ@
+PK1@
+PLC@
+PLy@
+PNz@
 POSE_SPACE_BONE
 POSE_SPACE_MORPH
 POU@
-PTb@
+POz@
+PRU@
 PURH
-PUX@
-PY1@
-Pa4@
+PUU@
+PUd@
+PV0@
+PaE@
+Pab@
 PackBits
 PackBitsDecode: Not enough data for scanline %ld
 PackBitsDecode: discarding %ld bytes to avoid buffer overrun
@@ -10977,13 +10993,10 @@ ParticleImport
 ParticleParamID_t
 ParticlesLib
 Pass Outflow
-Pb4@
-PbU@
-Pbd@
-Pc4@
-PcQ@
-PeE@
-PeN@
+Pby@
+Pcy@
+PdT@
+Pdd@
 Peak Cycle
 Peak Frame
 Peak Frame Number
@@ -10994,11 +11007,10 @@ Perforce
 Perform a set of parametric mesh modification operations.
 Persistent
 Perturb vertex positions using sine waves.
-PfM@
 Pf\n%d %d\n-1.000000\n
-PgE@
-PhH@
-Phc@
+PgT@
+Ph3@
+PhU@
 Photometric tag is missing, assuming data is YCbCr
 Photometric tag value assumed incorrect, assuming data is YCbCr instead of RGB
 PhotometricInterpretation
@@ -11036,6 +11048,7 @@ PhysicsShapeHullPrimitive
 PhysicsShapeList
 PhysicsShapeReplacements
 PhysicsSurfaceProperties
+PiC@
 Pick 3 target cloth nodes
 Pick Target Cloth Nodes:
 Pick the IK Chain to lock:
@@ -11071,16 +11084,14 @@ Pickover B Parameter
 Pickover C Parameter
 Pickover D Parameter
 Piece Health Override
-Pis@
 Pitch Bounce
 Pitch Friction
 Pitch Yaw Roll
 Pitch Yaw Roll Max
 PivotPaint
 PixarLog
-PjT@
-PkU@
-PlC@
+PlH@
+PlZ@
 Place On Attachment
 Place On Bone
 Place on Floor
@@ -11096,10 +11107,10 @@ Plane Primitive
 Plastic
 Plasticity
 Play End Cap Effect
-PmU@
-Po8@
-PoH@
-PoU@
+Pm2@
+PmE@
+PmH@
+PmT@
 Point 0
 Point 1
 Point Bones At
@@ -11148,6 +11159,8 @@ Positions in grid
 PosterSettings
 Posture
 Power scale for applying the supplemental ambient occlusion map.
+Pp2@
+PrP@
 Pre-Age Noise
 Pre-Clear Selection
 Precision Degrees
@@ -11203,20 +11216,21 @@ Prop group for spawned physics particles
 PropWorldOrigin
 Prune pieces < error threshold
 Ps3@
-PuR@
+PsR@
+PtS@
+PuN@
 Pull towards control point
 Pulse Graph
 Pulse domain which enables particle content to query leaf code to introspect game state.
 Push Out
 Push mesh faces outward along their local normal. Optionally build shell geometry.
 PushBack
-Pv3@
-Pwj@
-PxP@
+Pw2@
+PxC@
+Pxj@
 Py7@
-Py8@
 PyP@
-PzN@
+PzP@
 QAngle
 Quad Bend Tolerance
 Quadratic
@@ -14509,29 +14523,46 @@ overwrite_existing
 overwrite_existing_flags_only
 ownerlog
 owns_polymorphic_data
-p4U@
+p10@
+p1O@
+p1w@
+p35@
+p3T@
+p40@
 p4lib
-pBU@
-pCO@
+p70@
+p83@
+p87@
+pBT@
+pCN@
 pCheckpointName
+pD0@
+pD9@
 pDescription
+pEy@
+pFN@
 pGy@
-pH0@
-pHT@
-pHy@
-pId@
-pJN@
-pLy@
-pMN@
-pON@
-pOQ@
-pQN@
-pQT@
-pTU@
+pIN@
+pJC@
+pKT@
+pKz@
+pMU@
+pOH@
+pP6@
+pQH@
+pR5@
+pTT@
 pTagName
-pWE@
-pWU@
-pZT@
+pUN@
+pVE@
+pVS@
+pVX@
+pWb@
+pXB@
+pXN@
+pXX@
+pYC@
+paH@
 panorama_image
 panorama_layout
 panorama_style
@@ -14574,9 +14605,13 @@ pathclass
 pathnode
 pathnodeclass
 pattern
-pbT@
-pdA@
-pdT@
+pbN@
+pby@
+pcH@
+pcy@
+pdL@
+peA@
+peE@
 peak
 peak_attr
 peak_cycle
@@ -14585,8 +14620,12 @@ per particle
 per_material_options
 permissive
 pervertexlighting
-pgU@
-phH@
+pf3@
+pfT@
+pfc@
+pg8@
+pgT@
+phc@
 phonememap
 phys
 physicsSimplificationError
@@ -14607,8 +14646,6 @@ physicsjoint_weld
 physicsjoint_wheel
 physicspreview
 physicspreviewrendermesh
-pi4@
-pi5@
 pick_type
 picks_expected
 piece
@@ -14623,6 +14660,8 @@ pitch_friction
 pitch_stiffness
 pivotOffset
 pixelAspectRatio
+pj2@
+pjH@
 place_on_floor
 placementOrigin
 placementattachment
@@ -14632,8 +14671,8 @@ plane
 plastic
 plasticity
 playerclip
-po1@
-pob@
+pm2@
+pn2@
 point
 point0_key
 point1_key
@@ -14677,8 +14716,8 @@ postprocessing
 posture
 posture_nohands
 posxyz
-ppA@
-prE@
+pp6@
+ppQ@
 preMerge face 0
 preMerge face 1
 precision_degrees
@@ -14724,19 +14763,18 @@ propattr_stretch_editor_into_label_column
 propdataname
 prune
 pseudo-
-ptC@
-puC@
+pt3@
+puP@
 pulse_node_custom_attributes
 pulse_runtime_lib
 pushout_strength
 pvTarget
-pw8@
-pwU@
-pwj@
-px8@
+pvU@
+pwR@
+pxB@
 pxP@
 pyP@
-pyR@
+pzP@
 qangle log
 qangle_array
 quad

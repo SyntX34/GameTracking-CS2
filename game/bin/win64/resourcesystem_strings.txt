@@ -278,7 +278,7 @@ vdata
 vdpn
 vdvn
 vents
-vgcxdatavxml
+vgcxdata
 vmesh
 vmix
 vmorf

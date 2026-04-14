@@ -70,7 +70,7 @@
   Repeats: 
   Top-level Mesh Op '%s' returning a cached result.\n
   V%d: '%s' (%s)\n
- !"#$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+ !"#$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$x
  !"#$%%&'()*+,-../0123456789:;<=>?@ABCDEFGHIJKLLMNOPQRSTUVWXY[]_`bdefhjlnprtvz|~
  #?windowFrameSectionAt@QGraphicsWidget@@MEBA?AW4WindowFrameSection@Qt@@AEBVQPointF@@@Z
  %.2f %.2f %.2f %.2f %.2f %.2f ;
@@ -965,7 +965,6 @@ $worldspacetype
 (Vertices to Faces)
 (ZdOt\n&
 (\f?focusOutEvent@QAbstractButton@@MEAAXPEAVQFocusEvent@@@Z
-(\fkN1
 (\n?displayText@QLineEdit@@QEBA?AVQString@@XZ
 (\r?hideEvent@QAbstractSpinBox@@MEAAXPEAVQHideEvent@@@Z
 (\v?enterEvent@QToolButton@@MEAAXPEAVQEvent@@@Z
@@ -1152,7 +1151,6 @@ $worldspacetype
 -U`5K
 -\6G5
 -\nLx.\nAh/\n/4h
--\npBP
 -\r?hideEvent@QMdiSubWindow@@MEAAXPEAVQHideEvent@@@Z
 -\tV_fread
 -changelist "%s"
@@ -1170,7 +1168,8 @@ $worldspacetype
 ....................
 ../src/devtools/bin/certificates/game/
 ..uR5&m
-.0GP
+.0HP
+.0OP
 .4bb
 .97yY
 .?AUBufferedImpulseResponse_t@@
@@ -14623,7 +14622,6 @@ $worldspacetype
 .?AVStockSpike@@
 .APARTICLE_EHANDLE__
 .HCK\v
-.P2P
 .P6AXPEAVCQBindableCommandPushButton@@AEBUInitContext_t@CBaseDynamicWidgetFactory@@@Z
 .P6AXPEAVCQBindableCommandToolButton@@AEBUInitContext_t@CBaseDynamicWidgetFactory@@@Z
 .P6AXPEAVGameData@@@Z
@@ -14637,6 +14635,11 @@ $worldspacetype
 .P6AXPEAVQTableWidget@@AEBUInitContext_t@CBaseDynamicWidgetFactory@@@Z
 .P6AXPEAVQToolBar@@AEBUInitContext_t@CBaseDynamicWidgetFactory@@@Z
 .P6AXPEAVQToolButton@@AEBUInitContext_t@CBaseDynamicWidgetFactory@@@Z
+.P6P
+.PDP
+.PEP
+.PMP
+.POP
 .Q.Ol
 .R?matches@QKeyEvent@@QEBA_NW4StandardKey@QKeySequence@@@Z
 .[?setRed@QColor@@QEAAXH@Z
@@ -14911,6 +14914,9 @@ $worldspacetype
 .mp3
 .nav
 .navdbg
+.p5P
+.pDP
+.pEP
 .pfm
 .png
 .pp@0
@@ -14957,6 +14963,7 @@ $worldspacetype
 0 to 1 value controlling how much random offset is applied to each point. A value of 0 will generate a regular grid of points.
 0 to 1 value specifying the location on the local x-axis of the deformer around which the bend will occur. A value of 0 means the bend will occur around the minimum end of the deformer, a value of 1 means the bend will occur around the maximum end of the deformer, a value of 0.5 means the bend will occur at the center of the deformer volume.
 0"?updateGeometry@QGraphicsWidget@@MEAAXXZ
+0(xK.
 0.0 0.0 0.0
 0123456789
 02V8[
@@ -14965,9 +14972,12 @@ $worldspacetype
 08@J
 08bX
 09,h
+0:P/F
 0;Q5[
 0<cz
+0>IdP
 0M2~@p
+0PS\f
 0W/5
 0Z@q
 0\f504P
@@ -15761,7 +15771,6 @@ $worldspacetype
 2OnObjectPicked(CMapNode*)
 2OnValueChanged( QString )
 2OnValueChanged(QString)
-2Pb@
 2PickCancelled()
 2PostProcessingEnabledChanged( bool )
 2ReadOnlyChanged( bool )
@@ -15798,7 +15807,7 @@ $worldspacetype
 2\tV_fseek
 2\v?event@QAction@@MEAA_NPEAVQEvent@@@Z
 2\vp!J
-2\vpD
+2\vpH
 2^pV
 2_BONE_IK
 2a"l
@@ -15860,7 +15869,6 @@ $worldspacetype
 2nIg
 2nd most active material around a probe.
 2p"6
-2p)A
 2prB
 2rangeChanged( int, int )
 2rejected()
@@ -15989,22 +15997,20 @@ $worldspacetype
 5sfm_v8
 5t?F
 5~EW
+6 OP
 6#6165676;6M6O6S6Y6a6k6m6
 6#RDP#
+6#dP
 6%vi
 6,2K
 6-zeZ
-60'P
-601P
-60\rP
 62$|S)6f
 64 283 0
 64CK\vH
 666666666666666666666666666666666666666666666666\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\.\ssl\s3_enc.c
 6666666666666666jjjjjjjjjjjjjjjj[
 67-s
-6@2P
-6@KP
+6@LP
 6FaceSkyBox
 6H,N
 6O|T%
@@ -16013,7 +16019,7 @@ $worldspacetype
 6\v?createNode@QMapDataBase@@QEAAPEAUQMapNodeBase@@HHPEAU2@_N@Z
 6\v?event@QComboBox@@UEAA_NPEAVQEvent@@@Z
 6_wEX
-6`8P
+6`AP
 6afD
 6bX+
 6c&0|vvX
@@ -16021,11 +16027,10 @@ $worldspacetype
 6l13
 6lkc
 6myY;
-6pKP
+6p3P
 6qo~
 6r-m_v
 6r1ij
-6s`P
 6tpD4
 6ynV\f8%
 7$U8[
@@ -16221,6 +16226,7 @@ $worldspacetype
 > (After)
 >"?IsValid@FbxProperty@fbxsdk@@QEBA_NXZ
 >#>)>/>3>A>W>c>e>w>
+>00P
 >4|6eXg_e
 >7^0g
 >>> Reading bsp from path %s\n
@@ -16229,8 +16235,6 @@ $worldspacetype
 >>NAVGEN MOVABLE: func_mover entity does not have any children. Skipping.\n
 >>NAVGEN MOVABLE: point_nav_movable_mesh must point to exactly one reference entity. %d reference entities found. Skipping.\n
 >>NAVGEN MOVABLE: point_nav_movable_mesh's reference entity does not have any children and 'generate on reference entity' is disabled, so no movable nav will be generated. Skipping.\n
->P0P
->P5P
 >Sem
 >WK6
 >\v?\r?7?;?=?A?Y?_?e?g?y?}?
@@ -18657,10 +18661,11 @@ $worldspacetype
 @%s_lookFrame_0
 @%s_lookFrame_1
 @%s_lookFrame_2
+@08N<
 @0pp
+@>PGP
 @BH]f
-@HPX`hv`(P
-@HVp6P
+@HPX`hv
 @Integer overflow in %s
 @MfKZ
 @Pgl
@@ -27593,7 +27598,6 @@ Maximum of two values (int)
 Maximum projection angle
 Maximum radius for created lights
 Maximum segment length %
-MbP?(
 Mc]T=
 MdiArea
 Merge
@@ -29237,14 +29241,15 @@ P-256
 P-384
 P-521
 P08@J
-P08J
+P08JP
+P08N<
 P1\t98"
 P4CopyFile
 P4CopyFile: Couldn't copy "%s" to "%s"\n
 P4CopyFile: Couldn't deduce depot path for source file "%s"\n
 P5[1
-P6`CP
-P6p"P
+P6 &P
+P60LP
 P?isValid@QColor@@QEBA_NXZ
 P?isValid@QTextCharFormat@@QEBA_NXZ
 P?item@QStandardItemModel@@QEBAPEAVQStandardItem@@HH@Z
@@ -29660,7 +29665,6 @@ Permission denied
 Permitted
 Persistent
 Perturb vertex positions using sine waves.
-PfPDP
 Pf\n%d %d\n-1.000000\n
 PgDn
 PgUp
@@ -30454,12 +30458,13 @@ RSA_verify_PKCS1_PSS_mgf1
 RSDSYv
 RT60 for low, mid, and high frequency bands for the probe.
 R\f?font@QTreeWidgetItem@@QEBA?AVQFont@@H@Z
+R\fpH
 R\n?background@QPainter@@QEBAAEBVQBrush@@XZ
 R\r1>Vp
 R\t?canFetchMore@QAbstractItemModel@@UEBA_NAEBVQModelIndex@@@Z
 R\v?event@QMenuBar@@MEAA_NPEAVQEvent@@@Z
 R\vp!6
-R\vpD
+R\vpd
 R]Di
 R^?supportedDropActions@QStandardItemModel@@UEBA?AV?$QFlags@W4DropAction@Qt@@@@XZ
 R_T5Y
@@ -34147,7 +34152,6 @@ V Axis Repeats
 V Offset
 V Repeats
 V07;m
-V0AP
 V2I_ASIDENTIFIERS
 V2I_AUTHORITY_INFO_ACCESS
 V2I_AUTHORITY_KEYID
@@ -34225,7 +34229,6 @@ VZ#-DLU[3=h
 V\rKk
 V\v?event@QProgressBar@@MEAA_NPEAVQEvent@@@Z
 V_a|I
-V`GP
 Va?width@QPixmap@@QEBAHXZ
 Valid Content Absolute Path
 Valid External Path
@@ -34888,6 +34891,7 @@ X\v?event@QPushButton@@MEAA_NPEAVQEvent@@@Z
 X`hr
 Xd3h
 XfJ7
+XfP>P
 XjfR
 XqgA+
 Xuub
@@ -35194,7 +35198,6 @@ Z~wl
 \f]ne3
 \fdhWTh
 \fiaR
-\fp\vPt
 \ful2
 \fy&3Gl
 \game
@@ -35298,7 +35301,6 @@ Z~wl
 \n\tV_atanf
 \ndummyfilename.tif
 \ng default\n
-\npjG
 \nqYu
 \ntM(ie-V
 \particles
@@ -35351,6 +35353,7 @@ Z~wl
 \rModelDoc
 \rN?grabWindow@QScreen@@QEAA?AVQPixmap@@_KHHHH@Z
 \rO?initPainter@QPaintDevice@@MEBAXPEAVQPainter@@@Z
+\rPFP
 \rSmartPropSpace_t
 \rTxL
 \rUHz4Z}\r
@@ -35672,7 +35675,6 @@ _zero
 _zero_percent_distance
 _}eOk
 `28)fk
-`6P@P
 `:zQF
 `?validate@QDoubleValidator@@UEBA?AW4State@QValidator@@AEAVQString@@AEAH@Z
 `?validate@QIntValidator@@UEBA?AW4State@QValidator@@AEAVQString@@AEAH@Z
@@ -35709,6 +35711,7 @@ a?worldTransform@QPainter@@QEBAAEBVQTransform@@XZ
 a?write@QStandardItem@@UEBAXAEAVQDataStream@@@Z
 a@XZ
 aA0k
+aBv<
 aD/x
 aDSS
 aECDH
@@ -36173,7 +36176,6 @@ bN.l
 bOrientAlongLine
 bPaintOnBB
 bPb:L7X)
-bPb@
 bPositionChanged
 bPositive
 bPrioritizeUp
@@ -38200,6 +38202,7 @@ fX?setBlockCharFormat@QTextCursor@@QEAAXAEBVQTextCharFormat@@@Z
 f\n?dragEnterEvent@QAbstractScrollArea@@MEAAXPEAVQDragEnterEvent@@@Z
 f\r?horizontalScrollbarAction@QAbstractItemView@@MEAAXH@Z
 f\trixZ
+f`0P
 faceData
 faceDataIndices
 faceEdgeIndices
@@ -41348,9 +41351,7 @@ must be either LogLUV or LogL
 mute
 my_key
 mzP"T
-n 6P
 n < (int)sizeof(ctx->enc_data)
-n JP
 n does not equal p q
 n$Kx
 n0?X
@@ -41951,13 +41952,15 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
+p08@H^<
+p0jP
 p2{l
 p4 fstat -Op %s
 p4Z3
 p5Z3
 p5\nL,
-p6 4P
 p618
+p>ucP
 p@0pqE5tsO?|1
 pAction
 pAsset
@@ -42576,9 +42579,11 @@ rRfKR
 rX&O0
 rZ1VwGf5
 rZPM
+r\fpd
 r\n?dragLeaveEvent@QGraphicsItem@@MEAAXPEAVQGraphicsSceneDragDropEvent@@@Z
 r\tV_sinhf
 r\vDi
+r\vpH
 r_dota_wind_min_high_freq_strength
 rad2deg
 radius0_key
@@ -44973,7 +44978,6 @@ vHandleOffset
 vIK \f3
 vModelScale
 vOrigin
-vPLP
 vPathOffset
 vPlaneUpDirection
 vPosition
@@ -45199,6 +45203,7 @@ vortex_max_speed_mph
 voume_random_min_scale
 voxel_size
 voxelize
+vp-P
 vparams
 vphzc
 vpost

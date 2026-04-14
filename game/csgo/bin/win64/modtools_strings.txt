@@ -15,10 +15,11 @@
  (%d %d %d)
  (%lu = 0x%lx)\n
  (%u = 0x%x)\n
- (08@HPX`j
- (08@HPXb`
- (08@HPZ
- (0X`hpz`
+ (08@HPX`jp
+ (08@HPXb@
+ (08@HPZp
+ (08@Jp
+ (0X`hpz@
  (deprecated)
  * Adding Bone :: < %10.4f %10.4f %10.4f >\n
  - (Additive)
@@ -1096,6 +1097,7 @@ $modelname$_surface
 .?AUCAttr_m_flPitchDamping@?1??GetStaticAttributes@CModelDocJiggleBone@@MEAAXPEAV?$CUtlVector@PEAVIBaseToolAttr@@HV?$CUtlVectorMemory_Growable@PEAVIBaseToolAttr@@H$0A@@@@@@Z@
 .?AUCAttr_m_flPitchFriction@?1??GetStaticAttributes@CModelDocJiggleBone@@MEAAXPEAV?$CUtlVector@PEAVIBaseToolAttr@@HV?$CUtlVectorMemory_Growable@PEAVIBaseToolAttr@@H$0A@@@@@@Z@
 .?AUCAttr_m_flPitchStiffness@?1??GetStaticAttributes@CModelDocJiggleBone@@MEAAXPEAV?$CUtlVector@PEAVIBaseToolAttr@@HV?$CUtlVectorMemory_Growable@PEAVIBaseToolAttr@@H$0A@@@@@@Z@
+.?AUCAttr_m_flPlantingBlendTimeSeconds@?1??GetAttributeTable_Impl@CNmGraphDocAimCSNode@@SAXPEAV?$CUtlVector@PEAVIBaseToolAttr@@HV?$CUtlVectorMemory_Growable@PEAVIBaseToolAttr@@H$0A@@@@@@Z@
 .?AUCAttr_m_flPlasticity@?1??GetStaticAttributes@CModelDocBasePhysicsJoint@@MEAAXPEAV?$CUtlVector@PEAVIBaseToolAttr@@HV?$CUtlVectorMemory_Growable@PEAVIBaseToolAttr@@H$0A@@@@@@Z@
 .?AUCAttr_m_flPosScale@?1??GetStaticAttributes@CModelDocMeshModifier_ComputeWrinkleMap@@MEAAXPEAV?$CUtlVector@PEAVIBaseToolAttr@@HV?$CUtlVectorMemory_Growable@PEAVIBaseToolAttr@@H$0A@@@@@@Z@
 .?AUCAttr_m_flPositionGravityBias@?1??GetStaticAttributes@CModelDocBreakPieceContents@@MEAAXPEAV?$CUtlVector@PEAVIBaseToolAttr@@HV?$CUtlVectorMemory_Growable@PEAVIBaseToolAttr@@H$0A@@@@@@Z@
@@ -8711,12 +8713,14 @@ $modelname$_surface
 .tga
 .tif
 .webp
-08@HR
-08@J`
+08@HRp
+08@J@
+08Bp
+0>pX
 0\r%0t
 0\tV_frexpf
-0hW{
-0v@K{
+0tD{
+0v@O{
 1.0 - FractionalPart( A ) 
 1D Blend Has No Referenced Animations
 1D Twist
@@ -8735,6 +8739,7 @@ $modelname$_surface
 7T2,
 8"3hrf
 8&Kx
+8@Jp
 969p
 :: <NO TARGET BONE>
 ; tris:
@@ -8756,12 +8761,12 @@ $modelname$_surface
 @%s_lookFrame_0
 @%s_lookFrame_1
 @%s_lookFrame_2
-@08N@K{
-@60U
-@60X
-@HPX`hv
+@08N@O{
+@60Y
+@HPX`hvps
 @Integer overflow in %s
 @Invalid Internal Point
+@htp
 @m_vCenter
 @unnamed_%d
 A bone named %s already exists.
@@ -10189,7 +10194,6 @@ Dilate pixels at UV island edges.
 Direction (Character)
 Disable Compression
 Disable Continuous Collision Detection
-Disable Hand IK
 Disable Morph
 Disable Override - %.2f
 Disable Region SVM
@@ -10214,6 +10218,7 @@ Discards animation channels by type and name.\n<br>The channel will end up with 
 Discards any channels matching the specified names or globs
 Discards bone channels matching the specified names or globs
 Discards morph channels matching the specified names or globs
+Disconnected 'is defusing'!
 Disconnected base node pin on layer node!
 Disconnected condition pin on selector condition node!
 Disconnected condition pin on selector node!
@@ -11184,6 +11189,7 @@ Is Bone ID
 Is Bone Space Offset
 Is C S  HACK
 Is Default Idle Anim
+Is Defusing
 Is Entry
 Is Exit
 Is External Pose Filled
@@ -11644,7 +11650,6 @@ No Orientation Warp Event Found!
 No Shadows
 No animation data found in source file
 No animation in additional file: %s
-No animation set for clip node!
 No bone name set for variation: %s!
 No bone named %s to rename.
 No bone named :: %s in modeldoc, CSkeletonpose mismatch?
@@ -11833,9 +11838,10 @@ Overrides the target VSNAP resource (defaults to "particles/models/%model_name%/
 Overwrite all bone data
 Overwrite existing flags only
 Overwriting existing wrinkle map data on mesh
-P08@J`
+P08@J@
 P08J
-P08N@K{
+P08N@O{
+P6`Y
 PARENT
 PF\n%d %d\n-1.000000\n
 POSE_SPACE_BONE
@@ -11892,7 +11898,6 @@ Perform a set of parametric mesh modification operations.
 Persistent
 Perturb vertex positions using sine waves.
 Pf\n%d %d\n-1.000000\n
-PhW{
 Phase
 Phase Condition
 Photometric tag is missing, assuming data is YCbCr
@@ -11977,6 +11982,8 @@ PlanarConfiguration
 Planarconfig tag value assumed incorrect, assuming data is contig instead of chunky
 Planarize
 Plane Primitive
+Planting Blend Time Seconds
+Planting Disable Multiplier: %.2f
 Plastic
 Plasticity
 Play End Cap
@@ -12059,6 +12066,7 @@ Prop Group for Physics Particles
 Prop group for spawned physics particles
 PropWorldOrigin
 Prune pieces < error threshold
+PtD{
 Pulse Graph
 Push Out
 Push mesh faces outward along their local normal. Optionally build shell geometry.
@@ -12133,7 +12141,6 @@ R9G9B9E5_SHAREDEXP
 RBF Based Anim Constraint
 ROTATION
 R\vp!y
-R\vphW{
 R_T5Y
 Radial Basis Function Type
 Radius Params CP ( Prop Group Smallest Radius / Prop Group Largest Radius / Number of Avg Objects )
@@ -13027,6 +13034,7 @@ WARNING: Failed to parse class '%s'.\n
 WDG,r3
 WPN_DISABLE_HAND_IK
 WPN_DISABLE_LEFT_HAND_IK
+WPN_IK_ACTION_ENDING
 Warning! Particle Snapshot - Cannot find skinned bone %s in model\n
 Warning! Particle Snapshot - Couldn't find local bone "%s" (%s)\n
 Warning! Particle Snapshot - Couldn't find weighted bone "%s" (%s)\n
@@ -13044,7 +13052,7 @@ Warp Z
 Warp attempted for animation with invalid warp events!
 Warp event is not allowed to be within the first or last frame!
 Wavelength
-Weapon Action Active
+Weapon Action
 Weapon Category
 Weapon Constraint
 Weapon Drop
@@ -13104,7 +13112,7 @@ XMLPacket
 XPosition
 XResolution
 XYZ, Luv
-X`hr
+X`hrp
 Y (Green / Left)
 Y - Left
 Y:%.2f P:%.2f R:%.2f
@@ -13148,7 +13156,7 @@ Zero input vector for info node!
 [cloth] | [procedural]
 [procedural]
 \fB33
-\nPhW{
+\fp\vPtD{
 \n[ERR] Not enough memory, shop for some more RAM. See you!\n
 \ndummyfilename.tif
 \ng default\n
@@ -13167,7 +13175,7 @@ Zero input vector for info node!
 \tV_atan2d
 \tV_expd
 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\v\n\v\n\v\n\v\n\v\n\v\n\v\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\f\r\f\r\f\r\f\r\f\r\f\r\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
-\vphW{
+\vptD{
 _CustomCommand
 _CustomCommand%d
 _InFrameSpine
@@ -13216,8 +13224,8 @@ _temp_tangent
 _volumeatlas_
 _wjb
 _zero
-`60g
-aBv@K{
+`htp
+aBv@O{
 a\tV_powd
 absolute
 acceleration
@@ -13225,6 +13233,11 @@ accent
 accent_frame
 acosf
 acosf() heavily exaggerates floating point precision errors. Threshold is high (1e-2f) for this reason. This can probably stay fixed. Increase for Stability at the cost of Accuracy.
+action_c4_plant
+action_deploy
+action_reload
+action_silencer_attach
+action_silencer_detach
 activation_distance
 active_in_editor_by_default
 activity_name
@@ -13303,6 +13316,8 @@ animation constraint point
 animation constraint slave
 animation constraint tilt twist
 animation constraint twist
+animation/skeletons/weapons/knife_push.vnmskel
+animation/skeletons/weapons/molotov.vnmskel
 animdoclib
 animgraph
 animgraph2_clip
@@ -13926,7 +13941,7 @@ hitgroupname
 hop_distance_range
 horizontal differencing 
 horizontal_pose_param_name
-hpz`
+hpz@
 hullIvr-0.obj
 hullIvr-1.obj
 hullIvr-2.obj
@@ -14391,10 +14406,8 @@ overrideclass
 overwrite_existing
 overwrite_existing_flags_only
 owns_polymorphic_data
-p08@H^@K{
-p6`y
+p08@H^@O{
 pEvent != nullptr
-pF0W
 pParentTrack != nullptr
 pPose != nullptr
 panorama_image
@@ -14433,7 +14446,6 @@ pelvis
 per_material_options
 permissive
 pervertexlighting
-phW{
 physics_joint_modification_type
 physics_particle
 physics_shape_capsule_count
@@ -14469,7 +14481,7 @@ planarize
 plane
 plastic
 plasticity
-pn@K{
+pn@O{
 point
 point0_key
 point1_key
@@ -14531,11 +14543,10 @@ propattr_stretch_editor_into_label_column
 propdataname
 prune
 pseudo-
+ptD{
 pushout_strength
 quad_bend_tolerance
 quadratic
-r03\n
-r\fphW{
 radius0_key
 radius1_key
 radius_key

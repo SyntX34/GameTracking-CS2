@@ -277,7 +277,7 @@
 			name = "CCSGraphicsSettings_Minimal_client"
 			group = "GameSessionManifest_client"
 			source_file = "src/game/client/cstrike15/panorama/3dpanels/csgo_graphicssettings_3dpanel.cpp"
-			source_line = 359
+			source_line = 355
 			resources = 
 			[
 				resource_name:"weapons/models/hkp2000/weapon_pist_hkp2000.vmdl",
@@ -287,16 +287,6 @@
 				resource_name:"weapons/models/deagle/weapon_pist_deagle.vmdl",
 				resource_name:"weapons/models/hkp2000/weapon_pist_hkp2000.vmdl",
 				resource_name:"agents/models/shared/arms/glove_hardknuckle/glove_hardknuckle.vmdl",
-			]
-		},
-		{
-			name = "CSGOGraphicsSettings"
-			group = "GameStartup"
-			source_file = "src/game/client/cstrike15/panorama/3dpanels/csgo_graphicssettings_3dpanel.cpp"
-			source_line = 351
-			resources = 
-			[
-				resource_name:"weapons/models/hkp2000/animgraph/weapon_pist_hkp2000_ui.vanmgrph",
 			]
 		},
 		{
@@ -939,7 +929,7 @@
 			name = "weapon_incgrenade_client"
 			group = "GameSessionManifest_client"
 			source_file = "src/game/shared/cstrike15/weapon_molotov.cpp"
-			source_line = 123
+			source_line = 124
 			resources = 
 			[
 				resource_name:"weapon_incgrenade.ventr",

@@ -2,7 +2,7 @@ class CBaseAnimGraphController : public CSkeletonAnimationController
 {
 	AnimationAlgorithm_t m_nAnimationAlgorithm;
 	ExternalAnimGraphHandle_t m_nNextExternalGraphHandle;
-	CUtlVector< CGlobalSymbol > m_vecSecondarySkeletonNames;
+	CNetworkUtlVectorBase< CGlobalSymbol > m_vecSecondarySkeletonSlotIDs;
 	CNetworkUtlVectorBase< CHandle< CBaseAnimGraph > > m_vecSecondarySkeletons;
 	int32 m_nSecondarySkeletonMasterCount;
 	float32 m_flSoundSyncTime;

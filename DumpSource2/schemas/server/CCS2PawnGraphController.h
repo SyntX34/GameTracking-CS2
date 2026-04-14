@@ -1,6 +1,7 @@
 // MGetKV3ClassDefaults = {
 //	"_class": "CCS2PawnGraphController",
 //	"m_hExternalGraph": 4294967295,
+//	"m_bIsInspectAllowed": false,
 //	"m_action": null,
 //	"m_bActionReset": null,
 //	"m_flWeaponActionSpeedScale": null,
@@ -21,8 +22,6 @@
 //	"m_inspectVariation": null,
 //	"m_inspectExtraInfo": null,
 //	"m_reloadStage": null,
-//	"m_bIsDead": null,
-//	"m_bIsCT": null,
 //	"m_bIsDefusing": null,
 //	"m_moveType": null,
 //	"m_moveDirectionID": null,
@@ -30,9 +29,6 @@
 //	"m_flMoveSpeedY": null,
 //	"m_flMoveSpeedHorizontal": null,
 //	"m_flPreviousMoveSpeedHorizontal": null,
-//	"m_flMoveSpeedVertical": null,
-//	"m_flMoveDirectionAngle": null,
-//	"m_vMoveDirection": null,
 //	"m_flCrouchAmount": null,
 //	"m_bIsWalking": null,
 //	"m_bIsStutterStep": null,
@@ -58,8 +54,6 @@
 //}
 class CCS2PawnGraphController : public CCS2WeaponGraphController
 {
-	CAnimGraph2ParamOptionalRef< bool > m_bIsDead;
-	CAnimGraph2ParamOptionalRef< bool > m_bIsCT;
 	CAnimGraph2ParamOptionalRef< bool > m_bIsDefusing;
 	CAnimGraph2ParamOptionalRef< CGlobalSymbol > m_moveType;
 	CAnimGraph2ParamOptionalRef< CGlobalSymbol > m_moveDirectionID;
@@ -67,9 +61,6 @@ class CCS2PawnGraphController : public CCS2WeaponGraphController
 	CAnimGraph2ParamOptionalRef< float32 > m_flMoveSpeedY;
 	CAnimGraph2ParamOptionalRef< float32 > m_flMoveSpeedHorizontal;
 	CAnimGraph2ParamOptionalRef< float32 > m_flPreviousMoveSpeedHorizontal;
-	CAnimGraph2ParamOptionalRef< float32 > m_flMoveSpeedVertical;
-	CAnimGraph2ParamOptionalRef< float32 > m_flMoveDirectionAngle;
-	CAnimGraph2ParamOptionalRef< Vector > m_vMoveDirection;
 	CAnimGraph2ParamOptionalRef< float32 > m_flCrouchAmount;
 	CAnimGraph2ParamOptionalRef< bool > m_bIsWalking;
 	CAnimGraph2ParamOptionalRef< bool > m_bIsStutterStep;

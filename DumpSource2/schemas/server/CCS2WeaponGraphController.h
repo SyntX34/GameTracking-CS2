@@ -1,6 +1,7 @@
 // MGetKV3ClassDefaults = {
 //	"_class": "CCS2WeaponGraphController",
 //	"m_hExternalGraph": 4294967295,
+//	"m_bIsInspectAllowed": true,
 //	"m_action": null,
 //	"m_bActionReset": null,
 //	"m_flWeaponActionSpeedScale": null,
@@ -24,6 +25,7 @@
 //}
 class CCS2WeaponGraphController : public CAnimGraphControllerBase
 {
+	bool m_bIsInspectAllowed;
 	CAnimGraph2ParamOptionalRef< CGlobalSymbol > m_action;
 	CAnimGraph2ParamOptionalRef< bool > m_bActionReset;
 	CAnimGraph2ParamOptionalRef< float32 > m_flWeaponActionSpeedScale;

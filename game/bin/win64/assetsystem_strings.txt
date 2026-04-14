@@ -1158,7 +1158,6 @@ $prefix_element$
 0M2~@p
 0W/5
 0Z@q
-0\f14
 0\r0#0)070;0U0Y0[0g0q0y0}0
 0e\r8
 0pp@5tqE?|sO541
@@ -4185,7 +4184,6 @@ PSPECIFIED
 PUBLIC KEY
 PURH
 PUT 
-P\f14
 PackBits
 PackBitsDecode: Not enough data for scanline %ld
 PackBitsDecode: discarding %ld bytes to avoid buffer overrun
@@ -4405,7 +4403,6 @@ RSA_verify_PKCS1_PSS
 RSA_verify_PKCS1_PSS_mgf1
 RSDSq\v6
 R\r1>Vp
-R\vp\f14
 R]Di
 R_T5Y
 Radius Random
@@ -5410,7 +5407,6 @@ Z~wl
 \n%12s%s
 \n5a=Z
 \n:82H
-\nP\f14
 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n
 \n\tIPSec/IKE/Oakley curve #3 over a 155 bit binary field.\n\tNot suitable for ECDSA.\n\tQuestionable extension field!
 \n\tIPSec/IKE/Oakley curve #4 over a 185 bit binary field.\n\tNot suitable for ECDSA.\n\tQuestionable extension field!
@@ -5431,7 +5427,7 @@ Z~wl
 \rYYHl
 \r\vpL1
 \r^mX
-\rgame:tools/images/assettypes/generic_lg.png
+\rgame:tools/images/assettypes/generic_sm.png
 \ri1I
 \rjwB\t
 \roKK
@@ -5465,7 +5461,6 @@ Z~wl
 \v\vTSG
 \vj0k
 \vjC7
-\vp\f14
 ]1h=bfz
 ]FhSD}
 ]GT7]
@@ -6861,7 +6856,7 @@ g_Cov_DetermineCompileState
 g_pAsyncFileSystem2
 g_pToolsSplashScreen->showMessage
 game/
-game:tools/images/assettypes/generic_sm.png
+game:tools/images/assettypes/generic_lg.png
 game_only.vtest
 gameitemclass
 gameunitclass
@@ -8253,7 +8248,6 @@ pWAVThenMP3_First != nullptr
 pWAVThenMP3_First->HasFileInLocation( ASSET_LOCATION_CONTENT )
 pWAVThenMP3_Second == pWAVThenMP3_First
 pWAVThenMP3_Second->HasFileInLocation( ASSET_LOCATION_CONTENT )
-p\f14
 p^i9
 packet length too long
 padding check failed
@@ -8521,7 +8515,6 @@ rRfKR
 rX&O0
 rZ1VwGf5
 rZPM
-r\fp\f14
 r\vDi
 radiusScale
 radius_random

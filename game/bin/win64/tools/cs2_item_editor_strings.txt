@@ -306,21 +306,21 @@ $\n\tword_list
 '\n\fglobal_stats
 '\v?enterEvent@QMenu@@MEAAXPEAVQEvent@@@Z
 ( %1, %2, %3, %4% )
-(A5Y
-(AeY
+(1JY
+(1qY
+(A0Y
 (Documents Filter - Use | for OR, space for AND)
-(E0Y
-(EJY
+(ECY
 (Filter)
-(ITY
+(IHY
+(MFY
+(MkY
+(MoY
 (No Active Session)
 (Outliner Filter)
-(QIY
-(QsY
-(QvY
-(QxY
-(UqY
-(YlY
+(QMY
+(UUY
+(YdY
 (\f"(\n&CMsgGCCStrike15_v2_ClientRequestOffers"\\n(CMsgGCCStrike15_v2_ClientRequestSouvenir
 (\f"?\n#CMsgGCCStrike15_v2_Client2GCTextMsg
 (\f?focusOutEvent@QAbstractButton@@MEAAXPEAVQFocusEvent@@@Z
@@ -445,19 +445,22 @@ $\n\tword_list
 (\v2\f.CSOEconItem
 (\v2\r.CVDiagnostic"
 (\v?enterEvent@QToolButton@@MEAAXPEAVQEvent@@@Z
-(aNY
-(aaY
-(akY
+(aGY
+(aKY
+(aYY
+(ahY
+(asY
 (default)
-(eyY
-(mCY
-(mRY
-(mUY
-(qXY
-(qiY
-(ubY
-(yoY
-(ywY
+(eZY
+(iXY
+(m2Y
+(mzY
+(qnY
+(yCY
+(yTY
+(yVY
+(yiY
+(yuY
 ) ?timerEvent@QTableView@@MEAAXPEAVQTimerEvent@@@Z
 )\f?focusOutEvent@QAbstractItemView@@MEAAXPEAVQFocusEvent@@@Z
 )\n!penalty_account_id_sessions_green
@@ -4379,6 +4382,7 @@ $\n\tword_list
 @#?write@QTableWidgetItem@@UEBAXAEAVQDataStream@@@Z
 @08N\f
 @HPX`hv
+@HfS
 @\n\fSingleObject
 @\n\vserver_type
 @\v?event@QFrame@@MEAA_NPEAVQEvent@@@Z
@@ -6553,7 +6557,6 @@ Zip system failure.\n
 \n?editorDestroyed@QAbstractItemView@@MEAAXPEAVQObject@@@Z
 \n?editorEvent@QStyledItemDelegate@@MEAA_NPEAVQEvent@@PEAVQAbstractItemModel@@AEBVQStyleOptionViewItem@@AEBVQModelIndex@@@Z
 \nCannot write log file '%1'.\n
-\nHNZ
 \nInvalid CONTENT Path '%1'.\n\n%2\n
 \nInvalid item name '%1'.\n\n%2\n
 \nNo modified item assets. Nothing to save.\n
@@ -7609,6 +7612,7 @@ gs_ping
 gungameprogressive
 gungametrbomb
 h\r?horizontalScrollbarAction@QTreeView@@MEAAXH@Z
+h\t5Y
 h\v?event@QTabWidget@@MEAA_NPEAVQEvent@@@Z
 ha?window@QPalette@@QEBAAEBVQBrush@@XZ
 halfgridsnap

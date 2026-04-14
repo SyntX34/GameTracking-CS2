@@ -2052,7 +2052,8 @@
 08@HR
 08@J
 180_recovery
-2\vpd
+2\vpT
+2\vpl
 2_BONE_IK
 ::embedded_animation
 :NetworkedCycle:CycleZeroTime
@@ -2090,8 +2091,7 @@
 ?Move Heading
 ?expf
 ?m_flPosition
-@08N(
-@HPX`hv
+@HPX`hv`
 @fff>fff>fff>fff>
 @htp
 A string associated with this Cursor, to use later for remote Kill or Wait requests. Cursors can have any number of Tags associated with them.
@@ -2909,7 +2909,6 @@ No DATA block for resource '%s'\n
 No DATA block for resource\n
 No ID Set
 No Orientation Warp Event Found!
-No animation set for clip node!
 No effector bone ID specified in input target
 No valid warp events detected! Either no events present or start time is after warp events.
 NodeID %d port '%s' called from C%d:I%d
@@ -2940,7 +2939,6 @@ Overlay Blend: %.2f%%
 OverlayProjectionDirection
 P08@J
 P08J
-P08N(
 PARENT
 POSE_SPACE_BONE
 POSE_SPACE_MORPH
@@ -2988,8 +2986,10 @@ RESOURCE_TYPE_NM_GRAPH
 RESOURCE_TYPE_NM_SKELETON
 RESOURCE_TYPE_SEQUENCE_GROUP_INTERNAL
 ROTATION
+R\fpT
 R\vp!F
 R\vp!y
+R\vpl
 Rad2 Deg
 Ragdoll Component
 Random World Position
@@ -3225,7 +3225,6 @@ _autoreset
 `i3t
 a:fulltype
 a:typeparam
-aBv(
 a\tV_powd
 acosf
 allowed_api_features
@@ -3699,7 +3698,6 @@ o\tV_sind
 offBeforeFinished
 offWhenFinished
 optionallycompressedtangentframe
-p08@H^(
 pCheckpointName
 pDescription
 pTagName
@@ -3717,6 +3715,7 @@ pulse_runtime_lib
 r>BoneSetup
 r\tV_sinhf
 r\vp!4
+r\vpT
 rad2deg
 random_position
 remainingRootMotionToWarp\t[%f] [%s]

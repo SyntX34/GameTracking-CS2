@@ -7268,6 +7268,7 @@ $prefix_element$
 .webp
 .xform
 // FRAMERATE=%f
+0D.n
 0\r%0t
 0\tV_frexpf
 0x%llx
@@ -7285,7 +7286,7 @@ $prefix_element$
 2DBlendEditor
 2DBlendFromAnimation
 2\n??9FbxDataType@fbxsdk@@QEBA_NAEBV01@@Z
-2\vpd
+2\vpD.n
 2_BONE_IK
 4-byte data pool
 4\r54t
@@ -7513,7 +7514,6 @@ $prefix_element$
 ?GetTargetShapeCount@FbxBlendShapeChannel@fbxsdk@@QEBAHXZ
 ?GetTargetShapeFullWeights@FbxBlendShapeChannel@fbxsdk@@QEAAPEANXZ
 ?GetType@FbxDataType@fbxsdk@@QEBA?AW4EFbxType@2@XZ
-?MGetKV3ClassDefaults
 ?Should we try to straighten two faces connected to this edge? (tangent)
 ?\tV_isfinited
 ?catmullrom_normalize_x
@@ -9793,7 +9793,6 @@ ERROR: Specified path %s could not be made content-relative\n
 ERROR: Unable to create an attribute handle! Save, quit, restart and clean up your file to have fewer elements!\n
 EXIFIFDOffset
 EXRHeader variable is not initialized.
-Eanimgraph_incompatible
 Ease In
 Ease In/Out
 Ease Out
@@ -11959,7 +11958,6 @@ RGB blend weight for sequence 0
 RGB blend weight for sequence 1
 ROTATION
 RSDS6
-R\fpd
 R_T5Y
 Rad2 Deg
 Radial Basis Function Type
@@ -13547,6 +13545,7 @@ animgraph_attribute
 animgraph_compatibility_check
 animgraph_compatibility_force
 animgraph_enum
+animgraph_incompatible
 animturn
 anklebone
 antishrink
@@ -14033,6 +14032,7 @@ cycle_type
 cyclepose without cycle pose parameter on cmd sequence: %s\n
 cyclestart
 cylinder
+d(0P
 damage_direction_cp
 damage_position_cp
 damage_table
@@ -15628,6 +15628,7 @@ overwrite_existing_flags_only
 ownerlog
 owns_polymorphic_data
 pCheckpointName
+pD.n
 pDescription
 pTagName
 p\rP\f0

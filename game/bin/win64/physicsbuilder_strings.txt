@@ -6863,6 +6863,7 @@ $prefix_element$
 2DBlend
 2DBlendEditor
 2DBlendFromAnimation
+2\vpX
 2_BONE_IK
 4-byte data pool
 4\r54t
@@ -9845,6 +9846,7 @@ PARENT
 PF\n%d %d\n-1.000000\n
 POSE_SPACE_BONE
 POSE_SPACE_MORPH
+PT&u
 PURH
 PackBits
 PackBitsDecode: Not enough data for scanline %ld
@@ -10131,6 +10133,7 @@ R9G9B9E5_SHAREDEXP
 RBF Based Anim Constraint
 ROTATION
 RSDSN
+R\fpX
 R_T5Y
 Radial Basis Function Type
 Radius Params CP ( Prop Group Smallest Radius / Prop Group Largest Radius / Number of Avg Objects )
@@ -11068,7 +11071,6 @@ ZIPVSetField
 [cloth] | [procedural]
 [procedural]
 \f?nkK=f
-\fPdh
 \nclass 
 \ndummyfilename.tif
 \ng default\n
@@ -12732,6 +12734,7 @@ overwrite_existing_flags_only
 ownerlog
 owns_polymorphic_data
 p=f3G=
+pT&u
 panorama_image
 panorama_layout
 panorama_style
@@ -12914,6 +12917,7 @@ quad_bend_tolerance
 quadratic
 quaternion log
 quaternion_array
+r\vpX
 radius0_key
 radius1_key
 radiusScale

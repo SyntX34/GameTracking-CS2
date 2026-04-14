@@ -224,7 +224,6 @@ $xmm9
 %s bytes used out of %s bytes available (%.2f%%)
 %s called on a pool arena (no root available)\n
 %s is out of range for KeyValues, which doesn't support signed 64-bit numbers
-%s not expected here.  A valid JSON document should be a single object, which begins with '{' and ends with '}'
 %s not expected here.  Missing ',' or ']'?
 %s not expected here.  Missing ',' or '}'?
 %s not expected here.  Missing ':'?
@@ -1702,7 +1701,7 @@ $xmm9
 ?GetWinLevelRevision@CPUInformation@@SA_NPEAG0@Z
 ?GrowByChunks@CBufferString@@QEAAHHH@Z
 ?GrowPool@CPoolAllocator@@QEAAXI@Z
-?HEAP WARNING: memory pointer %p is invalid\n
+?HEAP WARNING: memory block at %p appears to be corrupt\n
 ?HandleFirstWriteLockTransition@CEventRWLock@@IEAAXAEAVCEventListNode@@@Z
 ?HandleToString@CCountedStringPool_CI@@QEBAPEBDG@Z
 ?HandlerQueueHeartBeat@MiniDumpStandardData_t@@QEBAXXZ
@@ -3774,6 +3773,7 @@ EnableWindow
 Enabling flag '%s' on channel '%s'.\n
 EncodePointer
 End of input was reached and '[' was not matched by ']'
+End of input was reached and '{' was not matched by '}'
 EndDialog
 EndPaint
 Engine2/MapMaxCoord
@@ -4119,10 +4119,10 @@ H$BQ
 H(VVH
 H*0"ZOW
 H>r1
-HEAP WARNING: memory block at %p appears to be corrupt\n
 HEAP WARNING: memory block at %p is unexpectedly allocated\n
 HEAP WARNING: memory block at %p is unexpectedly free\n
 HEAP WARNING: memory block at %p is unexpectedly unrecognized\n
+HEAP WARNING: memory pointer %p is invalid\n
 HH:MM:SS.z
 HH:mm:ss
 HIGHDPI
@@ -6129,7 +6129,6 @@ Unable to create thread in %s\n
 Unable to determine CPU Frequency\n
 Unable to determine ELF default base address\n
 Unable to determine Mach-O default base address\n
-Unable to determine buffer encoding.
 Unable to load COM\n
 Unable to load SDL\n
 Unable to load oleaut32\n
@@ -6160,6 +6159,7 @@ Unable to seek to ELF shoff\n
 Unable to seek to Mach-O load commands\n
 Unable to seek to Macho-O slice base\n
 Unable to seek to module section at file offset 0x%x\n
+Unable to write file '%s'\n
 Unaccounted
 Unexpected EOF while parsing number
 Unexpected augmentation string byte 0x%x (shouldn't have augmentation data)\n
@@ -6707,7 +6707,7 @@ Vrad3_001
 Vtube
 VtuneApi32e.dll
 W 7x
-W)lQh
+W)lQx
 W/q#IX
 W4vC
 WARNING
@@ -6870,8 +6870,8 @@ ZwSetTimerResolution
 \nh?oT
 \nk>oB
 \ntier0.dll
+\r%s not expected here.  A valid JSON document should be a single object, which begins with '{' and ends with '}'
 \r00000000-0000-0000-0000-000000000000
-\rEnd of input was reached and '{' was not matched by '}'
 \rGeneral
 \r\f\v\v\n\n\t\t\t\t\t
 \rmj>zjZ
@@ -6897,6 +6897,7 @@ ZwSetTimerResolution
 \v_dbghelp_home_linked
 \v_dbghelp_home_unlinked
 \veBV
+]0S2
 ]P4H
 ]u9g
 ]xEc
@@ -8284,9 +8285,9 @@ nMin
 nOffset < m_nAllocationSize
 nSwitchValue
 nTries < 10000000
-nUnable to write file '%s'\n
+nUnable to determine buffer encoding.
 n\f"pA3Q
-n\f"pA3Q 
+n\f"pA3QP
 n]?iJ
 name
 nan(ind)

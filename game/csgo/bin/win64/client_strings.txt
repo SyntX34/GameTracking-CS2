@@ -110,9 +110,9 @@
  (%d)Unknown
  (%ld unused bits)\n
  (+%d more due to usercommand delivery)
- (08@HPX`j 
+ (08@HPX`j
  (08@HPXb
- (08@HPZ 
+ (08@HPZ
  (08@HR
  (0X`hpz
  (DEFAULT)
@@ -2653,7 +2653,6 @@ $taser_charge
 (.CPlayer_SetPerFriendPreferences_Request
 (0'yX
 (0x%08X)'??'
-(4p5
 (5Me
 (5jP
 (ACTIVE)
@@ -3047,6 +3046,7 @@ $taser_charge
 *lootlist
 *o\n\teRollType
 *paintkit
+*shatterglass_debug
 +'+1+3+=+?+K+O+U+i+m+o+{+
 +(#\v&dbF:xrJ'$#
 +(Optional) Filename for the published file.
@@ -6970,6 +6970,7 @@ $taser_charge
 .?AV?$CUtlVector@V?$Vec2D@M@@HV?$CNetworkUtlVector_MemoryType@V?$Vec2D@M@@$0?0@@@@
 .?AV?$CUtlVector@V?$Vec3D@M@@HV?$CNetworkUtlVector_MemoryType@V?$Vec3D@M@@$0?0@@@@
 .?AV?$CUtlVector@V?$Vec4D@M@@HV?$CNetworkUtlVector_MemoryType@V?$Vec4D@M@@$0?0@@@@
+.?AV?$CUtlVector@VCGlobalSymbol@@HV?$CNetworkUtlVector_MemoryType@VCGlobalSymbol@@$0?0@@@@
 .?AV?$CUtlVector@VCTransform@@HV?$CNetworkUtlVector_MemoryType@VCTransform@@$0?0@@@@
 .?AV?$CUtlVector@VCUtlString@@HV?$CNetworkUtlVector_MemoryType@VCUtlString@@$0?0@@@@
 .?AV?$CUtlVector@VCUtlSymbolLarge@@HV?$CNetworkUtlVector_MemoryType@VCUtlSymbolLarge@@$0?0@@@@
@@ -6987,7 +6988,6 @@ $taser_charge
 .?AV?$CUtlVectorDataOps@V?$CUtlVector@V?$CHandle@VC_BaseModelEntity@@@@HV?$CUtlVectorMemory_Growable@V?$CHandle@VC_BaseModelEntity@@@@H$0A@@@@@$0N@$0A@@@
 .?AV?$CUtlVectorDataOps@V?$CUtlVector@V?$Vec3D@M@@HV?$CUtlVectorMemory_Growable@V?$Vec3D@M@@H$0A@@@@@$02$0A@@@
 .?AV?$CUtlVectorDataOps@V?$CUtlVector@VCEntityHandle@@HV?$CUtlVectorMemory_Growable@VCEntityHandle@@H$0A@@@@@$0N@$0A@@@
-.?AV?$CUtlVectorDataOps@V?$CUtlVector@VCGlobalSymbol@@HV?$CUtlVectorMemory_Growable@VCGlobalSymbol@@H$0A@@@@@$0EP@$0A@@@
 .?AV?$CUtlVectorDataOps@V?$CUtlVector@VCPlayerSlot@@HV?$CUtlVectorMemory_Growable@VCPlayerSlot@@H$0A@@@@@$04$0A@@@
 .?AV?$CUtlVectorDataOps@V?$CUtlVector@VCUtlString@@HV?$CUtlVectorMemory_Growable@VCUtlString@@H$0A@@@@@$0DF@$0A@@@
 .?AV?$CUtlVectorDataOps@V?$CUtlVector@VCUtlSymbolLarge@@HV?$CUtlVectorMemory_Growable@VCUtlSymbolLarge@@H$0A@@@@@$01$0A@@@
@@ -7010,6 +7010,7 @@ $taser_charge
 .?AV?$CUtlVectorDataOps@V?$C_NetworkUtlVectorBase@V?$Vec3D@M@@VNetworkVar_m_PathNodes_TangentIn@C_PathParticleRope@@$0?0H@@$02$0A@@@
 .?AV?$CUtlVectorDataOps@V?$C_NetworkUtlVectorBase@V?$Vec3D@M@@VNetworkVar_m_PathNodes_TangentOut@C_PathParticleRope@@$0?0H@@$02$0A@@@
 .?AV?$CUtlVectorDataOps@V?$C_NetworkUtlVectorBase@V?$Vec4D@M@@VNetworkVar_m_vInitialPanelVertices@shard_model_desc_t@@$0?0H@@$0BL@$0A@@@
+.?AV?$CUtlVectorDataOps@V?$C_NetworkUtlVectorBase@VCGlobalSymbol@@VNetworkVar_m_vecSecondarySkeletonSlotIDs@CBaseAnimGraphController@@$0?0H@@$0EP@$0A@@@
 .?AV?$CUtlVectorDataOps@V?$C_NetworkUtlVectorBase@VCTransform@@VNetworkVar_m_Transforms@PhysicsRagdollPose_t@@$0?0H@@$0DL@$0A@@@
 .?AV?$CUtlVectorDataOps@V?$C_NetworkUtlVectorBase@VCUtlString@@VNetworkVar_m_LightStyleEvents@C_BarnLight@@$0?0H@@$0DF@$0A@@@
 .?AV?$CUtlVectorDataOps@V?$C_NetworkUtlVectorBase@VCUtlString@@VNetworkVar_m_QueuedLightStyleStrings@C_BarnLight@@$0?0H@@$0DF@$0A@@@
@@ -7025,6 +7026,7 @@ $taser_charge
 .?AV?$CUtlVectorDataOps@V?$C_UtlVectorEmbeddedNetworkVar@UWeaponPurchaseCount_t@@VNetworkVar_m_weaponPurchases@WeaponPurchaseTracker_t@@$0?0H@@$09$0A@@@
 .?AV?$CUtlVectorPredictionCopyDataOps@V?$C_NetworkUtlVectorBase@V?$CHandle@VCBaseAnimGraph@@@@VNetworkVar_m_vecSecondarySkeletons@CBaseAnimGraphController@@$0?0H@@@@
 .?AV?$CUtlVectorPredictionCopyDataOps@V?$C_NetworkUtlVectorBase@V?$CHandle@VC_BasePlayerWeapon@@@@VNetworkVar_m_hMyWeapons@CPlayer_WeaponServices@@$0?0H@@@@
+.?AV?$CUtlVectorPredictionCopyDataOps@V?$C_NetworkUtlVectorBase@VCGlobalSymbol@@VNetworkVar_m_vecSecondarySkeletonSlotIDs@CBaseAnimGraphController@@$0?0H@@@@
 .?AV?$CVDataFileManager@VCDecalGroupVData@@@@
 .?AV?$CVDataFileManager@VCExplosionTypeData@@@@
 .?AV?$CVDataFileManager@VCScenePayloadVData@@@@
@@ -7068,6 +7070,7 @@ $taser_charge
 .?AV?$C_NetworkUtlVectorBase@V?$Vec3D@M@@VNetworkVar_m_PathNodes_TangentOut@C_PathParticleRope@@$0?0H@@
 .?AV?$C_NetworkUtlVectorBase@V?$Vec3D@M@@VNetworkVar_m_ragPos@C_RagdollProp@@$0?0H@@
 .?AV?$C_NetworkUtlVectorBase@V?$Vec4D@M@@VNetworkVar_m_vInitialPanelVertices@shard_model_desc_t@@$0?0H@@
+.?AV?$C_NetworkUtlVectorBase@VCGlobalSymbol@@VNetworkVar_m_vecSecondarySkeletonSlotIDs@CBaseAnimGraphController@@$0?0H@@
 .?AV?$C_NetworkUtlVectorBase@VCTransform@@VNetworkVar_m_Transforms@PhysicsRagdollPose_t@@$0?0H@@
 .?AV?$C_NetworkUtlVectorBase@VCUtlString@@VNetworkVar_m_LightStyleEvents@C_BarnLight@@$0?0H@@
 .?AV?$C_NetworkUtlVectorBase@VCUtlString@@VNetworkVar_m_QueuedLightStyleStrings@C_BarnLight@@$0?0H@@
@@ -8221,6 +8224,7 @@ $taser_charge
 .?AVCGenerateMipsProceduralLayer@@
 .?AVCGlobalClassListener@@
 .?AVCGlobalLightBase@@
+.?AVCGlobalSymbol@@
 .?AVCGlowHelperSceneObject@@
 .?AVCGlowHelperSceneObjectDesc@@
 .?AVCGlowManager@@
@@ -9772,6 +9776,7 @@ $taser_charge
 .?AVC_EntityDissolve@@
 .?AVC_EntityFlame@@
 .?AVC_EnvCombinedLightProbeVolume@@
+.?AVC_EnvCombinedLightProbeVolumeAlias_func_combined_light_probe_volume@@
 .?AVC_EnvCubemap@@
 .?AVC_EnvCubemapBox@@
 .?AVC_EnvCubemapFog@@
@@ -10933,12 +10938,10 @@ $taser_charge
 0123456789
 02V8[
 05=k
-08@HR 
+08@HR
 08@J
-08B 
 08bX
 09,h
-0:01
 0;Q5[
 0<cz
 0M2~@p
@@ -11211,6 +11214,7 @@ $taser_charge
 2\n\nline_items
 2\n\vpreferences
 2\rlhp
+2\vpT
 2^pV
 2a"l
 2bT~
@@ -11303,7 +11307,7 @@ $taser_charge
 4tpD
 4zj@1;IJ
 4|2;#GameUI_Retake_Card_LightEmUp,1,1,rifle1,grenade0|2;#GameUI_Retake_Card_Kobe,1,1,rifle1,grenade2|1;#GameUI_Retake_Card_1g,1,1,rifle1,grenade3|1;#GameUI_Retake_Card_DisappearingAct,1,1,rifle1,grenade1|1;#GameUI_Retake_Card_EyesOnTarget,1,1,weapon_aug
-4~3h\v
+4~3XE
 5'0v2ZP
 5(EWorkshopFileType) Type of Workshop file to publish.
 5(Optional) The number of results, per page to return.
@@ -11426,13 +11430,12 @@ $taser_charge
 8192
 8285-YOAZ-6049
 82\n:XPH
-83P\n
+83@D
 851Pe
 8835-KLXV-0292
 8<pl
 8= zp
 8A6j
-8B0&
 8C:\buildworker\cs2_beta_win64\build\src\panorama\layout\stylepropertyfactory.cpp
 8Client ID for which to count the number of issued tokens"
 8GZS
@@ -11529,10 +11532,9 @@ $taser_charge
 ;"lY7
 ;5jNf
 ;83\v\nHBJ7
-;I4H
+;I48H
 ;LGEW
 ;Qo0
-;ToolObjects/LightProbeVolume
 ;\n\nPerMapRank
 ;\n\vrank_update
 ;`Fzc
@@ -11627,6 +11629,7 @@ $taser_charge
 <weapon>
 =!=-=3=7=?=C=o=s=u=y={=
 =&sf9
+=3xD
 == %d Entities Dumped\n
 == PulseGraphDef ==\n
 == false\n
@@ -11704,9 +11707,9 @@ $taser_charge
 ?\n:k_EMsgGCCStrike15_v2_MatchListRequestTournamentPredictions
 ?\n;GAME_PARTICLE_MANAGER_EVENT_CHANGE_CONTROL_POINT_ATTACHMENT
 ?\n;GAME_PARTICLE_MANAGER_EVENT_SET_SCENE_OBJECT_TINT_AND_DESAT
+?\r4hG
 ?\tV_isfinited
 ?autoplay
-?cl_ents
 ?d86L
 ?dt]X
 ?expf
@@ -11720,17 +11723,13 @@ $taser_charge
 ?uWS
 ?x29
 @!@%@+@1@?@C@E@]@a@g@m@
-@08ND
 @0pp
-@60K
 @?SlowGetInternalField@Object@v8@@AEAA?AV?$Local@VData@v8@@@2@H@Z
 @BH]f
 @BoneSetup
-@C_WeaponElite
+@Determines recharge time for taser. -1 = disabled.
 @HPX`hv
-@HVP
 @MfKZ
-@Npq
 @Pgl
 @Pu\rm
 @Show debug data when players change their loadout.
@@ -11746,7 +11745,7 @@ $taser_charge
 @dKb]
 @fff>fff>fff>fff>
 @ffffff
-@htp5
+@ht e
 @i1V
 @icon_camera
 @icon_character
@@ -11770,6 +11769,7 @@ A9ur
 A<fP
 A>x8
 AA Compromise
+AA:P`
 AAAA-
 AAAA-%.*s
 AABBDirection
@@ -11987,6 +11987,7 @@ ASN1_seq_unpack
 ASN1_sign
 ASN1_unpack_string
 ASN1_verify
+ASaveRestoreTableFlags_t
 AUTHORITY_INFO_ACCESS
 AUTHORITY_KEYID
 AVATAR: Image load failed for panel %s.
@@ -12133,7 +12134,6 @@ Additive Blend
 Additive Blend (Masked): %.2f%%
 Additive Blend: %.2f%%
 Advanced joystick settings initialized for joystick %d\n------------\n
-Aentitytable_t
 Affiliation Changed
 Africa
 After PostProcess -> Output
@@ -12167,7 +12167,7 @@ Alternate icon definition index '%s' (%llu) must be greater than zero
 AltitudeMax
 AltitudeMin
 Always
-Amat_lmap_new_path 0
+Am_nUniqueID
 Ambient %s:Unknown command %s\n
 Ambient Occlusion Proxies
 Ambient Occlusion Proxies Downsample Depth
@@ -12503,7 +12503,6 @@ BAsyncSendProto
 BC (default)
 BCanSeeInParentScroll
 BCanvasReady
-BDuration, in seconds, to hold onto the data of disconnected players, for scoreboard display.
 BEOS_BIND_FUNC
 BEOS_BIND_VAR
 BEOS_LOAD
@@ -12616,13 +12615,13 @@ BN_rshift
 BN_to_ASN1_ENUMERATED
 BN_to_ASN1_INTEGER
 BN_usub
+BNumber of CT's when playing retakes.
 BOOL ABSENT
 BOOLEAN
 BOOSTS
 BPE_Diagnostic
 BPE_StringCommand
 BPIN_txt
-BPanoramaComponent_MatchInfo_StateChange
 BPublic
 BRDFLookup
 BReadyForDisplay
@@ -12660,7 +12659,6 @@ BULLET_PLAYER_BUCKSHOT
 BUMP_WITH_TIMEOUT_WHEN_LEARNED
 BURN
 BUYMENU: %s %s %s\n
-BUse server overrides for steam avatars
 BValidateCrosshairCode
 BYOC
 BY_FILE_CTRL
@@ -13214,11 +13212,10 @@ CAnimGraph2ParamRef
 CAnimGraph2ParamRefBase<bool>::Bind
 CAnimGraph2ParamRefBase<class CGlobalSymbol>::Bind
 CAnimGraph2ParamRefBase<class CNmTarget>::Bind
-CAnimGraph2ParamRefBase<class Vec3D<float> >::Bind
 CAnimGraph2ParamRefBase<float>::Bind
 CAnimGraphControllerManager::CreateAndBindController
 CAnimGraphControllerManager::CreateControllerToGraphBindings
-CAnimGraphGameSystem::ProcessPostNetworkingAnimationDecodes(), C:\buildworker\cs2_beta_win64\build\src\game\shared\animgraph_gamesystem.cpp:2157
+CAnimGraphGameSystem::ProcessPostNetworkingAnimationDecodes(), C:\buildworker\cs2_beta_win64\build\src\game\shared\animgraph_gamesystem.cpp:2164
 CAnimGraphParamAutoResetRef
 CAnimGraphParamRef
 CAnimGraphTagOptionalRef
@@ -14205,6 +14202,7 @@ CNetworkOriginCellCoordQuantizedVector m_cell%c cell %d is outside of cell bound
 CNetworkSerializerBindingBuildFilter::GetFieldPriority
 CNetworkSerializerFieldInfo::InitCodeGenTypes:  unable to find class %s for field %s %s::%s\n
 CNetworkTransmitComponent::FireEvent( m_bPendingStateChange == true )
+CNetworkUtlVectorBase< CGlobalSymbol, NetworkVar_m_vecSecondarySkeletonSlotIDs , -1, int >
 CNetworkUtlVectorBase< CHandle< CBaseAnimGraph >, NetworkVar_m_vecSecondarySkeletons , -1, int >
 CNetworkUtlVectorBase< CHandle< CBasePlayerController >, NetworkVar_m_aPlayerControllers , -1, int >
 CNetworkUtlVectorBase< CHandle< CPathNode >, NetworkVar_m_vecPathNodes , -1, int >
@@ -14636,7 +14634,6 @@ CSGOGenericButtonClickedEvent
 CSGOGenericConfirmFinished
 CSGOGlobalPopups
 CSGOGlobalSceneFireEntityInput
-CSGOGraphicsSettings
 CSGOHideIntroMovie
 CSGOHideMainMenu
 CSGOHidePauseMenu
@@ -16424,6 +16421,7 @@ D2I_RSA_NET_2
 D2I_X509
 D2I_X509_CINF
 D2Lb!
+D4(H
 D4tp
 D514p
 D@D/lcO+hcK
@@ -17162,7 +17160,7 @@ Downsample and BloomThreshold
 DownsampleDepth
 DownsampleDepthForWaterEffects
 Downtown
-Dpath_simple
+Dplayer_attachment_13
 Dq;n
 DrBoom
 Draft is fully completed!\n
@@ -17260,7 +17258,6 @@ DroppedBomb
 DsBV
 DstHeight
 DstWidth
-Dterrorist_team_intro_camera
 Duck
 DumpScriptBindings()
 Dumping %i/%i largest CPhysAggregateData - %zu KB total\n
@@ -19489,7 +19486,6 @@ Glows: DownsampleToQuarter
 Glows: Render Objects Solid Color
 Glows: Render Objects into Stencil
 Glows: Stencil To Screen
-Gm_nodes
 GoJJw
 GoXis
 Go^ldg
@@ -20832,6 +20828,7 @@ LOG_MESSAGE
 LONG
 LONG_C2I
 LPVIndex
+LS&\nKp`
 LT[N
 LT_txt
 LXKQ
@@ -21009,6 +21006,7 @@ LocalContrastOutput
 LocalContrastOutputTexture
 LocalKeySet
 LocalPlayerAndObserversExclusive
+LocalPlayerAndPredictorsExclusive
 LocalPlayerBuyZoneChange
 LocalPlayerExclusive
 LocalPlayerExclusiveDuringRoundEnd
@@ -21073,6 +21071,7 @@ Lunacy
 M'Ezb
 M-laO
 M0 E
+M4HH
 MASK:
 MATCH-
 MATCHSTATS\t%s, round %d, value %d\n
@@ -21734,7 +21733,6 @@ No Server Address
 No Steam
 No TEMP directory environment variable!\n
 No action specified for variable: "%s"\n
-No animation set for clip node!
 No camera
 No case for Muzzleflash type: %d\n
 No child processes
@@ -22245,13 +22243,11 @@ P-256
 P-384
 P-521
 P08@J
-P08J@
-P08ND
+P08J
 P1\t98"
 P2P Voice
 P2P ping to "%s". Timed out after %.2fms\n
 P5[1
-P60E
 PAGN_4
 PANORAMA_LAYOUTFILE
 PARALYZE
@@ -22602,6 +22598,7 @@ PanoramaComponent_Lobby_PlayerUpdated
 PanoramaComponent_Lobby_ReachableDatacentersUpdated
 PanoramaComponent_Lobby_ReadyUpForMatch
 PanoramaComponent_Lobby_ShowPreMatchInterface
+PanoramaComponent_MatchInfo_StateChange
 PanoramaComponent_MatchList_FantasyUploaded
 PanoramaComponent_MatchList_PredictionUploaded
 PanoramaComponent_MatchList_StateChange
@@ -22760,7 +22757,6 @@ Permit Responses
 Permitted
 Persist
 PersonalStore
-Pf02
 Phoenix Compound
 PhysDisableEntityCollisions called on entities in two different scene worlds (%s - %u vs %s - %u)\n
 PhysEntityCollisionsAreDisabled called on entities in two different scene worlds (%s - %u vs %s - %u)\n
@@ -22920,7 +22916,6 @@ Playsoundscape %s:Unknown command %s\n
 Please specify 0 or 1 with the -stream Parameter\n
 Pm8A?
 PmR"H?
-Pn03
 Point entity.
 PointsAnim
 Policy Qualifier CPS
@@ -23115,6 +23110,7 @@ ProgressDamageGiven
 ProgressDamageTaken
 ProgressSecondaryStatusText
 ProgressStatusText
+PromptShowSelectItemForCapabilityPopup
 PropBreakableCreateAll
 PropColon
 PropData
@@ -23395,6 +23391,7 @@ RULESHERE
 R\n\rincludekvtags
 R\r1>Vp
 R\vp!y
+R\vpT
 R]Di
 Rad2 Deg
 Radar
@@ -24202,7 +24199,6 @@ Scoreboard_ResetAndInit
 Scoreboard_RoundLossBonusMoney_OnMouseOut_CT
 Scoreboard_RoundLossBonusMoney_OnMouseOut_TERRORIST
 Scoreboard_RoundLossBonusMoney_OnMouseOver_CT
-Scoreboard_RoundLossBonusMoney_OnMouseOver_TERRORIST
 Scoreboard_ToggleSetCasterControlsUI
 Scoreboard_ToggleSetCasterControlsXray
 Scoreboard_ToggleSetCasterIsCameraman
@@ -25969,6 +25965,7 @@ Too many simultaneously active particle systems!\n
 Tool '%s' missing required type.
 ToolObjects/CubeMap
 ToolObjects/GlobalLight
+ToolObjects/LightProbeVolume
 ToolObjects/env_sprite
 ToolObjects/point_clientui_world_text_panel
 ToolObjects/point_worldtext
@@ -26143,6 +26140,7 @@ U7{8+S
 U?Y5qX}\tf
 UEax
 UFJ\ns
+UI Map Previews
 UI.CounterBeep
 UI.CounterDoneBeep
 UI.DeathMatch.Revenge
@@ -26710,6 +26708,7 @@ W'6S`
 W2Q=
 W3fp
 W3i+,
+W4hH
 W>peSp>9
 WAITING FOR VSCRIPT DEBUGGER CONNECTION -- '-vscriptdebug' was provided on the command line.\n
 WARNING! Field %s is using the wrong FIELD_ type!\nFix this or you'll see a crash.\n
@@ -26757,6 +26756,7 @@ WPN_GRENADE_PULL_PIN
 WPN_GRENADE_THROW
 WPN_HEALTHSHOT_INJECT
 WPN_IDLE_COMPLETE
+WPN_IK_ACTION_ENDING
 WPN_INSPECT_INTRO
 WPN_INSPECT_LOOP
 WPN_INSPECT_OUTRO
@@ -27146,7 +27146,7 @@ X\n\tTeamStats
 X\n\vFantasyTeam
 X\n\vLoadoutItem
 X\tQo
-X`hr 
+X`hr
 Xd3h
 XfJ7
 XjfR
@@ -27285,6 +27285,7 @@ Z~wl
 [-1] -> empty
 [-1] -> gsn(empty)
 [-1] -> gsn(null)
+[4xH
 [Additional text in debugoverlay_dashboard]
 [CC Log %s]: d: %f, ls: %f, %s\n
 [CC]:  %s: No Caption Found\n
@@ -28120,7 +28121,6 @@ Z~wl
 \r^mX
 \ri1I
 \rjwB\t
-\rm_bVerticalFOV
 \roKK
 \rrCj
 \rusercmd.proto"V\n
@@ -28416,8 +28416,8 @@ _xU`u
 _}eOk
 `28)fk
 `3?New@Array@v8@@SA?AV?$Local@VArray@v8@@@2@PEAVIsolate@2@H@Z
-`6PL
-`6pM
+`430D
+`6pK
 `:zQF
 `D$daM-l
 `DZG
@@ -28448,7 +28448,6 @@ a:typeparam
 a;Tg
 a@XZ
 aA0k
-aBvD
 aD/x
 aDSS
 aECDH
@@ -28929,6 +28928,8 @@ animation-name: %s; animation-duration: %.4fs; animation-delay: %.4fs; animation
 animation-progress-bar
 animation-timing-function
 animation/graphs/viewmodel/viewmodel.vnmgraph
+animation/skeletons/weapons/knife_push.vnmskel
+animation/skeletons/weapons/molotov.vnmskel
 animationScale
 animationStartTime
 animation_modifiers
@@ -34151,7 +34152,6 @@ invertminscalecalc
 invited
 invnextgun
 ioctlsocket
-ipK3
 ipsec3
 ipsec4
 ipsecEndSystem
@@ -34178,7 +34178,6 @@ is_add
 is_an_event
 is_animating
 is_collection
-is_ct
 is_dead
 is_defusing
 is_essential_piece
@@ -35159,7 +35158,7 @@ lowresdepth
 luminaire_anisotropy
 luminaire_shape
 luminaire_size
-lvR4h
+lvR4XH
 m&9W
 m*Zu
 m249
@@ -35641,6 +35640,7 @@ mat_debug: multiple matches for %s:
 mat_debug: need a debug mode\n
 mat_depthwrite_new_path 0
 mat_depthwrite_new_path 1
+mat_lmap_new_path 0
 mat_lmap_new_path 1
 mat_unlit_new_path 0
 mat_unlit_new_path 1
@@ -36224,15 +36224,12 @@ mousewheeltickcount
 move
 move_crc
 move_crouch_amount
-move_direction_angle
 move_direction_id
-move_direction_vector
 move_is_stutter_step
 move_is_walking
 move_mode
 move_speed_horizontal
 move_speed_horizontal_previous
-move_speed_vertical
 move_speed_x
 move_speed_y
 move_type_air
@@ -36321,7 +36318,7 @@ n5cM
 n6j/
 n:2C[
 n@PK
-nBUI Map Previews
+nCFogController
 nCRD
 nChangeOffset < INT16_MAX
 nChangeOffset > 0
@@ -36333,7 +36330,6 @@ nKillPriority
 nMaxElements
 nNumerator
 nObserverMode
-nPointCameraSettings_t
 nPriority != NETWORK_FIELD_CHANGE_DEFAULT_PRIORITY
 nSRecord
 nSecondsPerTick
@@ -37009,8 +37005,7 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p08@H^D
-p20&
+p0jp
 p250
 p2p_FightingGame_Connection
 p2p_FightingGame_GameData
@@ -37027,16 +37022,15 @@ p4Z3
 p5Z3
 p5\nL,
 p618
+p6pW
 p>?Set@Template@v8@@QEAAXV?$Local@VName@v8@@@2@V?$Local@VData@v8@@@2@W4PropertyAttribute@2@@Z
 p@0pqE5tsO?|1
-pAshard_model_desc_t
-pBDraws a cross at the given location\n\tArguments: x y z
+pACBaseAnimGraph
 pCheckpointName
 pD4t
 pData->GetDataDescMap() == pTemplateDataMap
 pDescription
 pDest
-pF 6
 pField
 pFilter
 pG_*h
@@ -37046,10 +37040,10 @@ pNewRequest
 pO0h
 pOtherEntity
 pPose != nullptr
-pPromptShowSelectItemForCapabilityPopup
 pRTH
 pRequest
 pSPo
+pScoreboard_RoundLossBonusMoney_OnMouseOver_TERRORIST
 pSequenceName
 pSource
 pSourceFunc
@@ -37352,6 +37346,7 @@ path_node
 path_parameter_string
 path_particle_rope
 path_particle_rope_clientside
+path_simple
 path_uniqueid
 path_with_dynamic_nodes
 pathclass
@@ -37562,7 +37557,6 @@ player_attachment_1
 player_attachment_10
 player_attachment_11
 player_attachment_12
-player_attachment_13
 player_attachment_14
 player_attachment_15
 player_attachment_2
@@ -39975,7 +39969,7 @@ t(ydU
 t+RW
 t0;?ZlP*m
 t2U 
-t3H\v
+t38E
 t4O_
 t80z
 tA`KO/3G!\n7h=
@@ -40122,6 +40116,7 @@ template_vtex
 templates#include
 termite
 terrorist_odds
+terrorist_team_intro_camera
 terrorist_wingman_intro_camera
 terrorists
 test.fatdem
@@ -41559,7 +41554,6 @@ weapons/models/grenade/hegrenade/weapon_hegrenade.vmdl
 weapons/models/grenade/incendiary/weapon_incendiarygrenade.vmdl
 weapons/models/grenade/molotov/weapon_molotov.vmdl
 weapons/models/grenade/smokegrenade/weapon_smokegrenade.vmdl
-weapons/models/hkp2000/animgraph/weapon_pist_hkp2000_ui.vanmgrph
 weapons/models/hkp2000/weapon_pist_hkp2000.vmdl
 weapons/models/m249/weapon_mach_m249.vmdl
 weapons/models/shared/nametag/nametag_default.vcompmat
@@ -41856,7 +41850,7 @@ y#y&Jb
 y-offset
 y0JY
 y2Cu
-y3X\v
+y3HE
 y;w9
 y>?SetAccessor@ObjectTemplate@v8@@QEAAXV?$Local@VString@v8@@@2@P6AX0AEBV?$PropertyCallbackInfo@VValue@v8@@@2@@ZP6AX0V?$Local@VValue@v8@@@2@AEBV?$PropertyCallbackInfo@X@2@@Z3W4AccessControl@2@W4PropertyAttribute@2@W4SideEffectType@2@8@Z
 y?iLa

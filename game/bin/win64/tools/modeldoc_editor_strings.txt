@@ -26,7 +26,7 @@
   R%d: %15s %25s %s\n
   Top-level Mesh Op '%s' returning a cached result.\n
   V%d: '%s' (%s)\n
- !"#$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$(JL
+ !"#$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
  !"#$%%&'()*+,-../0123456789:;<=>?@ABCDEFGHIJKLLMNOPQRSTUVWXY[]_`bdefhjlnprtvz|~
  #%d: %d Faces, %d Verts, %d Edges\n
  %dw %dl %dh @(%.0f %.0f %.0f)
@@ -38,9 +38,10 @@
  (%lu = 0x%lx)\n
  (%u = 0x%x)\n
  (08@HPX`j
- (08@HPXb`d.
+ (08@HPXb
  (08@HPZ
- (0X`hpz`d.
+ (08@HR
+ (0X`hpz
  (Crouch)
  (Pitch)
  (Roll)
@@ -557,29 +558,27 @@ $prefix_element$
 (%.2f, %.2f, %.2f)
 (%1 clips)
 (%d tracks)
-(50P
 (5yO
+(9oO
 (? Queued)
 (?!\d)[\w_]*
 (Advanced Feature) Used to specify special interaction rules or exclusions. References a name in scripts/collision_properties.txt.
-(AlO
 (Anonymous)
+(AtO
 (Cannot dynamically spawn a prop_static)
 (Custom Colors Disabled)
 (Debug Feature) Used to draw collision with the same material in Physics Debugger as in Hammer.
 (Edges to Faces)
 (Edges to Vertices)
-(EmO
 (Error)
 (Faces to Edges)
 (Faces to Vertices)
 (Filter)
-(I7P
-(I9P
-(IvO
+(IkO
 (Mesh Substring Filter)
-(MsO
+(MqO
 (Multiple)
+(MxO
 (No Active Session)
 (No Archetype Selected)
 (No Asset)
@@ -589,19 +588,21 @@ $prefix_element$
 (Preview Outliner Filter)
 (Specified in project's gameinfo.gi)
 (Steam Audio) Update physics surface property of VMDL files. They are used for picking acoustic material property for Steam Audio.
+(UlO
+(UvO
+(UwO
 (Vertices to Edges)
 (Vertices to Faces)
 (\f?focusOutEvent@QAbstractButton@@MEAAXPEAVQFocusEvent@@@Z
 (\r?hideEvent@QAbstractSpinBox@@MEAAXPEAVQHideEvent@@@Z
 (\v?enterEvent@QToolButton@@MEAAXPEAVQEvent@@@Z
+(e5P
 (export) %d %s %d %s %s\n
 (export) %d %s %d %s\n
 (iyO
 (layer %d)
 (moO
 (no-compile)
-(q2P
-(utO
 ) ?timerEvent@QTableView@@MEAAXPEAVQTimerEvent@@@Z
 )\f?focusOutEvent@QAbstractItemView@@MEAAXPEAVQFocusEvent@@@Z
 )\n?displayText@QStyledItemDelegate@@UEBA?AVQString@@AEBVQVariant@@AEBVQLocale@@@Z
@@ -12027,7 +12028,8 @@ $prefix_element$
 0.000
 0000``
 08@HR
-08@J`d.
+08@J
+0>pU
 0\r%0h
 0\r%0t
 0\tV_frexpf
@@ -12673,7 +12675,7 @@ $prefix_element$
 2\r?hideEvent@QWidget@@MEAAXPEAVQHideEvent@@@Z
 2\tV_fseek
 2\v?event@QAction@@MEAA_NPEAVQEvent@@@Z
-2\vpdQ
+2\vp4P
 2_BONE_IK
 2aboutToShow()
 2accepted()
@@ -12725,6 +12727,7 @@ $prefix_element$
 2mapped(int)
 2mapped(int,int)
 2mapped(void*)
+2pc,
 2rejected()
 2returnPressed()
 2sectionClicked( int )
@@ -14754,12 +14757,12 @@ $prefix_element$
 @%s_lookFrame_0
 @%s_lookFrame_1
 @%s_lookFrame_2
+@60V
+@60X
 @AuthPhysCollisionAttributesModeEnum_t
-@HPX`hv@o
-@HVP}
+@HPX`hvpp
 @Integer overflow in %s
 @Invalid
-@Npp
 @\tV_isinfd
 @\v?event@QFrame@@MEAA_NPEAVQEvent@@@Z
 @bonemerge
@@ -14768,7 +14771,6 @@ $prefix_element$
 @m_name
 @spawn
 @unnamed_%d
-@xi1
 A bone named %s already exists.
 A box shape which cloth collides with.
 A capsule shape which cloth collides with.
@@ -18842,9 +18844,8 @@ Grow or Shrink
 Grow or shrink a selection
 Grow the selection by adding contiguous components to the selection.
 HAC K  Unused Binding
+HA\fW
 HELPER_BONE
-HM\fW
-HM\nW
 HSLA
 HSLA\t
 HSVA
@@ -18936,6 +18937,8 @@ HitboxSet
 HitboxSetList
 HitboxSet_Auto
 HitboxSphere
+Hm\fW
+Hm\nW
 Hold %d :: %d, %d was %d, %d
 Hold Frame %d Out Of Range, Valid Range: [ %d, %d ]
 Hold Frame %d Remapped To Last Frame Of Source Anim, Valid Range: [ %d, %d ]
@@ -20440,7 +20443,6 @@ No Widget Under Mouse
 No Widget Under Mouse @(%1,%2)
 No animation data found in source file
 No animation in additional file: %s
-No animation set for clip node!
 No autosave directory found
 No bone merge attached models found in ModelDoc prefab\n\n%s
 No bone name set for variation: %s!
@@ -21268,11 +21270,9 @@ Overwrite With Current
 Overwrite all bone data
 Overwrite existing flags only
 Overwriting existing wrinkle map data on mesh
-P08@J`d.
+P08@J
 P08J
-P2`d.
-P60U
-P6Pi
+P6`V
 P?isValid@QColor@@QEBA_NXZ
 P?isValid@QTextCharFormat@@QEBA_NXZ
 P?item@QStandardItemModel@@QEBAPEAVQStandardItem@@HH@Z
@@ -21848,9 +21848,9 @@ RMouseDoubleClick
 ROTATION
 RSDS4
 R\f?font@QTreeWidgetItem@@QEBA?AVQFont@@H@Z
-R\fpdQ
 R\t?canFetchMore@QAbstractItemModel@@UEBA_NAEBVQModelIndex@@@Z
 R\v?event@QMenuBar@@MEAA_NPEAVQEvent@@@Z
+R\vp4P
 R^?supportedDropActions@QStandardItemModel@@UEBA?AV?$QFlags@W4DropAction@Qt@@@@XZ
 R_T5Y
 Rad2 Deg
@@ -23926,7 +23926,6 @@ X?setColorAt@QGradient@@QEAAXNAEBVQColor@@@Z
 X?setColumnCount@QStandardItemModel@@QEAAXH@Z
 X?setCompositionMode@QPainter@@QEAAXW4CompositionMode@1@@Z
 XClipPathUnits
-XE\vW
 XMLPacket
 XN?hasChildren@QStandardItemModel@@UEBA_NAEBVQModelIndex@@@Z
 XPosition
@@ -23936,6 +23935,7 @@ XYZ, Luv
 X\r?horizontalHeader@QTableView@@QEBAPEAVQHeaderView@@XZ
 X\v?event@QPushButton@@MEAA_NPEAVQEvent@@@Z
 X`hr
+Xe\vW
 Y (Green / Left)
 Y - Left
 Y0 Node Name
@@ -24141,6 +24141,7 @@ ZoomOut
 \f\n?cmp@QVariant@@QEBA_NAEBV1@@Z
 \f\n?deselect@QLineEdit@@QEAAXXZ
 \f\r?heightForWidth@QFormLayout@@UEBAHH@Z
+\fp4P
 \n   Size: L: <%i, %i>   A: <%i, %i>   Scale: %0.2f\n   Geometry: %s\n   Virtual Geometry: %s\n   Available Geometry: %s\n   Orientation: %s\n
 \n?appendRow@QStandardItemModel@@QEAAXPEAVQStandardItem@@@Z
 \n?bits@QImage@@QEAAPEAEXZ
@@ -24247,7 +24248,6 @@ ZoomOut
 \r[WRN] %d crossing edges detected - unfixed\n
 \r\f?focusInEvent@QLineEdit@@MEAAXPEAVQFocusEvent@@@Z
 \r\r?heightForWidth@QGridLayout@@UEBAHH@Z
-\rxTI
 \s*([+-*/])\s*=\s*([\-0-9.e]*)
 \t"?update@QWidget@@QEAAXAEBVQRect@@@Z
 \t?addPixmap@QIcon@@QEAAXAEBVQPixmap@@W4Mode@1@W4State@1@@Z
@@ -24326,7 +24326,7 @@ ZoomOut
 \v?flags@QTreeWidgetItem@@QEBA?AV?$QFlags@W4ItemFlag@Qt@@@@XZ
 \v?focusChanged@QApplication@@QEAAXPEAVQWidget@@0@Z
 \v\f?focusInEvent@QGroupBox@@MEAAXPEAVQFocusEvent@@@Z
-\vpdQ
+\vp4P
 ]?sharedPainter@QPaintDevice@@MEBAPEAVQPainter@@XZ
 ]?start@QMovie@@QEAAXXZ
 ]?staticMetaObject@QTextDocument@@2UQMetaObject@@B
@@ -24440,9 +24440,6 @@ _variant_
 _volumeatlas_
 _wjb
 _zero
-`60W
-`60X
-`6pX
 `?validate@QDoubleValidator@@UEBA?AW4State@QValidator@@AEAVQString@@AEAH@Z
 `?validate@QIntValidator@@UEBA?AW4State@QValidator@@AEAVQString@@AEAH@Z
 `?validate@QRegExpValidator@@UEBA?AW4State@QValidator@@AEAVQString@@AEAH@Z
@@ -24450,9 +24447,7 @@ _zero
 `?value@QColor@@QEBAHXZ
 `?valueF@QColor@@QEBANXZ
 `Q?lightnessF@QColor@@QEBANXZ
-`QrO
 `V?queryKeyboardModifiers@QGuiApplication@@SA?AV?$QFlags@W4KeyboardModifier@Qt@@@@XZ
-`YwO
 `\r?entryInfoList@QDir@@QEBA?AV?$QList@VQFileInfo@@@@V?$QFlags@W4Filter@QDir@@@@V?$QFlags@W4SortFlag@QDir@@@@@Z
 `\v?event@QSpinBox@@MEAA_NPEAVQEvent@@@Z
 a:fulltype
@@ -25760,7 +25755,6 @@ guide_hair_count
 hAttachmentCamera
 hResource
 hSShould we try to straighten two faces connected to this edge? (tangent)
-hY~O
 h\r?horizontalScrollbarAction@QTreeView@@MEAAXH@Z
 h\v?event@QTabWidget@@MEAA_NPEAVQEvent@@@Z
 ha?window@QPalette@@QEBAAEBVQBrush@@XZ
@@ -25844,7 +25838,6 @@ horizontalStretch
 horizontal_header
 horizontal_header_labels
 horizontal_pose_param_name
-hpz`d.
 hsequence_id
 hud_skin
 hullIvr-0.obj
@@ -26694,7 +26687,7 @@ overwrite_existing
 overwrite_existing_flags_only
 owns_polymorphic_data
 p"?value@QSpinBox@@QEBAHXZ
-p2`d.
+p60|
 pAction
 pActionObject
 pAsset
@@ -26730,6 +26723,7 @@ pVoidStep
 pVoidWizard
 pWidget
 p\n?dragLeaveEvent@QAbstractItemView@@MEAAXPEAVQDragLeaveEvent@@@Z
+p\r`\fP4P
 p\v?event@QWidget@@MEAA_NPEAVQEvent@@@Z
 p`?type@QStandardItem@@UEBAHXZ
 panorama_image
@@ -26932,8 +26926,7 @@ quad_bend_tolerance
 quadratic
 quaternion_array
 quiet
-r>0I`
-r\vpdQ
+r>PI`
 rad2deg
 radiant
 radiant_creeps
@@ -27035,6 +27028,7 @@ row_pose_param_name
 row_weight_list
 rowsContainer
 rowspan
+rpc,
 rsqrt
 rtcAttachGeometry
 rtcCommitGeometry
