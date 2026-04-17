@@ -16,10 +16,8 @@
  (%lu = 0x%lx)\n
  (%u = 0x%x)\n
  (08@HPX`jp
- (08@HPXb@
  (08@HPZp
  (08@Jp
- (0X`hpz@
  (deprecated)
  * Adding Bone :: < %10.4f %10.4f %10.4f >\n
  - (Additive)
@@ -938,6 +936,7 @@ $modelname$_surface
 .?AUCAttr_m_flBoneWeight@?1??GetAttributeTable_Impl@CNmGraphDocFixedWeightBoneMaskNode@@SAXPEAV?$CUtlVector@PEAVIBaseToolAttr@@HV?$CUtlVectorMemory_Growable@PEAVIBaseToolAttr@@H$0A@@@@@@Z@
 .?AUCAttr_m_flBounciness@?1??GetStaticAttributes@CModelDocClothShape@@MEAAXPEAV?$CUtlVector@PEAVIBaseToolAttr@@HV?$CUtlVectorMemory_Growable@PEAVIBaseToolAttr@@H$0A@@@@@@Z@
 .?AUCAttr_m_flBrightness@?1??GetStaticAttributes@CModelDocTextureGenerator_PointOcclusionMap@@MEAAXPEAV?$CUtlVector@PEAVIBaseToolAttr@@HV?$CUtlVectorMemory_Growable@PEAVIBaseToolAttr@@H$0A@@@@@@Z@
+.?AUCAttr_m_flChainRotationWeight@?1??GetAttributeTable_Impl@CnmGraphDocTwoBoneIKNode@@SAXPEAV?$CUtlVector@PEAVIBaseToolAttr@@HV?$CUtlVectorMemory_Growable@PEAVIBaseToolAttr@@H$0A@@@@@@Z@
 .?AUCAttr_m_flChoiceWeight@?1??GetStaticAttributes@CModelDocBaseConfigNode@@MEAAXPEAV?$CUtlVector@PEAVIBaseToolAttr@@HV?$CUtlVectorMemory_Growable@PEAVIBaseToolAttr@@H$0A@@@@@@Z@
 .?AUCAttr_m_flClothAirDensity@?1??GetStaticAttributes@CModelDocClothEffectWind@@MEAAXPEAV?$CUtlVector@PEAVIBaseToolAttr@@HV?$CUtlVectorMemory_Growable@PEAVIBaseToolAttr@@H$0A@@@@@@Z@
 .?AUCAttr_m_flClothAnchorFreeRotateScale@?1??GetStaticAttributes@CModelDocClothProxyMeshFile@@MEAAXPEAV?$CUtlVector@PEAVIBaseToolAttr@@HV?$CUtlVectorMemory_Growable@PEAVIBaseToolAttr@@H$0A@@@@@@Z@
@@ -1123,7 +1122,6 @@ $modelname$_surface
 .?AUCAttr_m_flRadius@?1??GetStaticAttributes@CModelDocRenderPrimitiveSphere@@MEAAXPEAV?$CUtlVector@PEAVIBaseToolAttr@@HV?$CUtlVectorMemory_Growable@PEAVIBaseToolAttr@@H$0A@@@@@@Z@
 .?AUCAttr_m_flRadius@?1??GetStaticAttributes@CModelDocVSNAPParticle@@MEAAXPEAV?$CUtlVector@PEAVIBaseToolAttr@@HV?$CUtlVectorMemory_Growable@PEAVIBaseToolAttr@@H$0A@@@@@@Z@
 .?AUCAttr_m_flRandomSpawnChance@?1??GetStaticAttributes@CModelDocBaseBreakPiece@@MEAAXPEAV?$CUtlVector@PEAVIBaseToolAttr@@HV?$CUtlVectorMemory_Growable@PEAVIBaseToolAttr@@H$0A@@@@@@Z@
-.?AUCAttr_m_flReferencePoseTwistWeight@?1??GetAttributeTable_Impl@CnmGraphDocTwoBoneIKNode@@SAXPEAV?$CUtlVector@PEAVIBaseToolAttr@@HV?$CUtlVectorMemory_Growable@PEAVIBaseToolAttr@@H$0A@@@@@@Z@
 .?AUCAttr_m_flRemapMax@?1??GetStaticAttributes@CModelDocTextureGenerator_CavityMap@@MEAAXPEAV?$CUtlVector@PEAVIBaseToolAttr@@HV?$CUtlVectorMemory_Growable@PEAVIBaseToolAttr@@H$0A@@@@@@Z@
 .?AUCAttr_m_flRemapMin@?1??GetStaticAttributes@CModelDocTextureGenerator_CavityMap@@MEAAXPEAV?$CUtlVector@PEAVIBaseToolAttr@@HV?$CUtlVectorMemory_Growable@PEAVIBaseToolAttr@@H$0A@@@@@@Z@
 .?AUCAttr_m_flRotationIgnoreThreshold@?1??GetStaticAttributes@CModelDocAnimConstraintRbf@@MEAAXPEAV?$CUtlVector@PEAVIBaseToolAttr@@HV?$CUtlVectorMemory_Growable@PEAVIBaseToolAttr@@H$0A@@@@@@Z@
@@ -8714,13 +8712,10 @@ $modelname$_surface
 .tif
 .webp
 08@HRp
-08@J@
 08Bp
-0>pX
 0\r%0t
 0\tV_frexpf
-0tD{
-0v@O{
+0vpO{
 1.0 - FractionalPart( A ) 
 1D Blend Has No Referenced Animations
 1D Twist
@@ -8761,13 +8756,13 @@ $modelname$_surface
 @%s_lookFrame_0
 @%s_lookFrame_1
 @%s_lookFrame_2
-@08N@O{
-@60Y
-@HPX`hvps
+@08NpO{
+@HPX`hv
 @Integer overflow in %s
 @Invalid Internal Point
 @htp
 @m_vCenter
+@npO{
 @unnamed_%d
 A bone named %s already exists.
 A box shape which cloth collides with.
@@ -9825,6 +9820,7 @@ Chain Forward Dir
 Chain Length
 Chain Length: %d
 Chain Lookat
+Chain Rotation Weight
 Changes how the cycle time is computed.  Mainly used with autolayer.\nShould not be used with AnimGraph.
 Character Space - 
 Check Edge Selection
@@ -11838,10 +11834,8 @@ Overrides the target VSNAP resource (defaults to "particles/models/%model_name%/
 Overwrite all bone data
 Overwrite existing flags only
 Overwriting existing wrinkle map data on mesh
-P08@J@
 P08J
-P08N@O{
-P6`Y
+P08NpO{
 PARENT
 PF\n%d %d\n-1.000000\n
 POSE_SPACE_BONE
@@ -12066,7 +12060,6 @@ Prop Group for Physics Particles
 Prop group for spawned physics particles
 PropWorldOrigin
 Prune pieces < error threshold
-PtD{
 Pulse Graph
 Push Out
 Push mesh faces outward along their local normal. Optionally build shell geometry.
@@ -12174,7 +12167,6 @@ ReductionMatrix1
 ReductionMatrix2
 Reference Pose
 Reference Pose Task
-Reference Pose Twist Weight
 Reference to a Pulse file to be run on this model entity.
 Reference to a content file that will append its contents to a parent render mesh file node.
 Reference to a content file that will resolve to one or more animations. (Plus additional document nodes such as skeleton bones etc.)
@@ -13156,7 +13148,6 @@ Zero input vector for info node!
 [cloth] | [procedural]
 [procedural]
 \fB33
-\fp\vPtD{
 \n[ERR] Not enough memory, shop for some more RAM. See you!\n
 \ndummyfilename.tif
 \ng default\n
@@ -13175,7 +13166,6 @@ Zero input vector for info node!
 \tV_atan2d
 \tV_expd
 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\v\n\v\n\v\n\v\n\v\n\v\n\v\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\f\r\f\r\f\r\f\r\f\r\f\r\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
-\vptD{
 _CustomCommand
 _CustomCommand%d
 _InFrameSpine
@@ -13224,8 +13214,13 @@ _temp_tangent
 _volumeatlas_
 _wjb
 _zero
+`20o
+`60m
+`6Pe
+`fpO{
 `htp
-aBv@O{
+`npO{
+aBvpO{
 a\tV_powd
 absolute
 acceleration
@@ -13825,6 +13820,7 @@ for strip array
 force_motion_disabled
 force_scale
 force_world_collision_on_all_nodes
+fpO{
 frame_count
 frame_offset
 frame_range
@@ -13941,7 +13937,6 @@ hitgroupname
 hop_distance_range
 horizontal differencing 
 horizontal_pose_param_name
-hpz@
 hullIvr-0.obj
 hullIvr-1.obj
 hullIvr-2.obj
@@ -14364,6 +14359,7 @@ none
 normal_3d
 normal_map
 note
+npO{
 npc_ability_name
 npcclass
 null VP8Io passed to VP8GetHeaders()
@@ -14406,8 +14402,10 @@ overrideclass
 overwrite_existing
 overwrite_existing_flags_only
 owns_polymorphic_data
-p08@H^@O{
+p08@H^pO{
+p>pO{
 pEvent != nullptr
+pF0]
 pParentTrack != nullptr
 pPose != nullptr
 panorama_image
@@ -14481,7 +14479,7 @@ planarize
 plane
 plastic
 plasticity
-pn@O{
+pnpO{
 point
 point0_key
 point1_key
@@ -14543,7 +14541,6 @@ propattr_stretch_editor_into_label_column
 propdataname
 prune
 pseudo-
-ptD{
 pushout_strength
 quad_bend_tolerance
 quadratic
@@ -15226,6 +15223,7 @@ vortex_choppiness
 vortex_count
 vortex_max_speed_mph
 voume_random_min_scale
+vpO{
 vphzc
 vpost
 vsky

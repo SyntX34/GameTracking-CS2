@@ -2837,6 +2837,7 @@ $prefix_element$
 .?AUCAttr_m_flBoneWeight@?1??GetAttributeTable_Impl@CNmGraphDocFixedWeightBoneMaskNode@@SAXPEAV?$CUtlVector@PEAVIBaseToolAttr@@HV?$CUtlVectorMemory_Growable@PEAVIBaseToolAttr@@H$0A@@@@@@Z@
 .?AUCAttr_m_flBounciness@?1??GetStaticAttributes@CModelDocClothShape@@MEAAXPEAV?$CUtlVector@PEAVIBaseToolAttr@@HV?$CUtlVectorMemory_Growable@PEAVIBaseToolAttr@@H$0A@@@@@@Z@
 .?AUCAttr_m_flBrightness@?1??GetStaticAttributes@CModelDocTextureGenerator_PointOcclusionMap@@MEAAXPEAV?$CUtlVector@PEAVIBaseToolAttr@@HV?$CUtlVectorMemory_Growable@PEAVIBaseToolAttr@@H$0A@@@@@@Z@
+.?AUCAttr_m_flChainRotationWeight@?1??GetAttributeTable_Impl@CnmGraphDocTwoBoneIKNode@@SAXPEAV?$CUtlVector@PEAVIBaseToolAttr@@HV?$CUtlVectorMemory_Growable@PEAVIBaseToolAttr@@H$0A@@@@@@Z@
 .?AUCAttr_m_flChoiceWeight@?1??GetStaticAttributes@CModelDocBaseConfigNode@@MEAAXPEAV?$CUtlVector@PEAVIBaseToolAttr@@HV?$CUtlVectorMemory_Growable@PEAVIBaseToolAttr@@H$0A@@@@@@Z@
 .?AUCAttr_m_flClothAirDensity@?1??GetStaticAttributes@CModelDocClothEffectWind@@MEAAXPEAV?$CUtlVector@PEAVIBaseToolAttr@@HV?$CUtlVectorMemory_Growable@PEAVIBaseToolAttr@@H$0A@@@@@@Z@
 .?AUCAttr_m_flClothAnchorFreeRotateScale@?1??GetStaticAttributes@CModelDocClothProxyMeshFile@@MEAAXPEAV?$CUtlVector@PEAVIBaseToolAttr@@HV?$CUtlVectorMemory_Growable@PEAVIBaseToolAttr@@H$0A@@@@@@Z@
@@ -3307,7 +3308,6 @@ $prefix_element$
 .?AUCAttr_m_flRatio@?1??GetAttributeTable_Impl@VMixDynamicsDesc_t@@SAXPEAV?$CUtlVector@PEAVIBaseToolAttr@@HV?$CUtlVectorMemory_Growable@PEAVIBaseToolAttr@@H$0A@@@@@@Z@
 .?AUCAttr_m_flRatioAbove@?1??GetAttributeTable_Impl@VMixDynamicsBand_t@@SAXPEAV?$CUtlVector@PEAVIBaseToolAttr@@HV?$CUtlVectorMemory_Growable@PEAVIBaseToolAttr@@H$0A@@@@@@Z@
 .?AUCAttr_m_flRatioBelow@?1??GetAttributeTable_Impl@VMixDynamicsBand_t@@SAXPEAV?$CUtlVector@PEAVIBaseToolAttr@@HV?$CUtlVectorMemory_Growable@PEAVIBaseToolAttr@@H$0A@@@@@@Z@
-.?AUCAttr_m_flReferencePoseTwistWeight@?1??GetAttributeTable_Impl@CnmGraphDocTwoBoneIKNode@@SAXPEAV?$CUtlVector@PEAVIBaseToolAttr@@HV?$CUtlVectorMemory_Growable@PEAVIBaseToolAttr@@H$0A@@@@@@Z@
 .?AUCAttr_m_flReleaseTime@?1??GetAttributeTable_Impl@CMixDynamics@@SAXPEAV?$CUtlVector@PEAVIBaseToolAttr@@HV?$CUtlVectorMemory_Growable@PEAVIBaseToolAttr@@H$0A@@@@@@Z@
 .?AUCAttr_m_flReleaseTime@?1??GetAttributeTable_Impl@CMixEnvelope@@SAXPEAV?$CUtlVector@PEAVIBaseToolAttr@@HV?$CUtlVectorMemory_Growable@PEAVIBaseToolAttr@@H$0A@@@@@@Z@
 .?AUCAttr_m_flReleaseTime@?1??GetAttributeTable_Impl@CMixEnvelopeTrigger@@SAXPEAV?$CUtlVector@PEAVIBaseToolAttr@@HV?$CUtlVectorMemory_Growable@PEAVIBaseToolAttr@@H$0A@@@@@@Z@
@@ -21358,7 +21358,6 @@ $prefix_element$
 @%s_lookFrame_1
 @%s_lookFrame_2
 @0pp
-@6pa
 @?CFootAdjustmentInstanceData
 @BH]f
 @CMapLocator
@@ -22086,6 +22085,7 @@ ApplyTransformsToVertices
 Applying LUFS mode normalization (current level: %f LUFS)\n
 Applying RMS mode normalization (current level: %f dB)\n
 Applying peak mode normalization (current peak: %f dB)\n
+Apr 14 2026
 Arc Cos
 Arc Cosine of input value. Input must be -1.0, 1.0 range. Output in radians, from 0 to 
 Arc Sin
@@ -22253,7 +22253,6 @@ B-409
 B-571
 B-Spline
 B.z\85p
-B0tG
 B2I_DSS
 B2I_RSA
 B2pr
@@ -22385,6 +22384,7 @@ BN_usub
 BOOL ABSENT
 BOOLEAN
 BOOLLITERAL
+BPtG
 BT5f
 BUF lib
 BUFFER_CTRL
@@ -24825,6 +24825,7 @@ Chain Forward Dir
 Chain Length
 Chain Length: %d
 Chain Lookat
+Chain Rotation Weight
 Chance
 Change the color tint based on the specified apply mode.
 Change the input condition to its opposite before evaluating. Equivalent to an expression Not or '!' node
@@ -31430,7 +31431,7 @@ P08@J
 P08J
 P1\t98"
 P5[1
-P60q
+P6Pq
 PAGN_4
 PARAMETERS
 PARENT
@@ -31843,6 +31844,7 @@ Persistent
 Perturb vertex positions using sine waves.
 PetEvent_DocumentReplaced_t
 PetEvent_PropertyDomainTopologyChanged_t
+Pf g
 Pf\n%d %d\n-1.000000\n
 Phase
 Phase Condition
@@ -32470,7 +32472,7 @@ RT60 for low, mid, and high frequency bands for the probe.
 R\r1>Vp
 R\vp!6
 R\vp!y
-R\vp$s
+R\vpDs
 R]Di
 R_T5Y
 Rad2 Deg
@@ -32553,7 +32555,6 @@ ReductionMatrix2
 ReductionOut
 Reference Pose
 Reference Pose Task
-Reference Pose Twist Weight
 Reference key named '%s' has unexpected subkeys in reference file: %s\n
 Reference to a Pulse file to be run on this model entity.
 Reference to a content file that will append its contents to a parent render mesh file node.
@@ -36031,6 +36032,7 @@ Z~wl
 \nCreating World\n
 \nMS,\nVS_MS_RTX
 \nNo game entities will be available for creation.\n
+\nPDs
 \nPS_RENDER_STATE
 \nRTX
 \nRay Tracing Environment\n
@@ -36188,6 +36190,7 @@ Z~wl
 \v\vTSG
 \vj0k
 \vjC7
+\vpDs
 ] Done (%.2f seconds)
 ]1h=bfz
 ]>jkT>Q3
@@ -36384,6 +36387,7 @@ _}eOk
 `H(hqA1p
 `ITS
 `VX:H
+`\rP\f0Ds
 `fPw.\vM
 `h9T~
 `o_je
@@ -43165,7 +43169,7 @@ p4lib
 p5Z3
 p5\nL,
 p618
-p6Pf
+p6pf
 p=f3G=
 p@0pqE5tsO?|1
 pCheckpointName
@@ -43173,7 +43177,6 @@ pD4t
 pDescription
 pEnumInfo
 pEvent != nullptr
-pF`Q
 pG_*h
 pIp 
 pMaterialGroupName
@@ -43823,7 +43826,7 @@ rRfKR
 rX&O0
 rZ1VwGf5
 rZPM
-r\fp$s
+r\fpDs
 r\tV_sinhf
 r\vDi
 rad2deg

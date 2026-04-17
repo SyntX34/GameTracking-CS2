@@ -1,7 +1,6 @@
 // MGetKV3ClassDefaults = {
 //	"_class": "CCS2PawnGraphController",
 //	"m_hExternalGraph": 4294967295,
-//	"m_bIsInspectAllowed": false,
 //	"m_action": null,
 //	"m_bActionReset": null,
 //	"m_flWeaponActionSpeedScale": null,

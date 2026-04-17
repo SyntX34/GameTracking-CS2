@@ -558,13 +558,13 @@ $prefix_element$
 (%.2f, %.2f, %.2f)
 (%1 clips)
 (%d tracks)
-(5yO
-(9oO
+(5zO
+(9pO
 (? Queued)
 (?!\d)[\w_]*
 (Advanced Feature) Used to specify special interaction rules or exclusions. References a name in scripts/collision_properties.txt.
 (Anonymous)
-(AtO
+(AuO
 (Cannot dynamically spawn a prop_static)
 (Custom Colors Disabled)
 (Debug Feature) Used to draw collision with the same material in Physics Debugger as in Hammer.
@@ -574,11 +574,11 @@ $prefix_element$
 (Faces to Edges)
 (Faces to Vertices)
 (Filter)
-(IkO
+(IlO
 (Mesh Substring Filter)
-(MqO
+(MrO
 (Multiple)
-(MxO
+(MyO
 (No Active Session)
 (No Archetype Selected)
 (No Asset)
@@ -588,21 +588,22 @@ $prefix_element$
 (Preview Outliner Filter)
 (Specified in project's gameinfo.gi)
 (Steam Audio) Update physics surface property of VMDL files. They are used for picking acoustic material property for Steam Audio.
-(UlO
-(UvO
+(UmO
 (UwO
+(UxO
 (Vertices to Edges)
 (Vertices to Faces)
 (\f?focusOutEvent@QAbstractButton@@MEAAXPEAVQFocusEvent@@@Z
 (\r?hideEvent@QAbstractSpinBox@@MEAAXPEAVQHideEvent@@@Z
 (\v?enterEvent@QToolButton@@MEAAXPEAVQEvent@@@Z
-(e5P
+(e6P
 (export) %d %s %d %s %s\n
 (export) %d %s %d %s\n
-(iyO
+(izO
 (layer %d)
-(moO
+(mpO
 (no-compile)
+(u0P
 ) ?timerEvent@QTableView@@MEAAXPEAVQTimerEvent@@@Z
 )\f?focusOutEvent@QAbstractItemView@@MEAAXPEAVQFocusEvent@@@Z
 )\n?displayText@QStyledItemDelegate@@UEBA?AVQString@@AEBVQVariant@@AEBVQLocale@@@Z
@@ -1426,6 +1427,7 @@ $prefix_element$
 .?AUCAttr_m_flBoneWeight@?1??GetAttributeTable_Impl@CNmGraphDocFixedWeightBoneMaskNode@@SAXPEAV?$CUtlVector@PEAVIBaseToolAttr@@HV?$CUtlVectorMemory_Growable@PEAVIBaseToolAttr@@H$0A@@@@@@Z@
 .?AUCAttr_m_flBounciness@?1??GetStaticAttributes@CModelDocClothShape@@MEAAXPEAV?$CUtlVector@PEAVIBaseToolAttr@@HV?$CUtlVectorMemory_Growable@PEAVIBaseToolAttr@@H$0A@@@@@@Z@
 .?AUCAttr_m_flBrightness@?1??GetStaticAttributes@CModelDocTextureGenerator_PointOcclusionMap@@MEAAXPEAV?$CUtlVector@PEAVIBaseToolAttr@@HV?$CUtlVectorMemory_Growable@PEAVIBaseToolAttr@@H$0A@@@@@@Z@
+.?AUCAttr_m_flChainRotationWeight@?1??GetAttributeTable_Impl@CnmGraphDocTwoBoneIKNode@@SAXPEAV?$CUtlVector@PEAVIBaseToolAttr@@HV?$CUtlVectorMemory_Growable@PEAVIBaseToolAttr@@H$0A@@@@@@Z@
 .?AUCAttr_m_flChoiceWeight@?1??GetStaticAttributes@CModelDocBaseConfigNode@@MEAAXPEAV?$CUtlVector@PEAVIBaseToolAttr@@HV?$CUtlVectorMemory_Growable@PEAVIBaseToolAttr@@H$0A@@@@@@Z@
 .?AUCAttr_m_flClothAirDensity@?1??GetStaticAttributes@CModelDocClothEffectWind@@MEAAXPEAV?$CUtlVector@PEAVIBaseToolAttr@@HV?$CUtlVectorMemory_Growable@PEAVIBaseToolAttr@@H$0A@@@@@@Z@
 .?AUCAttr_m_flClothAnchorFreeRotateScale@?1??GetStaticAttributes@CModelDocClothProxyMeshFile@@MEAAXPEAV?$CUtlVector@PEAVIBaseToolAttr@@HV?$CUtlVectorMemory_Growable@PEAVIBaseToolAttr@@H$0A@@@@@@Z@
@@ -1610,7 +1612,6 @@ $prefix_element$
 .?AUCAttr_m_flRadius@?1??GetStaticAttributes@CModelDocRenderPrimitiveSphere@@MEAAXPEAV?$CUtlVector@PEAVIBaseToolAttr@@HV?$CUtlVectorMemory_Growable@PEAVIBaseToolAttr@@H$0A@@@@@@Z@
 .?AUCAttr_m_flRadius@?1??GetStaticAttributes@CModelDocVSNAPParticle@@MEAAXPEAV?$CUtlVector@PEAVIBaseToolAttr@@HV?$CUtlVectorMemory_Growable@PEAVIBaseToolAttr@@H$0A@@@@@@Z@
 .?AUCAttr_m_flRandomSpawnChance@?1??GetStaticAttributes@CModelDocBaseBreakPiece@@MEAAXPEAV?$CUtlVector@PEAVIBaseToolAttr@@HV?$CUtlVectorMemory_Growable@PEAVIBaseToolAttr@@H$0A@@@@@@Z@
-.?AUCAttr_m_flReferencePoseTwistWeight@?1??GetAttributeTable_Impl@CnmGraphDocTwoBoneIKNode@@SAXPEAV?$CUtlVector@PEAVIBaseToolAttr@@HV?$CUtlVectorMemory_Growable@PEAVIBaseToolAttr@@H$0A@@@@@@Z@
 .?AUCAttr_m_flRemapMax@?1??GetStaticAttributes@CModelDocTextureGenerator_CavityMap@@MEAAXPEAV?$CUtlVector@PEAVIBaseToolAttr@@HV?$CUtlVectorMemory_Growable@PEAVIBaseToolAttr@@H$0A@@@@@@Z@
 .?AUCAttr_m_flRemapMin@?1??GetStaticAttributes@CModelDocTextureGenerator_CavityMap@@MEAAXPEAV?$CUtlVector@PEAVIBaseToolAttr@@HV?$CUtlVectorMemory_Growable@PEAVIBaseToolAttr@@H$0A@@@@@@Z@
 .?AUCAttr_m_flRotationIgnoreThreshold@?1??GetStaticAttributes@CModelDocAnimConstraintRbf@@MEAAXPEAV?$CUtlVector@PEAVIBaseToolAttr@@HV?$CUtlVectorMemory_Growable@PEAVIBaseToolAttr@@H$0A@@@@@@Z@
@@ -12029,7 +12030,6 @@ $prefix_element$
 0000``
 08@HR
 08@J
-0>pU
 0\r%0h
 0\r%0t
 0\tV_frexpf
@@ -14757,10 +14757,10 @@ $prefix_element$
 @%s_lookFrame_0
 @%s_lookFrame_1
 @%s_lookFrame_2
-@60V
-@60X
+@6PV
+@6PX
 @AuthPhysCollisionAttributesModeEnum_t
-@HPX`hvpp
+@HPX`hv
 @Integer overflow in %s
 @Invalid
 @\tV_isinfd
@@ -16951,6 +16951,7 @@ Chain Forward Dir
 Chain Length
 Chain Length: %d
 Chain Lookat
+Chain Rotation Weight
 Chain name:
 Change 1DBlend Pose Param: %s
 Change 1DBlend choice
@@ -18844,7 +18845,7 @@ Grow or Shrink
 Grow or shrink a selection
 Grow the selection by adding contiguous components to the selection.
 HAC K  Unused Binding
-HA\fW
+HA\rW
 HELPER_BONE
 HSLA
 HSLA\t
@@ -18937,8 +18938,8 @@ HitboxSet
 HitboxSetList
 HitboxSet_Auto
 HitboxSphere
-Hm\fW
-Hm\nW
+Hm\rW
+Hm\vW
 Hold %d :: %d, %d was %d, %d
 Hold Frame %d Out Of Range, Valid Range: [ %d, %d ]
 Hold Frame %d Remapped To Last Frame Of Source Anim, Valid Range: [ %d, %d ]
@@ -21272,7 +21273,6 @@ Overwrite existing flags only
 Overwriting existing wrinkle map data on mesh
 P08@J
 P08J
-P6`V
 P?isValid@QColor@@QEBA_NXZ
 P?isValid@QTextCharFormat@@QEBA_NXZ
 P?item@QStandardItemModel@@QEBAPEAVQStandardItem@@HH@Z
@@ -21917,7 +21917,6 @@ ReductionMatrix2
 Reference
 Reference Pose
 Reference Pose Task
-Reference Pose Twist Weight
 Reference to a Pulse file to be run on this model entity.
 Reference to a content file that will append its contents to a parent render mesh file node.
 Reference to a content file that will resolve to one or more animations. (Plus additional document nodes such as skeleton bones etc.)
@@ -23935,7 +23934,7 @@ XYZ, Luv
 X\r?horizontalHeader@QTableView@@QEBAPEAVQHeaderView@@XZ
 X\v?event@QPushButton@@MEAA_NPEAVQEvent@@@Z
 X`hr
-Xe\vW
+Xe\fW
 Y (Green / Left)
 Y - Left
 Y0 Node Name
@@ -26687,7 +26686,7 @@ overwrite_existing
 overwrite_existing_flags_only
 owns_polymorphic_data
 p"?value@QSpinBox@@QEBAHXZ
-p60|
+p6P|
 pAction
 pActionObject
 pAsset
@@ -26703,6 +26702,7 @@ pDockWidget
 pEditor
 pEvent
 pEvent != nullptr
+pF Z
 pFilter
 pFrom
 pLabel

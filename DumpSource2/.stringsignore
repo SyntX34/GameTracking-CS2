@@ -4318,6 +4318,7 @@ Center Frequency (Hz)
 Centered
 Centimeters
 Cents To Detune ( -100:100 )
+ChainRotationWeight - this controls how we solve for effector rotations, 0.0f will try to fully rotate the effector, 1.0f will try to solve the rotation by rotating the IK chain
 ChainToSolveData_t
 Chance bots will buy a grenade with leftover money (after prim, sec and armor). Input as percent (0-100.0)
 Change Selection
@@ -18318,6 +18319,7 @@ m_bHasDecalParams
 m_bHasDecodeDump
 m_bHasDefuser
 m_bHasEverHitEnemy
+m_bHasEverProcessedCommand
 m_bHasExploded
 m_bHasFemaleVoice
 m_bHasFloatBounds
@@ -18519,7 +18521,6 @@ m_bIsIncGrenade
 m_bIsIncindiary
 m_bIsInclusiveCheck
 m_bIsInputToGraph
-m_bIsInspectAllowed
 m_bIsLayeredShader
 m_bIsLimiter
 m_bIsLinearConstraintDisabled
@@ -20397,6 +20398,7 @@ m_flCenterSize
 m_flCenterXOffset
 m_flCenterYOffset
 m_flCents
+m_flChainRotationWeight
 m_flChestDamageMultiplier
 m_flClientCullRadius
 m_flClientDeathTime
@@ -21746,7 +21748,6 @@ m_flRecoveryTimeCrouchFinal
 m_flRecoveryTimeStand
 m_flRecoveryTimeStandFinal
 m_flRefDot
-m_flReferencePoseTwistWeight
 m_flRefireTime
 m_flReflectionsTintByBaseBlendToNone
 m_flRefractAmount

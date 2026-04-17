@@ -49,4 +49,5 @@ class CCSPlayer_MovementServices : public CPlayer_MovementServices_Humanoid
 	Vector2D m_vecWalkWishVel;
 	GameTime_t m_gtLastTimeOnStaticWorldGround;
 	GameTime_t m_gtLastTimeInAir;
+	bool m_bHasEverProcessedCommand;
 };

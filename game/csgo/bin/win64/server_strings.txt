@@ -81,6 +81,7 @@
   Player died %dth time in level [%s]!!!\n
   Player died, but not in a level!!!\n
   R%d: %15s %25s %s\n
+  Two-pass.
   V%d: '%s' (%s)\n
   Version: %llu:\n
   Vprof: %d frames, %d line items, frame time avg=%.1fms, p99=%1.fms\n
@@ -100,12 +101,12 @@
  %s%lu (%s0x%lx)\n
  ' ) - 3 G M Q _ c e i w } 
  (%ld unused bits)\n
- (08@HPX`j
- (08@HPXb0
- (08@HPZ
- (08@HR0
- (08@J0
- (0X`hpz0
+ (08@HPX`jPO
+ (08@HPXb
+ (08@HPZPO
+ (08@HR
+ (08@JPO
+ (0X`hpz
  (Dirty Animation)
  (Disabled on Server)
  (INVALID PSS PARAMETERS)\n
@@ -346,7 +347,6 @@
 "\n\rfan_direction
 "\n\roffset_angles
 "\n\rorigin_offset
-"\n\vdiagnostics
 "`bB303
 "b\n2CQuest_PublisherAddCommunityItemsToPlayer_Response
 "cs73KI
@@ -1561,6 +1561,7 @@ $tH@T\tI
 %s_pawn
 %sattackerblind
 %sattackerinair
+%sclassname='%s'\n
 %score1%
 %score2%
 %sdomination
@@ -1881,7 +1882,6 @@ $tH@T\tI
 (\v2\f.CSOEconItem
 (\v2\f.MLGameState
 (\v2\r.CMsgVector2D
-(\v2\r.CVDiagnostic"
 (\v2\r.MLMatchState
 (\v2\r.MLRoundState
 (\v2\t.CMsgRGBA">\n
@@ -2240,8 +2240,9 @@ $tH@T\tI
 ... and no start position
 ....................
 ..uR5&m
+.0qT
+.0zT
 .4bb
-.4xO
 .97yY
 .?AU?$default_delete@VCNavGenPolyProcessorStageBase@@@std@@
 .?AUAI_BaseNPCAnimGraph_DebugSnapshotData_t@@
@@ -4686,6 +4687,7 @@ $tH@T\tI
 .?AV?$CNetworkVarBase@_NVNetworkVar_m_bHasCommunicationAbuseMute@CCSPlayerController@@@@
 .?AV?$CNetworkVarBase@_NVNetworkVar_m_bHasControlledBotThisRound@CCSPlayerController@@@@
 .?AV?$CNetworkVarBase@_NVNetworkVar_m_bHasDefuser@CCSPlayer_ItemServices@@@@
+.?AV?$CNetworkVarBase@_NVNetworkVar_m_bHasEverProcessedCommand@CCSPlayer_MovementServices@@@@
 .?AV?$CNetworkVarBase@_NVNetworkVar_m_bHasExploded@CPlantedC4@@@@
 .?AV?$CNetworkVarBase@_NVNetworkVar_m_bHasFemaleVoice@CCSPlayerPawn@@@@
 .?AV?$CNetworkVarBase@_NVNetworkVar_m_bHasHeightFogEnd@CEnvCubemapFog@@@@
@@ -6712,7 +6714,6 @@ $tH@T\tI
 .?AVCMsgGCCStrike15_v2_ClientReportPlayer@@
 .?AVCMsgGCCStrike15_v2_ClientReportResponse@@
 .?AVCMsgGCCStrike15_v2_ClientReportServer@@
-.?AVCMsgGCCStrike15_v2_ClientReportValidation@@
 .?AVCMsgGCCStrike15_v2_ClientRequestJoinFriendData@@
 .?AVCMsgGCCStrike15_v2_ClientRequestJoinServerData@@
 .?AVCMsgGCCStrike15_v2_ClientRequestOffers@@
@@ -8815,6 +8816,7 @@ $tH@T\tI
 .fatdem
 .lbN
 .pp@0
+.pqT
 .text$
 .vjs_c
 .vmap
@@ -8851,11 +8853,14 @@ $tH@T\tI
 /usr/local/ssl/private
 /zt1
 0 == ( pInstance->GetOwnerEntity()->GetEntityIdentity()->GetFlags() & EF_IN_STAGING_LIST )
+0(WO
 0123456789
 02V8[
+04fO
 05=k
-08@HR
-08@J0
+08@HRPO
+08@J
+08BPO
 08bX
 09,h
 0;Q5[
@@ -8865,13 +8870,11 @@ $tH@T\tI
 0M2~@p
 0Mc\t\n
 0W/5
-0XTO
 0Z@q
 0\n+k_EGCItemCustomizationNotification_NameItem
 0\n+k_EMsgGCCStrike15_v2_AccountPrivacySettings
 0\n+k_EMsgGCCStrike15_v2_Account_RequestCoPlays
 0\n+k_EMsgGCCStrike15_v2_ClientRedeemFreeReward
-0\n+k_EMsgGCCStrike15_v2_ClientReportValidation
 0\n+k_EMsgGCCStrike15_v2_ClientSubmitSurveyVote
 0\n+k_EMsgGCCStrike15_v2_GlobalChat_Unsubscribe
 0\n+k_EMsgGCCStrike15_v2_MatchEndRunRewardDrops
@@ -8886,11 +8889,9 @@ $tH@T\tI
 0\n\tbroadcast
 0\r%0h
 0\r0#0)070;0U0Y0[0g0q0y0}0
-0`lO
 0e\r8
 0pp@5tqE?|sO541
 0tU+xc:
-0v4xO
 0x%s
 0|2;#GameUI_Retake_Card_BackInAFlash,1,1,weapon_ump45,grenade0|2;#GameUI_Retake_Card_AllIn,1,1,weapon_galilar|1;#GameUI_Retake_Card_BoomBox,1,1,weapon_mac10,grenade2,grenade1|1;#GameUI_Retake_Card_SetThemFree,1,1,weapon_ssg08,grenade0
 0|2;#GameUI_Retake_Card_BlindFire,1,0,weapon_elite,grenade0|2;#GameUI_Retake_Card_QueOta,0,0,weapon_deagle|1;#GameUI_Retake_Card_SmokeScreen,0,0,weapon_p250,grenade1|1;#GameUI_Retake_Card_TecTecBoom,0,0,weapon_tec9,grenade2
@@ -8973,8 +8974,7 @@ $tH@T\tI
 2\n.eRollType
 2\n\nline_items
 2\rlhp
-2\vp`lO
-2\vpl
+2\vp4fO
 2^pV
 2a"l
 2bT~
@@ -9103,11 +9103,12 @@ $tH@T\tI
 6-zeZ
 62$|S)6f
 64CK\vH
+6666666666666666
 666666666666666666666666666666666666666666666666\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\.\ssl\s3_enc.c
-6666666666666666CAttributeManager
 67-s
 6H,N
 6O|T%
+6P\tU
 6Qd=
 6\n1k_EGCItemCustomizationNotification_CasketContents
 6\n1k_EGCItemCustomizationNotification_ExtractSticker
@@ -9130,6 +9131,7 @@ $tH@T\tI
 6l13
 6lkc
 6myY;
+6pxT
 6qo~
 6r-m_v
 6r1ij
@@ -9143,6 +9145,7 @@ $tH@T\tI
 7?7E7I7O7]7a7u7
 7??SetInternalField@Object@v8@@QEAAXHV?$Local@VData@v8@@@2@@Z
 7?XEAVn
+7CLightEnvironmentEntity
 7GK2
 7GNW^c-<ER]c"09IYc
 7HOX_c.5AQ[c#(4FWc
@@ -9162,7 +9165,6 @@ $tH@T\tI
 7gS_
 7i@X
 7m:e
-7m_bOrphanInsteadOfDeletingChildrenOnRemove
 7o4H
 7qp9
 7q|Q@
@@ -9176,7 +9178,9 @@ $tH@T\tI
 8<pl
 8= zp
 8??SetInternalFieldCount@ObjectTemplate@v8@@QEAAXH@Z
+8@JPO
 8A6j
+8BPO
 8GZS
 8SIffK5W
 8TZvrv<
@@ -9186,6 +9190,7 @@ $tH@T\tI
 8\n3k_EMsgGCCStrike15_v2_ClientVarValueNotificationInfo
 8\n3k_EMsgGCCStrike15_v2_ServerVarValueNotificationInfo
 8\n4GAME_PARTICLE_MANAGER_EVENT_CLEAR_MODELLIST_OVERRIDE
+8\nPO
 8\n\nPlayerMask
 8\v8!83858A8G8K8S8W8_8e8o8q8}8
 8]Vc2
@@ -9372,8 +9377,6 @@ $tH@T\tI
 >p00<
 >yhP
 >ztq
-?  Two-pass.
-?%sclassname='%s'\n
 ?33s?
 ??0CFunction@v8@@QEAA@PEBXPEBVCFunctionInfo@1@@Z
 ??0CFunctionInfo@v8@@QEAA@AEBVCTypeInfo@1@IPEBV21@W4Int64Representation@01@@Z
@@ -9424,13 +9427,14 @@ $tH@T\tI
 ?gwL
 ?jOb
 ?m_Stops
+?m_position2
 ?srJO
 ?tya
 ?uWS
 ?x29
 @!@%@+@1@?@C@E@]@a@g@m@
-@08N4xO
 @0pp
+@2PO
 @333
 @333?
 @33s@
@@ -9438,14 +9442,12 @@ $tH@T\tI
 @Aff
 @BH]f
 @BoneSetup
-@CWeaponM249
+@CCSPlayer_RadioServices
 @HPX`hv
-@HV0
 @MfKZ
 @Pgl
 @Pu\rm
 @Release
-@Should we mess with the ground flag when we spawn? (I don't think we should). If we don't hit the assert in CCSPlayer_MovementServices::ProcessMovement, we should remove this by Dec 2022.
 @WE]X
 @X!pf
 @Zs3
@@ -9454,13 +9456,11 @@ $tH@T\tI
 @\n\nnomination
 @\n\tPlacement
 @\n\vserver_type
-@cs_team_manager
 @dKb]
-@f4xO
 @fff>fff>fff>fff>
 @i1V
+@m_bMagazineRemoved
 @n2w
-@n4xO
 @player_start_teleport_destination
 @workshop
 A CT bot doesn't know what to do while the bomb is planted!\n
@@ -9484,6 +9484,7 @@ AACompromise
 AC2,h
 ACCESS_DESCRIPTION
 ACCOLADE, FINAL: {%s},\t%s<%i>,\tVALUE: %f,\tPOS: %i,\tSCORE: %f\n
+ACCSGO_EndOfMatchLineupEndpoint
 ACHIEVEMENT_EVENT_
 ACID
 ACPT_STATE
@@ -9600,7 +9601,6 @@ AMMO_TYPE_HEGRENADE
 AMMO_TYPE_MOLOTOV
 AMMO_TYPE_SMOKEGRENADE
 AMMO_TYPE_TASERCHARGE
-AMoveMountingAmount_t
 ANSI X9.62
 ANY PRIVATE KEY
 APPEND_EXP
@@ -9835,7 +9835,6 @@ AmmoCount/%s
 AmmoCount/current
 Amplitude
 An RR_Concept couldn't find its string in the symbol table!\n
-Anav_path_optimizer_debug
 Anchor
 Anchor Actor
 Anchor Is External
@@ -10033,8 +10032,7 @@ BAddToMessage
 BAsyncSend
 BAsyncSendProto
 BC (default)
-BCBtActionMoveTo
-BCUtlRBTree<struct CUtlOrderedMapBase<unsigned int,class CShadowCastingLightTracker::CSpawnGroupClientLights,class CDefLess<unsigned int>,int>::Node_t,class CUtlOrderedMapBase<unsigned int,class CShadowCastingLightTracker::CSpawnGroupClientLights,class CDefLess<unsigned int>,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<unsigned int,class CShadowCastingLightTracker::CSpawnGroupClientLights,class CDefLess<unsigned int>,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
+BDraw the hiding spot the bot will check next.
 BEOS_BIND_FUNC
 BEOS_BIND_VAR
 BEOS_LOAD
@@ -10142,6 +10140,7 @@ BOOSTS
 BOUNDARY
 BPE_Diagnostic
 BPE_StringCommand
+BPH^
 BREAKABLE
 BRouteMsgToJob
 BT5f
@@ -10179,6 +10178,7 @@ BULLET_PLAYER_762MM
 BULLET_PLAYER_9MM
 BULLET_PLAYER_BUCKSHOT
 BURN
+BWeaponPurchaseCount_t
 BY_FILE_CTRL
 BY_Lq)
 BYield
@@ -10337,7 +10337,7 @@ BreakableContentsType
 Breakables
 Breaks in the debugger
 Bs'n
-Bteam_intro_terrorist
+Bsv_fade_player_visibility_farz
 Bu 5
 Buffer too small
 BuildCacheSubscribed(CEconAccountSeasonalOperationGS)
@@ -12744,6 +12744,7 @@ CUtlRBTree<struct CUtlOrderedMapBase<unsigned int,char const *,class CDefLess<un
 CUtlRBTree<struct CUtlOrderedMapBase<unsigned int,class CMapSpawnGroup *,class CDefLess<unsigned int>,unsigned short>::Node_t,class CUtlOrderedMapBase<unsigned int,class CMapSpawnGroup *,class CDefLess<unsigned int>,unsigned short>::CKeyLess,unsigned short,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<unsigned int,class CMapSpawnGroup *,class CDefLess<unsigned int>,unsigned short>::Node_t,unsigned short>,unsigned short,class CMemAllocAllocator> >::Insert
 CUtlRBTree<struct CUtlOrderedMapBase<unsigned int,class CPredictionEvent_AbstractData const *,class CDefLess<unsigned int>,int>::Node_t,class CUtlOrderedMapBase<unsigned int,class CPredictionEvent_AbstractData const *,class CDefLess<unsigned int>,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<unsigned int,class CPredictionEvent_AbstractData const *,class CDefLess<unsigned int>,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
 CUtlRBTree<struct CUtlOrderedMapBase<unsigned int,class CProPlayerData *,class CDefLess<unsigned int>,int>::Node_t,class CUtlOrderedMapBase<unsigned int,class CProPlayerData *,class CDefLess<unsigned int>,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<unsigned int,class CProPlayerData *,class CDefLess<unsigned int>,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
+CUtlRBTree<struct CUtlOrderedMapBase<unsigned int,class CShadowCastingLightTracker::CSpawnGroupClientLights,class CDefLess<unsigned int>,int>::Node_t,class CUtlOrderedMapBase<unsigned int,class CShadowCastingLightTracker::CSpawnGroupClientLights,class CDefLess<unsigned int>,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<unsigned int,class CShadowCastingLightTracker::CSpawnGroupClientLights,class CDefLess<unsigned int>,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
 CUtlRBTree<struct CUtlOrderedMapBase<unsigned int,class CTonemapController2 *,class CDefLess<unsigned int>,int>::Node_t,class CUtlOrderedMapBase<unsigned int,class CTonemapController2 *,class CDefLess<unsigned int>,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<unsigned int,class CTonemapController2 *,class CDefLess<unsigned int>,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
 CUtlRBTree<struct CUtlOrderedMapBase<unsigned int,class KeyValues const *,class CDefLess<unsigned int>,int>::Node_t,class CUtlOrderedMapBase<unsigned int,class KeyValues const *,class CDefLess<unsigned int>,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<unsigned int,class KeyValues const *,class CDefLess<unsigned int>,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
 CUtlRBTree<struct CUtlOrderedMapBase<unsigned int,struct AchievementAward_t *,class CDefLess<unsigned int>,int>::Node_t,class CUtlOrderedMapBase<unsigned int,struct AchievementAward_t *,class CDefLess<unsigned int>,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<unsigned int,struct AchievementAward_t *,class CDefLess<unsigned int>,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
@@ -13060,7 +13061,7 @@ Close the group automatically after a short wait (good for 'success' messages)
 Close the group automatically when the associated parent process exits (good for sticky 'error' messages)
 CloseCaptionNoAttenuate
 CloseToolhelp32Snapshot
-Cnav_smooth_draw_constraint_spline
+Cnav_bfs_debug
 Co-dependent physics tasks detected!
 Coaches/%u
 Code Signing
@@ -14618,6 +14619,7 @@ FX_FireBullets: GetItemDefinition failed\n
 FX_FireBullets: GetWeaponEconDataFromItem failed for weapon %s\n
 F\f5F4'
 F\n ParticleFreezeTransitionOverride
+F\nPO
 F\n\finventories2
 F\n\finventories3
 F\n\rroundstatsall
@@ -15563,6 +15565,7 @@ HARD
 HAS_LADDERS
 HB@T\tJ
 HBJ\nTRF
+HBnpcsolve_path_lookahead_const
 HDR Color Scale: %0.3f
 HEAD
 HEAD 
@@ -16830,7 +16833,6 @@ LU[`ccAJS\bc6=HU_c)+4DWc
 LV\`cc>JU\ac+7ER]c
 LXKQ
 LY\r5
-L\f0e
 L\n\nserverinfo
 Ladder FSM state: %s
 Ladder state: APPROACH
@@ -18179,15 +18181,16 @@ Ow!y
 OwnerHandle
 P!bxo
 P(UH 
+P(WO
 P-192
 P-224
 P-256
 P-384
 P-521
-P08@J0
-P08J f
-P08N4xO
+P08@J
+P08JpQ
 P1\t98"
+P2PO
 P5[1
 PAGN_4
 PARALYZE
@@ -18421,9 +18424,7 @@ PUX\`cIPTY_cBJNS\c8=DLWc*38>Mc
 PVSManagerGameSystem
 PVSModifier
 PVY]acJOTY`cCGLT]c9<AJVc+-19Ic
-PXTO
 P\n\nattributes
-P`lO
 Pack item "%s" included in more than one pack bundle - not allowed!
 PackedBlobNormal
 Pain
@@ -18526,6 +18527,7 @@ PinnedDown
 Pistol
 PitchShift
 PivotPaint
+PjPO
 Place
 PlaceDecalEvent_t
 Plant bomb on floor
@@ -18644,7 +18646,6 @@ Please specify 0 or 1 with the -stream Parameter\n
 Please wait for broadcast to start ...
 Pm8A?
 PmR"H?
-Pn4xO
 Point entity.
 PointTemplate
 Policy Qualifier CPS
@@ -18979,10 +18980,9 @@ RSA_verify_ASN1_OCTET_STRING
 RSA_verify_PKCS1_PSS
 RSA_verify_PKCS1_PSS_mgf1
 RTime32
+R\fp4fO
 R\r1>Vp
 R\vp!y
-R\vp`lO
-R\vpl
 R]Di
 Rad2 Deg
 Radial using: %s\n
@@ -21385,6 +21385,7 @@ Ut]<E
 Uv1t
 Uz_G3=
 V07;m
+V0wT
 V2I_ASIDENTIFIERS
 V2I_AUTHORITY_INFO_ACCESS
 V2I_AUTHORITY_KEYID
@@ -21897,7 +21898,7 @@ X\n\tTeamStats
 X\n\vFantasyTeam
 X\n\vLoadoutItem
 X\tQo
-X`hr
+X`hrPO
 Xd3h
 XfJ7
 XjfR
@@ -22261,9 +22262,7 @@ Z~wl
 \f]ne3
 \fdhWTh
 \fiaR
-\fp\vPXTO
-\fp\v`XTO
-\fp`lO
+\fp\v`4fO
 \ful2
 \fy&3Gl
 \l:ArR
@@ -22311,7 +22310,6 @@ Z~wl
 \n(CMsgGCCStrike15_v2_GC2ClientNotifyXPShop
 \n)CMsgGCCStrike15_v2_AccountPrivacySettings
 \n)CMsgGCCStrike15_v2_Account_RequestCoPlays
-\n)CMsgGCCStrike15_v2_ClientReportValidation
 \n)CMsgGCCStrike15_v2_MatchEndRunRewardDrops
 \n*CMsgGCCStrike15_v2_ClientToGCRequestTicket
 \n*CWorkshop_PopulateItemDescriptions_Request
@@ -22349,6 +22347,7 @@ Z~wl
 \n========================================\n
 \nDictionary: %s\n
 \nGameTick_t
+\nP(WO
 \nSimulating Entities:\n\n
 \nVisMon: Polling now. (Frequency: %f)\n
 \n\fBPE_Teleport
@@ -22419,7 +22418,6 @@ Z~wl
 \n\frank_if_lose
 \n\frank_type_id
 \n\frecoil_index
-\n\freport_count
 \n\fround_killhs
 \n\fround_number
 \n\fround_result
@@ -22557,7 +22555,6 @@ Z~wl
 \n\ntest_token
 \n\ntick_count
 \n\nticknumber
-\n\ntrust_time
 \n\ntv_clients
 \n\ntv_control
 \n\ntv_proxies
@@ -22599,7 +22596,6 @@ Z~wl
 \n\rcontext_value
 \n\rcontinue_text
 \n\rcontrol_point
-\n\rcount_pending
 \n\rcrate_item_id
 \n\rcreate_debris
 \n\rcur_timescale
@@ -22759,7 +22755,6 @@ Z~wl
 \n\tsoundname
 \n\tstage_ids
 \n\tstat_mvps
-\n\tstatus_id
 \n\tsurvey_id
 \n\tsuspectid
 \n\tteam_flag
@@ -22830,11 +22825,6 @@ Z~wl
 \n\vdesc_inputs
 \n\vdescription
 \n\vdetails_str
-\n\vdiagnostic1
-\n\vdiagnostic2
-\n\vdiagnostic3
-\n\vdiagnostic4
-\n\vdiagnostic5
 \n\vdisplaytime
 \n\vease_in_out
 \n\veffectindex
@@ -23019,9 +23009,7 @@ Z~wl
 \v\vTSG
 \vj0k
 \vjC7
-\vpXTO
-\vp`VO
-\vp`lO
+\vp4fO
 ] Done (%.2f seconds)
 ]1h=bfz
 ]FhSD}
@@ -23096,7 +23084,9 @@ _var
 _xU`u
 _}eOk
 `28)fk
+`2PO
 `3?New@Array@v8@@SA?AV?$Local@VArray@v8@@@2@PEAVIsolate@2@H@Z
+`4fO
 `:zQF
 `D$daM-l
 `DZG
@@ -23104,12 +23094,11 @@ _}eOk
 `H(hqA1p
 `ITS
 `VX:H
-`XTO
 `\n\rvector_values
-`f4xO
+`bPO
+`dPO
 `fPw.\vM
 `h9T~
-`n4xO
 `o_je
 `yNT
 a null shared library handle was used
@@ -23128,7 +23117,6 @@ a:typeparam
 a;Tg
 a@XZ
 aA0k
-aBv4xO
 aD/x
 aDSS
 aECDH
@@ -24431,7 +24419,6 @@ clienthello tlsext
 clientid
 clientmessages.proto
 clientmessages.proto">\n
-clientreportversion
 climbable
 clip_3D_skybox_near_to_world_far
 clip_3D_skybox_near_to_world_far_offset
@@ -24635,7 +24622,6 @@ could not obtain hardware handle
 could not set engine
 could not set time
 could not unload the shared library
-count_completed
 counter-terrorists
 counter:
 countersignature
@@ -24711,6 +24697,7 @@ cs_rush
 cs_script
 cs_script/%s
 cs_siege
+cs_team_manager
 cs_thunder
 cs_usercmd.proto
 cs_win_panel_match
@@ -25964,7 +25951,6 @@ f%wyLmX:
 f&dy
 f1cK%
 f45\r
-f4xO
 fBB\fy
 fC[A:%u:%u:%u]
 fC\tc
@@ -26897,7 +26883,6 @@ houseIdentifier
 hoverposeangles
 hoverposeflags
 hoverposeposition
-hpz0
 hr_H
 http request
 http$
@@ -27456,7 +27441,6 @@ interestingness
 intermission duration: %f\n
 intermission start time: %f\n
 internal list error
-internal_error
 international-organizations
 internationaliSDNNumber
 interp
@@ -28148,7 +28132,6 @@ lastModifiedBy
 lastModifiedTime
 lastUpdate
 last_ip_address
-last_launch_data
 last_match_contribution_score
 last_match_ct_wins
 last_match_damage
@@ -29119,7 +29102,6 @@ n < (int)sizeof(ctx->enc_data)
 n does not equal p q
 n0?X
 n1Z 
-n4xO
 n5cM
 n6j/
 n:2C[
@@ -29697,14 +29679,14 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p08@H^4xO
 p250
+p2PO
 p2{l
 p4Z3
+p4fO
 p5Z3
 p5\nL,
 p618
-p>4xO
 p>?Set@Template@v8@@QEAAXV?$Local@VName@v8@@@2@V?$Local@VData@v8@@@2@W4PropertyAttribute@2@@Z
 p@0pqE5tsO?|1
 pActivator
@@ -29766,11 +29748,9 @@ pTarget2
 pTargetAttachmentName
 pU>\AL
 pValue
-pXTO
 p\rP!0
 p\rP\f0!h
 p^i9
-p`lO
 pa end %f
 pa start %f
 packet length too long
@@ -29952,6 +29932,7 @@ payload + padding <= 16381
 payment gateway capabilities
 payment_row_usd
 payment_us_usd
+pbPO
 pbeWithMD2AndDES-CBC
 pbeWithMD2AndRC2-CBC
 pbeWithMD5AndCast5CBC
@@ -30196,7 +30177,6 @@ playervisibilitystrength
 playerweapon
 playing_commentary
 playoverscript
-pn4xO
 point
 point arithmetic failure
 point at infinity
@@ -30569,6 +30549,7 @@ rX&O0
 rZ1VwGf5
 rZPM
 r\vDi
+r\vp4fO
 rad2deg
 radio.go
 radio.letsgo
@@ -30809,6 +30790,7 @@ required cipher missing
 required compresssion algorithm missing
 required_appid_version
 required_appid_version2
+required_attr_prereq
 required_domain_subtype
 required_internal_addr
 requirement_name
@@ -32258,6 +32240,7 @@ team_
 team_filter
 team_id
 team_intro_counterterrorist
+team_intro_terrorist
 team_manager
 team_restriction
 team_select_camera
@@ -33052,7 +33035,6 @@ v2i_ASN1_BIT_STRING
 v2i_GENERAL_NAMES
 v2i_GENERAL_NAME_ex
 v3\vt
-v4xO
 v8.dll
 v8array
 v8callback
@@ -33702,6 +33684,7 @@ zz2K
 ~9ob
 ~If D
 ~P2T
+~PwT
 ~R65Fu
 ~jLRG
 ~w]UG
